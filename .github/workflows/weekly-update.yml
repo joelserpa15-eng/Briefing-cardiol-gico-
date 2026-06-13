@@ -1,10 +1,8 @@
 name: Weekly Cardiology Briefing Update
 
 on:
-  # Every Monday at 07:00 UTC (after weekend + Monday morning publications)
   schedule:
-    - cron: '0 7 * * 1'
-  # Allow manual trigger from GitHub Actions tab
+    - cron: '0 7 * * 1'   # Every Monday at 07:00 UTC
   workflow_dispatch:
     inputs:
       days:
@@ -18,19 +16,15 @@ permissions:
   id-token: write
 
 jobs:
-  # ── Step 1: Fetch articles and update JSON ────────────────────────────────
-  fetch-and-update:
-    name: Fetch Articles & Update JSON
+  # ── 1. Fetch articles & update JSON ──────────────────────────────────────
+  fetch:
+    name: Fetch Articles
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    outputs:
-      changed: ${{ steps.check.outputs.changed }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -42,58 +36,41 @@ jobs:
           NCBI_EMAIL:   ${{ secrets.NCBI_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: |
-          DAYS="${{ github.event.inputs.days || '14' }}"
-          python scripts/fetch_articles.py --days "$DAYS"
+          python scripts/fetch_articles.py --days "${{ github.event.inputs.days || '14' }}"
 
-      - name: Check for changes
-        id: check
-        run: |
-          if git diff --quiet data/articles.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes to articles.json"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "articles.json updated"
-          fi
-
-      - name: Commit and push updated articles
-        if: steps.check.outputs.changed == 'true'
+      - name: Commit & push updated articles
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          WEEK=$(python -c "
+          if git diff --quiet data/articles.json; then
+            echo "No changes — skipping commit."
+          else
+            WEEK=$(python -c "
           from datetime import datetime, timedelta
           t = datetime.utcnow()
           s = t - timedelta(days=t.weekday())
           e = s + timedelta(days=6)
-          months = ['','enero','febrero','marzo','abril','mayo','junio',
-                    'julio','agosto','septiembre','octubre','noviembre','diciembre']
-          if s.month == e.month:
-              print(f'{s.day}–{e.day} {months[s.month]} {e.year}')
-          else:
-              print(f'{s.day} {months[s.month]}–{e.day} {months[e.month]} {e.year}')
-          ")
-          git add data/articles.json
-          git commit -m "data: briefing semanal ${WEEK}
+          m = ['','enero','febrero','marzo','abril','mayo','junio',
+               'julio','agosto','septiembre','octubre','noviembre','diciembre']
+          print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
+                else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
+            ")
+            git add data/articles.json
+            git commit -m "data: briefing semanal ${WEEK}"
+            git push origin HEAD
+          fi
 
-          Actualización automática desde PubMed y Europe PMC.
-          Journals indexados por factor de impacto (26 revistas).
-
-          https://claude.ai/code/session_01XnAwqG8e8JJtVpgdSapoq5"
-          git push origin HEAD
-
-  # ── Step 2: Deploy updated site to GitHub Pages ───────────────────────────
-  deploy-pages:
+  # ── 2. Deploy to GitHub Pages ─────────────────────────────────────────────
+  deploy:
     name: Deploy to GitHub Pages
-    needs: fetch-and-update
+    needs: fetch
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository (with latest data)
+      - name: Checkout (with latest data)
         uses: actions/checkout@v4
         with:
           ref: claude/greeting-v36aru
@@ -106,52 +83,14 @@ jobs:
         with:
           path: '.'
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Print deployed URL
-        run: echo "Site deployed to ${{ steps.deployment.outputs.page_url }}"
-
-  # ── Step 3: Send weekly email notification ────────────────────────────────
-  send-email:
-    name: Send Weekly Email
-    needs: [fetch-and-update, deploy-pages]
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: claude/greeting-v36aru
-
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Send email briefing
-        env:
-          # ── Required secrets (Settings → Secrets → Actions) ──────────────
-          # MAIL_TO:       recipient email (e.g. joelserpa15@gmail.com)
-          # MAIL_FROM:     sender Gmail address
-          # MAIL_PASSWORD: Gmail App Password
-          #   → myaccount.google.com → Security → 2-Step Verification
-          #   → App passwords → generate one for "Mail"
-          # PAGES_URL:     your GitHub Pages URL (set below or as secret)
-          # ─────────────────────────────────────────────────────────────────
-          MAIL_TO:       ${{ secrets.MAIL_TO }}
-          MAIL_FROM:     ${{ secrets.MAIL_FROM }}
-          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
-          PAGES_URL:     ${{ secrets.PAGES_URL || 'https://joelserpa15-eng.github.io/Briefing-cardiol-gico-/' }}
-        run: python scripts/send_email.py
-
-      - name: Upload email preview as artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: email-preview
-          path: data/email_preview.html
-          if-no-files-found: ignore
-          retention-days: 7
+      - name: Print URL
+        run: |
+          echo ""
+          echo "======================================================"
+          echo "  Briefing publicado en:"
+          echo "  ${{ steps.deployment.outputs.page_url }}"
+          echo "======================================================"
