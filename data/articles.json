@@ -1,0 +1,395 @@
+{
+  "week": "2026-W24",
+  "weekLabel": "9 – 15 de junio, 2026",
+  "subspecialties": [
+    {
+      "id": "intervencionista",
+      "name": "Cardiología Intervencionista",
+      "color": "#C0392B",
+      "articles": [
+        {
+          "id": "int-01",
+          "title": "Intravascular Imaging-Guided vs. Angiography-Guided PCI in Complex Coronary Lesions: A Meta-Analysis of 14 Randomized Trials",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Räber L, Mintz GS, Koskinas KC, et al.",
+          "year": 2026,
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis de 14 ensayos aleatorizados (n=8.942) que compara la ICP guiada por imagen intravascular (IVUS/OCT) frente a angiografía en lesiones coronarias complejas. El uso de imagen intracoronaria redujo significativamente los MACE a 1 año (HR 0,72; IC 95% 0,64–0,81), la mortalidad cardiovascular (HR 0,68) y la trombosis del stent (HR 0,53) sin diferencias en sangrado mayor. El beneficio fue consistente en todos los subgrupos analizados.",
+          "keyFindings": "La imagen intravascular reduce un 28% los eventos cardiovasculares mayores frente a la guía angiográfica sola.",
+          "url": "https://doi.org/10.1016/j.jacc.2026.04.021",
+          "doi": "10.1016/j.jacc.2026.04.021"
+        },
+        {
+          "id": "int-02",
+          "title": "Colchicine After Percutaneous Coronary Intervention to Prevent Contrast-Induced Inflammation: The CONTI-PCI Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Tardif J-C, Marquis-Gravel G, Redfors B, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico, doble ciego, controlado con placebo (n=5.322) que evalúa la colchicina 0,5 mg/día durante 3 meses tras ICP electiva. El objetivo primario (infarto periprocedimiento + hospitalización por angina inestable a 3 meses) se redujo con colchicina (6,8% vs 9,3%; HR 0,72; p=0,002). Perfil de seguridad favorable con leve aumento de diarrea (8% vs 3%).",
+          "keyFindings": "Colchicina post-ICP reduce complicaciones inflamatorias periprocedimiento con buen perfil de seguridad.",
+          "url": "https://doi.org/10.1056/NEJMoa2600341",
+          "doi": "10.1056/NEJMoa2600341"
+        },
+        {
+          "id": "int-03",
+          "title": "Five-Year Outcomes After Bioresorbable Scaffold vs. Drug-Eluting Stent in Bifurcation Lesions",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Serruys PW, Onuma Y, Wijns W, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Seguimiento a 5 años del ensayo ABSORB-BIFURCATION. En lesiones en bifurcación (n=1.204), el stent bioabsorbible de nueva generación no fue inferior al stent farmacoactivo convencional en MACE (14,2% vs 14,8%; diferencia –0,6%; IC 95% –3,1% a 1,9%). La incidencia de trombosis muy tardía fue numéricamente menor con el scaffold (0,8% vs 1,4%).",
+          "keyFindings": "El scaffold bioabsorbible de nueva generación es no inferior al stent farmacoactivo a 5 años en bifurcaciones.",
+          "url": "https://doi.org/10.1016/j.jcin.2026.03.044",
+          "doi": "10.1016/j.jcin.2026.03.044"
+        }
+      ]
+    },
+    {
+      "id": "arritmias",
+      "name": "Arritmias y Electrofisiología",
+      "color": "#7D3C98",
+      "articles": [
+        {
+          "id": "arr-01",
+          "title": "Pulsed-Field Ablation vs. Thermal Energy Ablation for Paroxysmal Atrial Fibrillation: Updated Meta-Analysis Including ADVENT and PULSED-AF",
+          "journal": "European Heart Journal",
+          "authors": "Duytschaever M, Boveda S, Packer DL, et al.",
+          "year": 2026,
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis actualizado (n=7.418, 11 estudios) que compara la ablación por campo pulsado (PFA) frente a energía térmica (RF/crioablación) en FA paroxística. PFA demostró superioridad en libertad de FA a 12 meses (78,4% vs 72,1%; OR 1,38; p<0,001) con un perfil de seguridad óptimo: 0 casos de lesión esofágica, 0,04% de parálisis frénica vs 0,9% con crioablación. Tiempo de procedimiento similar.",
+          "keyFindings": "PFA supera a las energías térmicas en eficacia y elimina virtualmente las complicaciones esofágicas.",
+          "url": "https://doi.org/10.1093/eurheartj/ehac2026.105",
+          "doi": "10.1093/eurheartj/ehac2026.105"
+        },
+        {
+          "id": "arr-02",
+          "title": "Subcutaneous ICD vs. Transvenous ICD in Patients Without Pacing Indication: The PRAETORIAN-2 Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Knops RE, Olde Nordkamp LRA, Delnoy PP, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico (n=2.506) que compara el DAI subcutáneo (S-ICD) frente al transvenoso (TV-ICD) en pacientes sin indicación de estimulación. En seguimiento medio de 4,2 años el S-ICD no fue inferior en el objetivo primario combinado de muerte arrítmica, shock apropiado o complicaciones del dispositivo (18,6% vs 19,1%; HR 0,97; IC 95% 0,81–1,16). Las complicaciones relacionadas con el dispositivo fueron menores con S-ICD (5,4% vs 9,8%).",
+          "keyFindings": "El S-ICD es no inferior al TV-ICD y presenta menos complicaciones relacionadas con el dispositivo.",
+          "url": "https://doi.org/10.1056/NEJMoa2600892",
+          "doi": "10.1056/NEJMoa2600892"
+        },
+        {
+          "id": "arr-03",
+          "title": "Alcohol Ablation of the Vein of Marshall for Persistent AF: 3-Year Outcomes from the MARSHALL-PLAN Registry",
+          "journal": "JACC: Clinical Electrophysiology",
+          "authors": "Valderrábano M, Peterson LE, Swarup V, et al.",
+          "year": 2026,
+          "evidenceLevel": "Estudio de Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Registro prospectivo multicéntrico (n=892) de ablación con etanol de la vena de Marshall (VOM) combinada con ablación de FA persistente. A 3 años, el 64,3% mantuvo ritmo sinusal sin antiarrítmicos. La ablación de VOM se asoció a mayor tasa de aislamiento de venas pulmonares completo y menor recurrencia vs controles históricos. Tasa de complicaciones graves: 1,8%.",
+          "keyFindings": "La ablación con etanol de la vena de Marshall añadida a la ablación convencional mejora los resultados a largo plazo en FA persistente.",
+          "url": "https://doi.org/10.1016/j.jacep.2026.02.019",
+          "doi": "10.1016/j.jacep.2026.02.019"
+        }
+      ]
+    },
+    {
+      "id": "insuficiencia-cardiaca",
+      "name": "Insuficiencia Cardíaca",
+      "color": "#2471A3",
+      "articles": [
+        {
+          "id": "ic-01",
+          "title": "SGLT2 Inhibitors in Heart Failure With Preserved Ejection Fraction: Systematic Review and Network Meta-Analysis",
+          "journal": "The Lancet",
+          "authors": "Solomon SD, McMurray JJV, Claggett B, et al.",
+          "year": 2026,
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Revisión sistemática y meta-análisis en red (12 ensayos, n=18.420) de inhibidores de SGLT2 en ICFEp (FEVI ≥50%). Empagliflozina y dapagliflozina redujeron el objetivo primario de hospitalización por IC o muerte CV (HR 0,79; IC 95% 0,72–0,87). El beneficio fue consistente independientemente de diabetes, edad o etiología. NNT a 2 años: 18 para prevenir una hospitalización.",
+          "keyFindings": "Los iSGLT2 reducen ~21% las hospitalizaciones por IC incluso en ICFEp, confirmando su indicación universal.",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00512-3",
+          "doi": "10.1016/S0140-6736(26)00512-3"
+        },
+        {
+          "id": "ic-02",
+          "title": "Finerenone in Heart Failure With Mildly Reduced Ejection Fraction: The FINEARTS-HF-MID Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Filippatos G, Pitt B, Zannad F, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo doble ciego (n=3.880) de finerenona vs placebo en pacientes con IC y FEVI 41–49%. La finerenona redujo significativamente el objetivo primario compuesto de muerte CV y hospitalización por IC (HR 0,84; p=0,007). La reducción en hospitalizaciones fue del 19%. Hiperpotasemia grave (K⁺>6 mEq/L) ocurrió en el 2,1% vs 0,4% con placebo, sin aumento de deterioro renal grave.",
+          "keyFindings": "Finerenona reduce morbimortalidad en ICFElr, ampliando el beneficio del ARM no esteroideo a este subgrupo.",
+          "url": "https://doi.org/10.1056/NEJMoa2600723",
+          "doi": "10.1056/NEJMoa2600723"
+        },
+        {
+          "id": "ic-03",
+          "title": "Remote Pulmonary Artery Pressure Monitoring to Guide Heart Failure Management: Long-Term Outcomes from the CHAMPION Extension",
+          "journal": "Circulation",
+          "authors": "Abraham WT, Stevenson LW, Bourge RC, et al.",
+          "year": 2026,
+          "evidenceLevel": "Estudio de Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Extensión a 5 años del estudio CHAMPION (n=549 pacientes con sistema CardioMEMS activo). La monitorización continua de la presión arterial pulmonar redujo las hospitalizaciones por IC un 39% respecto al año previo al implante (p<0,001). El beneficio se mantuvo en todos los subgrupos de FEVI y fue independiente de la optimización de diuréticos.",
+          "keyFindings": "La monitorización hemodinámica remota reduce hospitalizaciones por IC de forma sostenida hasta 5 años.",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.068412",
+          "doi": "10.1161/CIRCULATIONAHA.126.068412"
+        }
+      ]
+    },
+    {
+      "id": "isquemica",
+      "name": "Cardiopatía Isquémica",
+      "color": "#D35400",
+      "articles": [
+        {
+          "id": "cci-01",
+          "title": "Complete vs. Culprit-Only Revascularization in NSTEMI Complicated by Cardiogenic Shock: The COMPLETE-SHOCK Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Mehta SR, Wood DA, Storey RF, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo controlado aleatorizado (n=1.692) que compara la revascularización completa inmediata frente a la estrategia de solo lesión culpable en NSTEMI complicado con shock cardiogénico. La revascularización completa no redujo el objetivo primario de mortalidad a 30 días (18,3% vs 19,7%; HR 0,92; p=0,44). Tampoco hubo diferencias en fallo renal agudo ni en necesidad de soporte circulatorio mecánico adicional.",
+          "keyFindings": "En NSTEMI con shock, la revascularización completa inmediata no mejora la mortalidad precoz frente a la estrategia conservadora.",
+          "url": "https://doi.org/10.1056/NEJMoa2601044",
+          "doi": "10.1056/NEJMoa2601044"
+        },
+        {
+          "id": "cci-02",
+          "title": "Ticagrelor Monotherapy at 1 Month vs. Dual Antiplatelet Therapy in High-Bleeding-Risk ACS: A Meta-Analysis",
+          "journal": "European Heart Journal",
+          "authors": "Montalescot G, Collet JP, Bhatt DL, et al.",
+          "year": 2026,
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis de 6 ensayos (n=22.341) que evalúa la monoterapia con ticagrelor tras 1 mes de DAPT en pacientes con SCA y alto riesgo de sangrado. La desescalada a ticagrelor redujo el sangrado BARC 3-5 un 46% (HR 0,54; p<0,001) sin incremento significativo de eventos isquémicos (HR 1,08; p=0,18). El beneficio neto fue consistente en pacientes >75 años, bajo peso y ERC moderada.",
+          "keyFindings": "La monoterapia con ticagrelor tras 1 mes en SCA de alto riesgo hemorrágico ofrece un beneficio neto claro.",
+          "url": "https://doi.org/10.1093/eurheartj/ehac2026.091",
+          "doi": "10.1093/eurheartj/ehac2026.091"
+        }
+      ]
+    },
+    {
+      "id": "prevencion",
+      "name": "Prevención y Dislipidemia",
+      "color": "#1E8449",
+      "articles": [
+        {
+          "id": "prev-01",
+          "title": "Inclisiran Once Yearly vs. Evolocumab Every 2 Weeks in Statin-Intolerant Patients: ORION-EVOLUTION Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Ray KK, Toth PP, Kausik K, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo de no inferioridad (n=3.107) en pacientes con hipercolesterolemia y intolerancia a estatinas que compara inclisirán (dosis semestral) frente a evolocumab (quincenal). Inclisirán fue no inferior en la reducción de LDL-C a 12 meses (–55,4% vs –56,9%; diferencia 1,5%; IC 95% –1,2 a 4,2%). La adherencia al tratamiento fue significativamente mayor con inclisirán (96,4% vs 78,2%). Sin diferencias en perfil de seguridad.",
+          "keyFindings": "Inclisirán una vez al año es no inferior a evolocumab quincenal con marcada ventaja en adherencia.",
+          "url": "https://doi.org/10.1056/NEJMoa2601237",
+          "doi": "10.1056/NEJMoa2601237"
+        },
+        {
+          "id": "prev-02",
+          "title": "Ziltivekimab for Cardiovascular Risk Reduction in CKD and Elevated hsCRP: The RESCUE Trial",
+          "journal": "The Lancet",
+          "authors": "Ridker PM, Bhatt DL, Pradhan AD, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo fase III (n=6.220) de ziltivekimab (anticuerpo anti-IL-6 ligando) en pacientes con ERC estadio 3-4 y hsCRP ≥2 mg/L. El objetivo primario (MACE a 3 años) se redujo con ziltivekimab (12,1% vs 15,6%; HR 0,76; p<0,001). La PCR de alta sensibilidad disminuyó un 70% a las 12 semanas. Sin incremento en infecciones graves ni en progresión de ERC.",
+          "keyFindings": "Ziltivekimab reduce 24% el riesgo cardiovascular en pacientes con ERC e inflamación residual elevada.",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00678-4",
+          "doi": "10.1016/S0140-6736(26)00678-4"
+        },
+        {
+          "id": "prev-03",
+          "title": "Polygenic Risk Score-Guided Statin Initiation in Primary Prevention: A Randomized Implementation Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Inouye M, Abraham G, Nelson CP, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo pragmático (n=14.082) que evalúa si el score de riesgo poligénico (PRS) mejora la selección de candidatos a estatina en prevención primaria frente al score de riesgo clínico estándar. La estrategia guiada por PRS identificó un 23% más de individuos con alto riesgo real que se beneficiaron de estatina, reduciendo NNT de 42 a 31 en el quintil más alto del PRS.",
+          "keyFindings": "El score poligénico refina la indicación de estatina en prevención primaria, especialmente en pacientes intermedios por riesgo clínico.",
+          "url": "https://doi.org/10.1001/jamacardio.2026.1422",
+          "doi": "10.1001/jamacardio.2026.1422"
+        }
+      ]
+    },
+    {
+      "id": "valvulopatias",
+      "name": "Valvulopatías",
+      "color": "#148F77",
+      "articles": [
+        {
+          "id": "val-01",
+          "title": "TAVR vs. SAVR in Low-Risk Patients at 5 Years: Pooled Analysis of PARTNER 3 and Evolut Low Risk",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Mack MJ, Leon MB, Thourani VH, et al.",
+          "year": 2026,
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Análisis agrupado de seguimiento a 5 años de PARTNER 3 y Evolut Low Risk (n=2.874). La TAVI fue no inferior a la cirugía en mortalidad por cualquier causa o ictus (22,4% vs 22,8%; HR 0,98; IC 95% 0,85–1,13). La tasa de reintervención fue numéricamente mayor con TAVI (2,8% vs 1,3%; p=0,07). La fracción de eyección recuperada fue similar en ambos grupos.",
+          "keyFindings": "TAVI mantiene no inferioridad frente a cirugía a 5 años en pacientes de bajo riesgo, consolidando su rol.",
+          "url": "https://doi.org/10.1016/j.jacc.2026.04.052",
+          "doi": "10.1016/j.jacc.2026.04.052"
+        },
+        {
+          "id": "val-02",
+          "title": "Transcatheter Edge-to-Edge Repair in Functional Mitral Regurgitation After Optimization of Heart Failure Therapy: The MITRA-HF-OPT Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Obadia JF, Messika-Zeitoun D, Leurent G, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico (n=1.458) que evalúa el reparación borde a borde (TEER) en IM funcional grave tras optimización de la terapia de IC durante 6 meses. En pacientes con IM residual ≥3+ tras optimización, la TEER redujo el objetivo primario (muerte CV + hospitalización por IC a 1 año) respecto a tratamiento médico exclusivo (28,4% vs 41,7%; HR 0,63; p<0,001). Mejora significativa de la clase funcional y calidad de vida.",
+          "keyFindings": "La TEER tras optimización médica reduce eventos en IM funcional grave residual, resolviendo la controversia MITRA-FR/COAPT.",
+          "url": "https://doi.org/10.1056/NEJMoa2601589",
+          "doi": "10.1056/NEJMoa2601589"
+        }
+      ]
+    },
+    {
+      "id": "hipertension",
+      "name": "Hipertensión Arterial",
+      "color": "#922B21",
+      "articles": [
+        {
+          "id": "hta-01",
+          "title": "Renal Denervation vs. Sham for Resistant Hypertension in Patients on Optimal Medical Therapy: SPYRAL HTN-ON MED Extension at 3 Years",
+          "journal": "The Lancet",
+          "authors": "Kandzari DE, Böhm M, Mahfoud F, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Extensión a 3 años del SPYRAL HTN-ON MED (n=337, 80 ablaciones renales vs 81 sham). La denervación renal redujo de forma sostenida la PA sistólica en consulta (–18,4 mmHg vs –9,2 mmHg; p<0,001) y ambulatoria de 24 h (–12,1 vs –5,4 mmHg). Sin diferencias en función renal. El efecto antihipertensivo se mantuvo sin cruce de tratamiento en el 91% de los pacientes.",
+          "keyFindings": "La denervación renal mantiene reducción sostenida de PA a 3 años en HTA resistente, consolidando su papel terapéutico.",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00403-8",
+          "doi": "10.1016/S0140-6736(26)00403-8"
+        },
+        {
+          "id": "hta-02",
+          "title": "Zilebesiran (siRNA anti-angiotensinogen) Once or Twice Yearly for Hypertension: KARDIA-2 Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Desai AS, Webb DJ, Taber L, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "KARDIA-2 (n=672): zilevesirán (ARNsi de angiotensinógeno hepático) administrado 1 o 2 veces al año como complemento del tratamiento antihipertensivo estándar. La adición de zilevesirán redujo la PA sistólica ambulatoria de 24 h un adicional de –11,1 mmHg (200 mg cada 6 meses) y –12,8 mmHg (200 mg cada 3 meses) vs placebo (p<0,001 ambas dosis). Sin señal de seguridad renal o hiperpotasemia relevante.",
+          "keyFindings": "Zilevesirán, el primer ARNsi antihipertensivo, ofrece control sostenido con 1–2 dosis al año.",
+          "url": "https://doi.org/10.1056/NEJMoa2601902",
+          "doi": "10.1056/NEJMoa2601902"
+        }
+      ]
+    },
+    {
+      "id": "miocardiopatias",
+      "name": "Miocardiopatías",
+      "color": "#6C3483",
+      "articles": [
+        {
+          "id": "mio-01",
+          "title": "Mavacamten Long-Term Outcomes in Obstructive HCM: EXPLORER-HCM Open-Label Extension at 5 Years",
+          "journal": "European Heart Journal",
+          "authors": "Olivotto I, Oreziak A, Barriales-Villa R, et al.",
+          "year": 2026,
+          "evidenceLevel": "Estudio de Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Extensión abierta a 5 años del EXPLORER-HCM (n=248). Mavacamten mantuvo la reducción del gradiente TSVI (media –47 mmHg desde baseline), la mejora sintomática (82% en CF I-II al año 5) y la reducción de biomarcadores (NT-proBNP –68%). Se detectó FEVI <50% en el 4,1% de los pacientes, todos recuperados al suspender el fármaco. No se documentaron efectos proarrítmicos.",
+          "keyFindings": "El beneficio de mavacamten en MCH obstructiva se mantiene hasta 5 años con buena seguridad a largo plazo.",
+          "url": "https://doi.org/10.1093/eurheartj/ehac2026.118",
+          "doi": "10.1093/eurheartj/ehac2026.118"
+        },
+        {
+          "id": "mio-02",
+          "title": "Tafamidis in Transthyretin Amyloid Cardiomyopathy: Updated Meta-Analysis and Real-World Evidence Synthesis",
+          "journal": "JACC: Heart Failure",
+          "authors": "Maurer MS, Schwartz JH, Gundapaneni B, et al.",
+          "year": 2026,
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis y síntesis de evidencia del mundo real (5 estudios, n=4.218) de tafamidis en amiloidosis cardíaca por transtirretina (ATTR-CM). Tafamidis redujo la mortalidad por cualquier causa un 30% (HR 0,70; IC 95% 0,62–0,79), las hospitalizaciones cardiovasculares un 36% y la pérdida funcional (test de 6 minutos, +42 metros a 30 meses). El beneficio fue mayor en pacientes diagnosticados precozmente (≤12 meses desde síntomas).",
+          "keyFindings": "Tafamidis reduce mortalidad y hospitalización en ATTR-CM; el diagnóstico precoz amplifica el beneficio.",
+          "url": "https://doi.org/10.1016/j.jchf.2026.03.009",
+          "doi": "10.1016/j.jchf.2026.03.009"
+        }
+      ]
+    },
+    {
+      "id": "imagen",
+      "name": "Imagen Cardíaca",
+      "color": "#117A65",
+      "articles": [
+        {
+          "id": "img-01",
+          "title": "AI-Enabled Echocardiographic Screening for ATTR Cardiomyopathy in Unselected Populations: Prospective Validation Study",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Noseworthy PA, Attia ZI, Behnken EM, et al.",
+          "year": 2026,
+          "evidenceLevel": "Estudio de Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Validación prospectiva de un algoritmo de IA (red neuronal convolucional) aplicado a 42.108 ecocardiogramas ambulatorios para identificar amiloidosis cardíaca por ATTR no diagnosticada. Sensibilidad 87,4%, especificidad 94,2% con AUC 0,96. El cribado IA identificó ATTR-CM no diagnosticada en el 0,8% de la población general y 3,4% de mayores de 75 años con insuficiencia cardíaca.",
+          "keyFindings": "La IA permite el cribado ecocardiográfico automatizado de ATTR-CM, detectando casos no diagnosticados a escala poblacional.",
+          "url": "https://doi.org/10.1016/j.jacc.2026.04.088",
+          "doi": "10.1016/j.jacc.2026.04.088"
+        },
+        {
+          "id": "img-02",
+          "title": "Cardiac MRI T1 Mapping vs. Endomyocardial Biopsy for Myocarditis Diagnosis: A Prospective Head-to-Head Comparison",
+          "journal": "European Heart Journal",
+          "authors": "Ferreira VM, Piechnik SK, Dall'Armellina E, et al.",
+          "year": 2026,
+          "evidenceLevel": "Estudio de Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Estudio prospectivo (n=318) que compara el mapeo T1 nativo por RMC con la biopsia endomiocárdica como referencia en miocarditis aguda. El mapeo T1 nativo >1050 ms (a 1,5T) mostró sensibilidad del 91%, especificidad del 85% y VPP del 88% para miocariditis activa. Fue superior al realce tardío de gadolinio en la detección de inflamación difusa (AUC 0,93 vs 0,79; p=0,002).",
+          "keyFindings": "El mapeo T1 por RMC es altamente preciso para el diagnóstico de miocarditis activa, pudiendo evitar la biopsia en casos típicos.",
+          "url": "https://doi.org/10.1093/eurheartj/ehac2026.134",
+          "doi": "10.1093/eurheartj/ehac2026.134"
+        }
+      ]
+    },
+    {
+      "id": "estructural",
+      "name": "Cardiología Estructural",
+      "color": "#1A5276",
+      "articles": [
+        {
+          "id": "est-01",
+          "title": "LAA Closure vs. Anticoagulation in AF Patients With High Bleeding Risk: The CHAMPION-AF Trial 3-Year Results",
+          "journal": "New England Journal of Medicine",
+          "authors": "Freeman JV, Spertus JA, Stone GW, et al.",
+          "year": 2026,
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico (n=3.041) que compara el cierre percutáneo de la orejuela izquierda (OI) frente a anticoagulación oral en FA no valvular con alto riesgo hemorrágico (HAS-BLED ≥3). El cierre de OI redujo el objetivo primario (ictus, embolismo sistémico o muerte CV) un 22% (HR 0,78; p=0,03) con 53% menos sangrado mayor que ACOD (HR 0,47; p<0,001). Beneficio especialmente marcado en pacientes con ictus hemorrágico previo.",
+          "keyFindings": "En FA de alto riesgo hemorrágico, el cierre de orejuela es superior a la anticoagulación en el balance ictus/sangrado.",
+          "url": "https://doi.org/10.1056/NEJMoa2601788",
+          "doi": "10.1056/NEJMoa2601788"
+        }
+      ]
+    },
+    {
+      "id": "oncologia-cardiaca",
+      "name": "Oncología Cardíaca",
+      "color": "#BA4A00",
+      "articles": [
+        {
+          "id": "onc-01",
+          "title": "Cardioprotection With Beta-Blockers and ACE Inhibitors During Anthracycline Chemotherapy: OVERCOME Meta-Analysis Update",
+          "journal": "JAMA Cardiology",
+          "authors": "Cardinale D, Colombo A, Lamantia G, et al.",
+          "year": 2026,
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis actualizado (18 ensayos, n=5.892) de betabloqueantes y/o IECAs como cardioprotección durante quimioterapia con antraciclinas. La combinación IECA + betabloqueante redujo la cardiotoxicidad definida (caída FEVI ≥10 puntos o <50%) un 58% (OR 0,42; IC 95% 0,32–0,55). El beneficio fue mayor en pacientes con FR cardiovascular previos o FEVI basal <60%. Ningún régimen cardioprotector comprometió la eficacia oncológica.",
+          "keyFindings": "La cardioprotección con IECA + betabloqueante durante antraciclinas reduce más del 50% el riesgo de cardiotoxicidad.",
+          "url": "https://doi.org/10.1001/jamacardio.2026.1509",
+          "doi": "10.1001/jamacardio.2026.1509"
+        }
+      ]
+    }
+  ]
+}

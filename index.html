@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Briefing Cardiológico Semanal</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f9fb;
+      --surface: #ffffff;
+      --border: #e2e6ea;
+      --text: #1a202c;
+      --text-muted: #718096;
+      --radius: 12px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+      --shadow-md: 0 4px 16px rgba(0,0,0,.10);
+      --shadow-lg: 0 8px 32px rgba(0,0,0,.12);
+      --transition: .22s cubic-bezier(.4,0,.2,1);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-sm);
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #C0392B, #E74C3C);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .logo-icon svg { width: 22px; height: 22px; fill: #fff; }
+    .logo-text h1 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -.3px;
+      line-height: 1.2;
+    }
+    .logo-text span {
+      font-size: .72rem;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .week-badge {
+      background: #f0f4ff;
+      border: 1px solid #c7d2fe;
+      color: #3730a3;
+      font-size: .78rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: -.5px;
+      margin-bottom: 8px;
+    }
+    .hero p {
+      color: #a0aec0;
+      font-size: .95rem;
+      max-width: 560px;
+      margin: 0 auto 20px;
+    }
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .stat {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 10px;
+      padding: 12px 24px;
+      min-width: 120px;
+    }
+    .stat-num {
+      font-size: 1.6rem;
+      font-weight: 800;
+      display: block;
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: .72rem;
+      color: #a0aec0;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-top: 4px;
+    }
+
+    /* ── FILTER BAR ── */
+    .filter-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 12px 20px;
+    }
+    .filter-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .filter-label {
+      font-size: .78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      flex-shrink: 0;
+    }
+    .evidence-filters {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .ev-btn {
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: #fff;
+      font-size: .75rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      color: var(--text-muted);
+    }
+    .ev-btn:hover { border-color: #667eea; color: #667eea; }
+    .ev-btn.active { border-color: #667eea; background: #667eea; color: #fff; }
+    .btn-expand-all {
+      margin-left: auto;
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border);
+      background: #fff;
+      font-size: .78rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: var(--transition);
+    }
+    .btn-expand-all:hover { border-color: var(--text); color: var(--text); }
+
+    /* ── MAIN ── */
+    .main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    /* ── SUBSPECIALTY CARD ── */
+    .subspecialty {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 14px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow var(--transition);
+    }
+    .subspecialty:hover { box-shadow: var(--shadow-md); }
+
+    .subspecialty-header {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      cursor: pointer;
+      user-select: none;
+      transition: background var(--transition);
+    }
+    .subspecialty-header:hover { background: rgba(0,0,0,.015); }
+
+    .color-stripe {
+      width: 6px;
+      align-self: stretch;
+      flex-shrink: 0;
+      border-radius: 0;
+    }
+    .subs-title-area {
+      flex: 1;
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .subs-color-dot {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .subs-name {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: -.2px;
+    }
+    .subs-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: auto;
+      padding-right: 20px;
+      flex-shrink: 0;
+    }
+    .count-badge {
+      font-size: .72rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 12px;
+      color: #fff;
+      line-height: 1.4;
+    }
+    .chevron {
+      width: 20px;
+      height: 20px;
+      color: var(--text-muted);
+      transition: transform var(--transition);
+      flex-shrink: 0;
+    }
+    .subspecialty.open .chevron { transform: rotate(180deg); }
+
+    /* ── ARTICLES PANEL ── */
+    .articles-panel {
+      display: none;
+      border-top: 1px solid var(--border);
+    }
+    .subspecialty.open .articles-panel { display: block; }
+
+    .articles-list {
+      padding: 16px 20px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    /* ── ARTICLE CARD ── */
+    .article-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .article-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-1px);
+    }
+    .article-card.hidden { display: none; }
+
+    .article-top-stripe {
+      height: 3px;
+    }
+
+    .article-body {
+      padding: 16px 18px 14px;
+    }
+    .article-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .ev-badge {
+      font-size: .68rem;
+      font-weight: 700;
+      padding: 2px 9px;
+      border-radius: 10px;
+      letter-spacing: .2px;
+      white-space: nowrap;
+    }
+    .ev-1 { background: #fef9c3; color: #92400e; border: 1px solid #fde68a; }
+    .ev-2 { background: #dbeafe; color: #1e3a8a; border: 1px solid #bfdbfe; }
+    .ev-3 { background: #dcfce7; color: #14532d; border: 1px solid #bbf7d0; }
+    .ev-4 { background: #fff7ed; color: #7c2d12; border: 1px solid #fed7aa; }
+    .ev-5 { background: #f3f4f6; color: #374151; border: 1px solid #d1d5db; }
+    .ev-6 { background: #fdf4ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+    .ev-7 { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+
+    .journal-tag {
+      font-size: .72rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .article-title {
+      font-size: .95rem;
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .article-authors {
+      font-size: .78rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    /* Abstract accordion */
+    .abstract-toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .78rem;
+      font-weight: 600;
+      color: #4a5568;
+      cursor: pointer;
+      user-select: none;
+      padding: 6px 0;
+      border: none;
+      background: none;
+      transition: color var(--transition);
+    }
+    .abstract-toggle:hover { color: #1a202c; }
+    .abstract-toggle svg {
+      width: 14px; height: 14px;
+      transition: transform var(--transition);
+      flex-shrink: 0;
+    }
+    .article-card.abstract-open .abstract-toggle svg { transform: rotate(180deg); }
+
+    .abstract-body {
+      display: none;
+      padding: 12px 0 4px;
+    }
+    .article-card.abstract-open .abstract-body { display: block; }
+
+    .abstract-text {
+      font-size: .84rem;
+      color: #4a5568;
+      line-height: 1.65;
+      margin-bottom: 10px;
+    }
+    .key-finding {
+      background: #f7fafc;
+      border-left: 3px solid #667eea;
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+      font-size: .82rem;
+      color: #2d3748;
+      font-weight: 500;
+    }
+    .key-finding strong {
+      color: #3730a3;
+      font-size: .74rem;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .article-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 18px 14px;
+      border-top: 1px solid var(--border);
+      gap: 10px;
+    }
+    .doi-text {
+      font-size: .72rem;
+      color: var(--text-muted);
+      font-family: 'Courier New', monospace;
+    }
+    .read-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 16px;
+      border-radius: 8px;
+      font-size: .78rem;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      transition: opacity var(--transition), transform var(--transition);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .read-btn:hover { opacity: .88; transform: translateX(2px); }
+    .read-btn svg { width: 13px; height: 13px; }
+
+    /* ── NO RESULTS ── */
+    .no-results {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+      font-size: .9rem;
+      display: none;
+    }
+    .no-results.visible { display: block; }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: #1a202c;
+      color: #718096;
+      text-align: center;
+      padding: 24px 20px;
+      font-size: .78rem;
+      line-height: 1.8;
+    }
+    .footer strong { color: #a0aec0; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 1.35rem; }
+      .stats-row { gap: 12px; }
+      .stat { padding: 10px 16px; min-width: 90px; }
+      .subs-name { font-size: .9rem; }
+      .logo-text span { display: none; }
+      .article-footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <a class="logo" href="#">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <h1>Briefing Cardiológico</h1>
+        <span>Evidencia científica semanal en cardiología</span>
+      </div>
+    </a>
+    <div class="header-meta">
+      <div class="week-badge" id="weekBadge">Semana cargando…</div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Resumen Semanal de Literatura Cardiológica</h2>
+  <p>Los artículos de mayor impacto de las principales revistas de cardiología, clasificados por nivel de evidencia y subespecialidad.</p>
+  <div class="stats-row" id="statsRow">
+    <div class="stat">
+      <span class="stat-num" id="statArticles">–</span>
+      <div class="stat-label">Artículos</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="statSubs">–</span>
+      <div class="stat-label">Subespecialidades</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="statMeta">–</span>
+      <div class="stat-label">Meta-análisis</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="statRCT">–</span>
+      <div class="stat-label">Ensayos clínicos</div>
+    </div>
+  </div>
+</section>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <div class="filter-inner">
+    <span class="filter-label">Filtrar por evidencia:</span>
+    <div class="evidence-filters" id="evidenceFilters">
+      <button class="ev-btn active" data-rank="all">Todos</button>
+      <button class="ev-btn" data-rank="1">Meta-análisis</button>
+      <button class="ev-btn" data-rank="2">Revisión Sistemática</button>
+      <button class="ev-btn" data-rank="3">Ensayo Clínico</button>
+      <button class="ev-btn" data-rank="4">Estudio de Cohorte</button>
+    </div>
+    <button class="btn-expand-all" id="btnExpandAll">Expandir todo</button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main class="main" id="mainContent">
+  <div class="no-results" id="noResults">No hay artículos para el filtro seleccionado en esta subespecialidad.</div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <strong>Briefing Cardiológico Semanal</strong><br>
+  Compilación de artículos con mayor nivel de evidencia científica publicados en las principales revistas de cardiología.<br>
+  Los resúmenes son orientativos. Consulta siempre el artículo original para decisiones clínicas.<br>
+  <span style="color:#4a5568;font-size:.7rem;margin-top:8px;display:block;">
+    Revistas indexadas: NEJM · The Lancet · JACC · European Heart Journal · Circulation · JAMA Cardiology · JACC Cardiovascular Interventions · JACC Heart Failure · JACC Electrophysiology · European Journal of Heart Failure
+  </span>
+</footer>
+
+<script>
+  // ── Evidence rank → CSS class & label map
+  const evMeta = {
+    1: { cls: 'ev-1', label: 'Meta-análisis' },
+    2: { cls: 'ev-2', label: 'Revisión Sistemática' },
+    3: { cls: 'ev-3', label: 'Ensayo Clínico Aleatorizado' },
+    4: { cls: 'ev-4', label: 'Estudio de Cohorte' },
+    5: { cls: 'ev-5', label: 'Estudio Caso-Control' },
+    6: { cls: 'ev-6', label: 'Serie de Casos' },
+    7: { cls: 'ev-7', label: 'Reporte de Caso' },
+  };
+
+  let currentFilter = 'all';
+  let allExpanded = false;
+
+  function chevronSVG() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="chevron"><polyline points="6 9 12 15 18 9"/></svg>`;
+  }
+
+  function externalLinkSVG() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+  }
+
+  function buildArticleCard(article, color) {
+    const ev = evMeta[article.evidenceRank] || evMeta[7];
+    return `
+      <div class="article-card" id="card-${article.id}" data-rank="${article.evidenceRank}">
+        <div class="article-top-stripe" style="background:${color}"></div>
+        <div class="article-body">
+          <div class="article-meta-row">
+            <span class="ev-badge ${ev.cls}">${ev.label}</span>
+            <span class="journal-tag">${article.journal} · ${article.year}</span>
+          </div>
+          <div class="article-title">${article.title}</div>
+          <div class="article-authors">${article.authors}</div>
+          <button class="abstract-toggle" onclick="toggleAbstract('card-${article.id}', event)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            Ver resumen / abstract
+          </button>
+          <div class="abstract-body">
+            <p class="abstract-text">${article.abstract}</p>
+            <div class="key-finding">
+              <strong>Conclusión clave</strong>
+              ${article.keyFindings}
+            </div>
+          </div>
+        </div>
+        <div class="article-footer">
+          <span class="doi-text">DOI: ${article.doi}</span>
+          <a class="read-btn" href="${article.url}" target="_blank" rel="noopener noreferrer" style="background:${color}">
+            Leer artículo ${externalLinkSVG()}
+          </a>
+        </div>
+      </div>`;
+  }
+
+  function buildSubspecialtySection(sub) {
+    const articlesHTML = sub.articles
+      .sort((a, b) => a.evidenceRank - b.evidenceRank)
+      .map(a => buildArticleCard(a, sub.color))
+      .join('');
+
+    return `
+      <div class="subspecialty" id="sub-${sub.id}" data-id="${sub.id}">
+        <div class="subspecialty-header" onclick="toggleSubspecialty('sub-${sub.id}')">
+          <div class="color-stripe" style="background:${sub.color}"></div>
+          <div class="subs-title-area">
+            <div class="subs-color-dot" style="background:${sub.color}"></div>
+            <span class="subs-name">${sub.name}</span>
+          </div>
+          <div class="subs-meta">
+            <span class="count-badge" style="background:${sub.color}">${sub.articles.length} artículo${sub.articles.length !== 1 ? 's' : ''}</span>
+            ${chevronSVG()}
+          </div>
+        </div>
+        <div class="articles-panel">
+          <div class="articles-list" id="list-${sub.id}">${articlesHTML}</div>
+        </div>
+      </div>`;
+  }
+
+  function toggleSubspecialty(id) {
+    document.getElementById(id).classList.toggle('open');
+  }
+
+  function toggleAbstract(cardId, event) {
+    event.stopPropagation();
+    document.getElementById(cardId).classList.toggle('abstract-open');
+  }
+
+  function applyFilter(rank) {
+    currentFilter = rank;
+
+    // Update button states
+    document.querySelectorAll('.ev-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.rank === String(rank));
+    });
+
+    // Show/hide articles
+    document.querySelectorAll('.article-card').forEach(card => {
+      const match = rank === 'all' || String(card.dataset.rank) === String(rank);
+      card.classList.toggle('hidden', !match);
+    });
+
+    // Open sections that have visible articles; collapse empty ones
+    document.querySelectorAll('.subspecialty').forEach(sub => {
+      const visibleCount = sub.querySelectorAll('.article-card:not(.hidden)').length;
+      if (rank !== 'all') {
+        if (visibleCount > 0) sub.classList.add('open');
+        else sub.classList.remove('open');
+      }
+    });
+  }
+
+  function initExpandAll() {
+    const btn = document.getElementById('btnExpandAll');
+    btn.addEventListener('click', () => {
+      allExpanded = !allExpanded;
+      document.querySelectorAll('.subspecialty').forEach(sub => {
+        sub.classList.toggle('open', allExpanded);
+      });
+      btn.textContent = allExpanded ? 'Contraer todo' : 'Expandir todo';
+    });
+  }
+
+  function initFilters() {
+    document.getElementById('evidenceFilters').addEventListener('click', e => {
+      if (e.target.classList.contains('ev-btn')) {
+        applyFilter(e.target.dataset.rank);
+      }
+    });
+  }
+
+  function updateStats(data) {
+    const allArticles = data.subspecialties.flatMap(s => s.articles);
+    document.getElementById('statArticles').textContent = allArticles.length;
+    document.getElementById('statSubs').textContent = data.subspecialties.length;
+    document.getElementById('statMeta').textContent = allArticles.filter(a => a.evidenceRank === 1).length;
+    document.getElementById('statRCT').textContent = allArticles.filter(a => a.evidenceRank === 3).length;
+    document.getElementById('weekBadge').textContent = 'Semana del ' + data.weekLabel;
+  }
+
+  async function loadData() {
+    const main = document.getElementById('mainContent');
+    try {
+      const resp = await fetch('data/articles.json?v=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+
+      updateStats(data);
+      main.innerHTML = data.subspecialties
+        .map(sub => buildSubspecialtySection(sub))
+        .join('') + '<div class="no-results" id="noResults"></div>';
+
+      initFilters();
+      initExpandAll();
+    } catch (err) {
+      main.innerHTML = `<p style="color:#e53e3e;padding:40px 0;text-align:center">Error al cargar los artículos: ${err.message}</p>`;
+    }
+  }
+
+  loadData();
+</script>
+</body>
+</html>
