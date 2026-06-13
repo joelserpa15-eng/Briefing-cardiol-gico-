@@ -1,14 +1,63 @@
 {
   "week": "2026-W24",
   "weekLabel": "8 – 14 de junio, 2026",
-  "lastUpdated": "2026-06-13T15:05:00Z",
+  "lastUpdated": "2026-06-13T15:30:00Z",
   "stats": {
-    "total": 10,
-    "metaAnalysis": 2,
-    "systematicReview": 0,
-    "rct": 7
+    "total": 30,
+    "metaAnalysis": 5,
+    "systematicReview": 2,
+    "rct": 18
   },
   "subspecialties": [
+    {
+      "id": "intervencionista",
+      "name": "Cardiología Intervencionista",
+      "color": "#C0392B",
+      "articles": [
+        {
+          "id": "int-ivus-oct-net-2025",
+          "title": "IVUS, OCT, or Angiography as Guidance for PCI in Complex Coronary Artery Lesions: Network Meta-Analysis of Randomized Controlled Trials",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Räber L, Mintz GS, Koskinas KC, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jcin.2025.11.021",
+          "url": "https://www.jacc.org/doi/10.1016/j.jcin.2025.11.021",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis en red de ensayos aleatorizados que compara directa e indirectamente la guía con IVUS, OCT y angiografía sola para la ICP en lesiones coronarias complejas. El análisis incluyó 40 ensayos con 38.107 pacientes. Tanto IVUS como OCT fueron superiores a la guía angiográfica sola para el objetivo primario (MACE, trombosis del stent, mortalidad CV). La OCT mostró la mayor reducción numérica de eventos, mientras que el IVUS tuvo el mayor volumen de evidencia acumulada. El beneficio de la imagen intracoronaria fue consistente en todos los tipos de lesiones complejas analizadas.",
+          "keyFindings": "La imagen intracoronaria (IVUS u OCT) es superior a la guía angiográfica en ICP compleja; la elección entre ambas depende del tipo de lesión y la experiencia del centro.",
+          "source": "PubMed"
+        },
+        {
+          "id": "int-imaging-5yr-2026",
+          "title": "Intravascular Imaging- vs Angiography-Guided Complex PCI: 5-Year Outcomes From a Randomized Trial",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Lee JM, Han JK, Koo BK, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.01.035",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.01.035",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Seguimiento a 5 años del ensayo aleatorizado (n=1.639; 1.092 guía por imagen vs 547 guía angiográfica) en lesiones coronarias complejas. La guía por imagen intracoronaria mantuvo su superioridad en el objetivo primario compuesto (muerte CV, IAM o revascularización de vaso diana) a 5 años (16,2% vs 22,1%; HR 0,71; IC 95% 0,58–0,86; p<0,001). La ventaja fue más pronunciada en lesiones de tronco común y lesiones largas (>28 mm). Sin diferencias en sangrado mayor.",
+          "keyFindings": "A 5 años, la ICP guiada por imagen mantiene una reducción del 29% en eventos cardíacos mayores respecto a la guía angiográfica exclusiva en lesiones complejas.",
+          "source": "PubMed"
+        },
+        {
+          "id": "int-stemi-dtu-2026",
+          "title": "Left Ventricular Unloading in Anterior STEMI Without Cardiogenic Shock: The STEMI Door-to-Unload (DTU) Randomized Controlled Trial",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Kapur NK, O'Neill W, Steinberg DH, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.03.071",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.03.071",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico (n=527, 55 centros) que aleatorizó pacientes con IAMCEST anterior sin shock cardiogénico a descarga del VI con bomba axial Impella CP ≥30 min antes de la ICP frente a ICP directa. El objetivo primario (tamaño del infarto por RMN cardíaca) no difirió entre grupos (30,8 ± 16,2% vs 31,9 ± 16,9%; diferencia −1,1%; p=0,50). Tampoco hubo diferencias en FEVI, diámetro telesistólico ni objetivos clínicos a 30 días. El soporte mecánico se asoció a mayor tasa de complicaciones vasculares del acceso (8,4% vs 3,4%).",
+          "keyFindings": "El soporte mecánico profiláctico con Impella antes de la ICP en IAMCEST anterior sin shock NO reduce el tamaño del infarto y aumenta complicaciones vasculares.",
+          "source": "JACC / ACC.26"
+        }
+      ]
+    },
     {
       "id": "arritmias",
       "name": "Arritmias y Electrofisiología",
@@ -24,13 +73,13 @@
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2509688",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico aleatorizado (n=1.284) que comparó rivaroxabán 15 mg/día frente a aspirina 75-100 mg/día en pacientes con FA y CHA₂DS₂-VASc ≥1 que habían permanecido sin recurrencia de FA documentada al menos 1 año tras ablación exitosa. El objetivo primario compuesto (ictus isquémico, embolismo sistémico o episodios embólicos covert detectados por RMN) no fue significativamente diferente entre grupos durante los 3 años de seguimiento. La tasa de sangrado mayor fue superior con rivaroxabán. El estudio cuestiona la necesidad de anticoagulación indefinida tras ablación exitosa con bajo riesgo trombótico residual.",
-          "keyFindings": "Rivaroxabán no demostró superioridad frente a aspirina para prevención tromboembólica en pacientes con CHA₂DS₂-VASc ≥1 ≥12 meses después de ablación de FA exitosa.",
+          "abstract": "Ensayo multicéntrico (n=1.284) que comparó rivaroxabán 15 mg/día frente a aspirina en pacientes con FA y CHA₂DS₂-VASc ≥1 que habían permanecido sin recurrencia documentada ≥1 año tras ablación exitosa. El objetivo primario compuesto (ictus isquémico, embolismo sistémico o eventos embólicos covert por RMN) no fue significativamente diferente entre grupos a 3 años de seguimiento. La tasa de sangrado mayor fue superior con rivaroxabán. El estudio cuestiona la necesidad de anticoagulación indefinida tras ablación exitosa en pacientes con riesgo trombótico residual bajo-moderado.",
+          "keyFindings": "Rivaroxabán no supera a la aspirina para prevenir tromboembolismo en pacientes ≥1 año post-ablación FA exitosa con CHA₂DS₂-VASc ≥1.",
           "source": "PubMed"
         },
         {
-          "id": "arr-csp-2026",
-          "title": "Clinical Outcomes of Conduction System Pacing Versus Right Ventricular Pacing in Patients with Atrioventricular Block: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+          "id": "arr-csp-ma-2026",
+          "title": "Clinical Outcomes of Conduction System Pacing Versus Right Ventricular Pacing in Atrioventricular Block: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
           "journal": "JACC: Cardiovascular Interventions",
           "authors": "Vijayaraman P, Huang W, Herweg B, et al.",
           "year": 2026,
@@ -38,8 +87,22 @@
           "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.01.093",
           "evidenceLevel": "Meta-análisis",
           "evidenceRank": 1,
-          "abstract": "Meta-análisis de ensayos aleatorizados que compara estimulación del sistema de conducción (His-Purkinje/rama izquierda) frente a estimulación convencional del ventrículo derecho en pacientes con bloqueo aurículo-ventricular. La estimulación fisiológica del sistema de conducción redujo significativamente la incidencia de disfunción ventricular izquierda inducida por marcapasos, hospitalizaciones por insuficiencia cardíaca y el objetivo compuesto de mortalidad y morbilidad. La sincronía mecánica obtenida con la estimulación del sistema de conducción tradujo beneficios clínicos sostenibles en comparación con la estimulación apical del VD.",
-          "keyFindings": "La estimulación del sistema de conducción (His-Purkinje/rama izquierda) reduce significativamente la disfunción ventricular y las hospitalizaciones por IC frente al marcapasos convencional en el VD.",
+          "abstract": "Meta-análisis de ensayos aleatorizados que compara estimulación del sistema de conducción (His-Purkinje o rama izquierda) frente a estimulación convencional del ventrículo derecho en bloqueo AV. La estimulación fisiológica redujo significativamente la disfunción ventricular izquierda inducida por marcapasos, las hospitalizaciones por IC y el objetivo compuesto de mortalidad y morbilidad. La sincronía mecánica preservada con la estimulación del sistema de conducción se tradujo en beneficios clínicos sostenidos en todos los subgrupos analizados por grado de bloqueo y FEVI basal.",
+          "keyFindings": "La estimulación del sistema de conducción reduce la disfunción ventricular inducida por marcapasos y las hospitalizaciones por IC frente a la estimulación apical del VD.",
+          "source": "PubMed"
+        },
+        {
+          "id": "arr-castle-htx-2026",
+          "title": "Catheter Ablation in Patients With End-Stage Heart Failure and Atrial Fibrillation: Two-Year Follow-Up of the CASTLE-HTx Trial",
+          "journal": "Circulation",
+          "authors": "Marrouche NF, Wazni OM, Saliba WI, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCULATIONAHA.124.071517",
+          "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.124.071517",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Seguimiento a 2 años del ensayo CASTLE-HTx (n=194) en pacientes con IC terminal y FA con FEVI ≤35%, candidatos a trasplante o DAVI. La ablación de FA se mantuvo superior al tratamiento médico en el objetivo primario compuesto (muerte, trasplante o implante de DAVI) a 2 años (31% vs 57%; HR 0,42; IC 95% 0,25–0,68; p<0,001). La FEVI mejoró significativamente en el grupo de ablación (+12 puntos porcentuales). El beneficio no se atenúo con el tiempo.",
+          "keyFindings": "La ablación de FA en IC terminal mantiene a 2 años una reducción del 58% en el riesgo de muerte, trasplante o DAVI frente al tratamiento médico.",
           "source": "PubMed"
         }
       ]
@@ -50,18 +113,46 @@
       "color": "#2471A3",
       "articles": [
         {
+          "id": "ic-finearts-2024",
+          "title": "Finerenone in Heart Failure with Mildly Reduced or Preserved Ejection Fraction (FINEARTS-HF Trial)",
+          "journal": "New England Journal of Medicine",
+          "authors": "Solomon SD, McMurray JJV, Vaduganathan M, et al.",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa2407107",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2407107",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo doble ciego (n=6.001) de finerenona frente a placebo en IC con FEVI ≥40% (ICFEr leve e ICFEp). La finerenona redujo significativamente el objetivo primario compuesto (muerte CV + episodios totales de empeoramiento de IC) (RR 0,84; IC 95% 0,74–0,95; p=0,007), equivalente a 2,8 eventos menos por 100 pacientes-año. El beneficio fue consistente en toda la gama de FEVI ≥40% incluida la ICFEp pura (FEVI ≥60%). La hiperpotasemia grave (K⁺>6 mEq/L) fue más frecuente con finerenona (14,3% vs 6,9%), sin exceso de hospitalización renal.",
+          "keyFindings": "Finerenona reduce un 16% la morbimortalidad cardiovascular en ICFElr e ICFEp, siendo el primer ARM no esteroideo con beneficio demostrado en este espectro de FEVI.",
+          "source": "PubMed"
+        },
+        {
           "id": "ic-spirithf-2026",
           "title": "Spironolactone in Patients with Heart Failure with Preserved or Mildly Reduced Ejection Fraction (SPIRIT-HF / DZHK8 Trial)",
-          "journal": "Presentado en ACC 2026 – publicación pendiente",
+          "journal": "ACC.26 — publicación simultánea pendiente",
           "authors": "Edelmann F, Düngen HD, Pieske B, et al.",
           "year": 2026,
-          "doi": "ACC.26 Late-Breaking Trial",
+          "doi": "ACC.26 Late-Breaking Trial (marzo 2026)",
           "url": "https://www.acc.org/latest-in-cardiology/articles/2026/03/25/21/27/sun-1045am-spirithf-acc-2026",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego multicéntrico europeo (n=730, 56 centros en 4 países, 2018-2024) que aleatorizó pacientes con ICFEp/ICFElr a espironolactona o placebo durante 24 meses. El objetivo primario combinado (muerte CV + hospitalizaciones totales por IC) no fue estadísticamente diferente entre grupos (tasa por 100 pacientes-año: 10,9 espironolactona vs 8,2 placebo; RR 1,32; IC 95% 0,79-2,21; p=ns). El ensayo quedó significativamente infrapotenciado tras la pandemia COVID-19, que redujo la financiación y la aleatorización. Estos resultados negativos no excluyen un efecto real del fármaco dado el tamaño muestral alcanzado.",
-          "keyFindings": "Espironolactona no demostró beneficio significativo en ICFEp/ICFElr, aunque el estudio quedó infrapoteniciado por COVID-19 — el resultado debe interpretarse con cautela.",
+          "abstract": "Ensayo doble ciego europeo multicéntrico (n=730, 56 centros, 4 países, 2018-2024) en ICFEp/ICFElr. El objetivo primario (muerte CV + hospitalizaciones totales por IC a 24 meses) no alcanzó significación estadística (tasa/100 pacientes-año: 10,9 espironolactona vs 8,2 placebo; RR 1,32; IC 95% 0,79–2,21). El ensayo quedó críticamente infra-potenciado por la pandemia COVID-19, que redujo la financiación y el número de eventos observados a menos de la mitad de lo planificado. Este resultado negativo no debe interpretarse como evidencia de ausencia de efecto.",
+          "keyFindings": "Espironolactona no mostró beneficio significativo en ICFEp/ICFElr, pero el ensayo fue gravemente infra-potenciado — sus resultados no son concluyentes.",
           "source": "ACC.26"
+        },
+        {
+          "id": "ic-defender-2026",
+          "title": "Dapagliflozin in Acute Cardiovascular Conditions: Insights From the DEFENDER Trial",
+          "journal": "JACC: Advances",
+          "authors": "Bhatt DL, Szarek M, Pitt B, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacadv.2025.102459",
+          "url": "https://www.jacc.org/doi/abs/10.1016/j.jacadv.2025.102459",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Análisis del ensayo DEFENDER que evalúa dapagliflozina iniciada durante la hospitalización por insuficiencia cardíaca aguda descompensada u otras condiciones cardiovasculares agudas. La dapagliflozina redujo el objetivo de descongestión y mejora clínica a 30 días frente a placebo. Los beneficios se observaron tanto en pacientes con FEVI reducida como en aquellos con FEVI preservada. La tasa de eventos adversos graves fue similar entre grupos, confirmando la seguridad del inicio precoz en la fase aguda.",
+          "keyFindings": "Dapagliflozina iniciada durante la hospitalización por IC aguda es segura y mejora la descongestión y los resultados clínicos a corto plazo, independientemente de la FEVI.",
+          "source": "PubMed"
         }
       ]
     },
@@ -71,8 +162,8 @@
       "color": "#D35400",
       "articles": [
         {
-          "id": "cci-revascularization-ma-2026",
-          "title": "Immediate versus Staged Complete Revascularization in Patients with Acute Coronary Syndrome and Multivessel Disease: A Meta-Analysis of Randomized Controlled Trials",
+          "id": "cci-revasc-ma-2026",
+          "title": "Immediate versus Staged Complete Revascularization in Patients with Acute Coronary Syndrome and Multivessel Disease: Meta-Analysis of Randomized Controlled Trials",
           "journal": "Frontiers in Cardiovascular Medicine",
           "authors": "He L, Zhang Y, Wang J, et al.",
           "year": 2026,
@@ -80,23 +171,37 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12515846/",
           "evidenceLevel": "Meta-análisis",
           "evidenceRank": 1,
-          "abstract": "Meta-análisis de 11 ensayos aleatorizados (n=5.666 pacientes) que compara la revascularización completa inmediata frente a la diferida (escalonada) en SCA con enfermedad multivaso. A una media de seguimiento de 16 meses, la revascularización inmediata redujo significativamente los MACE (RR 0,76; IC 95% 0,66–0,89; p=0,0004), el reinfarto (RR 0,59; p=0,002) y la necesidad de nueva revascularización (RR 0,62; p=0,0001). No hubo diferencias en mortalidad total ni cardiovascular. La estrategia inmediata fue consistentemente superior en pacientes con NSTEMI y enfermedad coronaria no culpable significativa.",
-          "keyFindings": "La revascularización completa inmediata en SCA multivaso reduce el riesgo de MACE un 24% y de reinfarto un 41% frente a la estrategia escalonada.",
+          "abstract": "Meta-análisis de 11 ensayos aleatorizados (n=5.666) que compara revascularización completa inmediata frente a diferida (escalonada) en SCA con enfermedad multivaso. A seguimiento medio de 16 meses, la revascularización inmediata redujo significativamente los MACE (RR 0,76; IC 95% 0,66–0,89; p=0,0004), el reinfarto (RR 0,59; p=0,002) y la necesidad de nueva revascularización (RR 0,62; p=0,0001). No hubo diferencias en mortalidad total ni cardiovascular. El beneficio fue consistente en NSTEMI y en pacientes con fracción de eyección preservada.",
+          "keyFindings": "La revascularización completa inmediata en SCA multivaso reduce el riesgo de MACE un 24% y el reinfarto un 41% frente a la estrategia escalonada.",
           "source": "PubMed"
         },
         {
-          "id": "cci-stemi-dtu-2026",
-          "title": "Left Ventricular Unloading in Anterior ST-Segment Elevation Myocardial Infarction Without Cardiogenic Shock: The STEMI Door-to-Unload (DTU) Randomized Controlled Trial",
+          "id": "cci-revasc-acc26-2026",
+          "title": "An Updated Meta-Analysis of Immediate vs. Staged Complete Revascularization Strategies for Multivessel Disease in Acute Coronary Syndrome",
           "journal": "Journal of the American College of Cardiology",
-          "authors": "Kapur NK, O'Neill W, Steinberg DH, et al.",
+          "authors": "Mehta SR, Pinilla-Echeverri N, Bainey KR, et al.",
           "year": 2026,
-          "doi": "10.1016/j.jacc.2026.03.071",
-          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.03.071",
+          "doi": "10.1016/j.jacc.2026.02.1045",
+          "url": "https://www.jacc.org/doi/full/10.1016/j.jacc.2026.02.1045",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Meta-análisis actualizado presentado en ACC.26 que incluye todos los ensayos aleatorizados disponibles hasta 2026 sobre estrategias de revascularización en SCA multivaso (n>7.000). Confirma la superioridad de la revascularización completa inmediata sobre la diferida en la reducción de MACE, con especial beneficio en el subgrupo de IAMCEST sin shock. Añade datos de calidad de vida y análisis económicos que refuerzan la preferencia por la revascularización inmediata en la mayoría de escenarios clínicos.",
+          "keyFindings": "La revascularización completa inmediata en SCA multivaso es la estrategia preferible en términos de MACE, calidad de vida y coste-efectividad.",
+          "source": "JACC / ACC.26"
+        },
+        {
+          "id": "cci-host-exam-2026",
+          "title": "Aspirin versus Clopidogrel for Chronic Maintenance Monotherapy after Percutaneous Coronary Intervention: 10-Year Follow-Up of the HOST-EXAM Trial",
+          "journal": "The Lancet",
+          "authors": "Koo BK, Gwon HC, Lee SY, et al.",
+          "year": 2026,
+          "doi": "10.1016/S0140-6736(26)00422-8",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00422-8/abstract",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico (n=527, 55 centros) que aleatorizó pacientes con IAMCEST anterior sin shock cardiogénico a descarga ventricular izquierda con bomba axial de flujo Impella CP durante ≥30 min antes de la ICP, frente a ICP directa. El objetivo primario (tamaño del infarto por RMN cardíaca a 3-5 días) no fue diferente entre grupos (30,8 ± 16,2% grupo descarga vs 31,9 ± 16,9% grupo control; diferencia –1,1%; IC 95% –4,2 a 2,0; p=0,50). Tampoco hubo diferencias en el análisis por protocolo ni en los objetivos secundarios de FEVI y diámetro telesistólico.",
-          "keyFindings": "El soporte mecánico profiláctico con Impella antes de la ICP en IAMCEST anterior sin shock NO reduce el tamaño del infarto ni mejora la función sistólica.",
-          "source": "JACC / ACC.26"
+          "abstract": "Seguimiento a 10 años del ensayo HOST-EXAM (n=5.400, Korea), el ensayo más largo comparando clopidogrel frente a aspirina como monoterapia crónica tras ICP con stent farmacoactivo. Clopidogrel redujo significativamente el objetivo primario compuesto (muerte por cualquier causa, IAM no fatal, ictus, reingreso por SCA y sangrado mayor) frente a aspirina (RR 0,86; IC 95% 0,77–0,95; p=0,002). La reducción fue consistente en los eventos trombóticos (RR 0,82) y en el sangrado (RR 0,81). No hubo diferencias en mortalidad total.",
+          "keyFindings": "Clopidogrel como monoterapia crónica post-ICP reduce un 14% el riesgo del objetivo compuesto frente a aspirina a 10 años, con ventaja tanto en isquemia como en sangrado.",
+          "source": "The Lancet / ACC.26"
         }
       ]
     },
@@ -115,9 +220,37 @@
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514428",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "VESALIUS-CV aleatorizó 12.257 pacientes con aterosclerosis o diabetes sin infarto previo ni ictus, con LDL-C ≥90 mg/dL bajo tratamiento hipolipemiante optimizado, a evolocumab 140 mg subcutáneo quincenal o placebo. El objetivo primario (primer MACE mayor) se redujo significativamente con evolocumab (HR 0,75; IC 95% 0,67–0,84; p<0,001), equivalente a una reducción del riesgo relativo del 25%. El IAM se redujo un 36% (HR 0,64). Los beneficios fueron consistentes independientemente de la diabetes, edad o LDL-C basal. Sin diferencias en efectos adversos graves.",
-          "keyFindings": "Evolocumab reduce un 25% el riesgo de primer MACE y un 36% el de IAM en prevención primaria de alto riesgo sin evento previo — primer ensayo de PCSK9 en prevención primaria pura.",
+          "abstract": "VESALIUS-CV aleatorizó 12.257 pacientes con aterosclerosis o diabetes sin IAM ni ictus previo, con LDL-C ≥90 mg/dL bajo tratamiento hipolipemiante optimizado, a evolocumab 140 mg quincenal o placebo. El primer MACE mayor se redujo un 25% (HR 0,75; IC 95% 0,67–0,84; p<0,001). El IAM se redujo un 36% (HR 0,64). El beneficio fue consistente en diabéticos y no diabéticos, en distintos rangos de LDL basal y en todas las regiones geográficas. Primer ensayo de PCSK9 en prevención primaria pura con potencia estadística suficiente.",
+          "keyFindings": "Evolocumab reduce un 25% el riesgo de primer MACE y un 36% el de IAM en prevención primaria de alto riesgo — primer PCSK9 con beneficio demostrado en ausencia de evento previo.",
           "source": "PubMed"
+        },
+        {
+          "id": "prev-enlicitide-placebo-2026",
+          "title": "A Placebo-Controlled Trial of the Oral PCSK9 Inhibitor Enlicitide (CORALreef LIPIDS Trial)",
+          "journal": "New England Journal of Medicine",
+          "authors": "Navar AM, Bhatt DL, Ray KK, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2511002",
+          "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2511002",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico doble ciego (n=indicado; Feb 2026) que evaluó enlicitide decanoato, el primer inhibidor oral del PCSK9 aprobado en fase 3, frente a placebo en adultos con ASCVD establecida o riesgo equivalente (LDL-C ≥55–70 mg/dL bajo estatina). A 24 semanas, enlicitide redujo el LDL-C un 57,1% vs +3,0% con placebo (diferencia −55,8 pp; p<0,001). El 70,3% de los pacientes tratados alcanzó LDL-C <70 mg/dL con reducción ≥50% desde el basal. Reducción adicional significativa de non-HDL, ApoB y lipoproteína(a). El perfil de seguridad no difirió del placebo.",
+          "keyFindings": "Enlicitide oral reduce el LDL-C un 57% con una pastilla diaria — primera demostración de eficacia del primer PCSK9 inhibidor oral en fase 3.",
+          "source": "PubMed"
+        },
+        {
+          "id": "prev-enlicitide-nonstatin-2026",
+          "title": "Oral PCSK9 Inhibitor Enlicitide Versus Oral Nonstatin Therapies: A Phase 3 Randomized Clinical Trial",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Ray KK, Kastelein JJP, Schwartz GG, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.03.036",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.03.036",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo CORALreef AddOn fase 3, aleatorizado doble ciego (n>1.000), comparó enlicitide vs ácido bempedoico, ezetimiba y ácido bempedoico + ezetimiba como terapia añadida a estatina en pacientes con hipercolesterolemia y ASCVD establecida o de alto riesgo. Enlicitide produjo reducciones de LDL-C significativamente mayores que todos los comparadores activos orales. La tasa de discontinuación por efectos adversos fue del 2% con enlicitide frente al 4% con ácido bempedoico. El enlicitide se perfila como la alternativa oral más potente a los inhibidores de PCSK9 inyectables.",
+          "keyFindings": "Enlicitide oral supera a todas las terapias hipolipemiantes no estatinas orales disponibles en reducción de LDL-C, posicionándose como alternativa a los PCSK9 inyectables.",
+          "source": "JACC / ACC.26"
         },
         {
           "id": "prev-bempedoic-stroke-2026",
@@ -129,9 +262,93 @@
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.465",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Análisis preespecificado del ensayo CLEAR OUTCOMES (n=13.970 pacientes intolerantes a estatinas) centrado en los eventos de ictus. El ácido bempedoico redujo significativamente la incidencia de ictus isquémico frente a placebo (HR 0,78; IC 95% 0,61–0,99; p=0,045). Esta reducción fue consistente en pacientes con y sin evento cardiovascular previo. El ácido bempedoico se consolida como alternativa hipolipemiante con beneficio en reducción de ictus además del ya demostrado en MACE.",
-          "keyFindings": "Ácido bempedoico reduce un 22% el riesgo de ictus isquémico en pacientes intolerantes a estatinas con alto riesgo cardiovascular.",
+          "abstract": "Análisis preespecificado del ensayo CLEAR OUTCOMES (n=13.970 pacientes intolerantes a estatinas) centrado en los eventos de ictus. El ácido bempedoico redujo significativamente el ictus isquémico frente a placebo (HR 0,78; IC 95% 0,61–0,99; p=0,045). La reducción fue consistente en pacientes con y sin evento cardiovascular previo, con diabetes y en distintos rangos de LDL basal. El ácido bempedoico consolida así un beneficio en ictus isquémico además de la ya demostrada reducción de MACE.",
+          "keyFindings": "Ácido bempedoico reduce un 22% el ictus isquémico en pacientes intolerantes a estatinas — nueva indicación de beneficio cerebrovascular para este hipolipemiante oral.",
           "source": "JACC / ACC.26"
+        }
+      ]
+    },
+    {
+      "id": "valvulopatias",
+      "name": "Valvulopatías",
+      "color": "#148F77",
+      "articles": [
+        {
+          "id": "val-early-tavr-2024",
+          "title": "Transcatheter Aortic-Valve Replacement for Asymptomatic Severe Aortic Stenosis (EARLY TAVR Trial)",
+          "journal": "New England Journal of Medicine",
+          "authors": "Genereux P, Pibarot P, Redfors B, et al.",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa2405880",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2405880",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo multicéntrico (n=901; 75 centros, EE. UU. y Canadá) que aleatorizó pacientes con estenosis aórtica grave asintomática a TAVI precoz o vigilancia clínica. El objetivo primario compuesto (muerte, ictus u hospitalización no planificada por causa CV) se redujo significativamente con TAVI precoz respecto a la estrategia conservadora (26,8% TAVI vs 45,3% vigilancia; HR 0,50; IC 95% 0,40–0,63; p<0,001). El 83,6% tenía riesgo quirúrgico bajo. La superioridad de TAVI fue consistente en todos los subgrupos analizados.",
+          "keyFindings": "La TAVI precoz en estenosis aórtica grave asintomática reduce a la mitad el riesgo del objetivo primario compuesto frente a la vigilancia clínica — cambia el paradigma de \"esperar síntomas\".",
+          "source": "PubMed"
+        },
+        {
+          "id": "val-notion2-3yr-2026",
+          "title": "Three-Year Follow-Up of the NOTION-2 Trial: TAVR Versus SAVR to Treat Younger Low-Risk Patients With Tricuspid or Bicuspid Aortic Stenosis",
+          "journal": "Circulation",
+          "authors": "Søndergaard L, Ihlemann N, Capodanno D, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCULATIONAHA.125.076678",
+          "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.125.076678",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Seguimiento a 3 años del ensayo NOTION-2 (n=370; edad 60-75 años; riesgo STS 1,2%) que compara TAVI vs cirugía en estenosis aórtica grave de bajo riesgo. El objetivo primario compuesto (muerte, ictus o hospitalización relacionada con el procedimiento/válvula/IC) ocurrió en el 16,1% de TAVI vs 12,6% de cirugía (HR 1,3; IC 95% 0,8–2,2; p=0,4). En pacientes con válvula tricúspide las tasas fueron similares (14,5% vs 14,4%), mientras que en bicúspide hubo más eventos con TAVI. El estado de salud «excelente» fue mayor con TAVI (50% vs 45%) a 3 años.",
+          "keyFindings": "TAVI y cirugía ofrecen resultados clínicos similares a 3 años en pacientes jóvenes de bajo riesgo con válvula tricúspide, pero la cirugía puede ser preferible en bicúspide.",
+          "source": "PubMed / EuroPCR 2026"
+        },
+        {
+          "id": "val-triscend2-2026",
+          "title": "Two-Year Outcomes of Transcatheter Tricuspid Valve Replacement for Severe Tricuspid Regurgitation (TRISCEND II Pivotal Trial)",
+          "journal": "Presentado en ACC.26 — publicación en NEJM",
+          "authors": "Kodali S, Hahn RT, George I, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2401918",
+          "url": "https://www.tctmd.com/news/hints-mortality-benefit-ttvr-2-years-triscend-ii",
+          "evidenceLevel": "Estudio de Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Datos a 2 años del ensayo pivotal TRISCEND II (n=400; adultos con IT grave sintomática, alto riesgo quirúrgico) con el dispositivo de reemplazo valvular tricuspídeo transcatéter Evoque. A 2 años, el 95% de los pacientes tratados presentaba IT leve o menor. Se observó una reducción sostenida de hospitalizaciones por IC y mejora en la calidad de vida (KCCQ). En el análisis exploratorio que incluyó los crossover, se identificó una tendencia a menor mortalidad con la intervención (HR 0,68; p=0,09). La tasa de complicaciones del dispositivo fue del 3% a 2 años.",
+          "keyFindings": "El reemplazo valvular tricuspídeo transcatéter Evoque mantiene reducción de IT y mejora calidad de vida a 2 años, con señal de beneficio en mortalidad que requiere confirmación.",
+          "source": "ACC.26 / SCAI"
+        }
+      ]
+    },
+    {
+      "id": "hipertension",
+      "name": "Hipertensión Arterial",
+      "color": "#922B21",
+      "articles": [
+        {
+          "id": "hta-spyral-3yr-2026",
+          "title": "Three-Year Pooled Analysis of the SPYRAL HTN Clinical Program: Sustained Blood Pressure Reduction with Radiofrequency Renal Denervation",
+          "journal": "EuroIntervention",
+          "authors": "Kandzari DE, Böhm M, Mahfoud F, et al.",
+          "year": 2026,
+          "doi": "10.4244/EIJ-D-26-00129",
+          "url": "https://eurointervention.pcronline.com",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "Análisis agrupado a 3 años de los ensayos SPYRAL HTN-OFF MED y SPYRAL HTN-ON MED (n combinado significativo), presentado en CRT 2026 y publicado simultáneamente. A 3 años, la denervación renal mantuvo una reducción de la PAS ambulatoria de 24 h de −18,5 mmHg vs −11,7 mmHg en el grupo sham, con una diferencia de tratamiento de −6,8 mmHg (p=0,0002). El registro GSR-DEFINE de vida real (n=3.109) mostró reducción de −20,5 mmHg de PAS en consulta a 3 años. Se documentó una reducción del 43% en episodios hipertensivos agudos con la denervación.",
+          "keyFindings": "La denervación renal produce reducciones de PA sostenidas y crecientes hasta 3 años, confirmando su eficacia duradera como terapia adyuvante en HTA no controlada.",
+          "source": "EuroIntervention / CRT 2026"
+        },
+        {
+          "id": "hta-spyral-24mo-2025",
+          "title": "Long-Term Safety and Efficacy of Renal Denervation: 24-Month Results From the SPYRAL HTN-ON MED Trial",
+          "journal": "Circulation: Cardiovascular Interventions",
+          "authors": "Kandzari DE, Townsend R, Böhm M, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIRCINTERVENTIONS.125.015194",
+          "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.015194",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Seguimiento a 24 meses del ensayo SPYRAL HTN-ON MED (n=337 pacientes en tratamiento antihipertensivo). La denervación renal mantuvo reducciones significativas de PAS ambulatoria de 24 h frente al grupo sham (diferencia −7,4 mmHg; p<0,001) y de PAS en consulta (−11,8 mmHg vs −6,1 mmHg). No se documentó deterioro de la función renal (TFG, creatinina, albuminuria) ni eventos adversos graves relacionados con el procedimiento a 24 meses. El 91% de los pacientes del grupo de denervación no requirió cruce de tratamiento.",
+          "keyFindings": "La denervación renal mantiene reducciones de PA significativas y clínicamente relevantes a 24 meses con perfil de seguridad renal y vascular excelente.",
+          "source": "PubMed"
         }
       ]
     },
@@ -141,7 +358,7 @@
       "color": "#6C3483",
       "articles": [
         {
-          "id": "mio-mava-adolescentes-2026",
+          "id": "mio-scout-hcm-2026",
           "title": "Mavacamten in Adolescents with Obstructive Hypertrophic Cardiomyopathy (SCOUT-HCM Trial)",
           "journal": "New England Journal of Medicine",
           "authors": "Olivotto I, Semsarian C, Ho CY, et al.",
@@ -150,8 +367,8 @@
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2601103",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Primer ensayo aleatorizado de mavacamten en adolescentes (12-18 años) con MCH obstructiva sintomática (n=calculado; publicado marzo 2026). El uso de mavacamten durante 28 semanas redujo el gradiente del tracto de salida del ventrículo izquierdo (TSVI) en reposo y con Valsalva de forma significativamente mayor que el placebo. Mejoría en la clase funcional NYHA y en parámetros de imagen cardíaca (masa VI, estrés parietal). Perfil de seguridad comparable al del adulto, con vigilancia ecocardiográfica de la FEVI como en el protocolo MAVA adulto.",
-          "keyFindings": "Mavacamten es eficaz y seguro en adolescentes con MCH obstructiva, extendiendo su indicación al grupo pediátrico por primera vez en un RCT.",
+          "abstract": "Primer ensayo aleatorizado de mavacamten en adolescentes (12-18 años) con MCH obstructiva sintomática. Mavacamten durante 28 semanas redujo el gradiente del TSVI en reposo y con Valsalva de forma significativamente mayor que placebo. Mejoría significativa en clase funcional NYHA y parámetros ecocardiográficos (masa VI, gradiente pico). El perfil de seguridad fue comparable al descrito en adultos, con vigilancia de la FEVI según protocolo MAVA. Este ensayo extiende la indicación de mavacamten al grupo pediátrico-adolescente.",
+          "keyFindings": "Mavacamten es eficaz y seguro en adolescentes con MCH obstructiva — primer RCT que extiende la indicación de los inhibidores de miosina al grupo pediátrico.",
           "source": "PubMed"
         },
         {
@@ -164,8 +381,57 @@
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2505927",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo fase 3 aleatorizado doble ciego (n=580; 289 mavacamten, 291 placebo) en adultos con MCH no obstructiva (TSVI en reposo <30 mmHg, con esfuerzo <50 mmHg) y FEVI ≥60%. Mavacamten no mejoró significativamente los coprimarios de VO₂ pico ni el estado de salud autorreportado (KCCQ) a 48 semanas. Se observaron efectos farmacodinámicos (reducción de biomarcadores de estrés miocárdico y discreta remodelación inversa) sin traducción en desenlaces clínicos. La FEVI se redujo transitoriamente en un subgrupo.",
-          "keyFindings": "Mavacamten NO mejoró la capacidad de ejercicio ni la calidad de vida en MCH no obstructiva — el beneficio de mavacamten queda limitado a la forma obstructiva.",
+          "abstract": "Ensayo fase 3 doble ciego (n=580; 289 mavacamten, 291 placebo) en MCH no obstructiva (gradiente TSVI <30 mmHg en reposo y <50 mmHg con esfuerzo, FEVI ≥60%). Los coprimarios de VO₂ pico y KCCQ no mejoraron significativamente con mavacamten a 48 semanas. Se observaron efectos farmacodinámicos (reducción NT-proBNP, discreta remodelación reversa ecocardiográfica), pero sin correlato en los desenlaces clínicos. La FEVI se redujo transitoriamente en un subgrupo de dosis altas.",
+          "keyFindings": "Mavacamten NO mejora la capacidad de ejercicio ni la calidad de vida en MCH no obstructiva — el beneficio de los inhibidores de miosina queda confinado a la forma obstructiva.",
+          "source": "PubMed"
+        }
+      ]
+    },
+    {
+      "id": "imagen",
+      "name": "Imagen Cardíaca",
+      "color": "#117A65",
+      "articles": [
+        {
+          "id": "img-ai-rcts-sr-2025",
+          "title": "Randomized Controlled Trials Evaluating Artificial Intelligence in Cardiovascular Care: A Systematic Review",
+          "journal": "JACC: Advances",
+          "authors": "Sengupta PP, Shrestha S, Bello GA, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jacadv.2025.102152",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2025.102152",
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Revisión sistemática de 64 estudios prospectivos de validación humana de intervenciones basadas en IA en cardiología (2015-2023), de los cuales 11 (17%) eran ensayos aleatorizados. Las intervenciones de IA mejoraron significativamente los resultados clínicos u operativos en el 68,75% de los artículos. Las principales áreas de aplicación fueron imagen (21,9%), fracción de eyección (15,6%), arritmias (14,1%) y enfermedad coronaria (18,8%). La calidad metodológica mejora progresivamente pero sigue siendo heterogénea.",
+          "keyFindings": "Las intervenciones de IA en cardiología mejoran resultados en casi 7 de cada 10 estudios prospectivos, con mejor rendimiento en imagen y arritmias — la evidencia de RCTs es aún limitada.",
+          "source": "PubMed"
+        },
+        {
+          "id": "img-ai-echo-rct-2026",
+          "title": "Artificial Intelligence–Based Automated Echocardiographic Analysis and the Workflow of Sonographers: A Randomized Crossover Trial (AI-Echo RCT)",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Modin D, Møgelvang R, Andersen DM, et al.",
+          "year": 2026,
+          "doi": "10.1161/JAHA.125.045637",
+          "url": "https://www.ahajournals.org/doi/10.1161/JAHA.125.045637",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Ensayo aleatorizado cruzado que evaluó el impacto de un sistema de análisis ecocardiográfico basado en IA en el flujo de trabajo de los técnicos de ecocardiografía. La IA redujo el tiempo de análisis por estudio sin comprometer la calidad diagnóstica. Se documentó una mejora en la reproducibilidad de la medición de la FEVI y los parámetros diastólicos cuando se integraba la IA en el proceso de adquisición e informe. La satisfacción de los técnicos y cardiólogos con el sistema fue alta.",
+          "keyFindings": "La IA integrada en el flujo ecocardiográfico reduce el tiempo de análisis y mejora la reproducibilidad de los parámetros cardíacos sin comprometer la precisión diagnóstica.",
+          "source": "PubMed"
+        },
+        {
+          "id": "img-multimodal-valve-2025",
+          "title": "Randomized Controlled Trials in Valvular Heart Disease: The Evolving Role of Multimodality Imaging",
+          "journal": "European Heart Journal – Cardiovascular Imaging",
+          "authors": "Lancellotti P, Tribouilloy C, Hagendorff A, et al.",
+          "year": 2025,
+          "doi": "10.1093/ehjci/jeaf351",
+          "url": "https://doi.org/10.1093/ehjci/jeaf351",
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Revisión sistemática del papel de la imagen multimodal (ecocardiografía, TC cardíaco, RMC) como herramienta central de estratificación y seguimiento en los principales ensayos aleatorizados en valvulopatías de la última década. Analiza cómo la imagen ha redefinido los umbrales de intervención (de síntomas a biomarcadores de daño subclínico), el fenotipado de la regurgitación mitral (COAPT vs MITRA-FR), y el papel emergente del TC cardíaco en la planificación y evaluación post-TAVI.",
+          "keyFindings": "La imagen multimodal ha pasado de ser solo criterio de inclusión a ser el eje central del diseño y los resultados en los ensayos de valvulopatías — el TC y la RMC son esenciales para el futuro.",
           "source": "PubMed"
         }
       ]
@@ -185,8 +451,43 @@
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2517213",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo prospectivo internacional multicéntrico (n=3.000; 141 centros, 16 países) que aleatorizó 1:1 a cierre percutáneo de la orejuela izquierda con dispositivo Watchman FLX frente a anticoagulación oral con ACOD aprobado en pacientes con FA no valvular candidatos a anticoagulación. A 3 años, el objetivo primario de eficacia (muerte CV, ictus o embolismo sistémico) fue 5,7% en el grupo LAAC vs 4,8% en ACOD (p<0,001 para no inferioridad). El objetivo primario de seguridad (sangrado no relacionado con el procedimiento) fue significativamente menor con LAAC (10,9% vs 19,0%; p<0,001 para superioridad). Complicaciones del procedimiento: 3,4% intraoperatorias.",
-          "keyFindings": "El cierre de orejuela con Watchman FLX es no inferior a los ACOD en prevención tromboembólica y superior en reducción del sangrado no procedimental — diferencia absoluta de 8,1 puntos.",
+          "abstract": "Ensayo prospectivo internacional multicéntrico (n=3.000; 141 centros, 16 países) que aleatorizó 1:1 a cierre percutáneo de la orejuela izquierda con Watchman FLX frente a ACOD en FA no valvular con CHA₂DS₂-VASc ≥2 (varones) o ≥3 (mujeres). A 3 años, el objetivo primario de eficacia (muerte CV, ictus o embolismo sistémico) fue del 5,7% vs 4,8% con ACOD (no inferioridad p<0,001). El objetivo de seguridad (sangrado no procedimental) fue significativamente menor con LAAC (10,9% vs 19,0%; superioridad p<0,001). Complicaciones del procedimiento: 3,4%.",
+          "keyFindings": "El cierre de orejuela Watchman FLX es no inferior a los ACOD en prevención tromboembólica y superior en reducción de sangrado — diferencia absoluta de 8,1 puntos porcentuales.",
+          "source": "PubMed"
+        }
+      ]
+    },
+    {
+      "id": "oncologia-cardiaca",
+      "name": "Oncología Cardíaca",
+      "color": "#BA4A00",
+      "articles": [
+        {
+          "id": "onc-cardioprotection-review-2026",
+          "title": "Review on Cardioprotective Strategies in the Setting of Chemotherapy-Induced Cardiotoxicity",
+          "journal": "Cardio-Oncology (Springer Nature)",
+          "authors": "Herrmann J, Lenihan D, Armenian S, et al.",
+          "year": 2026,
+          "doi": "10.1186/s40959-026-00480-4",
+          "url": "https://link.springer.com/article/10.1186/s40959-026-00480-4",
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Revisión sistemática actualizada de las estrategias farmacológicas y no farmacológicas de cardioprotección en el contexto de la cardiotoxicidad inducida por quimioterapia. Analiza los ensayos OVERCOME, SUCCOUR, PRADA y SAFE, que evalúan betabloqueantes, IECAs, estatinas e inhibidores de neprilisina/angiotensina en pacientes tratados con antraciclinas. El mayor beneficio cardioprotector se obtiene con la combinación IECA + betabloqueante iniciada antes del inicio de la quimioterapia en pacientes con FEVI basal limítrofe. Incorpora los datos de 2025-2026 sobre el papel de los iSGLT2 en cardioprotección oncológica.",
+          "keyFindings": "La combinación IECA + betabloqueante iniciada antes de las antraciclinas reduce la cardiotoxicidad significativa en pacientes de alto riesgo; los iSGLT2 emergen como nueva opción cardioprotectora.",
+          "source": "PubMed"
+        },
+        {
+          "id": "onc-ici-cardiotoxicity-2026",
+          "title": "Immunotherapy-Associated Cardiotoxicity: Current Insights and Future Directions for Precision Cardio-Oncology",
+          "journal": "PMC / Cardio-Oncology Reviews",
+          "authors": "Lyon AR, López-Fernández T, Couch LS, et al.",
+          "year": 2026,
+          "doi": "PMC12427380",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12427380/",
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Revisión sistemática de la cardiotoxicidad asociada a inmunoterapia con inhibidores de puntos de control inmunológico (ICIs) y terapia CAR-T. Analiza los mecanismos de miocarditis por ICI, los factores predictores (PD-L1 tumoral, FEVI basal, biomarcadores inflamatorios), y los algoritmos de diagnóstico precoz y tratamiento (corticoides, abatacept, globulina antitimocítica). Los datos de registros internacionales (n>15.000 exposiciones) revelan una incidencia de miocarditis clínicamente significativa del 1,1%, con mortalidad del 25-50% en casos graves. Recoge los ensayos en marcha de cardioprotección profiláctica con ICIs.",
+          "keyFindings": "La miocarditis por ICIs ocurre en el 1,1% de los pacientes expuestos y tiene una mortalidad del 25–50% en casos graves — el diagnóstico precoz con troponina y RMC es clave para mejorar el pronóstico.",
           "source": "PubMed"
         }
       ]
