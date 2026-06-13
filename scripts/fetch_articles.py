@@ -720,6 +720,100 @@ def extract_key_finding(abstract):
 
 
 # ────────────────────────────────────────────────────────────────────────────
+# Clinical impact scoring
+# ────────────────────────────────────────────────────────────────────────────
+
+JOURNAL_IF_MAP = {j["display"].lower(): j["if"] for j in JOURNALS}
+JOURNAL_IF_MAP.update({j["nlm"].lower(): j["if"] for j in JOURNALS})
+
+def compute_clinical_impact(article):
+    """Estimate probability (0–100) of influencing clinical practice."""
+    # Base score by evidence level
+    base = {1: 75, 2: 55, 3: 60, 4: 30, 5: 20, 6: 10, 7: 5}
+    score = base.get(article.get("evidenceRank", 7), 5)
+
+    # Journal IF modifier
+    jname = article.get("journal", "").lower()
+    jabbr = article.get("journalAbbr", "").lower()
+    journal_if = 0
+    for key, ifval in JOURNAL_IF_MAP.items():
+        if key in jname or key in jabbr:
+            journal_if = ifval
+            break
+    if journal_if >= 50:
+        score += 15
+    elif journal_if >= 20:
+        score += 8
+    elif journal_if >= 7:
+        score += 4
+
+    # Analyse abstract + keyFindings for signals
+    text = (article.get("abstract", "") + " " + article.get("keyFindings", "")).lower()
+
+    # Positive endpoint signals → practice change more likely
+    if any(p in text for p in ["p<0.0", "p=0.0", "redujo", "reduci", "superior",
+                                "non-inferior", "no inferior", "significantly reduced",
+                                "significativamente"]):
+        score += 8
+
+    # Underpowered / inconclusive penalty
+    if any(p in text for p in ["infra-potenciad", "infraestimad", "underpowered",
+                                "no alcanzó significación", "no fue significativ",
+                                "not significant", "did not reach significance"]):
+        score -= 15
+
+    # Large sample bonus
+    for pat in ["n=", "(n ="]:
+        idx = text.find(pat)
+        if idx >= 0:
+            num = ""
+            for ch in text[idx + len(pat):]:
+                if ch.isdigit():
+                    num += ch
+                elif ch == ",":
+                    pass
+                else:
+                    break
+            try:
+                n = int(num)
+                if n >= 5000:
+                    score += 7
+                elif n >= 1000:
+                    score += 4
+                elif n >= 300:
+                    score += 2
+            except ValueError:
+                pass
+            break
+
+    score = max(0, min(100, score))
+
+    if score >= 70:
+        label = "Alta"
+    elif score >= 40:
+        label = "Moderada"
+    else:
+        label = "Baja"
+
+    # Build short rationale
+    ev_names = {1: "Meta-análisis", 2: "Revisión sistemática", 3: "RCT",
+                4: "Estudio de cohorte", 5: "Caso-control", 6: "Serie de casos", 7: "Estudio"}
+    ev_str = ev_names.get(article.get("evidenceRank", 7), "Estudio")
+    journal_str = article.get("journal", "revista indexada")
+    if label == "Alta":
+        rationale = (f"{ev_str} publicado en {journal_str} con resultado positivo "
+                     f"en un escenario clínico común — alta probabilidad de modificar la práctica.")
+    elif label == "Moderada":
+        rationale = (f"{ev_str} en {journal_str} — puede influir en la práctica "
+                     f"de centros especializados o en actualizaciones de guías a medio plazo.")
+    else:
+        rationale = (f"{ev_str} con evidencia limitada o resultado no concluyente "
+                     f"— impacto inmediato en práctica clínica reducido.")
+
+    return {"score": score, "label": label, "rationale": rationale}
+
+
+# ────────────────────────────────────────────────────────────────────────────
 # Utility: week label in Spanish
 # ────────────────────────────────────────────────────────────────────────────
 
@@ -807,6 +901,7 @@ def main():
             "abstract":      art["abstract"],
             "keyFindings":   art["keyFindings"],
             "source":        art["source"],
+            "clinicalImpact": compute_clinical_impact(art),
         }
         buckets[sub_id].append(clean)
 
