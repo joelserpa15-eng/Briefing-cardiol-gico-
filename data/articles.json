@@ -1,6 +1,13 @@
 {
   "week": "2026-W24",
   "weekLabel": "9 – 15 de junio, 2026",
+  "lastUpdated": "2026-06-13T14:45:00Z",
+  "stats": {
+    "total": 22,
+    "metaAnalysis": 5,
+    "systematicReview": 2,
+    "rct": 10
+  },
   "subspecialties": [
     {
       "id": "intervencionista",

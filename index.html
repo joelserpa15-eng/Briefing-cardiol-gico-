@@ -408,10 +408,18 @@
       border-top: 1px solid var(--border);
       gap: 10px;
     }
+    .doi-area { display: flex; flex-direction: column; gap: 2px; }
     .doi-text {
       font-size: .72rem;
       color: var(--text-muted);
       font-family: 'Courier New', monospace;
+    }
+    .source-tag {
+      font-size: .65rem;
+      font-weight: 600;
+      color: #a0aec0;
+      text-transform: uppercase;
+      letter-spacing: .4px;
     }
     .read-btn {
       display: inline-flex;
@@ -479,6 +487,7 @@
       </div>
     </a>
     <div class="header-meta">
+      <span id="lastUpdatedText" style="font-size:.72rem;color:var(--text-muted);white-space:nowrap;display:none" id="lastUpdatedText"></span>
       <div class="week-badge" id="weekBadge">Semana cargando…</div>
     </div>
   </div>
@@ -531,11 +540,21 @@
 <!-- FOOTER -->
 <footer class="footer">
   <strong>Briefing Cardiológico Semanal</strong><br>
-  Compilación de artículos con mayor nivel de evidencia científica publicados en las principales revistas de cardiología.<br>
-  Los resúmenes son orientativos. Consulta siempre el artículo original para decisiones clínicas.<br>
-  <span style="color:#4a5568;font-size:.7rem;margin-top:8px;display:block;">
-    Revistas indexadas: NEJM · The Lancet · JACC · European Heart Journal · Circulation · JAMA Cardiology · JACC Cardiovascular Interventions · JACC Heart Failure · JACC Electrophysiology · European Journal of Heart Failure
-  </span>
+  Artículos recuperados automáticamente de <strong style="color:#a0aec0">PubMed (NCBI)</strong> y <strong style="color:#a0aec0">Europe PMC</strong> cada lunes.<br>
+  Ordenados por nivel de evidencia y factor de impacto de la revista.<br>
+  Los resúmenes son orientativos — consulta siempre el artículo original para decisiones clínicas.
+  <div style="margin-top:12px;color:#4a5568;font-size:.7rem;line-height:2">
+    <strong style="color:#718096">Revistas indexadas (por factor de impacto):</strong><br>
+    NEJM (IF 176) · The Lancet (168) · JAMA (120) · Nature Medicine (82) ·
+    European Heart Journal (39) · Circulation (37) · JAMA Cardiology (24) ·
+    JACC (21) · Eur J Heart Failure (18) · JACC Heart Failure (14) ·
+    JACC Cardiovasc Interventions (11) · Cardiovascular Research (10) ·
+    JACC Cardiovasc Imaging (10) · JACC Clin Electrophysiology (9) ·
+    ATVB (9) · J Heart Lung Transplant (8) · Circ Heart Failure (8) ·
+    Hypertension (7) · Heart (7) · Circ Arrhythm Electrophysiol (7) ·
+    EuroIntervention (7) · Circ Cardiovasc Imaging (7) · Heart Rhythm (6) ·
+    Europace (6) · Int J Cardiol (4)
+  </div>
 </footer>
 
 <script>
@@ -586,7 +605,10 @@
           </div>
         </div>
         <div class="article-footer">
-          <span class="doi-text">DOI: ${article.doi}</span>
+          <div class="doi-area">
+            <span class="doi-text">DOI: ${article.doi}</span>
+            ${article.source ? `<span class="source-tag">Fuente: ${article.source}</span>` : ''}
+          </div>
           <a class="read-btn" href="${article.url}" target="_blank" rel="noopener noreferrer" style="background:${color}">
             Leer artículo ${externalLinkSVG()}
           </a>
@@ -673,11 +695,20 @@
 
   function updateStats(data) {
     const allArticles = data.subspecialties.flatMap(s => s.articles);
-    document.getElementById('statArticles').textContent = allArticles.length;
-    document.getElementById('statSubs').textContent = data.subspecialties.length;
-    document.getElementById('statMeta').textContent = allArticles.filter(a => a.evidenceRank === 1).length;
-    document.getElementById('statRCT').textContent = allArticles.filter(a => a.evidenceRank === 3).length;
-    document.getElementById('weekBadge').textContent = 'Semana del ' + data.weekLabel;
+    const stats = data.stats || {};
+    document.getElementById('statArticles').textContent = stats.total       ?? allArticles.length;
+    document.getElementById('statSubs').textContent     = data.subspecialties.length;
+    document.getElementById('statMeta').textContent     = stats.metaAnalysis ?? allArticles.filter(a => a.evidenceRank === 1).length;
+    document.getElementById('statRCT').textContent      = stats.rct          ?? allArticles.filter(a => a.evidenceRank === 3).length;
+    document.getElementById('weekBadge').textContent    = 'Semana del ' + data.weekLabel;
+
+    if (data.lastUpdated) {
+      const d = new Date(data.lastUpdated);
+      const fmt = d.toLocaleString('es-ES', { day: '2-digit', month: 'short', year: 'numeric',
+                                              hour: '2-digit', minute: '2-digit', timeZone: 'UTC' });
+      const el = document.getElementById('lastUpdatedText');
+      if (el) { el.textContent = `Actualizado: ${fmt} UTC`; el.style.display = ''; }
+    }
   }
 
   async function loadData() {

@@ -1,0 +1,79 @@
+name: Weekly Cardiology Briefing Update
+
+on:
+  # Every Monday at 07:00 UTC (catches weekend + Monday morning publications)
+  schedule:
+    - cron: '0 7 * * 1'
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Days to look back (default: 14)'
+        required: false
+        default: '14'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-articles:
+    name: Fetch & Update Articles
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Run article fetcher
+        env:
+          # Set NCBI_EMAIL in repository Settings → Secrets → Actions
+          # This is required by NCBI's Terms of Service for E-utilities usage.
+          # It does not need to match a real account — just a contact email.
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          # Optional: register a free API key at https://www.ncbi.nlm.nih.gov/account/
+          # to raise the rate limit from 3 to 10 requests per second.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          DAYS="${{ github.event.inputs.days || '14' }}"
+          python scripts/fetch_articles.py --days "$DAYS"
+
+      - name: Commit and push updated articles
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet data/articles.json; then
+            echo "No changes to articles.json — skipping commit."
+          else
+            WEEK=$(python -c "
+          from datetime import datetime, timedelta
+          t = datetime.utcnow()
+          s = t - timedelta(days=t.weekday())
+          e = s + timedelta(days=6)
+          months = ['','enero','febrero','marzo','abril','mayo','junio',
+                    'julio','agosto','septiembre','octubre','noviembre','diciembre']
+          if s.month == e.month:
+              print(f'{s.day}–{e.day} {months[s.month]} {e.year}')
+          else:
+              print(f'{s.day} {months[s.month]}–{e.day} {months[e.month]} {e.year}')
+            ")
+            git add data/articles.json
+            git commit -m "data: briefing semanal ${WEEK}
+
+          Artículos actualizados automáticamente desde PubMed y Europe PMC.
+          Journals indexados: NEJM, Lancet, JAMA, EHJ, Circulation, JAMA Cardiol,
+          JACC y subespecialidades (26 revistas, ordenadas por factor de impacto).
+
+          https://claude.ai/code/session_01XnAwqG8e8JJtVpgdSapoq5"
+            git push origin HEAD
+            echo "Pushed updated articles.json"
+          fi
