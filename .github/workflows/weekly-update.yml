@@ -55,7 +55,7 @@ jobs:
           print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
                 else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
             ")
-            git add data/articles.json
+            git add data/articles.json data/index.json data/articles-*.json
             git commit -m "data: briefing semanal ${WEEK}"
             git push origin HEAD
           fi

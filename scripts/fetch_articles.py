@@ -942,10 +942,42 @@ def main():
         "subspecialties": output_subs,
     }
 
-    out_path = os.path.join(os.path.dirname(__file__), "..", "data", "articles.json")
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+    os.makedirs(data_dir, exist_ok=True)
+
+    # ── Save current week (main file, always up to date)
+    out_path = os.path.join(data_dir, "articles.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
+    # ── Save archive copy for this week
+    archive_name = f"articles-{week_id.replace('/', '-')}.json"
+    archive_path = os.path.join(data_dir, archive_name)
+    with open(archive_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    # ── Update index.json (keep last 4 weeks)
+    index_path = os.path.join(data_dir, "index.json")
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            idx_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        idx_data = {"current": "", "weeks": []}
+
+    new_entry = {"id": week_id, "label": week_label, "file": archive_name}
+    existing_ids = [w["id"] for w in idx_data.get("weeks", [])]
+    if week_id not in existing_ids:
+        idx_data["weeks"].insert(0, new_entry)
+        idx_data["weeks"] = idx_data["weeks"][:4]  # keep max 4 weeks
+    else:
+        # Update entry in case label changed
+        for w in idx_data["weeks"]:
+            if w["id"] == week_id:
+                w.update(new_entry)
+    idx_data["current"] = week_id
+
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(idx_data, f, ensure_ascii=False, indent=2)
 
     print(f"\n  Saved {total} articles across {len(output_subs)} subspecialties")
     print(f"  Meta-análisis: {n_meta}  |  Rev. sistemáticas: {n_sr}  |  RCT: {n_rct}")
