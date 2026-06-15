@@ -1,12 +1,12 @@
 {
   "week": "2026-W24",
   "weekLabel": "15 – 21 de junio, 2026",
-  "lastUpdated": "2026-06-15T12:11:38Z",
+  "lastUpdated": "2026-06-15T20:18:29Z",
   "stats": {
-    "total": 40,
-    "metaAnalysis": 4,
-    "systematicReview": 4,
-    "rct": 17
+    "total": 42,
+    "metaAnalysis": 6,
+    "systematicReview": 5,
+    "rct": 15
   },
   "subspecialties": [
     {
@@ -72,6 +72,25 @@
           }
         },
         {
+          "id": "intervencionista-42264634",
+          "title": "Leaflet Splitting to Prevent TAVR-Induced Coronary Obstruction in Stented vs Stentless Surgical Bioprosthetic Valves",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Richter I, Abdelhafez A, Lanz J, Taramasso M, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2026.01.312",
+          "url": "https://doi.org/10.1016/j.jcin.2026.01.312",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Transcatheter electrosurgical leaflet splitting prevents coronary artery obstruction (CAO) following transcatheter aortic valve replacement (TAVR), particularly in valve-in-valve interventions. Morphologic and fluoroscopic differences between stented and stentless valves may affect outcomes, but comparative data are limited. OBJECTIVES: The aim of this study was to compare procedural characteristics and outcomes of BASILICA (bioprosthetic or native aortic scallop intentional laceration to prevent iatrogenic CAO) and TAVR in stented vs stentless surgical bioprosthetic valves. METHODS: A total of 131 patients undergoing BASILICA and valve-in-valve TAVR from the multicenter EURO-BASILICA registry were included. Patients were stratified by valve type (stented vs stentless), and outcomes were described according to Valve Academic Research Consortium 3 recommendations. RESULTS: Overall, 115 patients (87.8%) had stented valves and 16 (12.2%) had stentless valves. Risk for CAO was comparable, but stentless valves had longer leaflets (17.0 vs 14.0 mm; P < 0.001). Procedures in stentless valves required more contrast medium (174.0 vs 91.0 mL; P < 0.001) and longer fluoroscopy (61.7 vs 41.0 min; P = 0.023) and showed a trend toward longer procedure time. Technical success was similar, but stentless valves were associated with a significantly higher rate of target leaflet-related CAO (44.4% vs 7.1%; P < 0.001), which was mainly partial and non-flow-limiting (33.3% vs 3.9%; P < 0.001). In-hospital complications and 30-day outcomes were similar. No late CAO or myocardial infarction occurred during 1-year follow-up. CONCLUSIONS: BASILICA is technically feasible for both stented and stentless valves. However, stentless valves had a higher rate of partial CAO after BASILICA and TAVR and may therefore require additional or alternative coronary artery protection measures in selected patients.",
+          "keyFindings": "BASILICA is technically feasible for both stented and stentless valves. However, stentless valves had a higher rate of partial CAO after BASILICA and TAVR and may therefore require additional or alternative coronary artery protection measures in selected patients.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
+          }
+        },
+        {
           "id": "intervencionista-40803818",
           "title": "Prevalence and prognostic implications of the Valve Academic Research Consortium-High Bleeding Risk criteria in patients undergoing transcatheter aortic valve implantation",
           "journal": "Heart",
@@ -105,25 +124,6 @@
           "source": "PubMed",
           "clinicalImpact": {
             "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
-          }
-        },
-        {
-          "id": "intervencionista-41833865",
-          "title": "Sex differences in patient-reported and clinical outcomes after valve-in-valve TAVI: Insights from the Australian ACOR registry",
-          "journal": "International Journal of Cardiology",
-          "authors": "Matta MG, Dababneh E, Camuglia A, Niranjan S, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.ijcard.2026.134273",
-          "url": "https://doi.org/10.1016/j.ijcard.2026.134273",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Valve-in-valve transcatheter aortic valve implantation (ViV-TAVI) is an established treatment for failed surgical bioprostheses, but sex-specific patient-reported outcomes (PROMs) are poorly characterised. METHODS: We analysed ViV-TAVI procedures in the prospective Australian Cardiac Outcomes Registry. PROMs (KCCQ-12 Overall and Clinical Summary Scores, EQ-5D-3L index and EQ-VAS) were collected at baseline, 30 days, and 12 months. Longitudinal change by sex was evaluated with linear mixed-effects models, and 12-month MACCE and valve haemodynamics were compared using regression and propensity-matched analyses. RESULTS: Among 1050 ViV-TAVI patients (359 females), PROMs improved by 30 days and were sustained to 12 months. KCCQ-12 Overall Summary Score increased by about 36 points and Clinical Summary Score by 29-30 points (both p < 0.001), with parallel trajectories in females and males. EQ-5D-3L and EQ-VAS likewise improved without sex interaction, and findings were consistent in a matched cohort. Females had higher MACCE at 30 days (5.3% vs 1.7%, p = 0.002) and 12 months (12.2% vs 5.4%, p = 0.001), driven by more strokes (4.5% vs 1.2%, p = 0.010), despite comparable 12-month valve haemodynamics. CONCLUSIONS: ViV-TAVI yields large and sustained gains in health status in both sexes, but females remain at higher risk of MACCE and stroke.",
-          "keyFindings": "ViV-TAVI yields large and sustained gains in health status in both sexes, but females remain at higher risk of MACCE and stroke.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
             "label": "Baja",
             "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
@@ -174,6 +174,25 @@
           }
         },
         {
+          "id": "arritmias-42116662",
+          "title": "Pulsed field ablation vs. thermal ablation for pulmonary vein isolation: a network meta-analysis of randomized controlled trials",
+          "journal": "Europace",
+          "authors": "Latini AC, Penna M, Saglietto A, Landra F, et al.",
+          "year": 2026,
+          "doi": "10.1093/europace/euag112",
+          "url": "https://doi.org/10.1093/europace/euag112",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Pulsed field ablation (PFA) has recently emerged as a promising alternative to conventional energy sources (ES) for atrial fibrillation (AF) ablation. However, comparative data between PFA and other ES-such as radiofrequency (RFA), cryoballoon (CBA), and laser balloon ablation (LBA)-remain limited.This network meta-analysis (CRD420251054760) aimed to compare outcomes of PFA vs. thermal ES for AF ablation. METHODS AND RESULTS: A systematic network meta-analysis using PubMed, Cochrane, and EMBASE from inception to March 2026 was performed. Randomized controlled trials comparing different ES in first-attempt pulmonary vein isolation were included. Data extraction was performed according to PRISMA guidelines. The primary outcome was the recurrence of any sustained atrial tachyarrhythmia (ATA) at 12-month follow-up. Safety and efficiency outcomes were also compared among groups. We included 18 studies, encompassing 4162 patients. Compared to PFA, thermal ablation technologies showed a higher risk of ATA recurrence at 12-month follow-up (RFA: RR of 1.48 (95% CI 1.10-2.00); CBA: 1.43 (95% CI 1.07-1.92); LBA: RR 1.29 (CI 95% 0.84-1.98)). PFA exhibited the lowest procedural time among transcatheter ES, whereas RFA displayed a significantly lower fluoroscopy time. No significant differences were recorded for major periprocedural complications. A subgroup analysis restricted to studies involving only paroxysmal AF patients, as well as those employing contemporary technologies, yielded consistent findings. CONCLUSION: The present data indicate that, in patients undergoing a first transcatheter AF ablation, PFA may be associated with favourable efficacy and procedural efficiency compared with traditional thermal technologies, while showing a broadly comparable safety profile.",
+          "keyFindings": "The present data indicate that, in patients undergoing a first transcatheter AF ablation, PFA may be associated with favourable efficacy and procedural efficiency compared with traditional thermal technologies, while showing a broadly comparable safety profile.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "arritmias-40484160",
           "title": "Time course of recurrent arrhythmias in clinical trials of catheter ablation for paroxysmal atrial fibrillation: A pooled analysis",
           "journal": "Heart Rhythm",
@@ -193,6 +212,25 @@
           }
         },
         {
+          "id": "arritmias-42152765",
+          "title": "Conduction system pacing for cardiac resynchronization therapy: a systematic review",
+          "journal": "Europace",
+          "authors": "Fotos G, Ktenopoulos N, Vlachos K, Christou A, et al.",
+          "year": 2026,
+          "doi": "10.1093/europace/euag122",
+          "url": "https://doi.org/10.1093/europace/euag122",
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "Biventricular pacing (BVP) remains the standard method for delivering cardiac resynchronization therapy (CRT) in patients with heart failure and left bundle branch block (LBBB). Despite its established role, BVP is a non-physiological pacing approach and is limited by factors such as anatomical constraints of the coronary sinus and a substantial proportion of non-responders. Conduction system pacing (CSP), including His bundle pacing and left bundle branch area pacing, has emerged as a more physiological alternative aimed at optimizing CRT outcomes. Early studies suggest that CSP may achieve superior electro-mechanical ventricular synchrony compared with BVP. Nevertheless, evidence from large-scale randomized controlled trials remains scarce, and challenges related to procedural complexity and insufficient long-term outcome data currently prevent CSP from replacing BVP as the first-line CRT strategy. This systematic review synthesizes the existing literature on CSP in CRT, explores its potential applications across different clinical contexts, and discusses the ongoing controversies and future prospects of this evolving technique.",
+          "keyFindings": "Early studies suggest that CSP may achieve superior electro-mechanical ventricular synchrony compared with BVP.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Europace — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
           "id": "arritmias-42138650",
           "title": "Incidence and type of recurrent ventricular arrhythmia in patients with arrhythmic mitral valve prolapse and implantable cardioverter defibrillator for secondary prevention",
           "journal": "Europace",
@@ -209,44 +247,6 @@
             "score": 55,
             "label": "Moderada",
             "rationale": "Revisión sistemática en Europace — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "arritmias-41910347",
-          "title": "Left Atrial Appendage Closure or Anticoagulation for Atrial Fibrillation",
-          "journal": "New England Journal of Medicine",
-          "authors": "Doshi SK, Kar S, Nair DG, Waggoner T, et al.",
-          "year": 2026,
-          "doi": "10.1056/NEJMoa2517213",
-          "url": "https://doi.org/10.1056/NEJMoa2517213",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: For patients with atrial fibrillation, the use of oral anticoagulant therapy to prevent stroke is limited by the risk of bleeding. Left atrial appendage closure is considered for patients who are unsuitable candidates for long-term anticoagulation, but its role in patients who are eligible for anticoagulants has not been established. METHODS: In this ongoing, prospective, international, randomized trial involving patients with atrial fibrillation who were suitable candidates for anticoagulation, we randomly assigned patients in a 1:1 ratio to receive either device-based left atrial appendage closure (device group) or non-vitamin K antagonist oral anticoagulant (NOAC) therapy (anticoagulation group). The primary efficacy end point - a composite of death from cardiovascular causes, stroke, or systemic embolism - was tested for noninferiority (noninferiority margin, 4.8 percentage points) after 3 years of follow-up. The primary safety end point, non-procedure-related bleeding, was tested for superiority. RESULTS: Of the 3000 patients who underwent randomization, 1499 were assigned to the device group and 1501 to the anticoagulation group. The mean (±SD) age of the patients was 71.7±7.5 years, 31.9% of the patients were women, and the mean CHA2DS2-VASc score was 3.5±1.3. At 3 years, a primary efficacy end-point event had occurred in 81 patients (Kaplan-Meier estimate, 5.7%) in the device group and in 65 patients (Kaplan-Meier estimate, 4.8%) in the anticoagulation group (difference, 0.9 percentage points; 95% confidence interval [CI], -0.8 to 2.6; P<0.001 for noninferiority). Non-procedure-related bleeding occurred in 154 patients (Kaplan-Meier estimate, 10.9%) in the device group and in 260 patients (Kaplan-Meier estimate, 19.0%) in the anticoagulation group (hazard ratio, 0.55; 95% CI, 0.45 to 0.67; P<0.001 for superiority). CONCLUSIONS: Among patients with atrial fibrillation who were candidates for anticoagulation, device-based left atrial appendage closure was noninferior to NOAC therapy with respect to a composite of death from cardiovascular causes, stroke, or systemic embolism and was superior to NOAC therapy for non-procedure-related bleeding at 3 years. (Funded by Boston Scientific; CHAMPION-AF ClinicalTrials.gov number, NCT04394546.).",
-          "keyFindings": "Among patients with atrial fibrillation who were candidates for anticoagulation, device-based left atrial appendage closure was noninferior to NOAC therapy with respect to a composite of death from cardiovascular causes, stroke, or systemic embolism and was superior to NOAC therapy for non-procedure-related bleeding at 3 years. (Funded by Boston Scientific; CHAMPION-AF ClinicalTrials.gov number, NCT04394546.).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "arritmias-41910411",
-          "title": "Role of Atrial Pacing Support in Cardiac Resynchronization Therapy: A Noninferiority Randomized Trial",
-          "journal": "Circulation",
-          "authors": "Biffi M, Rovaris G, Pisanò ECL, Calvi V, et al.",
-          "year": 2026,
-          "doi": "10.1161/CIRCULATIONAHA.126.079859",
-          "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.079859",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: The role of atrial pacing support is unclear in patients receiving cardiac resynchronization therapy-defibrillator (CRT-D) without sinus node dysfunction. METHODS: We conducted a randomized, parallel-group, noninferiority trial to evaluate whether a 2-lead CRT-D capable of atrial sensing (but no pacing) by a floating dipole on the right ventricular lead (CRT-DX) is not inferior to a 3-lead CRT-D with a conventional atrial lead. Between October 17, 2018, and March 5, 2024, a total of 636 patients (68±10 years old, 28.6% women) with standard CRT-D indication, optimized medical therapy, and resting sinus rate ≥45 beats/min were randomized 1:1 to CRT-DX (atrial tracking without atrial pacing mode 35 beats/min) or CRT-D (atrial tracking with atrial pacing mode 50 beats/min) at 23 Italian sites. A centralized block-randomization procedure stratified by site was used, with patients and primary outcome assessors blinded to treatment assignment. The primary end point was a 1-year composite of all-cause mortality, cardiovascular hospitalization, and lead-related complications (loss of functionality not correctable by device reprogramming). Secondary end points included each individual component of the primary end point separately, echocardiographic reverse remodeling, and 6-minute walk test distance at 12 months. RESULTS: The primary end point occurred in 41 (13.1%) patients in the CRT-DX group and 47 (15.6%) patients in the CRT-D group, corresponding to a hazard ratio of 0.82 (95% CI, 0.54-1.25). This confirmed noninferiority (prespecified relative margin of 1.20) in both the per-protocol (P=0.039) and intention-to-treat (P=0.044) analyses. Individual components showed no significant differences, except for lead complications related to right atrial functionality (4 [1.3%] patients in the CRT-DX group versus 13 [4.2%] patients in the CRT-D group; P=0.040). Reverse remodeling responders were 203 (77.5% of 262) patients receiving CRT-DX and 190 (76.3% of 249) patients receiving CRT-D (P=0.83). Walking distance did not differ between 2 study arms (404 versus 398 m; P=0.62). After a median follow-up of 2.4 years, only 1 patient receiving CRT-DX required implantation of a standard atrial lead. CONCLUSIONS: The 2-lead CRT-DX system without atrial pacing is noninferior to conventional 3-lead CRT-D, with fewer atrial lead-related complications. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03587064.",
-          "keyFindings": "The 2-lead CRT-DX system without atrial pacing is noninferior to conventional 3-lead CRT-D, with fewer atrial lead-related complications.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 76,
-            "label": "Alta",
-            "rationale": "RCT publicado en Circulation con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -276,6 +276,25 @@
           }
         },
         {
+          "id": "insuficiencia-cardiaca-40957670",
+          "title": "Effect of ketone supplementation, a low-carbohydrate diet and a ketogenic diet on heart failure measures and outcomes: a systematic review and meta-analysis",
+          "journal": "Heart",
+          "authors": "Liao LP, Church LA, Melville H, Jayasinghe T, et al.",
+          "year": 2026,
+          "doi": "10.1136/heartjnl-2025-326082",
+          "url": "https://doi.org/10.1136/heartjnl-2025-326082",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: The impact of ketone supplementation, low carbohydrate diets (LCDs) and ketogenic diets (KDs) on heart failure (HF) outcomes is largely unknown. This systematic review and meta-analysis investigated how these dietary changes impacted cardiac function and HF outcomes. METHOD: A systematic search of MEDLINE, Embase, CINAHL and Web of Science was performed; last search on 19 November 2025. Randomised controlled trials (RCTs) and observational studies in humans receiving ketone supplementation, LCD and KD interventions were included. Studies were eligible if they reported at least one cardiac function/HF measure. Risk of bias was performed using RoB2 and ROBINS-I (Risk Of Bias In Non-randomised Studies of Interventions). Treatment effects were pooled, mean differences and 95% CIs calculated. Subgroup analysis was performed and heterogeneity was assessed. RESULTS: 14 studies were included in this systematic review. A meta-analysis was performed on six RCTs. Ketone supplementation increased left ventricular ejection fraction by 3.12% (95% CI 0.95% to 5.30%, p<0.01), with greater improvement in patients with HF with reduced ejection fraction (HFrEF); 4.25% (95% CI 1.99% to 6.51%, p<0.001). In patients with HFrEF, ketone supplementation increased peak systolic annular velocity (0.60% (95% CI 0.17% to 1.02%, p<0.01)) and cardiac output (1.24 L/min (95% CI 0.24 to 2.24, p<0.05)), compared with controls. Due to small cohorts and different treatment durations, assessment of certainty was low to high. Meta-analysis could not be performed on LCD or KD studies, due to low study numbers. CONCLUSIONS: Ketone supplementation significantly improved cardiac function compared with controls, especially in people with HFrEF. More research is needed to determine how low carbohydrate and ketogenic diets affect HF outcomes. PROSPERO REGISTRATION NUMBER: CRD42024615367.",
+          "keyFindings": "Ketone supplementation significantly improved cardiac function compared with controls, especially in people with HFrEF. More research is needed to determine how low carbohydrate and ketogenic diets affect HF outcomes. PROSPERO REGISTRATION",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "insuficiencia-cardiaca-41949846",
           "title": "Food Supplementation in Patients Hospitalized for Heart Failure: A Randomized Clinical Trial",
           "journal": "JAMA Cardiology",
@@ -287,6 +306,25 @@
           "evidenceRank": 3,
           "abstract": "IMPORTANCE: Low-quality dietary intake is associated with adverse heart failure (HF) outcomes, yet evidence evaluating food-as-medicine interventions that supply high-quality dietary content is limited. OBJECTIVE: To determine the feasibility of providing food supplementation with medically tailored meals or fresh produce and explore the association of food supplementation vs usual care with clinical outcomes in patients recently hospitalized with HF and whether it differs by conditioning food supplementation to health care engagement. DESIGN, SETTING, AND PARTICIPANTS: This open-label factorial randomized clinical trial was conducted between April 2024 and October 2025 at 2 hospitals in Dallas, Texas. The study included patients who were hospitalized for HF and enrolled within 14 days of discharge, excluding those with prior heart transplant, a left ventricular assist device, or inotropic support at discharge; current enrollment in meal delivery programs; and inability to receive home deliveries. Participants were followed up with for 12 weeks. Of 150 participants enrolled, 2 were withdrawn due to clinical deterioration, 1 died, and 6 were lost to follow-up; all were included in the intention-to-treat analysis. INTERVENTIONS: Participants were randomized 1:1:1 to medically tailored meals, fresh produce, or usual care. Those receiving food supplementation underwent secondary 1:1 randomization to conditional (linked to clinic attendance and medication fills) vs unconditional delivery. MAIN OUTCOMES AND MEASURES: Implementation outcomes included delivery completion, adherence, and acceptability and exploratory clinical outcomes. The primary clinical outcome was defined as readmission for HF or emergency department (ED) visits for HF over 90-day follow-up. Secondary clinical outcomes included a win-ratio-based hierarchical composite (all-cause death, total HF hospitalizations or ED visits, and ≥10-point Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score [KCCQ-CSS] improvement). RESULTS: Among 150 participants (median [IQR] age, 59.5 [52.0-66.0] years; 91 [60.7%] male), the baseline median (IQR) left ventricular ejection fraction was 35% (25.0-54.0), the baseline median (IQR) KCCQ-CSS was 56.6 (36.8-72.9), and 79 (52.7%) had food insecurity. Food delivery completion was 93.6% with a mean (SD) reported consumption adherence of 4.7 (2.4) days per week (medically tailored meals) and 5.5 (2.3) days per week (fresh produce), with high retention (96.0%). Fresh produce demonstrated superior acceptability compared with medically tailored meals (Net Promoter Score: 8.6 vs 7.3; P = .02). There was no significant difference in the primary clinical outcome (HF readmission or ED visit) between food supplementation (23 events among 100 participants) vs usual care (9 events among 50 participants) (adjusted rate ratio, 1.09; 95% CI, 0.49-2.43; P = .83). The hierarchical composite favored food supplementation vs usual care (win ratio, 1.21; 95% CI, 1.14-1.29; P < .001). Among participants receiving food supplementation, conditional delivery (vs unconditional) was not associated with risk of HF events. CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, 90-day food supplementation was feasible and well accepted in individuals with recent HF. Food supplementation was not associated with an improvement in the primary clinical outcome and there was no difference when conditioning food supplementation on health care engagement. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT06115369.",
           "keyFindings": "CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, 90-day food supplementation was feasible and well accepted in individuals with recent HF.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "insuficiencia-cardiaca-41903171",
+          "title": "Biomarker, Functional Status, and Quality-of-Life Trajectories Before Modes of Death in Heart Failure: Post Hoc Analysis of the FINEARTS-HF Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Lu H, Kosztin A, Claggett BL, Foà A, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.0682",
+          "url": "https://doi.org/10.1001/jamacardio.2026.0682",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Sudden death remains a leading cause of mortality in patients with heart failure with mildly reduced ejection fraction (HFmrEF) or HF with preserved ejection fraction (HFpEF), but whether these events are preceded by clinical deterioration remains unclear. OBJECTIVE: To characterize clinical trajectories preceding sudden death in patients with HFmrEF or HFpEF and compare them with trajectories before other modes of death and survival. DESIGN, SETTING, AND PARTICIPANTS: This was a post hoc analysis of the Finerenone Trial to Investigate the Efficacy and Safety Superior to Placebo in Patients With Heart Failure (FINEARTS-HF) randomized clinical trial evaluating trajectories of functional status, patient-reported health status, and natriuretic peptide levels preceding adjudicated modes of death. This was a global, event-driven clinical trial. Patients with symptomatic HF, left ventricular EF of 40% or greater, New York Heart Association class (NYHA) II to IV, and elevated N-terminal pro-B-type natriuretic peptide (NT-proBNP) were enrolled between September 14, 2020, and January 10, 2023. Data analysis was conducted in December 2025. INTERVENTIONS: Finerenone vs placebo. MAIN OUTCOMES AND MEASURES: Longitudinal trajectories of NYHA class, Kansas City Cardiomyopathy Questionnaire Total Symptom Score (KCCQ-TSS), and NT-proBNP levels preceding sudden death were compared with trajectories in survivors and those who died of HF-related, nonsudden cardiovascular, or noncardiovascular causes, using linear mixed-effects models with restricted cubic splines. RESULTS: Included in this analysis were 6001 patients (mean [SD] age, 72.0 [9.6] years; 3269 male [54%]). Over a median (IQR) follow-up of 2.7 (1.9-3.0) years, 215 sudden deaths occurred. In the 6 months before death, sudden death was preceded by a slight worsening in physician-assigned NYHA class (from approximately 2.3 to 2.4), worsening self-reported health status (an approximately 8-point decline in KCCQ-TSS), and a gradual rise in NT-proBNP levels (from approximately 1800 to 2000 pg/mL). In contrast, among patients who survived, NYHA class improved (from approximately 2.3 to 2.1), KCCQ-TSS increased (from approximately 68 to 77), and NT-proBNP levels declined (from approximately 800 to 650 pg/mL) over the 18 months before the end of follow-up. Comparable patterns of deterioration to those preceding sudden death, often more pronounced, were observed before other modes of death. CONCLUSIONS AND RELEVANCE: Results of this post hoc analysis of the FINEARTS-HF randomized clinical trial reveal that in this contemporary HFmrEF or HFpEF cohort, sudden death was preceded by modest worsening of symptoms, declining quality of life, and rising natriuretic peptide levels, suggesting many of these events may not have been entirely sudden. However, similar deterioration preceding other modes of death suggests limited specificity for sudden death. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04435626.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this post hoc analysis of the FINEARTS-HF randomized clinical trial reveal that in this contemporary HFmrEF or HFpEF cohort, sudden death was preceded by modest worsening of symptoms, declining quality of life, and rising natriuretic peptide levels, suggesting many of these events may not have been entirely sudden.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
@@ -330,44 +368,6 @@
             "score": 64,
             "label": "Moderada",
             "rationale": "RCT en JACC: Heart Failure — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "insuficiencia-cardiaca-41686133",
-          "title": "Seated Pulmonary Artery Pressure Management in Patients With Heart Failure: 12-Month Outcomes of the PROACTIVE-HF Trial",
-          "journal": "JACC: Heart Failure",
-          "authors": "Guichard JL, Bonno EL, Nassif ME, Khumri TM, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.jchf.2025.102847",
-          "url": "https://doi.org/10.1016/j.jchf.2025.102847",
-          "evidenceLevel": "Ensayo Clínico",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: In the PROACTIVE-HF (A Prospective, Multi-Center, Open Label, Single Arm Clinical Trial Evaluating the Safety and Efficacy of the Cordella Pulmonary Artery Sensor System in NYHA Class III Heart Failure Patients) trial, remote heart failure (HF) management using seated mean pulmonary artery pressure (mPAP) and vital signs was safe and resulted in a low rate of HF hospitalizations and mortality through 6 months. OBJECTIVES: The authors evaluated the effect of managing seated mPAP with the Cordella system on outcomes in patients with HF through 12 months. METHODS: In a single-arm, open-label trial, conducted in 75 European and U.S. centers, the authors enrolled HF patients with NYHA functional class III symptoms, irrespective of ejection fraction, and recent HF hospitalization and/or elevated natriuretic peptides. The prespecified, powered, secondary effectiveness endpoint at 12 months required the HF hospitalization or all-cause mortality rate to be lower than a performance goal of 0.70 events/patient/12 months, established from previous hemodynamic monitoring trials. Device/system-related complications, pressure sensor failure, and serious adverse events were examined. RESULTS: Between February 7, 2020, and March 31, 2023, 456 patients were implanted in a modified intent-to-treat cohort. The 12-month event rate was 0.36 (95% CI: 0.31-0.42), which was significantly lower than the performance goal (0.36 vs 0.70; P < 0.0001). There were no device/system-related complications or pressure sensor failures beyond the 6-month primary results (0.8% and 0.2%, respectively). CONCLUSIONS: Remote HF management using seated mPAP and vital signs in NYHA functional class III patients is safe and results in a low rate of HF hospitalizations and mortality over 12 months. These results support the use of seated mPAP monitoring and extend the evidence that pulmonary artery pressure-guided management improves HF outcomes. (A Prospective, Multi-Center, Open Label, Single Arm Clinical Trial Evaluating the Safety and Efficacy of the Cordella Pulmonary Artery Sensor System in NYHA Class III Heart Failure Patients [PROACTIVE-HF Trial]; NCT04089059).",
-          "keyFindings": "Remote HF management using seated mPAP and vital signs in NYHA functional class III patients is safe and results in a low rate of HF hospitalizations and mortality over 12 months. These results support the use of seated mPAP monitoring and extend the evidence that pulmonary artery pressure-guided management improves HF outcomes. (A Prospective, Multi-Center, Open Label, Single Arm Clinical Trial Evaluating the Safety and Efficacy of the Cordella Pulmonary Artery Sensor System in NYHA Class III H",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 64,
-            "label": "Moderada",
-            "rationale": "RCT en JACC: Heart Failure — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "insuficiencia-cardiaca-41677477",
-          "title": "Progression From Exercise-Induced to Resting Left Atrial Hypertension in HFpEF: Impact of Reduced Atriopulmonary Compliance",
-          "journal": "JACC: Heart Failure",
-          "authors": "Tada A, Naser JA, Doi S, Harada T, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.jchf.2026.102947",
-          "url": "https://doi.org/10.1016/j.jchf.2026.102947",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Approximately one-third of patients with heart failure with preserved ejection fraction (HFpEF) have normal pulmonary capillary wedge pressure (PCWP) at rest, with left atrial (LA) hypertension that is induced only during exercise (exercise-induced left atrial hypertension [EILAH]). EILAH may represent a discrete HFpEF phenotype or an earlier stage of HFpEF that progresses to resting left atrial hypertension (RELAH) over time. OBJECTIVES: The authors investigated the clinical course of HFpEF patients with EILAH who underwent repeat invasive hemodynamic evaluation. METHODS: This observational study investigated the natural history of EILAH and evaluated patients who underwent multiple invasive hemodynamic studies to assess for progression from EILAH to RELAH and then identify pathophysiological correlates of progression. Consecutively evaluated patients with HFpEF and EILAH (PCWP <15 mm Hg at rest and ≥25 mm Hg during exercise) who underwent repeat invasive hemodynamic testing were identified. RESULTS: Of 659 patients with EILAH, 84 underwent repeat invasive hemodynamic evaluations over a median follow-up of 1.81 years (Q1-Q3: 0.48-3.40 years). Of this group, 33 (39%) patients changed to RELAH (PCWP ≥15 mm Hg at rest) and 51 (61%) did not. Patients with a change to RELAH had a greater duration between their index and repeat catheterizations (2.68 years [Q1-Q3: 1.74-3.97 years] vs 0.99 years [Q1-Q3: 0.44-2.16 years]; P = 0.001), and they experienced greater increases in N-terminal pro-B-type natriuretic peptide (interaction P = 0.036), more severe worsening in left ventricular ejection fraction (P < 0.001), right ventricular free wall longitudinal strain (P = 0.003), and more worsening tricuspid regurgitation (+15% vs +2%; P = 0.025) compared with patients who did not transition to RELAH. Of characteristics at the index evaluation, a history of atrial fibrillation (OR: 4.57 [95% CI: 1.63-12.8]), lower LA compliance (OR: 0.47 [95% CI: 0.22-0.99]), and lower pulmonary artery compliance (OR: 0.48 [95% CI: 0.25-0.93]) were independently associated with the transition to RELAH after adjusting for follow-up duration. CONCLUSIONS: Many patients with HFpEF who first present with EILAH transition to RELAH, thus suggesting that EILAH may represent an earlier stage of HFpEF. A history of atrial fibrillation, impaired LA compliance, and reduced pulmonary artery compliance are associated with progression to RELAH. These findings call for further studies of interventions enhancing atriopulmonary compliance in early-stage HFpEF.",
-          "keyFindings": "Many patients with HFpEF who first present with EILAH transition to RELAH, thus suggesting that EILAH may represent an earlier stage of HFpEF. A history of atrial fibrillation, impaired LA compliance, and reduced pulmonary artery compliance are associated with progression to RELAH. These findings call for further studies of interventions enhancing atriopulmonary compliance in early-stage HFpEF.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
         }
       ]
@@ -435,6 +435,25 @@
           }
         },
         {
+          "id": "isquemica-42018311",
+          "title": "Early Rule Out of Myocardial Infarction With a Novel High-Sensitivity Cardiac Troponin T Assay",
+          "journal": "JAMA Cardiology",
+          "authors": "Thurston AJF, Tew YY, Lopez-Ayala P, Koechlin L, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.0477",
+          "url": "https://doi.org/10.1001/jamacardio.2026.0477",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "IMPORTANCE: In the emergency department, patients at low risk of myocardial infarction can be identified at presentation using a single cardiac troponin measurement with high-sensitivity assay. OBJECTIVES: To define a threshold to identify patients at low risk of myocardial infarction for the sixth-generation high-sensitivity cardiac troponin T (hs-cTnT) assay and to evaluate the impact of applying this in an early rule-out pathway. DESIGN, SETTING, AND PARTICIPANTS: This was a prospective multicenter cohort study conducted from 2022 to 2025 (derivation cohort) and 2014 to 2019 (validation cohort). The setting included emergency departments at hospitals in Scotland (derivation cohort) and Czechia, Italy, Poland, Spain, and Switzerland (validation cohort). Participants included adults with possible non-ST-segment elevation myocardial infarction (both cohorts). Study data were analyzed from May to October 2025. EXPOSURES: Cardiac troponin concentration measured at presentation and on serial samples using fifth-generation and novel sixth-generation hs-cTnT assays. MAIN OUTCOMES AND MEASURES: Outcomes included the highest threshold at presentation with negative predictive value (NPV) greater than or equal to 99.5% and sensitivity greater than or equal to 99% for an adjudicated primary outcome of type 1, 4b, or 4c myocardial infarction or cardiac death at 30 days. Performance of an early rule-out pathway with the sixth-generation assay. RESULTS: In total, 987 patients (median [IQR] age, 59 [50-70] years; 611 male [62%]) were recruited, with 82 (8.3%) meeting the primary outcome. At presentation, 601 patients (61%) had a cardiac troponin T concentration less than 13 ng/L using the sixth-generation hs-cTnT assay, with an NPV of 99.9% (95% credible interval [CrI], 99.7%-100%) and sensitivity of 99.4% (95% CrI, 97.7%-100%). More patients were identified as low risk at presentation in the early rule-out pathway when using the sixth-generation assay compared with fifth-generation assay (376 [41.0%] vs 160 [17.4%]; P < .001). In the external validation cohort, 782 of 1721 patients (45.4%) had a sixth-generation hs-cTnT measurement less than 13 ng/L at presentation with an NPV of 99.0% (95% Cr, 98.3%-99.6%) and sensitivity of 97.5% (95% Cr, 95.8%-99.0%), compared with 118 (6.9%) below the low risk-stratification threshold of the fifth-generation hs-cTnT assay (P < .001). CONCLUSIONS AND RELEVANCE: Results of this cohort study suggest that compared with the fifth-generation hs-cTnT assay, use of the sixth-generation assay with a risk-stratification threshold based on clinical performance could double identification of patients at low risk of myocardial infarction or cardiac death at presentation. Prospective studies are required to evaluate the impact of implementation on practice.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this cohort study suggest that compared with the fifth-generation hs-cTnT assay, use of the sixth-generation assay with a risk-stratification threshold based on clinical performance could double identification of patients at low risk of myocardial infarction or cardiac death at presentation.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 45,
+            "label": "Moderada",
+            "rationale": "Estudio de cohorte en JAMA Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
           "id": "isquemica-41805274",
           "title": "Epicardial Adipose Tissue, Coronary Plaque Progression, and Major Adverse Cardiovascular Events: A Multicenter Study",
           "journal": "JACC: Cardiovascular Imaging",
@@ -465,25 +484,6 @@
           "evidenceRank": 4,
           "abstract": "BACKGROUND: Artificial intelligence-enabled coronary plaque analysis (AI-CPA) has been shown to improve cardiovascular risk prediction. However, little is known about how these measures influence management. OBJECTIVES: This study sought to define changes in management guided by AI-CPA as compared with management guided by measures of nonobstructive and obstructive stenosis on coronary computed tomographic angiography (CTA) alone. METHODS: The DECIDE (AI [Artificial Intelligence]-DErived Plaque Quantification: Coronary CTA and AI-QCPA [Artificial Intelligence-Derived Quantitative Coronary Plaque Analysis] for Determining Effective CAD [Coronary Artery Disease] Management) registry is a prospective, observational, pre-post interventional substudy. The substudy includes delayed release of AI-CPA findings to treating physicians until 90 days after the index coronary CTA, followed by an additional 90 days of follow-up. The primary outcome is change in management: modification of preventive/anti-ischemic therapies, new laboratory testing, referral to a specialist, or referral to stress testing/invasive coronary angiography post AI-CPA. RESULTS: A total of 972 symptomatic patients with atherosclerotic plaque were enrolled (median age 64 years [Q1-Q3: 56-72 years], and 50.2% were women). Changes in management following the availability of AI-CPA occurred in 51.3% (95% CI: 48.2%-54.5%) of participants and were more frequent in patients with more extensive plaque (up to 67.8% in the highest stage; P < 0.001). Intensifying medical therapy was the most common management change, occurring in 35.6% of participants. Participants with management changes realized greater reductions in low-density lipoprotein cholesterol than did patients without these changes (-11 mg/dL [Q1-Q3: -42.5 to 4 mg/dL] vs 1 mg/dL [Q1-Q3: -18 to 14 mg/dL]; P = 0.002). CONCLUSIONS: The DECIDE registry supports that AI-CPA was associated with preventive management changes, especially intensification of care for patients with more extensive plaque. Randomized trials to explore the utility of AI-CPA are warranted. (AI-DErived Plaque Quantification: Coronary CTA and AI-QCPA for Determining Effective CAD Management [DECIDE]; NCT06376851).",
           "keyFindings": "The DECIDE registry supports that AI-CPA was associated with preventive management changes, especially intensification of care for patients with more extensive plaque. Randomized trials to explore the utility of AI-CPA are warranted. (AI-DErived Plaque",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
-          }
-        },
-        {
-          "id": "isquemica-41924874",
-          "title": "Proteogenomic Analysis of Coronary Artery Calcification in Human Populations",
-          "journal": "Arteriosclerosis, Thrombosis, and Vascular Biology",
-          "authors": "El-Sabawi B, Huang X, Lin P, Anwar MY, et al.",
-          "year": 2026,
-          "doi": "10.1161/ATVBAHA.125.324171",
-          "url": "https://doi.org/10.1161/ATVBAHA.125.324171",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Joint use of multiple molecular layers can be useful to prioritize targets for mechanistic studies. Application of this approach to coronary disease in large populations is an emerging field. METHODS: We used reported circulating proteomic data (Somascan aptamer-based) from ≈3000 individuals in the CARDIA study (Coronary Artery Risk Development in Young Adults), measuring association with prevalent and 10-year incident coronary artery calcium (CAC) score. We used a multiparametric approach to prioritize circulating protein-CAC associations via genomics of circulating protein levels and coronary artery transcription. RESULTS: Proteins linked to prevalent/incident CAC in CARDIA implicated pathogenic mechanisms of vascular disease, including fibrosis and inflammation (GDF-15 [growth/differentiation factor 15], CDCP1 [CUB domain-containing protein 1], GSN [gelsolin], THBS2 [thrombospondin-2], chemokines, RNAS6 [ribonuclease K6]), oxidative lipid metabolism (CILP2; cartilage intermediate layer protein 2), extracellular matrix remodeling and signaling (MMPs [matrix metalloproteinases], TIMP-1 [tissue inhibitor of metalloproteinases 1], integrins), calcification (Notch 1, ARHGAP36 [Rho GTPase-activating protein 36]), and metabolism (GIP [gastric inhibitory polypeptide]), as well as new proteins not previously reported. Using proteome-wide association study genetic approaches, several targets with nominal evidence in CAC proteomics were associated with atherosclerosis or myocardial infarction in over 300K individuals, including PCSK9 (proprotein convertase subtilisin/kexin type 9) and APOC1. Finally, the coronary artery-specific transcriptome-wide association study of CAC yielded genes with previously implicated mechanistic roles in vascular homeostasis, inflammation, and metabolism, as well as genes without previously described function in CAC. Overlap across CAC proteomics and transcriptome-wide association study highlighted genes involved in vascular inflammation (S100A9), cardiac development (HES1 [transcription factor HES-1]), vessel wall structure (SPARCL1 [SPARC-like protein 1]), and vascular dysfunction or plaque (NOTCH3 [neurogenic locus notch homolog protein 3], TNFSF12 [tumor necrosis factor ligand superfamily member 12], S100A12 [protein S100-A12]). CONCLUSIONS: These results report population-level multiomics in human coronary calcification, presenting a method to identify disease-relevant targets through integration of human genetic approaches with multiomics.",
-          "keyFindings": "These results report population-level multiomics in human coronary calcification, presenting a method to identify disease-relevant targets through integration of human genetic approaches with multiomics.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 34,
@@ -617,6 +617,44 @@
             "score": 75,
             "label": "Alta",
             "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "valvulopatias-42290317",
+          "title": "Outcomes of intraprocedural haemodynamic changes in patients undergoing mitral transcatheter edge-to-edge repair",
+          "journal": "EuroIntervention",
+          "authors": "Kuwata S, Izumo M, Tanaka T, Okuno T, et al.",
+          "year": 2026,
+          "doi": "10.4244/EIJ-D-26-00084",
+          "url": "https://doi.org/10.4244/EIJ-D-26-00084",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: While the mean left atrial pressure (mLAP) reduction during mitral transcatheter edge-to-edge repair (M-TEER) has been suggested as a potential prognostic marker, comprehensive evidence from large-scale, real-world cohorts is limited, especially with stratification by mitral regurgitation (MR) aetiology. AIMS: This study aimed to evaluate the prognostic significance of intraprocedural haemodynamic changes, particularly the mLAP reduction, during M-TEER for MR, using multicentre registry data. METHODS: From the OCEAN-Mitral registry, 2,629 patients undergoing M-TEER with intraprocedural direct mLAP measurements were included. A decrease in the mLAP was defined as follows: postprocedural mLAP-preprocedural mLAP<0. The primary outcome was the composite of all-cause mortality and heart failure (HF) rehospitalisation. RESULTS: Among 2,629 patients (degenerative MR [DMR]: 825 [31.4%], functional MR [FMR]: 1,804 [68.6%]), the postprocedural mLAP decreased in 1,548 patients (58.9%). In the DMR cohort, the mLAP reduction was associated with a significantly lower risk of the composite outcome (adjusted hazard ratio [HR] 0.66, 95% confidence interval [CI]: 0.45-0.96; p=0.028), while no such association was observed in the FMR cohort (adjusted HR 0.90, 95% CI: 0.75-1.08; p=0.251). Interaction analysis confirmed a significant difference in prognostic impact based on MR aetiology (p for interaction=0.006). Pulmonary vein flow patterns improved, with systolic waves becoming greater than diastolic waves across both groups; however, their combination with the mLAP reduction predicted better outcomes only in DMR patients. CONCLUSIONS: A reduction in the mLAP during M-TEER is independently associated with improved clinical outcomes in patients with DMR but not in those with FMR. These findings underscore the importance of real-time haemodynamic assessment - especially in DMR - as a valuable procedural endpoint that may aid in optimising long-term outcomes beyond anatomical MR reduction alone.",
+          "keyFindings": "of intraprocedural haemodynamic changes, particularly the mLAP reduction, during M-TEER for MR, using multicentre registry data.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 42,
+            "label": "Moderada",
+            "rationale": "Estudio de cohorte en EuroIntervention — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "valvulopatias-42290314",
+          "title": "Temporal trends in mitral edge-to-edge repair for primary mitral regurgitation",
+          "journal": "EuroIntervention",
+          "authors": "Koell B, Ludwig S, Weimann J, Patel D, et al.",
+          "year": 2026,
+          "doi": "10.4244/EIJ-D-25-01308",
+          "url": "https://doi.org/10.4244/EIJ-D-25-01308",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: The evolving landscape of mitral valve transcatheter edge-to-edge repair (M-TEER) for mitral regurgitation (MR) has seen continuous advancements, driving improvements in therapeutic efficacy. Particularly in primary MR (PMR), contemporary device iterations of M-TEER offer technical advantages for improved management of complex anatomies. However, data on temporal trends in M-TEER for PMR are limited. AIMS: The primary objective of our study was to analyse temporal trends in the safety, efficacy, and stability of M-TEER treatment. METHODS: The PRIME-MR registry, a retrospective multicentre study, enrolled consecutive patients undergoing M-TEER for PMR at 27 centres in Europe and North America. M-TEER procedures were categorised into four time periods (2009-2013, 2014-2016, 2017-2019, and 2020-2023), to align with major device updates. RESULTS: The analysis included 3,082 consecutive patients (median age 82 years [interquartile range 76.0-85.0], 45.1% female). Patients treated were highly symptomatic (New York Heart Association [NYHA] Class ≥III in 80.4%). Patient characteristics showed a decline in symptomatic severity (NYHA Class ≥III 85.9% in 2009-2013 vs 71.8% in 2020-2023), accompanied by lower mean Society of Thoracic Surgeons scores (5.6% [2009-2013] vs 4.6% [2020-2023]; p for trend<0.0001), and less severe MR. Over time, complication rates decreased (procedures with complications: 42.4% [2009-2013] vs 23.1% [2020-2023]; p for trend<0.0001), whereas technical efficacy increased (residual MR ≤1+: 54.0% [2009-2013] vs 68.4% [2020-2023]; p for trend<0.001). There was an increased occurrence of stable results without any deterioration at one-year follow-up (63.6% [2009-2013] vs 74.4% [2020-2023]; p for trend=0.03). CONCLUSIONS: Findings from the PRIME-MR registry highlight substantial reductions in residual MR severity and complication rates over time in PMR patients undergoing M-TEER.",
+          "keyFindings": "Findings from the PRIME-MR registry highlight substantial reductions in residual MR severity and complication rates over time in PMR patients undergoing M-TEER.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
         }
       ]
