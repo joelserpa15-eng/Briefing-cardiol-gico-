@@ -40,6 +40,10 @@ EPMC_URL     = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 # Rate limiting delay (seconds between NCBI calls)
 NCBI_DELAY   = 0.12 if NCBI_API_KEY else 0.36
 
+# Classification quality thresholds
+MIN_CLASSIFICATION_SCORE = 3   # minimum score to accept a subspecialty assignment
+MAX_ARTICLES_PER_SUB     = 6   # cap per subspecialty to avoid any single section dominating
+
 # ────────────────────────────────────────────────────────────────────────────
 # Top cardiology journals — ordered by impact factor (approximate 2024/25)
 # Each entry: NLM abbreviation used by PubMed | display name | impact factor | rank
@@ -204,6 +208,9 @@ SUBSPECIALTIES = [
             "inflammation", "c-reactive protein", "hsCRP", "colchicine",
             "aspirin", "polygenic risk score", "metabolic syndrome",
             "obesity cardiovascular", "diabetes cardiovascular", "ziltivekimab",
+            "tirzepatide", "semaglutide", "liraglutide", "dulaglutide",
+            "glp-1 receptor agonist", "glp-1ra", "glucagon-like peptide",
+            "antiobesity medication", "weight loss cardiovascular",
         ],
         "mesh": [
             "Dyslipidemias", "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
@@ -322,6 +329,75 @@ SUBSPECIALTIES = [
 ]
 
 SUB_INDEX = {s["id"]: s for s in SUBSPECIALTIES}
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Cardiology relevance filter
+# ────────────────────────────────────────────────────────────────────────────
+
+# At least one of these must appear in the TITLE (or in MeSH) for an article
+# to pass the cardiology relevance check.
+CV_TITLE_TERMS = [
+    "cardiac", "cardio", "heart", "coronary", "myocardial",
+    "atrial", "ventricular", "aortic", "mitral", "tricuspid",
+    "pericardial", "endocarditis", "valvular",
+    "arrhythmia", "fibrillation", "flutter", "tachycardia", "bradycardia",
+    "electrophysiology", "pacemaker", "defibrillator",
+    "stent", "angioplasty", "transcatheter", "tavr", "tavi",
+    "ejection fraction", "cardiomyopathy", "myocarditis",
+    "atherosclerosis", "dyslipidemia", "hypercholesterol",
+    "ldl", "statin", "lipoprotein", "pcsk9",
+    "angina", "ischemia", "infarct", "acute coronary",
+    "cardiovascular", "antihypertensive", "blood pressure",
+    "arterial hypertension", "resistant hypertension",
+    "pulmonary hypertension", "aortic stenosis", "aortic regurgitation",
+    "cardiac imaging", "echocardiography", "cardiac mri",
+    "myocardial perfusion", "sudden cardiac death",
+    "cardioprotect", "cardiotoxic", "cardio-oncology",
+    "glp-1", "tirzepatide", "semaglutide",
+]
+
+# If any of these appear in the TITLE the article is rejected as non-cardiology,
+# even if a CV term was also found (e.g. "blood pressure in liver disease").
+NON_CARDIAC_TITLE_TERMS = [
+    "ischemic stroke", "hemorrhagic stroke", "cranial arteri",
+    "intracranial", "cerebral arteri", "cerebrovascular",
+    "liver disease", "hepatic failure", "hepatic dysfunction", "liver cirrhosis",
+    "respiratory failure", "acute lung injury", "mechanical ventilation",
+    "systemic lupus", "lupus erythematosus",
+    "hospital financial", "nonprofit hospital", "healthcare cost",
+    "hip fracture", "knee replacement",
+    "alzheimer", "dementia", "parkinson",
+]
+
+# Fallback cardiac MeSH set (used when no CV term matched in the title)
+CARDIAC_MESH_REQUIRED = {
+    "heart diseases", "cardiovascular diseases", "myocardial infarction",
+    "heart failure", "coronary artery disease", "atrial fibrillation",
+    "arrhythmias, cardiac", "hypertension", "cardiomyopathies",
+    "aortic valve stenosis", "heart valve diseases", "atherosclerosis",
+    "dyslipidemias", "cardiac catheterization", "stents",
+    "pacemaker, artificial", "defibrillators, implantable",
+    "death, sudden, cardiac", "angina pectoris", "acute coronary syndrome",
+    "sodium-glucose transporter 2 inhibitors",
+}
+
+
+def is_primarily_cardiology(article):
+    """Return True only if the article is primarily about cardiovascular medicine."""
+    title_lower = article.get("title", "").lower()
+
+    has_cv_title = any(term in title_lower for term in CV_TITLE_TERMS)
+    if not has_cv_title:
+        mesh_lower = {m.lower() for m in article.get("meshTerms", [])}
+        if not mesh_lower.intersection(CARDIAC_MESH_REQUIRED):
+            return False
+
+    # Reject even if a CV term matched, when a non-cardiac context is explicit in title
+    if any(term in title_lower for term in NON_CARDIAC_TITLE_TERMS):
+        return False
+
+    return True
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -660,20 +736,19 @@ def classify(article):
         for kw in sub["keywords"]:
             kl = kw.lower()
             if kl in title:
-                score += 2
+                score += 4   # heavy title weight — determines primary topic
             elif kl in abstract:
                 score += 1
         for mesh in sub["mesh"]:
             if mesh.lower() in mesh_set:
                 score += 3
-        # keyword list bonus
         for kw in sub["keywords"]:
             if kw.lower() in kw_set:
                 score += 1
         scores[sub["id"]] = score
 
     best = max(scores, key=lambda k: scores[k])
-    return best if scores[best] > 0 else None
+    return best if scores[best] >= MIN_CLASSIFICATION_SCORE else None
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -882,9 +957,16 @@ def main():
     print("\n[4/4] Classifying and ranking articles…")
     buckets = {s["id"]: [] for s in SUBSPECIALTIES}
 
+    skipped_noncardio = 0
+    skipped_lowscore  = 0
     for art in raw:
+        if not is_primarily_cardiology(art):
+            skipped_noncardio += 1
+            print(f"    [SKIP non-cardio] {art['title'][:70]}")
+            continue
         sub_id = classify(art)
         if not sub_id:
+            skipped_lowscore += 1
             continue
         art["keyFindings"] = extract_key_finding(art["abstract"])
         clean = {
@@ -912,6 +994,7 @@ def main():
         arts = buckets[sub["id"]]
         # Sort: evidence rank ASC, then journal rank ASC, then year DESC
         arts.sort(key=lambda a: (a["evidenceRank"], a["journalRank"], -a["year"]))
+        arts = arts[:MAX_ARTICLES_PER_SUB]  # cap per subspecialty
         # Remove internal sort key
         for a in arts:
             a.pop("journalRank", None)
@@ -981,6 +1064,7 @@ def main():
 
     print(f"\n  Saved {total} articles across {len(output_subs)} subspecialties")
     print(f"  Meta-análisis: {n_meta}  |  Rev. sistemáticas: {n_sr}  |  RCT: {n_rct}")
+    print(f"  Skipped (non-cardiology): {skipped_noncardio}  |  Skipped (low score): {skipped_lowscore}")
     print(f"  Output → {out_path}")
     print("=" * 60)
     print("  Done.")
