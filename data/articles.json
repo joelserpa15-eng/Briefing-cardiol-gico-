@@ -1,7 +1,7 @@
 {
   "week": "2026-W24",
   "weekLabel": "15 – 21 de junio, 2026",
-  "lastUpdated": "2026-06-18T07:35:16Z",
+  "lastUpdated": "2026-06-18T09:52:59Z",
   "stats": {
     "total": 32,
     "metaAnalysis": 4,
@@ -506,25 +506,6 @@
           }
         },
         {
-          "id": "valvulopatias-42300821",
-          "title": "10-Year Randomized Outcomes of Transcatheter or Surgical Aortic Valve Replacement in Intermediate-Risk Aortic Stenosis",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Thourani VH, von Stein P, Mack MJ, Nazif TM, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.jacc.2026.03.169",
-          "url": "https://doi.org/10.1016/j.jacc.2026.03.169",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Transcatheter aortic valve replacement (TAVR) is an established alternative to surgical aortic valve replacement for symptomatic severe aortic stenosis, but long-term, comparative clinical outcomes and echocardiography data are lacking. OBJECTIVES: Our goal was to compare 10-year clinical and echocardiographic outcomes after balloon-expandable TAVR or surgery in intermediate-risk surgical patients in the PARTNER 2A randomized trial. METHODS: Between 2011 and 2013, patients with severe, symptomatic aortic stenosis at intermediate surgical risk were randomized at 57 centers to TAVR with the balloon-expandable SAPIEN XT system (Edwards Lifesciences) or to surgery. Randomization was stratified by anatomical suitability for transfemoral (TF) or transthoracic (transapical/transaortic [TA/TAo]) access. Ten-year outcomes were evaluated in the valve implant population and included all-cause mortality, aortic valve reintervention, and core laboratory-adjudicated echocardiographic outcomes. To obtain 10-year data, patient reconsent at 5 years was required, and vital status sweeps were implemented to improve data completeness for all-cause mortality. RESULTS: Among 1,910 randomized patients who received a valve, 974 underwent TAVR (TF: 749/974 [76.9%]) and 936 had surgery. Mean patient age was 81.6 years, 45.4% were women, and the mean Society of Thoracic Surgeons score was 5.8%. At 10 years, vital status was available for 881 of 974 patients (90.5%) and 838 of 936 patients (89.5%). All-cause 10-year mortality with vital status sweeps was 86.1% after TAVR and 82.8% after surgery (HR: 1.13; 95% CI: 1.02-1.25; P = 0.02). When stratified by access route, rates of all-cause mortality for TAVR and surgery in the TF group were similar (83.9% vs 82.1%, respectively; P = 0.27), whereas mortality was higher for TAVR in the TA/TAo group (93.2% vs 85.1%; P < 0.01; P for interaction = 0.03). Cumulative incidence rates of aortic valve reintervention at 10 years were 6.3% for TAVR and 1.6% for surgery (P < 0.001). Of the 24 TAVR and 35 surgical patients with available echocardiographic data at 10 years, mean gradients were 12.6 mm Hg and 12.7 mm Hg, respectively. CONCLUSIONS: At the 10-year follow-up, TAVR in intermediate-risk patients with the SAPIEN XT prosthesis compared with surgery was associated with lower survival rates, with differences predominantly observed in the TA/TAo access cohort. TAVR with the XT valve was also associated with significantly higher rates of aortic valve reintervention. (PARTNER II Trial: Placement of AoRTic TraNscathetER Valves II - XT Intermediate and High Risk [PII A]; NCT01314313).",
-          "keyFindings": "At the 10-year follow-up, TAVR in intermediate-risk patients with the SAPIEN XT prosthesis compared with surgery was associated with lower survival rates, with differences predominantly observed in the TA/TAo access cohort. TAVR with the XT valve was also associated with significantly higher rates of aortic valve reintervention. (PARTNER II",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 68,
-            "label": "Moderada",
-            "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
           "id": "valvulopatias-42300820",
           "title": "10-Year Outcomes of SAPIEN 3 Transcatheter Aortic Valve Replacement or Surgery in Intermediate-Risk Patients",
           "journal": "Journal of the American College of Cardiology",
@@ -536,6 +517,25 @@
           "evidenceRank": 3,
           "abstract": "BACKGROUND: Transcatheter aortic valve replacement (TAVR) is an alternative to surgical aortic valve replacement for patients with symptomatic severe aortic stenosis. However, long-term outcomes data are lacking for TAVR, particularly with newer-generation transcatheter heart valves. OBJECTIVES: The purpose of this study was to compare 10-year outcomes of intermediate-risk patients who underwent TAVR with the third-generation, balloon-expandable SAPIEN 3 valve in the PARTNER 2 SAPIEN 3 Intermediate-risk Registry (P2S3i) with those who underwent surgery in the PARTNER 2A (P2A) randomized trial. METHODS: Intermediate-risk patients were enrolled in the P2A trial from 2011 through 2013 and in the P2S3i registry in 2014. These prospective, multicenter studies used the same eligibility criteria and stratified patients based on suitability for transfemoral or transthoracic (transapical/transaortic) access. Ten-year outcomes were evaluated, including all-cause mortality, aortic valve reintervention, and core laboratory-adjudicated echocardiographic outcomes. Patient reconsent was required at 5 years for extended 10-year follow-up, and vital status sweeps were implemented to improve data completeness for all-cause mortality. To account for potential baseline differences and reduce confounding, P2S3i TAVR patients were propensity score-matched 1:1 to P2A surgical patients. RESULTS: Among 2,005 patients who received a valve, 1,069 underwent TAVR in P2S3i and 936 underwent surgery in P2A. After propensity score matching (N = 783 patients in each group), baseline characteristics were similar between groups: mean age was approximately 82 years, 43% were female, and mean Society of Thoracic Surgeons score was 5.5%. At 10 years, all-cause mortality rate was 83.4% after TAVR and 82.3% after surgery, respectively (HR: 1.01 [95% CI: 0.91-1.13]; P = 0.82). Aortic valve reintervention rates adjusted for competing mortality were 2.0% for TAVR and 1.9% for surgery (P = 0.47). Among 32 TAVR and 30 surgical patients with available echocardiographic data at 10 years, mean gradients were 11.0 mm Hg and 12.6 mm Hg, respectively. CONCLUSIONS: At 10 years, TAVR with the SAPIEN 3 valve and surgery resulted in similar rates of mortality and aortic valve reintervention, and similar hemodynamics in intermediate-risk patients with symptomatic severe aortic stenosis. This analysis highlights challenges associated with extended long-term follow-up of clinical trials, including differential loss to follow-up and the competing risk of mortality in elderly populations. (PARTNER 2A Trial; NCT01314313; PARTNER 2 SAPIEN 3 Intermediate-Risk Registry; NCT03222128).",
           "keyFindings": "At 10 years, TAVR with the SAPIEN 3 valve and surgery resulted in similar rates of mortality and aortic valve reintervention, and similar hemodynamics in intermediate-risk patients with symptomatic severe aortic stenosis. This analysis highlights challenges associated with extended long-term follow-up of clinical trials, including differential loss to follow-up and the competing risk of mortality in elderly populations. (PARTNER 2A Trial; NCT01314313; PARTNER 2 SAPIEN 3 Intermediate-Risk Registr",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "valvulopatias-42300821",
+          "title": "10-Year Randomized Outcomes of Transcatheter or Surgical Aortic Valve Replacement in Intermediate-Risk Aortic Stenosis",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Thourani VH, von Stein P, Mack MJ, Nazif TM, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.03.169",
+          "url": "https://doi.org/10.1016/j.jacc.2026.03.169",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Transcatheter aortic valve replacement (TAVR) is an established alternative to surgical aortic valve replacement for symptomatic severe aortic stenosis, but long-term, comparative clinical outcomes and echocardiography data are lacking. OBJECTIVES: Our goal was to compare 10-year clinical and echocardiographic outcomes after balloon-expandable TAVR or surgery in intermediate-risk surgical patients in the PARTNER 2A randomized trial. METHODS: Between 2011 and 2013, patients with severe, symptomatic aortic stenosis at intermediate surgical risk were randomized at 57 centers to TAVR with the balloon-expandable SAPIEN XT system (Edwards Lifesciences) or to surgery. Randomization was stratified by anatomical suitability for transfemoral (TF) or transthoracic (transapical/transaortic [TA/TAo]) access. Ten-year outcomes were evaluated in the valve implant population and included all-cause mortality, aortic valve reintervention, and core laboratory-adjudicated echocardiographic outcomes. To obtain 10-year data, patient reconsent at 5 years was required, and vital status sweeps were implemented to improve data completeness for all-cause mortality. RESULTS: Among 1,910 randomized patients who received a valve, 974 underwent TAVR (TF: 749/974 [76.9%]) and 936 had surgery. Mean patient age was 81.6 years, 45.4% were women, and the mean Society of Thoracic Surgeons score was 5.8%. At 10 years, vital status was available for 881 of 974 patients (90.5%) and 838 of 936 patients (89.5%). All-cause 10-year mortality with vital status sweeps was 86.1% after TAVR and 82.8% after surgery (HR: 1.13; 95% CI: 1.02-1.25; P = 0.02). When stratified by access route, rates of all-cause mortality for TAVR and surgery in the TF group were similar (83.9% vs 82.1%, respectively; P = 0.27), whereas mortality was higher for TAVR in the TA/TAo group (93.2% vs 85.1%; P < 0.01; P for interaction = 0.03). Cumulative incidence rates of aortic valve reintervention at 10 years were 6.3% for TAVR and 1.6% for surgery (P < 0.001). Of the 24 TAVR and 35 surgical patients with available echocardiographic data at 10 years, mean gradients were 12.6 mm Hg and 12.7 mm Hg, respectively. CONCLUSIONS: At the 10-year follow-up, TAVR in intermediate-risk patients with the SAPIEN XT prosthesis compared with surgery was associated with lower survival rates, with differences predominantly observed in the TA/TAo access cohort. TAVR with the XT valve was also associated with significantly higher rates of aortic valve reintervention. (PARTNER II Trial: Placement of AoRTic TraNscathetER Valves II - XT Intermediate and High Risk [PII A]; NCT01314313).",
+          "keyFindings": "At the 10-year follow-up, TAVR in intermediate-risk patients with the SAPIEN XT prosthesis compared with surgery was associated with lower survival rates, with differences predominantly observed in the TA/TAo access cohort. TAVR with the XT valve was also associated with significantly higher rates of aortic valve reintervention. (PARTNER II",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 68,

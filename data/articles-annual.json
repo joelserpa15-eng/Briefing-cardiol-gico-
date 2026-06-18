@@ -1,12 +1,12 @@
 {
   "period": "Últimos 12 meses",
   "periodLabel": "2025-06-18 / 2026-06-18",
-  "lastUpdated": "2026-06-18T07:35:16Z",
+  "lastUpdated": "2026-06-18T09:52:59Z",
   "stats": {
-    "total": 39,
-    "metaAnalysis": 25,
+    "total": 43,
+    "metaAnalysis": 26,
     "systematicReview": 0,
-    "rct": 14
+    "rct": 17
   },
   "subspecialties": [
     {
@@ -823,6 +823,89 @@
             "score": 79,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Cardiovascular Research con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "agudos",
+      "name": "Agudos Cardiológicos y Unidad Coronaria",
+      "color": "#BE123C",
+      "articles": [
+        {
+          "id": "yr-agudos-40365681",
+          "title": "Diastolic Perfusion Pressure Predicts Response to Inotropes and Vasopressors and Benefit From Mechanical Circulatory Support in Cardiogenic Shock",
+          "journal": "Circulation: Heart Failure",
+          "authors": "Lim HS, Vondrakova D, Belohlavek J, Rokyta R, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIRCHEARTFAILURE.125.012847",
+          "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.125.012847",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Hemodynamic response to escalation of vasoactive drugs has not been well-characterized in patients with cardiogenic shock (CS). We tested the hypothesis that lower diastolic perfusion pressure (DPP=diastolic blood pressure-right atrial pressure) was associated with more limited hemodynamic response to uptitration of vasoactive drugs and with possible benefit from early mechanical circulatory support in patients with CS. METHODS: This study consisted of 2 parts: (1) we evaluated the relationship between baseline DPP and changes in cardiac power output index (CPOI) in response to increase in vasoactive drugs in a cohort of patients with CS (n=93) and (2) we compared all-cause mortality based on baseline DPP in a post hoc analysis of the ECMO-CS trial (Extracorporeal Membrane Oxygenation in the Therapy of Cardiogenic Shock). CPOI responders were defined as postescalation CPOI ≥0.28 W/m2. RESULTS: Vasoactive inotrope score escalated from 11.2±3.9 to 24.5±4.7. Escalation of vasoactive drugs was associated with increases in CPOI to 0.23±0.06 W/m2 (all P<0.001). Postescalation CPOI was directly related to baseline cardiac index and DPP. Baseline DPP discriminated cardiac power output responders from nonresponders with an optimal cutoff of 37 mm Hg. Patients with baseline DPP ≥37 mm Hg had greater CPOI increase and lactate clearance. In the ECMO-CS trial, patients with DPP <37 mm Hg had lower mortality (hazard ratio, 0.37 [95% CI, 0.14-0.97]; P=0.044) with immediate venoarterial extracorporeal membrane oxygenation compared with early conservative management but no significant difference in the subgroup with DPP ≥37 mm Hg. CONCLUSIONS: Lower DPP was associated with more limited hemodynamic response to escalation of vasoactive drugs and potentially greater benefit from early venoarterial extracorporeal membrane oxygenation in CS.",
+          "keyFindings": "Lower DPP was associated with more limited hemodynamic response to escalation of vasoactive drugs and potentially greater benefit from early venoarterial extracorporeal membrane oxygenation in CS.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 76,
+            "label": "Alta",
+            "rationale": "RCT publicado en Circulation: Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-agudos-41233941",
+          "title": "Antiarrhythmic drugs for cardiac arrest with a shockable rhythm and their effect on outcomes: a systematic review with meta-analysis",
+          "journal": "Europace",
+          "authors": "Schnaubelt S, Veigl C, Kornfehl A, Brock R, et al.",
+          "year": 2025,
+          "doi": "10.1093/europace/euaf289",
+          "url": "https://doi.org/10.1093/europace/euaf289",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Antiarrhythmic drugs are used during cardiopulmonary resuscitation (CPR) to improve the chances of return of spontaneous circulation (ROSC) in shockable rhythms. To date, their impact on clinical outcomes remains uncertain. This review aimed to provide an evaluation of respective up-to-date evidence. METHODS AND RESULTS: We searched Embase, MEDLINE®, and Cochrane Central Register of Controlled Trials. Data on study design, population characteristics, antiarrhythmic drugs used, and predefined outcomes were extracted. A meta-analysis was conducted in groups with at least three studies reporting the same outcome. Additionally, we performed subgroup analysis according to the study design. Initially, 5080 studies were identified, and 29 were included, with, in total, 60 205 patients. A statistically significant difference in achieving ROSC was found comparing (i) lidocaine and no lidocaine, favouring lidocaine [odds ratio (OR) = 1.61, 95% confidence interval (CI): 1.11-2.32, P = 0.01]; (ii) nifekalant and lidocaine, favouring nifekalant (OR = 4.18, 95% CI: 2.23-7.83, P < 0.00001); and (iii) esmolol and no esmolol, favouring esmolol (OR = 3.0, 95% CI: 1.40-6.40, P = 0.005). For the effect on survival to hospital discharge, a significant difference between lidocaine and no lidocaine, favouring lidocaine (OR = 1.66, 95% CI: 1.02-2.7, P = 0.04), was found. CONCLUSION: Evidence supporting the use of any antiarrhythmic drugs during CPR remains limited and is partly inconclusive. For the effect on survival to hospital discharge, a statistically significant difference was only found favouring the administration of lidocaine compared to no lidocaine. Further research with improved trial design and into novel drug options should be conducted.",
+          "keyFindings": "Evidence supporting the use of any antiarrhythmic drugs during CPR remains limited and is partly inconclusive. For the effect on survival to hospital discharge, a statistically significant difference was only found favouring the administration of lidocaine compared to no lidocaine. Further research with improved trial design and into novel drug options should be conducted.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-agudos-41672689",
+          "title": "Bleeding in Patients With Infarct-Related Cardiogenic Shock: A DanGer Shock Substudy",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Sørensen R, Møller JE, Vandenbriele C, Hassager C, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2025.10.051",
+          "url": "https://doi.org/10.1016/j.jcin.2025.10.051",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: The microaxial flow pump (mAFP) has demonstrated improved outcomes in selected patients with ST-segment elevation acute myocardial infarction and cardiogenic shock (STEMI-CS). However, its use has been associated with bleeding events. OBJECTIVES: The authors analyzed bleeding in the international multicenter randomized DanGer Shock (Danish German Shock) trial. METHODS: A total of 355 patients with ST-segment elevation acute myocardial infarction and cardiogenic shock were randomized to either mAFP (n = 179) or standard care alone (n = 176). Bleeding events were classified according to Bleeding Academic Research Consortium (BARC) type 3-5. RESULTS: In the mAFP group, 47 patients (26.3% [95% CI: 20.3%-33.2%]) experienced BARC type 3-5 bleeding, compared with 27 (15.3% [95% CI: 10.7%-21.4%]) in the standard care group; P < 0.001. Median follow-up was 121 days (Q1-Q3: 3-180 days). Among the 210 patients treated with any mechanical circulatory support (MCS), 2 of 74 bleeding events (2.7%) occurred in the cath lab, 35 (47.3%) while on MCS, and 37 (50.0%) after the MCS was removed. Bleeding increased with complexity of MCS: OR for BARC 3-5 bleeding with mAFP was 4.94 (95% CI: 2.30-10.65); P < 0.001, with venoarterial extracorporeal membrane oxygenation (VA-ECMO) 8.06 (95% CI: 2.81-23.09); P < 0.001, and with combined mAFP+VA-ECMO 27.40 (95% CI: 9.82-76.43); P < 0.001, no device as reference. Multivariable logistic regression identified use of mAFP, renal replacement therapy, and escalation to VA-ECMO as predictors of BARC type 3-5 bleeding. CONCLUSIONS: Patients randomized to mAFP experienced more bleeding than the standard care group. Bleeding was associated with the complexity of MCS, with one-half of the bleeding events occurring after device removal. (Danish Cardiogenic Shock Trial [DanShock]; NCT01633502).",
+          "keyFindings": "Patients randomized to mAFP experienced more bleeding than the standard care group. Bleeding was associated with the complexity of MCS, with one-half of the bleeding events occurring after device removal. (Danish Cardiogenic Shock Trial [DanShock]; NCT01633502).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en JACC: Cardiovascular Interventions — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-agudos-41297734",
+          "title": "Results of the MACiTEPH study of macitentan for the treatment of inoperable or persistent/recurrent chronic thromboembolic pulmonary hypertension",
+          "journal": "Journal of Heart and Lung Transplantation",
+          "authors": "Jenkins DP, Cerovic S, Csonka D, Ghofrani HA, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.healun.2025.11.014",
+          "url": "https://doi.org/10.1016/j.healun.2025.11.014",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: In a phase 2 study of inoperable chronic thromboembolic pulmonary hypertension (CTEPH), macitentan 10 mg improved hemodynamics and exercise capacity. METHODS: MACiTEPH (NCT04271475) was a prospective, double-blind, placebo-controlled, phase 3 study. Adult patients with inoperable CTEPH (with/without balloon pulmonary angioplasty [BPA]) or persistent/recurrent CTEPH after pulmonary endarterectomy (PEA) (with/without BPA) were randomized 1:1 to macitentan 75 mg or placebo once daily. Primary endpoint was change from baseline to Week 28 in 6-minute walk distance (6MWD). RESULTS: Following a pre-planned interim analysis, the study was stopped for futility. 127 patients were randomized, predominantly with inoperable CTEPH with BPA (36.2%) or persistent/recurrent CTEPH after PEA without BPA (30.7%). The majority (81.9%) were receiving pulmonary hypertension (PH)-specific therapy at baseline. 47 patients in the macitentan 75 mg and 48 in the placebo group had Week 28 assessments. Primary endpoint was not met; mean change in 6MWD from baseline to Week 28 versus placebo was -16.1 m (95% confidence limit: -32.3, 0.16). Clinical worsening events occurred in 6.3% and 14.3% of patients in the macitentan 75 mg and placebo groups, respectively. A slightly higher proportion of the macitentan 75 mg group had ≥1 adverse event (AE) or serious AE versus placebo; no pattern was identified. More patients in macitentan 75 mg versus placebo group discontinued treatment due to an AE (21.9% versus 7.9%, respectively). CONCLUSIONS: MACiTEPH was discontinued for futility, as no treatment effect on 6MWD (primary endpoint) was observed. Despite the higher discontinuation rate in the macitentan 75 mg group, no unexpected safety signals were observed in CTEPH patients.",
+          "keyFindings": "MACiTEPH was discontinued for futility, as no treatment effect on 6MWD (primary endpoint) was observed. Despite the higher discontinuation rate in the macitentan 75 mg group, no unexpected safety signals were observed in CTEPH patients.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of Heart and Lung Transplantation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
