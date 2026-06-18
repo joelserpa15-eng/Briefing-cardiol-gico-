@@ -444,6 +444,9 @@ CV_TITLE_TERMS = [
     "myocardial perfusion", "sudden cardiac death",
     "cardioprotect", "cardiotoxic", "cardio-oncology",
     "glp-1", "tirzepatide", "semaglutide",
+    "cardiogenic shock", "cardiac arrest", "cardiac tamponade",
+    "aortic dissection", "ecmo", "impella", "ventricular assist",
+    "pulmonary embolism", "resuscitation",
 ]
 
 # If any of these appear in the TITLE the article is rejected as non-cardiology,
@@ -533,9 +536,11 @@ def build_pubmed_query(date_start, date_end):
     cardio_clause = (
         '"cardiovascular diseases"[MeSH] OR "heart diseases"[MeSH] OR '
         '"coronary"[tiab] OR "cardiac"[tiab] OR "cardio"[tiab] OR '
-        '"atrial fibrillation"[tiab] OR "myocardial"[tiab] OR '
+        '"cardiogenic"[tiab] OR "atrial fibrillation"[tiab] OR "myocardial"[tiab] OR '
         '"hypertension"[tiab] OR "heart failure"[tiab] OR '
-        '"arrhythmia"[tiab] OR "stroke"[tiab]'
+        '"arrhythmia"[tiab] OR "cardiac arrest"[tiab] OR '
+        '"aortic dissection"[tiab] OR "ventricular assist"[tiab] OR '
+        '"pulmonary embolism"[tiab] OR "ecmo"[tiab]'
     )
     return (
         f"({journal_clause}) AND ({evidence_clause}) "
@@ -1015,9 +1020,11 @@ def build_pubmed_query_annual(date_start, date_end):
     cardio_clause = (
         '"cardiovascular diseases"[MeSH] OR "heart diseases"[MeSH] OR '
         '"coronary"[tiab] OR "cardiac"[tiab] OR "cardio"[tiab] OR '
-        '"atrial fibrillation"[tiab] OR "myocardial"[tiab] OR '
+        '"cardiogenic"[tiab] OR "atrial fibrillation"[tiab] OR "myocardial"[tiab] OR '
         '"hypertension"[tiab] OR "heart failure"[tiab] OR '
-        '"arrhythmia"[tiab] OR "stroke"[tiab]'
+        '"arrhythmia"[tiab] OR "cardiac arrest"[tiab] OR '
+        '"aortic dissection"[tiab] OR "ventricular assist"[tiab] OR '
+        '"pulmonary embolism"[tiab] OR "ecmo"[tiab]'
     )
     return (
         f"({journal_clause}) AND ({evidence_clause}) "
