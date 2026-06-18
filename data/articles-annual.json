@@ -1,12 +1,12 @@
 {
   "period": "Últimos 12 meses",
   "periodLabel": "2025-06-18 / 2026-06-18",
-  "lastUpdated": "2026-06-18T09:55:01Z",
+  "lastUpdated": "2026-06-18T11:17:36Z",
   "stats": {
     "total": 43,
-    "metaAnalysis": 24,
+    "metaAnalysis": 23,
     "systematicReview": 0,
-    "rct": 19
+    "rct": 20
   },
   "subspecialties": [
     {
@@ -385,25 +385,6 @@
           }
         },
         {
-          "id": "yr-prevencion-41211925",
-          "title": "Evolocumab in Patients without a Previous Myocardial Infarction or Stroke",
-          "journal": "New England Journal of Medicine",
-          "authors": "Bohula EA, Marston NA, Bhatia AK, De Ferrari GM, et al.",
-          "year": 2026,
-          "doi": "10.1056/NEJMoa2514428",
-          "url": "https://doi.org/10.1056/NEJMoa2514428",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: The proprotein convertase subtilisin-kexin type 9 (PCSK9) inhibitor evolocumab reduces the risk of major adverse cardiovascular events (MACE) among patients with a previous myocardial infarction, stroke, or symptomatic peripheral artery disease. The effect of evolocumab on the risk of MACE among patients without a previous myocardial infarction or stroke is unknown. METHODS: We conducted an international, double-blind, randomized, placebo-controlled trial of evolocumab in patients with atherosclerosis or diabetes and without a previous myocardial infarction or stroke who had a low-density lipoprotein cholesterol level of at least 90 mg per deciliter. Patients were randomly assigned in a 1:1 ratio to receive evolocumab at a dose of 140 mg every 2 weeks or placebo. The two primary end points were a composite of death from coronary heart disease, myocardial infarction, or ischemic stroke (3-point MACE) and a composite of 3-point MACE or ischemia-driven arterial revascularization (4-point MACE). RESULTS: A total of 12,257 patients were randomly assigned to receive evolocumab (6129 patients) or placebo (6128) and were included in the efficacy analyses. The median age of the patients was 66 years, 43% were women, and 93% were White. The median follow-up was 4.6 years. A 3-point MACE event occurred in 336 patients (5-year Kaplan-Meier estimate, 6.2%) in the evolocumab group, as compared with 443 (8.0%) in the placebo group (hazard ratio, 0.75; 95% confidence interval [CI], 0.65 to 0.86; P<0.001). A 4-point MACE event occurred in 747 patients (5-year Kaplan-Meier estimate, 13.4%) in the evolocumab group, as compared with 907 (16.2%) in the placebo group (hazard ratio, 0.81; 95% CI, 0.73 to 0.89; P<0.001). No evidence of a between-group difference was seen in the incidence of safety events. CONCLUSIONS: PCSK9 inhibition with evolocumab led to a lower risk of first cardiovascular events than placebo among patients with atherosclerosis or diabetes and without a previous myocardial infarction or stroke. (Funded by Amgen; VESALIUS-CV ClinicalTrials.gov number, NCT03872401.).",
-          "keyFindings": "PCSK9 inhibition with evolocumab led to a lower risk of first cardiovascular events than placebo among patients with atherosclerosis or diabetes and without a previous myocardial infarction or stroke. (Funded by Amgen; VESALIUS-CV ClinicalTrials.gov number, NCT03872401.).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
           "id": "yr-prevencion-41091476",
           "title": "Clonal Hematopoiesis and Cardiovascular Disease and Bleeding Risk and the Effectiveness of Aspirin",
           "journal": "JAMA Cardiology",
@@ -418,6 +399,25 @@
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-prevencion-41369941",
+          "title": "Rationale, Design, and Baseline Clinical Characteristics of the Ziltivekimab Cardiovascular Outcomes Trial: Interleukin-6 Inhibition and Atherosclerotic Event Rate Reduction",
+          "journal": "JAMA Cardiology",
+          "authors": "Ridker PM, Baeres FMM, Hveplund A, Engelmann MMD, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2025.4491",
+          "url": "https://doi.org/10.1001/jamacardio.2025.4491",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Cardiovascular inflammation is a major determinant of atherosclerotic disease, and inhibition of the central signaling cytokine, interleukin 6 (IL-6), is a promising target for intervention. Patients with chronic kidney disease (CKD) commonly have plasma elevations of inflammatory biomarkers, such as high-sensitivity C-reactive protein (hsCRP) and IL-6, and are at high risk for life-threatening atherosclerotic events as well as loss of kidney function and might therefore benefit from IL-6 inhibition. OBSERVATIONS: The Ziltivekimab Cardiovascular Outcomes Trial (ZEUS; NCT05021835) will determine the safety and efficacy of IL-6 inhibition with ziltivekimab among patients with atherosclerotic cardiovascular disease (ASCVD), CKD, and systemic inflammation. ZEUS is a multinational, double-blind, placebo-controlled, event-driven, randomized clinical trial inclusive of 6376 participants with ASCVD, CKD, and an hsCRP level greater than or equal to 2 mg/L who were randomized in a 1:1 fashion to receive either ziltivekimab, 15 mg, administered subcutaneously every month or matching placebo. At randomization, mean age was 69.5 years, 27.5% were female, 92.0% had hypertension, 65.7% had diabetes, and 41.3% had heart failure. At baseline, the mean estimated glomerular filtration rate (eGFR) was 44.5 mL/min/1.73 m2, mean low-density lipoprotein cholesterol level was 77.7 mg/dL, median hsCRP level was 4.5 mg/L, and median IL-6 level was 4.9 pg/mL. At enrollment, sodium-glucose cotransporter-2 inhibitors and glucagon-like peptide-1 receptor agonists were being used by 36.8% and 11.3% of the cohort, respectively. The primary outcome is 3-point major adverse cardiovascular events. Secondary cardiovascular outcomes include (1) an expanded major adverse cardiovascular event outcome including hospitalization for unstable angina requiring urgent coronary revascularization, (2) hospitalizations for heart failure or urgent heart failure visits or cardiovascular death, and (3) all-cause mortality. The secondary kidney outcome is a composite of greater than 40% decline in eGFR, eGFR less than 15 mL/min/1.73 m2, dialysis, kidney transplant, death from kidney disease, or cardiovascular death. CONCLUSIONS AND RELEVANCE: The ZEUS randomized clinical trial will formally test the hypothesis that IL-6 inhibition with ziltivekimab will lower incident cardiovascular event rates and potentially slow kidney decline among participants with known ASCVD, CKD, and elevated hsCRP. If successful, the ZEUS trial would provide a fully novel approach for prevention of myocardial infarction, stroke, cardiovascular death, and kidney function decline among high-risk patients with CKD.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: The ZEUS randomized clinical trial will formally test the hypothesis that IL-6 inhibition with ziltivekimab will lower incident cardiovascular event rates and potentially slow kidney decline among participants with known ASCVD, CKD, and elevated hsCRP.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
             "label": "Alta",
             "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
@@ -446,25 +446,6 @@
             "score": 90,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "yr-valvulopatias-40348408",
-          "title": "Defining centres of expertise for minimally invasive mitral valve surgery: a systematic review and volume-outcome meta-analysis",
-          "journal": "Heart",
-          "authors": "Heuts S, Hjij W, Kawczynski MJ, Olsthoorn JR, et al.",
-          "year": 2025,
-          "doi": "10.1136/heartjnl-2024-325048",
-          "url": "https://doi.org/10.1136/heartjnl-2024-325048",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Minimally invasive mitral valve surgery (MIMVS) is increasingly performed, but outcomes such as repair rate, mortality and survival likely depend on expertise. Still, the definition of a high-volume centre varies in the literature and lacks an evidence-based substantiation. Consequently, this study aims to determine the volume-outcome relation in MIMVS in conjunction with a volume threshold, in order to define 'high-volume centres', applying a novel statistical concept. METHODS: The study was preregistered in PROSPERO (CRD42022376293, registered 26 November 2022). A systematic search was applied to three databases, including consecutive patients undergoing MIMVS. Studies describing patients undergoing transcatheter procedures were excluded. Restricted cubic spline analyses were applied and the elbow method was used to retrieve the threshold volume. Long-term outcomes were analysed using reconstructed Kaplan-Meier curves and a novel statistical concept to assess the volume-outcome relation for time-to-event outcomes was applied. The primary outcome was early mortality, secondary outcomes were repair rate, stroke, and long-term survival, freedom from reoperation, and freedom from more than moderate mitral regurgitation. Leave-one-out analyses were performed for sensitivity purposes. RESULTS: Data from 68 unique centres were included (n=23 495 patients). Early mortality was 1.3% (95% CI 1.1% to 1.6%), without a statistically significant non-linear relation for this endpoint, nor for stroke. There was a statistically significant volume-outcome relation for mitral valve repair rate (p=0.018). Based on the repair rate, the threshold to define a high-volume centre was 60 cases/year (number needed to treat to prevent a replacement ≤7). A significant volume-outcome relation was observed for long-term outcomes as well, with a threshold of 53 and 54 cases/year for long-term survival and freedom from reoperation, respectively. These results were robust across the sensitivity analyses for the various endpoints. CONCLUSIONS: The threshold to define a high-volume centre ranges between 53 and 60 cases/year based on repair rate, long-term survival and freedom-from reoperation. These findings have the potential to facilitate centralisation of MIMVS.PROSPERO registration numberCRD42022376293.",
-          "keyFindings": "The threshold to define a high-volume centre ranges between 53 and 60 cases/year based on repair rate, long-term survival and freedom-from reoperation. These findings have the potential to facilitate centralisation of MIMVS.PROSPERO registration numberCRD42022376293.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 87,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -503,6 +484,25 @@
             "score": 83,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Circulation: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-41335456",
+          "title": "Tenecteplase vs Alteplase in Mechanical Prosthetic Heart Valve Thrombosis: The TENET Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Sharma G, Akkineni KP, Makkar N, Shukla A, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2025.4369",
+          "url": "https://doi.org/10.1001/jamacardio.2025.4369",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: For patients presenting with symptomatic prosthetic valve thrombosis (PVT) after mechanical heart valve replacement, thrombolytic therapy with alteplase is accepted as a first-line therapeutic alternative. The utility of tenecteplase compared with conventional regimens remains unstudied, to the authors' knowledge, in this patient population. OBJECTIVE: To assess the relative safety and efficacy of tenecteplase compared with standard infusions of alteplase in patients with PVT. DESIGN, SETTING AND PARTICIPANTS: This was an open-label, parallel-group, non-inferiority randomized clinical trial among consecutive adult patients presenting with obstructive PVT of a mechanical prosthetic valve over the study period from October 2022 to August 2024 to a single tertiary care center in India. INTERVENTIONS: Patients received thrombolytic therapy with a low-dose slow infusion alteplase or weight-based bolus doses of tenecteplase. MAIN OUTCOMES AND MEASURES: The primary outcomes were to determine the rates of complete thrombolytic success and the incidence of major complications. RESULTS: A total of 83 patients (mean [SD] age, 39.6 [12.4] years, 42 male [50.6%]) were randomized to receive alteplase (n = 43) or tenecteplase (n = 40). The rates of the primary efficacy end point (complete thrombolytic success) were significantly higher (risk ratio, 1.18; 95% CI, 1.03-1.39; P = .02 for noninferiority) in the tenecteplase group (39 patients [97.5%]) compared with the alteplase group (35 patients [81.5%]). Additionally, patients treated with tenecteplase had higher rates of complete success with the first administered dose and a shorter duration of hospital stay (median [IQR], 4.1 [3.2-5.1] days vs 6.5 [4.3-9.2] days; P < .001). The rates of major and minor adverse events were similar. CONCLUSIONS AND RELEVANCE: Tenecteplase may be a safe and effective alternative to alteplase in patients presenting with obstructive PVT. Patients treated with tenecteplase in our study had higher rates of complete thrombolytic success and a shorter duration of hospital stay. Furthermore, the relative ease of drug administration with tenecteplase may translate to greater clinical benefit in a real-world setting. TRIAL REGISTRATION: Clinical Trials Registry of India: CTRI/2022/10/046127.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Tenecteplase may be a safe and effective alternative to alteplase in patients presenting with obstructive PVT.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -551,6 +551,25 @@
           }
         },
         {
+          "id": "yr-hipertension-40632527",
+          "title": "Medication Adherence in Hypertension: A Cluster Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Blecker S, Mann DM, Martinez TR, Belli HM, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.2155",
+          "url": "https://doi.org/10.1001/jamacardio.2025.2155",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Medication nonadherence is present in nearly half of patients with hypertension but is underrecognized in clinical care. Data linkages between electronic health records and pharmacies have created opportunities for scalable assessment of medication adherence at the point of care. OBJECTIVE: To test the effectiveness of a multicomponent intervention that identified patients with uncontrolled hypertension and medication nonadherence using linked electronic health record-pharmacy data combined with team-based care to address adherence barriers. DESIGN, SETTING, AND PARTICIPANTS: TEAMLET (Leveraging Electronic Health Record Technology and Team Care to Address Medication Adherence) was a pragmatic, 2-arm, cluster randomized clinical trial conducted between October 2022 and November 2024 in 10 primary care sites in New York. The study included adults with uncontrolled hypertension and low medication adherence, defined as proportion of days covered (PDC) less than 80%. Data analysis was performed from November 2024 to January 2025. INTERVENTION: The intervention consisted of the following: (1) automated identification of patients with medication nonadherence at the time of the visit; (2) prompting of medical assistants to screen for barriers to adherence; (3) clinical decision support alerting the primary care physicians and nurse practitioners to barriers to adherence; and (4) adherence discussion between the primary care physician or nurse practitioner and the patient. The comparator was usual care. MAIN OUTCOMES AND MEASURES: The primary outcome was change in PDC from baseline to 12 months. RESULTS: Among 1726 patients (mean [SD] age, 67.2 [13.9] years; 887 [51.4%] female), the mean (SD) baseline PDC was 33.2% (30.5%) overall (32.4% [30.4%] in the intervention group and 34.0% [30.6%] in the control group). The mean (SD) PDC at 12 months was 51.1% (39.5%) for the intervention group and 53.1% (39.6%) for the control group. No difference was found in the change in PDC from baseline to 12 months between the intervention and control groups (mean [SD] absolute change in PDC, 18.5 [41.1] vs 18.2 [40.9] percentage points, respectively; adjusted difference, -0.15 percentage point; 95% CI, -4.06 to 3.76 percentage points). Change in systolic blood pressure and patients who became adherent (PDC ≥80%) at 12 months were also similar between groups. CONCLUSIONS AND RELEVANCE: In this pragmatic trial, an intervention that combined team-based primary care with automated identification of patients with antihypertensive medication nonadherence did not lead to improvements in adherence or blood pressure. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05349422.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this pragmatic trial, an intervention that combined team-based primary care with automated identification of patients with antihypertensive medication nonadherence did not lead to improvements in adherence or blood pressure.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "yr-hipertension-40401436",
           "title": "Beta-blocker interruption effects on blood pressure and heart rate after myocardial infarction: the AβYSS trial",
           "journal": "European Heart Journal",
@@ -567,25 +586,6 @@
             "score": 68,
             "label": "Moderada",
             "rationale": "RCT en European Heart Journal — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "yr-hipertension-41216699",
-          "title": "Haptoglobin Phenotype and Cardiovascular Risk: The ACCORD Blood Pressure RCT",
-          "journal": "Hypertension",
-          "authors": "Lavallée SK, Carew AS, Warren RA, Sapp JL, et al.",
-          "year": 2026,
-          "doi": "10.1161/HYPERTENSIONAHA.125.25021",
-          "url": "https://doi.org/10.1161/HYPERTENSIONAHA.125.25021",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: A relationship between hypertension and risk of incident cardiovascular disease, coronary artery disease, and stroke is widely reported in type 2 diabetes. However, trials testing intensive blood pressure control therapy versus standard therapy to reduce cardiovascular events have reported conflicting results, which could potentially be due to an unmeasured biological factor such as the common Hp (haptoglobin) phenotype. METHODS: Multivariable-adjusted Cox proportional hazards regression models assessed the relationship between intensive (versus standard) blood pressure control therapy and risk of composite cardiovascular disease, coronary artery disease, and stroke events in the ACCORD (Action to Control Cardiovascular Risk in Diabetes) blood pressure trial in participants with the Hp2-2 phenotype (n=1527) separately from Hp1 allele carriers (n=2748). RESULTS: Intensive blood pressure therapy (versus standard therapy) was associated with a lower risk of composite cardiovascular disease among Hp1 allele carriers (hazard ratio, 0.76 [95% CI, 0.59-0.99]) but not among participants with the Hp2-2 phenotype (hazard ratio, 1.12 [95% CI, 0.80-1.55]; P-interaction=0.07). No significant hazard ratio was observed for intensive therapy versus standard therapy on risk of coronary artery disease (Hp1 allele carriers: hazard ratio, 0.85 [95% CI, 0.67-1.08]; Hp2-2 phenotype: hazard ratio, 1.12 [95% CI, 0.84-1.51]; P-interaction=0.11). Intensive therapy was associated with a lower risk of stroke among Hp1 allele carriers (hazard ratio, 0.53 [95% CI, 0.31-0.91]) but not among Hp2-2 participants (hazard ratio, 0.70 [95% CI, 0.33-1.46]; P-interaction=0.56). CONCLUSIONS: The lack of an effect of intensive blood pressure control on composite cardiovascular disease events in the original ACCORD blood pressure trial may be explained in part by variation in response among the Hp phenotypes. Further study and replication are required. REGISTRATION: URL: https://www.clinicaltrials.gov/study/NCT00000620?id=NCT00000620; Unique identifier: NCT00000620.",
-          "keyFindings": "The lack of an effect of intensive blood pressure control on composite cardiovascular disease events in the original ACCORD blood pressure trial may be explained in part by variation in response among the Hp phenotypes. Further study and replication are required.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 68,
-            "label": "Moderada",
-            "rationale": "RCT en Hypertension — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
