@@ -915,6 +915,133 @@ def week_info(today=None):
 # Main
 # ────────────────────────────────────────────────────────────────────────────
 
+def build_pubmed_query_annual(date_start, date_end):
+    """Stricter query for annual top: only high-evidence types."""
+    journal_clause = " OR ".join(f'"{j["nlm"]}"[Journal]' for j in JOURNALS)
+    evidence_clause = (
+        'meta-analysis[pt] OR "systematic review"[pt] OR '
+        '"randomized controlled trial"[pt] OR "controlled clinical trial"[pt] OR '
+        '"clinical trial, phase iii"[pt] OR "clinical trial, phase iv"[pt]'
+    )
+    cardio_clause = (
+        '"cardiovascular diseases"[MeSH] OR "heart diseases"[MeSH] OR '
+        '"coronary"[tiab] OR "cardiac"[tiab] OR "cardio"[tiab] OR '
+        '"atrial fibrillation"[tiab] OR "myocardial"[tiab] OR '
+        '"hypertension"[tiab] OR "heart failure"[tiab] OR '
+        '"arrhythmia"[tiab] OR "stroke"[tiab]'
+    )
+    return (
+        f"({journal_clause}) AND ({evidence_clause}) "
+        f"AND ({cardio_clause}) "
+        f"AND {date_start}:{date_end}[pdat]"
+    )
+
+
+def generate_annual_top(today, max_per_sub=4, min_impact=55):
+    """
+    Fetch the highest-evidence cardiology articles from the past 12 months,
+    select the most clinically impactful per subspecialty, save to
+    data/articles-annual.json.
+    """
+    date_end   = today.strftime("%Y/%m/%d")
+    date_start = (today - timedelta(days=365)).strftime("%Y/%m/%d")
+
+    print(f"  Annual query: {date_start} → {date_end}")
+    data = ncbi_get(ESEARCH_URL, {
+        "db": "pubmed", "term": build_pubmed_query_annual(date_start, date_end),
+        "retmax": 400, "retmode": "json", "sort": "relevance",
+    })
+    if not data:
+        print("  [WARN] Annual query returned no data — skipping")
+        return
+
+    pmids = json.loads(data).get("esearchresult", {}).get("idlist", [])
+    print(f"  Annual PubMed: {len(pmids)} PMIDs")
+    if not pmids:
+        return
+
+    raw = pubmed_fetch(pmids)
+    print(f"  Annual parsed: {len(raw)} articles with abstracts")
+
+    # Keep only high-evidence articles that are primarily cardiology
+    raw = [a for a in raw if a.get("evidenceRank", 9) <= 3 and is_primarily_cardiology(a)]
+    print(f"  After evidence + cardiology filter: {len(raw)} articles")
+
+    buckets = {s["id"]: [] for s in SUBSPECIALTIES}
+    for art in raw:
+        sub_id = classify(art)
+        if not sub_id:
+            continue
+        art["keyFindings"] = extract_key_finding(art["abstract"])
+        impact = compute_clinical_impact(art)
+        if impact["score"] < min_impact:
+            continue
+        clean = {
+            "id":             f"yr-{sub_id}-{art['pmid'] or art['doi'][:20].replace('/','_')}",
+            "title":          art["title"],
+            "journal":        art["journal"],
+            "authors":        art["authors"],
+            "year":           art["year"],
+            "doi":            art["doi"],
+            "url":            art["url"],
+            "evidenceLevel":  art["evidenceLevel"],
+            "evidenceRank":   art["evidenceRank"],
+            "journalRank":    art["journalRank"],
+            "abstract":       art["abstract"],
+            "keyFindings":    art["keyFindings"],
+            "source":         art["source"],
+            "clinicalImpact": impact,
+        }
+        buckets[sub_id].append(clean)
+
+    output_subs = []
+    total = n_meta = n_sr = n_rct = 0
+    for sub in SUBSPECIALTIES:
+        arts = buckets[sub["id"]]
+        # Best first: highest clinical impact, then best evidence, then top journal
+        arts.sort(key=lambda a: (-a["clinicalImpact"]["score"], a["evidenceRank"], a["journalRank"]))
+        arts = arts[:max_per_sub]
+        for a in arts:
+            a.pop("journalRank", None)
+            if a["evidenceRank"] == 1:   n_meta += 1
+            elif a["evidenceRank"] == 2: n_sr   += 1
+            elif a["evidenceRank"] == 3: n_rct  += 1
+        if arts:
+            output_subs.append({
+                "id":       sub["id"],
+                "name":     sub["name"],
+                "color":    sub["color"],
+                "articles": arts,
+            })
+            total += len(arts)
+
+    if not output_subs:
+        print("  [WARN] No annual articles passed filters — file not written")
+        return
+
+    output = {
+        "period":       "Últimos 12 meses",
+        "periodLabel":  f"{date_start.replace('/', '-')} / {date_end.replace('/', '-')}",
+        "lastUpdated":  today.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "stats": {
+            "total":              total,
+            "metaAnalysis":       n_meta,
+            "systematicReview":   n_sr,
+            "rct":                n_rct,
+        },
+        "subspecialties": output_subs,
+    }
+
+    data_dir    = os.path.join(os.path.dirname(__file__), "..", "data")
+    annual_path = os.path.join(data_dir, "articles-annual.json")
+    with open(annual_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print(f"  Annual saved: {total} articles across {len(output_subs)} subspecialties")
+    print(f"  Meta-análisis: {n_meta}  |  Rev. sistemáticas: {n_sr}  |  RCT: {n_rct}")
+    print(f"  Output → {annual_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Fetch weekly cardiology articles")
     parser.add_argument("--days", type=int, default=14,
@@ -1066,6 +1193,10 @@ def main():
     print(f"  Meta-análisis: {n_meta}  |  Rev. sistemáticas: {n_sr}  |  RCT: {n_rct}")
     print(f"  Skipped (non-cardiology): {skipped_noncardio}  |  Skipped (low score): {skipped_lowscore}")
     print(f"  Output → {out_path}")
+
+    # ── 5. Annual top articles ─────────────────────────────────────────────
+    print(f"\n[5/5] Generating annual top articles (last 365 days)…")
+    generate_annual_top(today)
     print("=" * 60)
     print("  Done.")
     print("=" * 60)

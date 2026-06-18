@@ -598,6 +598,88 @@
     }
     .footer strong { color: #a0aec0; }
 
+    /* ── VIEW TABS ── */
+    .view-tabs-bar {
+      background: #fff;
+      border-bottom: 2px solid var(--border);
+      position: sticky;
+      top: 68px;
+      z-index: 90;
+      box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    }
+    .view-tabs-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+    }
+    .view-tab {
+      padding: 14px 22px;
+      font-size: .86rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      transition: color .18s, border-color .18s;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .view-tab:hover { color: #3730a3; }
+    .view-tab.active { color: #3730a3; border-bottom-color: #3730a3; }
+
+    /* ── ANNUAL HERO ── */
+    .annual-hero {
+      background: linear-gradient(135deg, #1c1917 0%, #2d2520 100%);
+      color: #fff;
+      padding: 36px 20px;
+      text-align: center;
+    }
+    .annual-hero h2 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      letter-spacing: -.5px;
+      margin-bottom: 8px;
+    }
+    .annual-hero p {
+      color: #a8a29e;
+      font-size: .92rem;
+      max-width: 580px;
+      margin: 0 auto 18px;
+    }
+    .annual-period-badge {
+      display: inline-block;
+      background: rgba(251,191,36,.15);
+      border: 1px solid rgba(251,191,36,.35);
+      color: #fbbf24;
+      font-size: .72rem;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      margin-bottom: 14px;
+    }
+    .annual-filter-bar {
+      background: #fffbeb;
+      border-bottom: 1px solid #fde68a;
+      padding: 12px 20px;
+    }
+    .annual-filter-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .aev-btn { color: #92400e !important; border-color: #fde68a !important; }
+    .aev-btn:hover { border-color: #f59e0b !important; color: #78350f !important; background: #fef3c7 !important; }
+    .aev-btn.active { background: #f59e0b !important; border-color: #f59e0b !important; color: #fff !important; }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
       .hero h2 { font-size: 1.35rem; }
@@ -668,6 +750,23 @@
   </div>
 </section>
 
+<!-- VIEW TABS -->
+<nav class="view-tabs-bar">
+  <div class="view-tabs-inner">
+    <button class="view-tab active" id="tabWeekly" onclick="switchView('weekly')">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Esta Semana
+    </button>
+    <button class="view-tab" id="tabAnnual" onclick="switchView('annual')">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Año en Revisión
+    </button>
+  </div>
+</nav>
+
+<!-- WEEKLY VIEW -->
+<div id="weeklyView">
+
 <!-- FILTER BAR -->
 <div class="filter-bar">
   <div class="filter-inner">
@@ -687,6 +786,58 @@
 <main class="main" id="mainContent">
   <div class="no-results" id="noResults">No hay artículos para el filtro seleccionado en esta subespecialidad.</div>
 </main>
+
+</div><!-- /weeklyView -->
+
+<!-- ANNUAL VIEW -->
+<div id="annualView" style="display:none">
+
+  <div class="annual-hero">
+    <div style="max-width:1100px;margin:0 auto">
+      <div class="annual-period-badge">⭐ Últimos 12 meses</div>
+      <h2>Lo Mejor del Año en Cardiología</h2>
+      <p>Meta-análisis, revisiones sistemáticas y ensayos clínicos de mayor impacto publicados en los últimos 12 meses, seleccionados por nivel de evidencia e impacto clínico.</p>
+      <div class="stats-row" id="annualStatsRow">
+        <div class="stat">
+          <span class="stat-num" id="annualStatArticles">–</span>
+          <div class="stat-label">Artículos</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="annualStatSubs">–</span>
+          <div class="stat-label">Subespecialidades</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="annualStatMeta">–</span>
+          <div class="stat-label">Meta-análisis</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="annualStatRCT">–</span>
+          <div class="stat-label">Ensayos clínicos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="annual-filter-bar">
+    <div class="annual-filter-inner">
+      <span class="filter-label">Filtrar por evidencia:</span>
+      <div class="evidence-filters" id="annualEvidenceFilters">
+        <button class="ev-btn aev-btn active" data-rank="all">Todos</button>
+        <button class="ev-btn aev-btn" data-rank="1">Meta-análisis</button>
+        <button class="ev-btn aev-btn" data-rank="2">Revisión Sistemática</button>
+        <button class="ev-btn aev-btn" data-rank="3">Ensayo Clínico</button>
+      </div>
+      <button class="btn-expand-all" id="annualBtnExpandAll">Expandir todo</button>
+    </div>
+  </div>
+
+  <main class="main" id="annualContent">
+    <div class="week-loading-indicator" id="annualPlaceholder" style="display:none">
+      Cargando artículos del año…
+    </div>
+  </main>
+
+</div><!-- /annualView -->
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -791,15 +942,15 @@
       </div>`;
   }
 
-  function buildSubspecialtySection(sub) {
+  function buildSubspecialtySection(sub, prefix = 'sub') {
     const articlesHTML = sub.articles
       .sort((a, b) => a.evidenceRank - b.evidenceRank)
       .map(a => buildArticleCard(a, sub.color))
       .join('');
 
     return `
-      <div class="subspecialty" id="sub-${sub.id}" data-id="${sub.id}">
-        <div class="subspecialty-header" onclick="toggleSubspecialty('sub-${sub.id}')">
+      <div class="subspecialty" id="${prefix}-${sub.id}" data-id="${sub.id}">
+        <div class="subspecialty-header" onclick="toggleSubspecialty('${prefix}-${sub.id}')">
           <div class="color-stripe" style="background:${sub.color}"></div>
           <div class="subs-title-area">
             <div class="subs-color-dot" style="background:${sub.color}"></div>
@@ -811,7 +962,7 @@
           </div>
         </div>
         <div class="articles-panel">
-          <div class="articles-list" id="list-${sub.id}">${articlesHTML}</div>
+          <div class="articles-list" id="${prefix}list-${sub.id}">${articlesHTML}</div>
         </div>
       </div>`;
   }
@@ -967,6 +1118,84 @@
     const wrap = document.getElementById('weekDropdownWrap');
     if (wrap && !wrap.contains(e.target)) closeWeekDropdown();
   });
+
+  // ── View switching (weekly ↔ annual)
+  let annualLoaded = false;
+  let annualAllExpanded = false;
+
+  function switchView(view) {
+    const isAnnual = view === 'annual';
+    document.getElementById('weeklyView').style.display  = isAnnual ? 'none' : '';
+    document.getElementById('annualView').style.display  = isAnnual ? '' : 'none';
+    document.getElementById('tabWeekly').classList.toggle('active', !isAnnual);
+    document.getElementById('tabAnnual').classList.toggle('active', isAnnual);
+    if (isAnnual && !annualLoaded) loadAnnualData();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  async function loadAnnualData() {
+    const container = document.getElementById('annualContent');
+    container.innerHTML = '<div class="week-loading-indicator">Cargando artículos del año…</div>';
+
+    try {
+      const resp = await fetch('data/articles-annual.json?v=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+      annualLoaded = true;
+
+      const stats   = data.stats || {};
+      const allArts = data.subspecialties.flatMap(s => s.articles);
+      document.getElementById('annualStatArticles').textContent = stats.total          ?? allArts.length;
+      document.getElementById('annualStatSubs').textContent     = data.subspecialties.length;
+      document.getElementById('annualStatMeta').textContent     = stats.metaAnalysis   ?? allArts.filter(a => a.evidenceRank === 1).length;
+      document.getElementById('annualStatRCT').textContent      = stats.rct            ?? allArts.filter(a => a.evidenceRank === 3).length;
+
+      container.innerHTML = data.subspecialties
+        .map(sub => buildSubspecialtySection(sub, 'asub'))
+        .join('');
+
+      // Annual evidence filter
+      document.getElementById('annualEvidenceFilters').addEventListener('click', e => {
+        const btn = e.target.closest('.aev-btn');
+        if (!btn) return;
+        applyAnnualFilter(btn.dataset.rank);
+      });
+
+      // Annual expand-all button
+      document.getElementById('annualBtnExpandAll').addEventListener('click', () => {
+        annualAllExpanded = !annualAllExpanded;
+        document.getElementById('annualContent').querySelectorAll('.subspecialty').forEach(s => {
+          s.classList.toggle('open', annualAllExpanded);
+        });
+        document.getElementById('annualBtnExpandAll').textContent = annualAllExpanded ? 'Contraer todo' : 'Expandir todo';
+      });
+
+      applyAnnualFilter('all');
+    } catch (err) {
+      container.innerHTML = `
+        <div style="text-align:center;padding:48px 20px;color:var(--text-muted)">
+          <div style="font-size:2rem;margin-bottom:12px">📅</div>
+          <strong style="color:var(--text)">El resumen anual aún no está disponible</strong><br>
+          <span style="font-size:.86rem">Se generará en la próxima actualización programada (lunes 07:00 UTC).</span>
+        </div>`;
+    }
+  }
+
+  function applyAnnualFilter(rank) {
+    const root = document.getElementById('annualContent');
+    document.querySelectorAll('.aev-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.rank === String(rank));
+    });
+    root.querySelectorAll('.article-card').forEach(card => {
+      card.classList.toggle('hidden', rank !== 'all' && String(card.dataset.rank) !== String(rank));
+    });
+    if (rank !== 'all') {
+      root.querySelectorAll('.subspecialty').forEach(sub => {
+        const visible = sub.querySelectorAll('.article-card:not(.hidden)').length;
+        if (visible > 0) sub.classList.add('open'); else sub.classList.remove('open');
+      });
+    }
+  }
 
   // ── Bootstrap
   async function init() {
