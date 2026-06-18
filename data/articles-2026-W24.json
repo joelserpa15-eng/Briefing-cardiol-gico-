@@ -1,7 +1,7 @@
 {
   "week": "2026-W24",
   "weekLabel": "15 – 21 de junio, 2026",
-  "lastUpdated": "2026-06-18T09:52:59Z",
+  "lastUpdated": "2026-06-18T09:55:01Z",
   "stats": {
     "total": 32,
     "metaAnalysis": 4,
@@ -253,7 +253,7 @@
     },
     {
       "id": "insuficiencia-cardiaca",
-      "name": "Insuficiencia Cardíaca",
+      "name": "Insuficiencia Cardíaca y Dispositivos",
       "color": "#2471A3",
       "articles": [
         {

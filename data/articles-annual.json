@@ -1,12 +1,12 @@
 {
   "period": "Últimos 12 meses",
   "periodLabel": "2025-06-18 / 2026-06-18",
-  "lastUpdated": "2026-06-18T09:52:59Z",
+  "lastUpdated": "2026-06-18T09:55:01Z",
   "stats": {
     "total": 43,
-    "metaAnalysis": 26,
+    "metaAnalysis": 24,
     "systematicReview": 0,
-    "rct": 17
+    "rct": 19
   },
   "subspecialties": [
     {
@@ -177,7 +177,7 @@
     },
     {
       "id": "insuficiencia-cardiaca",
-      "name": "Insuficiencia Cardíaca",
+      "name": "Insuficiencia Cardíaca y Dispositivos",
       "color": "#2471A3",
       "articles": [
         {
@@ -698,44 +698,6 @@
           }
         },
         {
-          "id": "yr-imagen-40884516",
-          "title": "Prognostic Value of Myocardial T1 Mapping and Extracellular Volume Fraction in Heart Failure: A Meta-Analysis",
-          "journal": "JACC: Cardiovascular Imaging",
-          "authors": "Zhang H, Yang W, Zhou D, Wang Y, et al.",
-          "year": 2025,
-          "doi": "10.1016/j.jcmg.2025.06.017",
-          "url": "https://doi.org/10.1016/j.jcmg.2025.06.017",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Heart failure (HF) is a global health burden. Myocardial fibrosis is a crucial promotor in HF progression which can be characterized noninvasively by cardiac magnetic resonance T1 mapping. OBJECTIVES: This study aims to systemically evaluate the prognostic value of myocardial T1 mapping and extracellular volume fraction (ECV) covering the entire spectrum of HF through a meta-analysis. METHODS: We searched PubMed, Web of Science, and SCOPUS for studies examining the prognostic value of T1 mapping in HF with reduced and preserved ejection fraction. Baseline level, mean difference, and HRs were pooled for meta-analysis. Subgroup analyses were conducted according to HF subtypes and clinical characteristics. RESULTS: Nineteen studies with 5,384 patients (56.2% male) were included in the analysis. Patients with adverse outcomes (mortality, HF-related event, or composite outcome) had higher native T1 and ECV values than those without (weighted mean difference: 41.17 ms and 4.73%, respectively). Both native T1 and ECV were positively associated with endpoints for the entire HF group (HR of 1% increase in ECV: 1.20 [95% CI: 1.13-1.28]; HR of >1% increase: 1.56 [95% CI: 1.40-1.75]; HR binary: 2.62 [95% CI: 2.07-3.32]; HR of 1-ms increase in native T1: 1.02 [95% CI: 1.01-1.03]; HR of ≥10-ms increase: 1.08 [95% CI: 1.05-1.11]; HR binary: 2.93 [95% CI: 2.03-4.23], all P < 0.05). For subgroup cohorts, native T1 had no significant prognostic value in HF with preserved ejection fraction (P > 0.05). Younger patients with HF with severe cardiac insufficiency (NYHA functional class III-IV), persistently increasing ECV, or negative late enhancement who exhibited abnormal T1 mapping were at higher risk of adverse outcomes. CONCLUSIONS: ECV has consistent prognostic implications across HF spectrum, regardless of HF types, clinical characteristics, and various etiology. Native T1 is less predictive than ECV, particularly in HF with preserved ejection fraction.",
-          "keyFindings": "ECV has consistent prognostic implications across HF spectrum, regardless of HF types, clinical characteristics, and various etiology. Native T1 is less predictive than ECV, particularly in HF with preserved ejection fraction.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 79,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "yr-imagen-40742356",
-          "title": "Cardiac CT and PET for Surveillance of Heart Transplant Recipients: Systematic Review and Bayesian Meta-Analysis",
-          "journal": "JACC: Cardiovascular Imaging",
-          "authors": "Sayed A, Nayfeh M, Alahdab F, Al Rifai M, et al.",
-          "year": 2025,
-          "doi": "10.1016/j.jcmg.2025.05.019",
-          "url": "https://doi.org/10.1016/j.jcmg.2025.05.019",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: For noninvasive surveillance of cardiac allograft vasculopathy (CAV), cardiac computed tomography (cardiac computed tomography [CT]) and positron emission tomography (PET) received a Class IIa recommendation by the 2023 ISHLT (International Society for Heart and Lung Transplantation) guidelines. However, implementation has lagged behind because of concerns about their ability to rule out disease and stratify risk. OBJECTIVES: The purpose of this study was to define the diagnostic and prognostic ability of PET and cardiac CT in cardiac transplant recipients. METHODS: Electronic databases were searched for studies evaluating CT or PET for their diagnostic (for detecting angiographic CAV) and prognostic (for predicting major adverse cardiovascular outcomes) value. Sensitivity and specificity were pooled using Bayesian bivariate binormal-normal models with random-effects. HRs were pooled using Bayesian normal random-effects models. RESULTS: In total, 44 studies (32 CT and 12 PET) enrolling 3,049 patients were included. Coronary computed tomography angiography (CTA) showed high sensitivity (97.6%; 95% credible interval [CrI]: 93.7%-99.1%) and specificity (82.3%; 95% CrI: 75.3%-88.3%) for detecting any CAV. Coronary CTA also showed high sensitivity (92.6%; 95% CrI: 86.2%-96.2%) and specificity (92.6%; 95% CrI: 89.8%-94.9%) for significant CAV. The PET CAV algorithm for detecting significant CAV showed good sensitivity (83.9%; 95% CrI: 69.1%-92.4%) and specificity (89.6%; 95% CrI: 82.2%-94.2%). PET-derived parameters including myocardial flow reserve, stress myocardial blood flow, PET CAV score, and summed stress score, predicted future major adverse cardiovascular outcomes. CONCLUSIONS: Both coronary CTA and PET can rule out significant CAV; however, at higher pretest probabilities, coronary CTA may be preferrable. Multiple PET-derived parameters may have prognostic value, whereas there is insufficient evidence for the long-term prognostic value of CT.",
-          "keyFindings": "Both coronary CTA and PET can rule out significant CAV; however, at higher pretest probabilities, coronary CTA may be preferrable. Multiple PET-derived parameters may have prognostic value, whereas there is insufficient evidence for the long-term prognostic value of CT.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 79,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
           "id": "yr-imagen-41060665",
           "title": "Intracardiac vs Transesophageal Echocardiography in Atrial Fibrillation Ablation: A Randomized Clinical Trial",
           "journal": "JAMA Cardiology",
@@ -752,6 +714,44 @@
             "score": 75,
             "label": "Alta",
             "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-imagen-40366703",
+          "title": "Health Status Outcomes After Computed Tomography or Invasive Coronary Angiography for Stable Chest Pain: A Prespecified Secondary Analysis of the DISCHARGE Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Rieckmann N, Neumann K, Maurovich-Horvat P, Kofoed KF, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.0992",
+          "url": "https://doi.org/10.1001/jamacardio.2025.0992",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: The effect of computed tomography (CT) vs invasive coronary angiography (ICA) on health status outcomes is unknown. OBJECTIVE: To evaluate CT and ICA first-test strategies on quality of life (QOL) and angina. DESIGN, SETTING, AND PARTICIPANTS: The Diagnostic Imaging Strategies for Patients With Stable Chest Pain and Intermediate Risk of Coronary Artery Disease (DISCHARGE) randomized clinical trial, conducted between October 2015 and April 2019 in 26 European centers, followed up patients with stable chest pain and intermediate probability of coronary artery disease for a median 3.5 years. Data analysis was from December 2023 to July 2024. INTERVENTIONS: Random assignment to CT or ICA. MAIN OUTCOMES AND MEASURES: Patient-reported Euro QOL 5-dimensions descriptive system (EQ-5D-3L) visual analog scale (EQ-5D-3L-VAS) and 12-item Short Form Health Survey (SF-12) physical component score (SF-12-PCS) were primary prespecified QOL outcomes. Angina was the primary prespecified chest pain outcome. The EQ-5D-3L-VAS, summary index (EQ-5D-3L-SI), mental component summary (SF-12-MCS), and Hospital Anxiety and Depression Scale-anxiety subscale (HADS-A) and Hospital Anxiety and Depression Scale-anxiety subscale (HADS-D) were also evaluated. RESULTS: Among 3561 patients (mean [SD] age, 60.1 [10.1] years; 2002 female [56.2%]), 1735 (96.0%) in the CT group and 1671 (95.3%) in the ICA group completed at least 1 health status assessment during 3.5 years of follow-up. Health status outcomes were similar between groups, with significant improvements in all QOL outcomes (eg, mean EQ-5D-3L-VAS 3.5 year minus baseline score: CT = 4.0; 95% CI, 3.1-4.9; P < .001; ICA = 4.6; 95% CI, 3.6-5.6; P =.002), except HADS-D, which improved only in the CT group (mean EQ-5D-3L-VAS 3.5 year minus baseline score: CT = -0.2; 95% CI, -0.4 to 0; P = .04; ICA = -0.2; 95% CI, -0.4 to 0; P = .12). Female patients had worse baseline and follow-up QOL than male patients (eg, baseline EQ-5D-3L-VAS difference between men and women = 5.2; 95% CI, 4.0-6.3; P <.001 and at 3.5 years = 3.1; 95% CI, 1.9-4.4; P < .001) but showed greater improvements in EQ-5D-3L-VAS (-1.9; 95% CI, -3.4 to -0.5; P = .009), SF-12-PCS (-1.4; -2.1 to -0.7; P < .001), and HADS-A (0.3; 0-0.7; P = .04). Angina outcomes were comparable between groups at 3.5 years, with similar 1-year rates in the CT group but higher rates in female than male patients in the ICA group (10.2% vs 6.2%; P = .007). CONCLUSIONS AND RELEVANCE: Results of this secondary analysis of the DISCHARGE randomized clinical trial reveal that there was no significant difference in QOL or chest pain outcomes with CT vs ICA at 3.5 years. Female patients had worse health status than male patients at baseline and follow-up, and CT or ICA did not affect these differences. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT02400229.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this secondary analysis of the DISCHARGE randomized clinical trial reveal that there was no significant difference in QOL or chest pain outcomes with CT vs ICA at 3.5 years.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-imagen-40652576",
+          "title": "Cardiac Magnetic Resonance Imaging vs Coronary Angiography as Primary Strategy in Newly Diagnosed Heart Failure",
+          "journal": "JACC: Heart Failure",
+          "authors": "Güder G, Reiter T, Bauer WR, Papavassiliu T, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jchf.2025.102528",
+          "url": "https://doi.org/10.1016/j.jchf.2025.102528",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: New-onset heart failure with reduced ejection fraction (HFrEF) requires further diagnostic evaluation to determine its underlying cause. Despite the potential of cardiac magnetic resonance (CMR) imaging to identify ischemic and nonischemic causes, percutaneous invasive coronary angiography (CATH) remains the preferred tool for diagnosing ischemic cardiomyopathy (ICM). OBJECTIVES: This study aimed to determine whether a CMR-first strategy could diagnose ICM as effectively as CATH (primary endpoint) and potentially reduce the number of invasive procedures (secondary endpoint). METHODS: In this multicenter 2-armed diagnostic trial (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure), 229 adults with new-onset HFrEF were randomized to undergo CMR or CATH first and the other modality second. Separate expert panels evaluated both modalities, blinded to each other's results. The cardiologist-in-charge was blinded to the panel results and served as the reference standard. RESULTS: A total of 203 patients (mean age: 62 ± 14 years, 28% women) had evaluable pairs of diagnostic modalities (108 CATH-first). For diagnosing ICM, the panels considered CATH to be sufficient in 100% (105/105) and CMR in 80% (76/95; P < 0.001). Compared with the reference, sensitivity for diagnosing ICM was high for both (CATH 91%, CMR 90%; P = 1.00), but CMR had lower specificity (98% vs 74%; P < 0.001). According to the CMR panel, 48% (46/95) of CATH procedures could have been avoided with a CMR-first strategy, dropping to 45% when excluding patients who underwent coronary interventions. CONCLUSIONS: Although CATH was superior for diagnosing ICM, CMR showed similar sensitivity and could significantly reduce CATH procedures without increasing the risk of missing critical coronary interventions. Longitudinal studies are needed to assess whether a CMR-first strategy confers prognostic benefit. (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure; ISRCTN16515058).",
+          "keyFindings": "Although CATH was superior for diagnosing ICM, CMR showed similar sensitivity and could significantly reduce CATH procedures without increasing the risk of missing critical coronary interventions. Longitudinal studies are needed to assess whether a CMR-first strategy confers prognostic benefit. (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure; ISRCTN16515058).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 72,
+            "label": "Alta",
+            "rationale": "RCT publicado en JACC: Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
