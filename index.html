@@ -774,8 +774,8 @@
     <div class="evidence-filters" id="evidenceFilters">
       <button class="ev-btn active" data-rank="all">Todos</button>
       <button class="ev-btn" data-rank="1">Meta-análisis</button>
-      <button class="ev-btn" data-rank="2">Revisión Sistemática</button>
-      <button class="ev-btn" data-rank="3">Ensayo Clínico</button>
+      <button class="ev-btn" data-rank="2">Rev. Sistemática / Guía</button>
+      <button class="ev-btn" data-rank="3">Ensayo Clínico / Consenso</button>
       <button class="ev-btn" data-rank="4">Estudio de Cohorte</button>
     </div>
     <button class="btn-expand-all" id="btnExpandAll">Expandir todo</button>
@@ -824,8 +824,8 @@
       <div class="evidence-filters" id="annualEvidenceFilters">
         <button class="ev-btn aev-btn active" data-rank="all">Todos</button>
         <button class="ev-btn aev-btn" data-rank="1">Meta-análisis</button>
-        <button class="ev-btn aev-btn" data-rank="2">Revisión Sistemática</button>
-        <button class="ev-btn aev-btn" data-rank="3">Ensayo Clínico</button>
+        <button class="ev-btn aev-btn" data-rank="2">Rev. Sistemática / Guía</button>
+        <button class="ev-btn aev-btn" data-rank="3">Ensayo Clínico / Consenso</button>
       </div>
       <button class="btn-expand-all" id="annualBtnExpandAll">Expandir todo</button>
     </div>
@@ -860,15 +860,15 @@
 </footer>
 
 <script>
-  // ── Evidence rank → CSS class & label map
+  // ── Evidence rank → CSS class map (label comes from article.evidenceLevel)
   const evMeta = {
     1: { cls: 'ev-1', label: 'Meta-análisis' },
     2: { cls: 'ev-2', label: 'Revisión Sistemática' },
-    3: { cls: 'ev-3', label: 'Ensayo Clínico Aleatorizado' },
+    3: { cls: 'ev-3', label: 'Ensayo Clínico' },
     4: { cls: 'ev-4', label: 'Estudio de Cohorte' },
     5: { cls: 'ev-5', label: 'Estudio Caso-Control' },
     6: { cls: 'ev-6', label: 'Serie de Casos' },
-    7: { cls: 'ev-7', label: 'Reporte de Caso' },
+    7: { cls: 'ev-7', label: 'Artículo Original' },
   };
 
   let currentFilter = 'all';
@@ -890,9 +890,10 @@
   }
 
   function buildArticleCard(article, color) {
-    const ev     = evMeta[article.evidenceRank] || evMeta[7];
-    const impact = article.clinicalImpact;
-    const impCls = impact ? `impact-${impact.label.toLowerCase()}` : '';
+    const ev      = evMeta[article.evidenceRank] || evMeta[7];
+    const evLabel = article.evidenceLevel || ev.label;   // stored label is more specific
+    const impact  = article.clinicalImpact;
+    const impCls  = impact ? `impact-${impact.label.toLowerCase()}` : '';
 
     const impactBadge = impact ? `
       <span class="impact-indicator ${impCls}" title="Probabilidad de influir en práctica clínica: ${impact.score}%">
@@ -911,7 +912,7 @@
         <div class="article-top-stripe" style="background:${color}"></div>
         <div class="article-body">
           <div class="article-meta-row">
-            <span class="ev-badge ${ev.cls}">${ev.label}</span>
+            <span class="ev-badge ${ev.cls}">${evLabel}</span>
             ${impactBadge}
             <span class="journal-tag">${article.journal} · ${article.year}</span>
           </div>

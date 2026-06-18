@@ -49,36 +49,39 @@ MAX_ARTICLES_PER_SUB     = 6   # cap per subspecialty to avoid any single sectio
 # Each entry: NLM abbreviation used by PubMed | display name | impact factor | rank
 # ────────────────────────────────────────────────────────────────────────────
 JOURNALS = [
-    # General high-impact (routinely publish landmark cardiology trials)
+    # ── General high-impact (publish landmark cardiology trials) ──────────────
     {"nlm": "N Engl J Med",               "display": "New England Journal of Medicine",              "if": 176, "rank": 1},
     {"nlm": "Lancet",                      "display": "The Lancet",                                   "if": 168, "rank": 2},
     {"nlm": "JAMA",                        "display": "JAMA",                                         "if": 120, "rank": 3},
     {"nlm": "Nat Med",                     "display": "Nature Medicine",                              "if": 82,  "rank": 4},
-    # Dedicated cardiology — top tier
+    # ── Cardiology flagship journals ─────────────────────────────────────────
+    {"nlm": "Nat Rev Cardiol",             "display": "Nature Reviews Cardiology",                    "if": 49,  "rank": 4},
     {"nlm": "Eur Heart J",                "display": "European Heart Journal",                       "if": 39,  "rank": 5},
     {"nlm": "Circulation",                "display": "Circulation",                                  "if": 37,  "rank": 6},
     {"nlm": "JAMA Cardiol",               "display": "JAMA Cardiology",                              "if": 24,  "rank": 7},
     {"nlm": "J Am Coll Cardiol",          "display": "Journal of the American College of Cardiology","if": 21,  "rank": 8},
-    # Specialty journals — high impact
+    # ── EHJ / ESC family ─────────────────────────────────────────────────────
     {"nlm": "Eur J Heart Fail",           "display": "European Journal of Heart Failure",            "if": 18,  "rank": 9},
+    {"nlm": "Eur Heart J Cardiovasc Imaging","display":"European Heart Journal - Cardiovascular Imaging","if":8,"rank":12},
+    {"nlm": "EuroIntervention",           "display": "EuroIntervention",                             "if": 7,   "rank": 14},
+    {"nlm": "Europace",                   "display": "Europace",                                     "if": 6,   "rank": 16},
+    # ── JACC family ──────────────────────────────────────────────────────────
     {"nlm": "JACC Heart Fail",            "display": "JACC: Heart Failure",                          "if": 14,  "rank": 10},
     {"nlm": "JACC Cardiovasc Interv",     "display": "JACC: Cardiovascular Interventions",           "if": 11,  "rank": 11},
-    {"nlm": "Cardiovasc Res",             "display": "Cardiovascular Research",                      "if": 10,  "rank": 12},
-    {"nlm": "JACC Clin Electrophysiol",   "display": "JACC: Clinical Electrophysiology",             "if": 9,   "rank": 13},
-    {"nlm": "Arterioscler Thromb Vasc Biol","display":"Arteriosclerosis, Thrombosis, and Vascular Biology","if":9,"rank":14},
-    {"nlm": "J Heart Lung Transplant",    "display": "Journal of Heart and Lung Transplantation",    "if": 8,   "rank": 15},
-    {"nlm": "Hypertension",               "display": "Hypertension",                                 "if": 7,   "rank": 16},
-    {"nlm": "Heart",                      "display": "Heart",                                        "if": 7,   "rank": 17},
-    {"nlm": "Heart Rhythm",               "display": "Heart Rhythm",                                 "if": 6,   "rank": 18},
-    {"nlm": "Europace",                   "display": "Europace",                                     "if": 6,   "rank": 19},
-    {"nlm": "Int J Cardiol",              "display": "International Journal of Cardiology",           "if": 4,   "rank": 20},
-    # Additional high-relevance subspecialty journals
-    {"nlm": "Circ Arrhythm Electrophysiol","display":"Circulation: Arrhythmia and Electrophysiology","if": 7,  "rank": 18},
-    {"nlm": "Circ Cardiovasc Interv",     "display": "Circulation: Cardiovascular Interventions",    "if": 7,   "rank": 18},
-    {"nlm": "Circ Heart Fail",            "display": "Circulation: Heart Failure",                   "if": 8,   "rank": 15},
-    {"nlm": "Circ Cardiovasc Imaging",    "display": "Circulation: Cardiovascular Imaging",          "if": 7,   "rank": 17},
-    {"nlm": "EuroIntervention",           "display": "EuroIntervention",                             "if": 7,   "rank": 17},
     {"nlm": "JACC Cardiovasc Imaging",    "display": "JACC: Cardiovascular Imaging",                 "if": 10,  "rank": 12},
+    {"nlm": "JACC Clin Electrophysiol",   "display": "JACC: Clinical Electrophysiology",             "if": 9,   "rank": 13},
+    # ── Circulation family ───────────────────────────────────────────────────
+    {"nlm": "Circ Heart Fail",            "display": "Circulation: Heart Failure",                   "if": 8,   "rank": 12},
+    {"nlm": "Circ Arrhythm Electrophysiol","display":"Circulation: Arrhythmia and Electrophysiology","if": 7,  "rank": 14},
+    {"nlm": "Circ Cardiovasc Interv",     "display": "Circulation: Cardiovascular Interventions",    "if": 7,   "rank": 14},
+    {"nlm": "Circ Cardiovasc Imaging",    "display": "Circulation: Cardiovascular Imaging",          "if": 7,   "rank": 14},
+    {"nlm": "Circ Cardiovasc Qual Outcomes","display":"Circulation: Cardiovascular Quality & Outcomes","if":7, "rank": 15},
+    # ── Other first-tier clinical cardiology journals ─────────────────────────
+    {"nlm": "J Heart Lung Transplant",    "display": "Journal of Heart and Lung Transplantation",    "if": 8,   "rank": 12},
+    {"nlm": "J Am Heart Assoc",           "display": "Journal of the American Heart Association",    "if": 5,   "rank": 17},
+    {"nlm": "Hypertension",               "display": "Hypertension",                                 "if": 7,   "rank": 14},
+    {"nlm": "Heart",                      "display": "Heart",                                        "if": 7,   "rank": 14},
+    {"nlm": "Heart Rhythm",               "display": "Heart Rhythm",                                 "if": 6,   "rank": 16},
 ]
 
 NLM_TO_RANK    = {j["nlm"]: j["rank"] for j in JOURNALS}
@@ -90,9 +93,11 @@ NLM_TO_DISPLAY = {j["nlm"]: j["display"] for j in JOURNALS}
 # ────────────────────────────────────────────────────────────────────────────
 EVIDENCE_LEVELS = [
     (1, "Meta-análisis",                  ["meta-analysis"]),
+    (2, "Guía de Práctica Clínica",       ["practice guideline"]),
     (2, "Revisión Sistemática",           ["systematic review"]),
     (3, "Ensayo Clínico Aleatorizado",    ["randomized controlled trial", "controlled clinical trial",
                                            "clinical trial, phase iii", "clinical trial, phase iv"]),
+    (3, "Documento de Consenso",          ["consensus development conference", "consensus development"]),
     (3, "Ensayo Clínico",                 ["clinical trial", "clinical trial, phase ii",
                                            "clinical trial, phase i"]),
     (4, "Estudio Multicéntrico / Cohorte",["multicenter study", "observational study",
@@ -530,8 +535,11 @@ def build_pubmed_query(date_start, date_end):
     evidence_clause = (
         'meta-analysis[pt] OR "systematic review"[pt] OR '
         '"randomized controlled trial"[pt] OR "controlled clinical trial"[pt] OR '
+        '"clinical trial, phase iii"[pt] OR "clinical trial, phase iv"[pt] OR '
         '"clinical trial"[pt] OR "multicenter study"[pt] OR '
-        '"observational study"[pt]'
+        '"observational study"[pt] OR '
+        '"practice guideline"[pt] OR "guideline"[pt] OR '
+        '"consensus development conference"[pt]'
     )
     cardio_clause = (
         '"cardiovascular diseases"[MeSH] OR "heart diseases"[MeSH] OR '
@@ -1015,7 +1023,9 @@ def build_pubmed_query_annual(date_start, date_end):
     evidence_clause = (
         'meta-analysis[pt] OR "systematic review"[pt] OR '
         '"randomized controlled trial"[pt] OR "controlled clinical trial"[pt] OR '
-        '"clinical trial, phase iii"[pt] OR "clinical trial, phase iv"[pt]'
+        '"clinical trial, phase iii"[pt] OR "clinical trial, phase iv"[pt] OR '
+        '"practice guideline"[pt] OR "guideline"[pt] OR '
+        '"consensus development conference"[pt]'
     )
     cardio_clause = (
         '"cardiovascular diseases"[MeSH] OR "heart diseases"[MeSH] OR '
