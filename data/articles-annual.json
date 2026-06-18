@@ -1,12 +1,12 @@
 {
   "period": "Últimos 12 meses",
   "periodLabel": "2025-06-18 / 2026-06-18",
-  "lastUpdated": "2026-06-18T11:17:36Z",
+  "lastUpdated": "2026-06-18T11:23:14Z",
   "stats": {
     "total": 43,
-    "metaAnalysis": 23,
-    "systematicReview": 0,
-    "rct": 20
+    "metaAnalysis": 25,
+    "systematicReview": 2,
+    "rct": 16
   },
   "subspecialties": [
     {
@@ -117,6 +117,25 @@
           }
         },
         {
+          "id": "yr-arritmias-40240135",
+          "title": "Association between programmed electrical stimulation inducibility and arrhythmic risk in hypertrophic cardiomyopathy: a systematic review and meta-analysis",
+          "journal": "Heart",
+          "authors": "Salihu A, Antiochos P, Lu H, Maurizi N, et al.",
+          "year": 2025,
+          "doi": "10.1136/heartjnl-2024-325043",
+          "url": "https://doi.org/10.1136/heartjnl-2024-325043",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Risk stratification for sudden cardiac death (SCD) in hypertrophic cardiomyopathy (HCM) remains challenging. Programmed electrical stimulation (PES) is not endorsed by current guidelines, and its role in risk stratification is debated. We conducted a systematic review and meta-analysis to assess the association between PES inducibility and major arrhythmic events (MAE) in patients with HCM and evaluate its predictive value. METHODS: We searched PubMed/MEDLINE, Embase and the Cochrane Library up to 1 February 2024, for studies assessing MAE (SCD, resuscitated cardiac arrest or appropriate implantable cardioverter-defibrillator interventions) according to PES inducibility. A random-effects meta-analysis was performed to calculate pooled ORs and CIs. Sensitivity, specificity and predictive values were also calculated from the published information. RESULTS: Five studies (587 patients, 66% male, mean age 38±14 years) were included. PES inducibility was observed in 188 (32%) patients. MAE occurred in 18% of inducible patients (34 events) and 2% of non-inducible patients (8 events) (OR 10.83, 95% CI 3.52 to 33.34, p<0.001, I²=27%). The sensitivity of PES for MAE was 81%, specificity was 72%, positive predictive value was 18%, and negative predictive value was 98%. CONCLUSION: PES inducibility is associated with a 10 times higher risk of MAE in patients with HCM. Further prospective studies are needed to validate its independent predictive value in the context of contemporary risk stratification tools. PROSPERO REGISTRATION NUMBER: CRD42024497521.",
+          "keyFindings": "PES inducibility is associated with a 10 times higher risk of MAE in patients with HCM. Further prospective studies are needed to validate its independent predictive value in the context of contemporary risk stratification tools. PROSPERO REGISTRATION",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "yr-arritmias-40553919",
           "title": "Early versus delayed catheter ablation in atrial fibrillation and heart failure: A systematic review and meta-analysis",
           "journal": "Heart Rhythm",
@@ -153,25 +172,6 @@
             "label": "Alta",
             "rationale": "Meta-análisis publicado en European Heart Journal con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
-        },
-        {
-          "id": "yr-arritmias-40903137",
-          "title": "Pathogenic Cardiomyopathy-Associated Gene Variants and Prognosis in Atrial Fibrillation: Results in 18,000 Clinical Trial Participants",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Jurgens SJ, Melloni GEM, Kany S, Fabritz L, et al.",
-          "year": 2025,
-          "doi": "10.1016/j.jacc.2025.06.052",
-          "url": "https://doi.org/10.1016/j.jacc.2025.06.052",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Genetic variants in cardiomyopathy genes are associated with risk of atrial fibrillation (AF), although data on clinical outcomes for AF patients with such variants remain sparse. OBJECTIVES: We aimed to study the prognostic implication of rare cardiomyopathy-associated pathogenic variants (CMP-PLP) in AF patients from large, well-phenotyped clinical trials. METHODS: CMP-PLP carriers were identified using exome sequencing in 5 multinational trials from the Thrombolysis in Myocardial Infarction study group (ENGAGE AF, FOURIER, SAVOR, PEGASUS, and DECLARE), with replication in the EAST-AFNET-4 trial. Associations with centrally adjudicated outcomes were assessed using logistic and Cox regression, among patients with AF. RESULTS: In 17,190 patients with a history of AF, we identified 421 (2.4%) CMP-PLP carriers. CMP-PLP variants were associated with a history of heart failure (HF) (OR: 1.66; P < 0.0001), most notably for dilated cardiomyopathy-associated variants. CMP-PLP variants were also associated with incident HF hospitalizations (HR: 1.75; 95% CI: 1.34-2.29; P < 0.0001), most notably for hypertrophic cardiomyopathy and arrhythmogenic right ventricular cardiomyopathy variants. CMP-PLP variants were nominally associated with increased risk of cardiovascular death (HR: 1.46; 95% CI: 1.06-2.02; P = 0.02), driven mainly by dilated cardiomyopathy-associated variants. In contrast, CMP-PLP variants were not associated with prevalent (OR: 0.99; P = 0.96) or incident (HR: 0.95; P = 0.84) ischemic stroke, although anticoagulation use was high. In replication, among 1,479 EAST-AFNET-4 participants, CMP-PLP variants were also associated with prevalent HF and incident HF hospitalizations. CONCLUSIONS: In patients with AF, rare cardiomyopathy gene variants are associated with increased risks of HF hospitalizations and cardiovascular death, but not stroke. These results, collected from large well-phenotyped clinical trials, demonstrate important prognostic implications for cardiomyopathy-associated genetic variants in AF patients.",
-          "keyFindings": "In patients with AF, rare cardiomyopathy gene variants are associated with increased risks of HF hospitalizations and cardiovascular death, but not stroke. These results, collected from large well-phenotyped clinical trials, demonstrate important prognostic implications for cardiomyopathy-associated genetic variants in AF patients.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
         }
       ]
     },
@@ -180,44 +180,6 @@
       "name": "Insuficiencia Cardíaca y Dispositivos",
       "color": "#2471A3",
       "articles": [
-        {
-          "id": "yr-insuficiencia-cardiaca-40892608",
-          "title": "Pharmacologic Treatment of Heart Failure With Reduced Ejection Fraction: An Updated Systematic Review and Network Meta-Analysis",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "van Essen BJ, Ceelen DCH, Ouwerkerk W, Teng TK, et al.",
-          "year": 2025,
-          "doi": "10.1016/j.jacc.2025.08.054",
-          "url": "https://doi.org/10.1016/j.jacc.2025.08.054",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: In 2022, a network meta-analysis showed that a combination of β-blockers, angiotensin receptor-neprilysin inhibitors (ARNi), mineralocorticoid receptor antagonists (MRAs), and sodium-glucose cotransporter 2 inhibitors (SGLT2i) was most effective in reducing all-cause mortality in heart failure with reduced ejection fraction (HFrEF). This study updates the treatment benefit by including additional large randomized controlled trials (RCTs) since 2022, including the VICTOR (Vericiguat Global Study in Participants with Chronic Heart Failure) trial. OBJECTIVES: The goal of this study was to evaluate and compare regimens of pharmacotherapy in patients with HFrEF. METHODS: MEDLINE, Embase, and Cochrane Central Register of Controlled Trials databases were searched for RCTs in patients with HFrEF through April 2025. Using frequentist network meta-analysis, HRs for all-cause mortality (primary outcome), cardiovascular death, and the composite of cardiovascular death or heart failure hospitalization (secondary outcomes) were estimated. Absolute benefits were quantified as life-years gained by using BIOSTAT-CHF (Biology Study to Tailored Treatment in Chronic Heart Failure) and ASIAN-HF (Asian Sudden Cardiac Death in Heart Failure) cohort data. RESULTS: The analysis included 103,754 patients across 89 randomized controlled trials. Relative to placebo, quintuple therapy with ARNi, β-blockers, MRAs, SGLT2i, and vericiguat most effectively reduced all-cause mortality (HR: 0.35; 95% CI: 0.27-0.45), followed by quadruple therapy with ARNi, β-blockers, MRAs, and SGLT2i (HR: 0.39; 95% CI: 0.32-0.49). For a representative 70-year-old patient, quadruple therapy (ARNi/β-blockers/MRAs/SGLT2i) provided 5.3 additional life-years (95% CI: 2.8-7.7) vs no treatment, while quintuple therapy (ARNi/β-blockers/MRA/SGLT2i/vericiguat) provided 6.0 additional life-years (95% CI: 3.7-8.4). CONCLUSIONS: This analysis reinforces the substantial mortality and morbidity benefit associated with the currently recommended quadruple therapy regimen (ARNi, β-blockers, MRAs, and SGLT2i) in patients with HFrEF. The addition of vericiguat may provide an incremental survival gain of approximately 0.7 year beyond that achieved with quadruple therapy. However, these results should be regarded as exploratory, as they are derived from a secondary endpoint of a single trial.",
-          "keyFindings": "This analysis reinforces the substantial mortality and morbidity benefit associated with the currently recommended quadruple therapy regimen (ARNi, β-blockers, MRAs, and SGLT2i) in patients with HFrEF. The addition of vericiguat may provide an incremental survival gain of approximately 0.7 year beyond that achieved with quadruple therapy. However, these results should be regarded as exploratory, as they are derived from a secondary endpoint of a single trial.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 91,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "yr-insuficiencia-cardiaca-40159279",
-          "title": "Systematic review and meta-analysis of intravenous iron therapy for patients with heart failure and iron deficiency",
-          "journal": "Nature Medicine",
-          "authors": "Anker SD, Karakas M, Mentz RJ, Ponikowski P, et al.",
-          "year": 2025,
-          "doi": "10.1038/s41591-025-03671-1",
-          "url": "https://doi.org/10.1038/s41591-025-03671-1",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "Uncertainty remains about the effect of intravenous (i.v.) iron on outcomes for heart failure (HF) with iron deficiency. In the present study, we summarize the efficacy and safety of i.v. iron from six trials (FAIR-HF, CONFIRM-HF, AFFIRM-AHF, IRONMAN, HEART-FID and FAIR-HF2), including 7,175 patients. In comparison to prior analyses, this meta-analysis added new data from FAIR-HF2, used a harmonized and robust Bayesian approach and included individual participant data from five trials. Patients assigned to i.v. iron, compared with those assigned to placebo, had lower rates for the composite endpoint of recurrent HF hospitalizations and cardiovascular mortality at 12 months (risk ratio (RR) = 0.72 (95% confidence interval (CI) = 0.55-0.89)) and for the complete length of follow-up (RR = 0.81 (95% CI = 0.63-0.97)). Each component of the primary endpoint contributed to the beneficial effect of i.v. iron at both 12 months and the complete length of follow-up: recurrent HF hospitalizations (RR = 0.69 (95% CI = 0.48-0.88) and RR = 0.78 (95% CI = 0.55-0.98), respectively) and cardiovascular mortality (hazard ratio (HR) = 0.80 (95% CI = 0.61-1.03) and HR = 0.87 (95% CI = 0.73-1.04), respectively). All-cause mortality at 12 months and for the complete length of follow-up (HR = 0.82 (95% CI = 0.65-1.03)) and HR = 0.92 (95% CI = 0.80-1.07), respectively, indicated the overall safety of i.v. iron treatment. Treatment effects were greatest in the first year after randomization when the doses of i.v. iron provided are highest. These findings suggest that treating iron deficiency in patients with HF significantly reduces cardiovascular events and also suggests further investigation of optimal dosing of i.v. iron.",
-          "keyFindings": "These findings suggest that treating iron deficiency in patients with HF significantly reduces cardiovascular events and also suggests further investigation of optimal dosing of i.v.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 90,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
         {
           "id": "yr-insuficiencia-cardiaca-39834044",
           "title": "Remote patient monitoring in heart failure: A comprehensive meta-analysis of effective programme components for hospitalization and mortality reduction",
@@ -254,6 +216,44 @@
             "score": 87,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en European Journal of Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-41771081",
+          "title": "Erythropoiesis-stimulating agents to reduce heart failure hospitalization: a systematic review and meta-analysis",
+          "journal": "European Journal of Heart Failure",
+          "authors": "Bunting KV, Tica O, Champsi A, Perrett M, et al.",
+          "year": 2026,
+          "doi": "10.1093/ejhf/xuaf012",
+          "url": "https://doi.org/10.1093/ejhf/xuaf012",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Anaemia is common in patients with chronic heart failure (CHF), worsening functional status and prognosis. The role of erythropoiesis-stimulating agents (ESAs) to reduce hospitalization remains unclear. METHODS AND RESULTS: A pre-registered systematic search was performed of randomized controlled trials in adults with CHF and anaemia, comparing any ESA at any dose versus placebo or no treatment.Fourteen trials were included with 3128 participants, with moderate quality of evidence for most outcomes and variable risk of bias. Meta-analysis during 5604 person-years of follow-up demonstrated no significant difference in first CHF hospitalization comparing ESAs with control: Peto odds ratio (OR) 0.93, 95% CI 0.78-1.10, P = .37; trial heterogeneity I2 = 36%. ESAs significantly reduced total CHF hospitalization with 622 events/2698 person-years, compared with 761/2914 person-years for control: incidence rate ratio 0.81, 95% CI 0.73 to 0.90, P < .001; no heterogeneity between trials, I2 = 0%. There were no significant differences between treatment groups for all-cause mortality (OR 1.01, 95% CI 0.86-1.18, P = .88; I2 = 35%) or incident adverse events. Patients randomized to ESAs increased their haemoglobin level [mean difference (MD) 1.6 g/dL compared with control, 95% CI 1.6-1.7, P < .001] and exercise tolerance (MD 69 metres, 95% CI 17-122, P = .009), with lower NYHA class on follow-up (MD -0.73 class, 95% CI -1.11 to -0.36, P < .001). CONCLUSION: ESA treatment in patients with CHF and mild anaemia can reduce recurrent CHF hospitalization and improve functional capacity, without any impact on adverse events. Including ESAs in CHF management could be considered in patients with anaemia at high risk of recurrent hospital admissions.",
+          "keyFindings": "ESA treatment in patients with CHF and mild anaemia can reduce recurrent CHF hospitalization and improve functional capacity, without any impact on adverse events. Including ESAs in CHF management could be considered in patients with anaemia at high risk of recurrent hospital admissions.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en European Journal of Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-40957670",
+          "title": "Effect of ketone supplementation, a low-carbohydrate diet and a ketogenic diet on heart failure measures and outcomes: a systematic review and meta-analysis",
+          "journal": "Heart",
+          "authors": "Liao LP, Church LA, Melville H, Jayasinghe T, et al.",
+          "year": 2026,
+          "doi": "10.1136/heartjnl-2025-326082",
+          "url": "https://doi.org/10.1136/heartjnl-2025-326082",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: The impact of ketone supplementation, low carbohydrate diets (LCDs) and ketogenic diets (KDs) on heart failure (HF) outcomes is largely unknown. This systematic review and meta-analysis investigated how these dietary changes impacted cardiac function and HF outcomes. METHOD: A systematic search of MEDLINE, Embase, CINAHL and Web of Science was performed; last search on 19 November 2025. Randomised controlled trials (RCTs) and observational studies in humans receiving ketone supplementation, LCD and KD interventions were included. Studies were eligible if they reported at least one cardiac function/HF measure. Risk of bias was performed using RoB2 and ROBINS-I (Risk Of Bias In Non-randomised Studies of Interventions). Treatment effects were pooled, mean differences and 95% CIs calculated. Subgroup analysis was performed and heterogeneity was assessed. RESULTS: 14 studies were included in this systematic review. A meta-analysis was performed on six RCTs. Ketone supplementation increased left ventricular ejection fraction by 3.12% (95% CI 0.95% to 5.30%, p<0.01), with greater improvement in patients with HF with reduced ejection fraction (HFrEF); 4.25% (95% CI 1.99% to 6.51%, p<0.001). In patients with HFrEF, ketone supplementation increased peak systolic annular velocity (0.60% (95% CI 0.17% to 1.02%, p<0.01)) and cardiac output (1.24 L/min (95% CI 0.24 to 2.24, p<0.05)), compared with controls. Due to small cohorts and different treatment durations, assessment of certainty was low to high. Meta-analysis could not be performed on LCD or KD studies, due to low study numbers. CONCLUSIONS: Ketone supplementation significantly improved cardiac function compared with controls, especially in people with HFrEF. More research is needed to determine how low carbohydrate and ketogenic diets affect HF outcomes. PROSPERO REGISTRATION NUMBER: CRD42024615367.",
+          "keyFindings": "Ketone supplementation significantly improved cardiac function compared with controls, especially in people with HFrEF. More research is needed to determine how low carbohydrate and ketogenic diets affect HF outcomes. PROSPERO REGISTRATION",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -321,22 +321,22 @@
           }
         },
         {
-          "id": "yr-isquemica-41553312",
-          "title": "Cardiovascular Risk Across Myocardial Injury and Infarction Categories Using the Universal Definition: An Individual Patient-Level Data Meta-Analysis",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Boeddinghaus J, Lopez-Ayala P, Thurston AJF, Lee KK, et al.",
+          "id": "yr-isquemica-41913985",
+          "title": "Diagnostic yield of second-line functional imaging after an abnormal coronary computed tomography angiography: an individual patient-data meta-analysis",
+          "journal": "European Heart Journal - Cardiovascular Imaging",
+          "authors": "Rasmussen LD, Hoek R, Westra J, Søby JH, et al.",
           "year": 2026,
-          "doi": "10.1016/j.jacc.2025.11.043",
-          "url": "https://doi.org/10.1016/j.jacc.2025.11.043",
+          "doi": "10.1093/ehjci/jeag088",
+          "url": "https://doi.org/10.1093/ehjci/jeag088",
           "evidenceLevel": "Meta-análisis",
           "evidenceRank": 1,
-          "abstract": "BACKGROUND: The Universal Definition classifies myocardial infarction (MI) by etiology, but its prognostic implications are uncertain. OBJECTIVES: The goal was to compare the rate and risk of recurrent MI or cardiovascular death among patients with myocardial injury and infarction classified according to the Universal Definition. METHODS: A systematic search of MEDLINE, EMBASE, Central, and Web of Science from January 1, 2007 to July 1, 2025 was performed to identify prospective studies where cardiac troponin was measured for suspected acute coronary syndrome, diagnoses were adjudicated using the Universal Definition, and both MI and cause-specific mortality were reported at a minimum of 1 year. Subdistribution HRs were derived to account for the competing risk of noncardiovascular death. Meta-analysis was performed with random-effects models. The primary outcome was major adverse cardiovascular events (MACE), defined as MI or cardiovascular death. The secondary outcome was noncardiovascular death. RESULTS: We identified 17 studies of 9 cohorts from 9 countries, with individual patient-level data available in 8 cohorts. Among 120,734 patients (median age: 61.0 years; 45.8% women), type 1 MI occurred in 9.4% (n = 11,298), type 2 MI in 3.0% (n = 3,609), acute myocardial injury in 4.9% (n = 5,864), and chronic myocardial injury in 4.7% (n = 5,625). In patients with type 1 and type 2 MI, the MACE rate was 55.2 and 51.7 per 1,000 patient-years and the noncardiovascular death rate was 25.7 and 60.1 per 1,000 patient-years, respectively. Compared with those without myocardial injury, the risk of MACE (subdistribution HR) was 4.82 (95% CI: 3.55-6.57; I2 = 84%) and 3.36 (95% CI: 2.92-3.86; I2 = 0%), respectively. In patients with acute and chronic myocardial injury, the MACE rate was 47.1 and 44.9 per 1,000 patient-years and the noncardiovascular death rate was 67.0 and 46.9 per 1,000 patient-years, respectively. The risk of MACE was 3.24 (95% CI: 2.41-4.36; I2 = 59%) and 3.03 (95% CI: 2.53-3.62; I2 = 20%), respectively. CONCLUSIONS: All patients with myocardial injury and infarction are at increased risk of future cardiovascular events. However, in type 2 MI, this apparent risk is reduced by a substantially greater competing risk of noncardiovascular death. (PROSPERO Registration: CRD42023464836).",
-          "keyFindings": "All patients with myocardial injury and infarction are at increased risk of future cardiovascular events. However, in type 2 MI, this apparent risk is reduced by a substantially greater competing risk of noncardiovascular death. (PROSPERO",
+          "abstract": "AIMS: Second-line functional imaging is recommended following an abnormal coronary computed tomography angiography (CCTA). However, evidence guiding the choice of imaging modality is limited. We assessed the diagnostic performance of second-line functional imaging using different invasive reference standards. METHODS AND RESULTS: We conducted an individual patient-data meta-analysis of seven prospective diagnostic studies including 1410 patients (mean age 62 ± 8.1 years, 67% male) with abnormal CCTA [≥50% diameter stenosis (DS)], who underwent second-line functional imaging tests (dobutamine stress ECHO, SPECT, CMR, and/or PET) followed by invasive angiography with fractional flow reserve (FFR) and quantitative coronary angiography (QCA). Haemodynamically obstructive coronary artery disease (CAD) was defined as invasive FFR ≤0.80 or >90% visual DS; anatomically severe CAD as ≥70% DS by QCA. Pooled and per test, 904/1906 (47.2%) functional imaging tests had haemodynamically obstructive CAD, and 504/1906 (26.3%) functional imaging tests had anatomically severe CAD. In total, 730/1906 (38.3%) functional imaging tests were abnormal. Pooled sensitivity and specificity were 63% and 84% for haemodynamically obstructive CAD, and 81% and 77% for anatomically severe CAD. Findings were generally stable across sex and age. More advanced second-line functional imaging tests showed higher sensitivities, but lower specificities compared to less advanced techniques. CONCLUSION: Second-line functional imaging after an abnormal CCTA enables identification of patients with anatomically severe CAD. In contrast, moderate stenoses (<70% DS) with FFR ≤0.80 do not consistently result in myocardial ischaemia detectable by functional imaging tests. Substantial diagnostic accuracy differences were found between non-invasive diagnostic test which need further investigation. CLINICAL TRIAL IDENTIFIERS: NCT02264717, NCT03481712, NCT04707859, NCT01521468.",
+          "keyFindings": "Second-line functional imaging after an abnormal CCTA enables identification of patients with anatomically severe CAD. In contrast, moderate stenoses (<70% DS) with FFR ≤0.80 do not consistently result in myocardial ischaemia detectable by functional imaging tests. Substantial diagnostic accuracy differences were found between non-invasive diagnostic test which need further investigation. CLINICAL TRIAL",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
             "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+            "rationale": "Meta-análisis publicado en European Heart Journal - Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -346,25 +346,6 @@
       "name": "Prevención y Dislipidemia",
       "color": "#1E8449",
       "articles": [
-        {
-          "id": "yr-prevencion-40314334",
-          "title": "Colchicine for secondary prevention of vascular events: a meta-analysis of trials",
-          "journal": "European Heart Journal",
-          "authors": "d'Entremont MA, Poorthuis MHF, Fiolet ATL, Amarenco P, et al.",
-          "year": 2025,
-          "doi": "10.1093/eurheartj/ehaf210",
-          "url": "https://doi.org/10.1093/eurheartj/ehaf210",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND AND AIMS: Randomized trials of colchicine in secondary prevention of atherosclerotic cardiovascular disease have shown mixed results. METHODS: A systematic review and study-level meta-analysis of randomized controlled trials was performed comparing colchicine vs no colchicine in a secondary-prevention atherosclerotic cardiovascular disease population. A fixed-effect inverse variance model was applied using the intention-to-treat population from the included trials. The primary outcome was the composite of cardiovascular death, myocardial infarction, or stroke. RESULTS: Nine trials, including 30 659 patients (colchicine 15 255, no colchicine 15 404) with known coronary artery disease or stroke, were included. Compared with no colchicine, patients randomized to colchicine had a relative risk (RR) of 0.88 [95% confidence interval (CI) 0.81-0.95, P = .002] for the primary composite outcome, including a RR of 0.94 for cardiovascular death (95% CI 0.78-1.13, P = .5), a RR of 0.84 for myocardial infarction (95% CI 0.73-0.97, P = .016), and a RR of 0.90 for stroke (95% CI 0.80-1.02, P = .09). Colchicine was associated with a RR of 1.35 for hospitalization for gastrointestinal events (95% CI 1.10-1.66, P = .004) with no increase in hospitalization for pneumonia, newly diagnosed cancers, or non-cardiovascular death. CONCLUSIONS: In patients with prior coronary disease or stroke, colchicine reduced the composite of cardiovascular death, myocardial infarction, or stroke by 12%.",
-          "keyFindings": "In patients with prior coronary disease or stroke, colchicine reduced the composite of cardiovascular death, myocardial infarction, or stroke by 12%.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en European Heart Journal con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
         {
           "id": "yr-prevencion-40314333",
           "title": "Long-term trials of colchicine for secondary prevention of vascular events: a meta-analysis",
@@ -385,22 +366,22 @@
           }
         },
         {
-          "id": "yr-prevencion-41091476",
-          "title": "Clonal Hematopoiesis and Cardiovascular Disease and Bleeding Risk and the Effectiveness of Aspirin",
-          "journal": "JAMA Cardiology",
-          "authors": "McQuilten ZK, Thao LTP, Bick AG, Byars S, et al.",
+          "id": "yr-prevencion-40314334",
+          "title": "Colchicine for secondary prevention of vascular events: a meta-analysis of trials",
+          "journal": "European Heart Journal",
+          "authors": "d'Entremont MA, Poorthuis MHF, Fiolet ATL, Amarenco P, et al.",
           "year": 2025,
-          "doi": "10.1001/jamacardio.2025.3756",
-          "url": "https://doi.org/10.1001/jamacardio.2025.3756",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Clonal hematopoiesis of indeterminate potential (CHIP) has been associated with increased risk of cardiovascular disease (CVD) events and mortality. However, there are no approved therapies for preventing or treating CHIP. OBJECTIVE: To investigate whether low-dose aspirin might benefit older adults with CHIP for the primary prevention of CVD. DESIGN, SETTING, AND PARTICIPANTS: This was a prespecified substudy of the Aspirin in Reducing Events in the Elderly (ASPREE) double-blind, randomized clinical trial of daily low-dose aspirin vs placebo evaluating disability-free survival, which took place at primary and community care facilities in the US and Australia. Enrollment was from March 2010 to December 2014, and the randomized trial ended in June 2017. Community-dwelling Australian adults aged 70 years and older without a diagnosed cardiovascular event, atrial fibrillation, a serious intercurrent illness likely to cause death within the next 5 years, anemia, or a current or recurrent condition with a high risk of bleeding were included in the original study. Of 19 114 in the original trial, 11 402 were included in the substudy, and 9434 were included in the analysis. Follow-up for this substudy went through June 2022, with data analysis in February 2025. In-trial median (IQR) follow-up time was 4.6 (3.5-5.6) years, and posttrial observational follow-up was 8.7 (7.5-10.1) years from randomization. INTERVENTIONS: Participants were randomized to aspirin, 100 mg, daily or placebo. MAIN OUTCOMES AND MEASURES: CHIP was measured in blood specimens collected at trial entry. Major adverse cardiovascular events (MACEs), including fatal and nonfatal ischemic stroke, nonfatal myocardial infarction and coronary heart disease death, and clinically significant bleeding were adjudicated by independent expert committees blinded to trial-group assignments. RESULTS: A total of 9434 participants (median [IQR] age, 73.7 [71.6-77.1] years; 5067 [54%] female) provided a sample at baseline for analysis, 2124 of whom (23%) had CHIP at variant allele fraction (VAF) ≥2%, with 532 (5.6%) at ≥10% VAF. CHIP was not associated with increased risk of MACEs at 2% to 10% VAF (adjusted hazard ratio [aHR], 0.84, 95% CI, 0.68-1.03; P = .09) or ≥10% VAF (aHR, 0.80, 95% CI, 0.57-1.12; P = .19). However, CHIP was associated with increased risk of clinically significant bleeding (2%-10% VAF: aHR, 1.24; 95% CI 1.02-1.51; P = .03; ≥10% VAF: aHR, 1.21; 95% CI, 0.85-1.73; P = .28). There was no evidence of a differential effect of aspirin according to presence of CHIP on MACEs (without CHIP: HR, 0.91; 95% CI, 0.72-1.16; 2%-10% VAF: HR, 1.40; 95% CI, 0.77-2.53; ≥10% VAF: HR, 1.33; 95% CI, 0.52-3.37; heterogeneity P = .35) or clinically significant bleeding (without CHIP: HR, 1.64; 95% CI, 1.22-2.30; 2%-10% VAF: HR, 1.45; 95% CI, 0.82-2.57; ≥10% VAF: HR, 1.41; 95% CI, 0.49-4.07; heterogeneity P = .91). CONCLUSION AND RELEVANCE: In this secondary analysis of a randomized clinical trial of daily low-dose aspirin in healthy adults 70 years and older, CHIP was not associated with higher CVD risk. However, participants with CHIP had a greater risk of clinically significant bleeding. There was no evidence that participants with CHIP were more likely than those without CHIP to benefit or experience more harm from aspirin when used for primary prevention of CVD events. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT01038583.",
-          "keyFindings": "CONCLUSION AND RELEVANCE: In this secondary analysis of a randomized clinical trial of daily low-dose aspirin in healthy adults 70 years and older, CHIP was not associated with higher CVD risk.",
+          "doi": "10.1093/eurheartj/ehaf210",
+          "url": "https://doi.org/10.1093/eurheartj/ehaf210",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND AND AIMS: Randomized trials of colchicine in secondary prevention of atherosclerotic cardiovascular disease have shown mixed results. METHODS: A systematic review and study-level meta-analysis of randomized controlled trials was performed comparing colchicine vs no colchicine in a secondary-prevention atherosclerotic cardiovascular disease population. A fixed-effect inverse variance model was applied using the intention-to-treat population from the included trials. The primary outcome was the composite of cardiovascular death, myocardial infarction, or stroke. RESULTS: Nine trials, including 30 659 patients (colchicine 15 255, no colchicine 15 404) with known coronary artery disease or stroke, were included. Compared with no colchicine, patients randomized to colchicine had a relative risk (RR) of 0.88 [95% confidence interval (CI) 0.81-0.95, P = .002] for the primary composite outcome, including a RR of 0.94 for cardiovascular death (95% CI 0.78-1.13, P = .5), a RR of 0.84 for myocardial infarction (95% CI 0.73-0.97, P = .016), and a RR of 0.90 for stroke (95% CI 0.80-1.02, P = .09). Colchicine was associated with a RR of 1.35 for hospitalization for gastrointestinal events (95% CI 1.10-1.66, P = .004) with no increase in hospitalization for pneumonia, newly diagnosed cancers, or non-cardiovascular death. CONCLUSIONS: In patients with prior coronary disease or stroke, colchicine reduced the composite of cardiovascular death, myocardial infarction, or stroke by 12%.",
+          "keyFindings": "In patients with prior coronary disease or stroke, colchicine reduced the composite of cardiovascular death, myocardial infarction, or stroke by 12%.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
             "label": "Alta",
-            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+            "rationale": "Meta-análisis publicado en European Heart Journal con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -415,6 +396,25 @@
           "evidenceRank": 3,
           "abstract": "IMPORTANCE: Cardiovascular inflammation is a major determinant of atherosclerotic disease, and inhibition of the central signaling cytokine, interleukin 6 (IL-6), is a promising target for intervention. Patients with chronic kidney disease (CKD) commonly have plasma elevations of inflammatory biomarkers, such as high-sensitivity C-reactive protein (hsCRP) and IL-6, and are at high risk for life-threatening atherosclerotic events as well as loss of kidney function and might therefore benefit from IL-6 inhibition. OBSERVATIONS: The Ziltivekimab Cardiovascular Outcomes Trial (ZEUS; NCT05021835) will determine the safety and efficacy of IL-6 inhibition with ziltivekimab among patients with atherosclerotic cardiovascular disease (ASCVD), CKD, and systemic inflammation. ZEUS is a multinational, double-blind, placebo-controlled, event-driven, randomized clinical trial inclusive of 6376 participants with ASCVD, CKD, and an hsCRP level greater than or equal to 2 mg/L who were randomized in a 1:1 fashion to receive either ziltivekimab, 15 mg, administered subcutaneously every month or matching placebo. At randomization, mean age was 69.5 years, 27.5% were female, 92.0% had hypertension, 65.7% had diabetes, and 41.3% had heart failure. At baseline, the mean estimated glomerular filtration rate (eGFR) was 44.5 mL/min/1.73 m2, mean low-density lipoprotein cholesterol level was 77.7 mg/dL, median hsCRP level was 4.5 mg/L, and median IL-6 level was 4.9 pg/mL. At enrollment, sodium-glucose cotransporter-2 inhibitors and glucagon-like peptide-1 receptor agonists were being used by 36.8% and 11.3% of the cohort, respectively. The primary outcome is 3-point major adverse cardiovascular events. Secondary cardiovascular outcomes include (1) an expanded major adverse cardiovascular event outcome including hospitalization for unstable angina requiring urgent coronary revascularization, (2) hospitalizations for heart failure or urgent heart failure visits or cardiovascular death, and (3) all-cause mortality. The secondary kidney outcome is a composite of greater than 40% decline in eGFR, eGFR less than 15 mL/min/1.73 m2, dialysis, kidney transplant, death from kidney disease, or cardiovascular death. CONCLUSIONS AND RELEVANCE: The ZEUS randomized clinical trial will formally test the hypothesis that IL-6 inhibition with ziltivekimab will lower incident cardiovascular event rates and potentially slow kidney decline among participants with known ASCVD, CKD, and elevated hsCRP. If successful, the ZEUS trial would provide a fully novel approach for prevention of myocardial infarction, stroke, cardiovascular death, and kidney function decline among high-risk patients with CKD.",
           "keyFindings": "CONCLUSIONS AND RELEVANCE: The ZEUS randomized clinical trial will formally test the hypothesis that IL-6 inhibition with ziltivekimab will lower incident cardiovascular event rates and potentially slow kidney decline among participants with known ASCVD, CKD, and elevated hsCRP.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-prevencion-40531507",
+          "title": "CT Angiography, Healthy Lifestyle Behaviors, and Preventive Therapy: A Nested Substudy of the SCOT-HEART 2 Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "McDermott M, Khaing PH, Meah MN, Wang KL, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.1763",
+          "url": "https://doi.org/10.1001/jamacardio.2025.1763",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Healthy lifestyles and uptake of primary preventive therapies for cardiovascular disease remain poor. OBJECTIVE: To determine the impact of coronary computed tomography (CT) angiography on healthy lifestyle behaviors, acceptance of recommended treatments, and modification of risk factors as compared with guideline-directed cardiovascular risk scoring. DESIGN, SETTING, AND PARTICIPANTS: This was a nested substudy conducted from September 2020 to August 2024 of a randomized clinical trial where participants underwent cardiovascular risk scoring or coronary CT angiography. Primary care-based screening took place in Scotland. Included in the analysis were asymptomatic individuals aged 40 to 70 years without known cardiovascular disease and with at least 1 cardiovascular risk factor. Study data were analyzed from August to September 2024. INTERVENTIONS: All participants received lifestyle advice with additional recommendations for moderate-intensity statin therapy if the 10-year cardiovascular risk was greater than or equal to 10% or combined antiplatelet and at least moderate-intensity statin therapies if coronary atherosclerosis was identified on CT angiography. MAIN OUTCOMES AND MEASURES: The composite primary outcome was compliance with the National Institute for Health and Care Excellence recommendations for diet, body mass index, smoking, and physical exercise at 6 months. RESULTS: Between September 2020 and January 2024, 400 participants were enrolled (median [IQR] age, 62 [56-65] years; 198 female [49.5%]; median [IQR] 10-year cardiovascular risk, 14% [9%-19%]) with 195 randomized to cardiovascular risk scoring and 205 to coronary CT angiography. At 6 months, those who underwent CT angiography were more likely to meet the primary composite end point (17% [33 of 194 participants] vs 6% [10 of 177 participants]; odds ratio, 3.42; 95% CI, 1.63-6.94; P < .001). Compared with cardiovascular risk scoring, fewer participants were recommended preventive therapy after CT angiography (51% [105 of 205 participants] vs 75% [147 of 195 participants]; P < .001), but acceptance of recommendations was higher (77% [81 of 105 participants] vs 46% [68 of 147 participants]; P < .001). This resulted in similar use of lipid-lowering therapy (44% [90 of 205 participants] vs 35% [69 of 195 participants]; OR, 1.43; 95% CI, 0.96-2.15; P = .08) and greater use of antiplatelet therapy in those randomized to CT angiography (40% [83 of 205 participants] vs 0.5% [1 of 195 participants]; P < .001). Participants randomized to coronary CT angiography had small incremental improvements in risk factors and 10-year cardiovascular risk, largely driven by those with CT-defined coronary atheroma. CONCLUSIONS AND RELEVANCE: Results of this cohort study reveal that compared with cardiovascular risk scoring, coronary CT angiography was associated with modest improvements in healthier lifestyle behaviors, acceptance of recommended preventive therapy, and risk factor modification. Whether this strategy reduces coronary events remains to be established.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this cohort study reveal that compared with cardiovascular risk scoring, coronary CT angiography was associated with modest improvements in healthier lifestyle behaviors, acceptance of recommended preventive therapy, and risk factor modification.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 75,
@@ -446,6 +446,25 @@
             "score": 90,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-40348408",
+          "title": "Defining centres of expertise for minimally invasive mitral valve surgery: a systematic review and volume-outcome meta-analysis",
+          "journal": "Heart",
+          "authors": "Heuts S, Hjij W, Kawczynski MJ, Olsthoorn JR, et al.",
+          "year": 2025,
+          "doi": "10.1136/heartjnl-2024-325048",
+          "url": "https://doi.org/10.1136/heartjnl-2024-325048",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Minimally invasive mitral valve surgery (MIMVS) is increasingly performed, but outcomes such as repair rate, mortality and survival likely depend on expertise. Still, the definition of a high-volume centre varies in the literature and lacks an evidence-based substantiation. Consequently, this study aims to determine the volume-outcome relation in MIMVS in conjunction with a volume threshold, in order to define 'high-volume centres', applying a novel statistical concept. METHODS: The study was preregistered in PROSPERO (CRD42022376293, registered 26 November 2022). A systematic search was applied to three databases, including consecutive patients undergoing MIMVS. Studies describing patients undergoing transcatheter procedures were excluded. Restricted cubic spline analyses were applied and the elbow method was used to retrieve the threshold volume. Long-term outcomes were analysed using reconstructed Kaplan-Meier curves and a novel statistical concept to assess the volume-outcome relation for time-to-event outcomes was applied. The primary outcome was early mortality, secondary outcomes were repair rate, stroke, and long-term survival, freedom from reoperation, and freedom from more than moderate mitral regurgitation. Leave-one-out analyses were performed for sensitivity purposes. RESULTS: Data from 68 unique centres were included (n=23 495 patients). Early mortality was 1.3% (95% CI 1.1% to 1.6%), without a statistically significant non-linear relation for this endpoint, nor for stroke. There was a statistically significant volume-outcome relation for mitral valve repair rate (p=0.018). Based on the repair rate, the threshold to define a high-volume centre was 60 cases/year (number needed to treat to prevent a replacement ≤7). A significant volume-outcome relation was observed for long-term outcomes as well, with a threshold of 53 and 54 cases/year for long-term survival and freedom from reoperation, respectively. These results were robust across the sensitivity analyses for the various endpoints. CONCLUSIONS: The threshold to define a high-volume centre ranges between 53 and 60 cases/year based on repair rate, long-term survival and freedom-from reoperation. These findings have the potential to facilitate centralisation of MIMVS.PROSPERO registration numberCRD42022376293.",
+          "keyFindings": "The threshold to define a high-volume centre ranges between 53 and 60 cases/year based on repair rate, long-term survival and freedom-from reoperation. These findings have the potential to facilitate centralisation of MIMVS.PROSPERO registration numberCRD42022376293.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -485,25 +504,6 @@
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Circulation: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
-        },
-        {
-          "id": "yr-valvulopatias-41335456",
-          "title": "Tenecteplase vs Alteplase in Mechanical Prosthetic Heart Valve Thrombosis: The TENET Randomized Clinical Trial",
-          "journal": "JAMA Cardiology",
-          "authors": "Sharma G, Akkineni KP, Makkar N, Shukla A, et al.",
-          "year": 2026,
-          "doi": "10.1001/jamacardio.2025.4369",
-          "url": "https://doi.org/10.1001/jamacardio.2025.4369",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: For patients presenting with symptomatic prosthetic valve thrombosis (PVT) after mechanical heart valve replacement, thrombolytic therapy with alteplase is accepted as a first-line therapeutic alternative. The utility of tenecteplase compared with conventional regimens remains unstudied, to the authors' knowledge, in this patient population. OBJECTIVE: To assess the relative safety and efficacy of tenecteplase compared with standard infusions of alteplase in patients with PVT. DESIGN, SETTING AND PARTICIPANTS: This was an open-label, parallel-group, non-inferiority randomized clinical trial among consecutive adult patients presenting with obstructive PVT of a mechanical prosthetic valve over the study period from October 2022 to August 2024 to a single tertiary care center in India. INTERVENTIONS: Patients received thrombolytic therapy with a low-dose slow infusion alteplase or weight-based bolus doses of tenecteplase. MAIN OUTCOMES AND MEASURES: The primary outcomes were to determine the rates of complete thrombolytic success and the incidence of major complications. RESULTS: A total of 83 patients (mean [SD] age, 39.6 [12.4] years, 42 male [50.6%]) were randomized to receive alteplase (n = 43) or tenecteplase (n = 40). The rates of the primary efficacy end point (complete thrombolytic success) were significantly higher (risk ratio, 1.18; 95% CI, 1.03-1.39; P = .02 for noninferiority) in the tenecteplase group (39 patients [97.5%]) compared with the alteplase group (35 patients [81.5%]). Additionally, patients treated with tenecteplase had higher rates of complete success with the first administered dose and a shorter duration of hospital stay (median [IQR], 4.1 [3.2-5.1] days vs 6.5 [4.3-9.2] days; P < .001). The rates of major and minor adverse events were similar. CONCLUSIONS AND RELEVANCE: Tenecteplase may be a safe and effective alternative to alteplase in patients presenting with obstructive PVT. Patients treated with tenecteplase in our study had higher rates of complete thrombolytic success and a shorter duration of hospital stay. Furthermore, the relative ease of drug administration with tenecteplase may translate to greater clinical benefit in a real-world setting. TRIAL REGISTRATION: Clinical Trials Registry of India: CTRI/2022/10/046127.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: Tenecteplase may be a safe and effective alternative to alteplase in patients presenting with obstructive PVT.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
         }
       ]
     },
@@ -513,79 +513,79 @@
       "color": "#922B21",
       "articles": [
         {
-          "id": "yr-hipertension-40266598",
-          "title": "Emergency Department-Based Education and mHealth Empowerment Intervention for Hypertension: The TOUCHED Randomized Clinical Trial",
-          "journal": "JAMA Cardiology",
-          "authors": "Prendergast H, Kitsiou S, Petzel Gimbar R, Freels S, et al.",
-          "year": 2025,
-          "doi": "10.1001/jamacardio.2025.0675",
-          "url": "https://doi.org/10.1001/jamacardio.2025.0675",
+          "id": "yr-hipertension-41216699",
+          "title": "Haptoglobin Phenotype and Cardiovascular Risk: The ACCORD Blood Pressure RCT",
+          "journal": "Hypertension",
+          "authors": "Lavallée SK, Carew AS, Warren RA, Sapp JL, et al.",
+          "year": 2026,
+          "doi": "10.1161/HYPERTENSIONAHA.125.25021",
+          "url": "https://doi.org/10.1161/HYPERTENSIONAHA.125.25021",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Hypertension is a leading risk factor for cardiovascular diseases and is often undiagnosed. Emergency department (ED) visits serve as critical access points within health care and present a unique opportunity for hypertension screening and intervention. OBJECTIVE: To evaluate the effectiveness of an Education and mHealth Empowerment (E2) intervention compared with usual care in reducing systolic blood pressure (SBP) among patients with elevated BP discharged from the ED. DESIGN, SETTING, AND PARTICIPANTS: This randomized clinical trial enrolled participants who presented to an urban academic medical center ED for any indication and had elevated blood pressure (≥140/90 mm Hg and ≤180/110 mm Hg). Eligible participants who were discharged from the ED were enrolled between February 12, 2019, and March 31, 2023, and were randomized to receive either usual care or the intervention with follow-up visits at 3 and 6 months. INTERVENTIONS: Usual care involved standard hypertension discharge instructions with a referral for outpatient follow-up. The E2 intervention involved a 3-prong approach, which included a brief Post-Acute Care Hypertension consultation (PACHT-c) with a clinical pharmacist or an advanced practice nurse, a smartphone-enabled BP monitoring kit (Withings device and mobile app) for daily self-monitoring along with behavior change text messages, and primary care referral. MAIN OUTCOMES AND MEASURES: The primary outcome was the mean change in SBP (mm Hg) from baseline to 6 months. RESULTS: Of the 574 participants enrolled, mean (SD) age was 51.1 (12.5) years, and 323 (56%) were female; 413 were Black (72%), 115 were Hispanic or Latino (20%), 27 were White (5%), and 19 were other race and ethnicity (3%), which included Asian, American Indian, and other racial or ethnic groups. Of the 413 patients with BP data at 6 months, the E2 intervention group (n = 210) showed a greater mean reduction in SBP (mean difference, 4.9 mm Hg; 95% CI, 0.8-9.0 mm Hg; P = .02) compared with the usual-care group (n = 203). A similar proportion of patients achieved BP less than or equal to 140/90 mm Hg at 6 months in the intervention arm (42.9% [90 of 210]) and the control arm (36.9% [75 of 203]; P = .22). CONCLUSIONS AND RELEVANCE: In this single-center randomized clinical trial, a multicomponent intervention directed at patients in the ED who have elevated BP was associated with greater reduction in SBP at 6 months. Identifying patients who present to the ED with hypertension may be a viable strategy to improve BP management. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT03749499.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this single-center randomized clinical trial, a multicomponent intervention directed at patients in the ED who have elevated BP was associated with greater reduction in SBP at 6 months.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "yr-hipertension-40391448",
-          "title": "Long-Term Safety and Efficacy of Renal Denervation: 24-Month Results From the SPYRAL HTN-ON MED Trial",
-          "journal": "Circulation: Cardiovascular Interventions",
-          "authors": "Kandzari DE, Mahfoud F, Townsend RR, Kario K, et al.",
-          "year": 2025,
-          "doi": "10.1161/CIRCINTERVENTIONS.125.015194",
-          "url": "https://doi.org/10.1161/CIRCINTERVENTIONS.125.015194",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Six-month results from the SPYRAL HTN-ON MED trial (SPYRAL HTN-ON MED Study of Renal Denervation With the Symplicity Spyral Multi-Electrode Renal Denervation System) demonstrated that renal denervation (RDN) reduced office blood pressure (BP), and not 24-hour ambulatory systolic BP, compared with sham control in hypertensive patients. In this prespecified analysis of the ON MED trial, long-term changes in BP, antihypertensive drug use, and safety outcomes through 24 months are compared between RDN and sham control groups. METHODS: SPYRAL HTN-ON MED is a prospective, randomized, sham-controlled, blinded trial enrolling 337 patients globally from 56 clinical centers. Eligible patients had an office systolic BP of 150 to 180 mm Hg, a diastolic BP ≥90 mm Hg, and a 24-hour ambulatory systolic BP of 140 to 170 mm Hg. Patients were randomized to RDN or a sham control procedure and were prescribed a stable regimen of 1 to 3 antihypertensive medications through 6 months. After 6 months, patients and physicians were unblinded with permitted changes to antihypertensive therapy, and control patients were permitted to cross over. Crossover patients had their last observations carried forward as part of the control group. Statistical analyses were conducted on the population as randomized. RESULTS: At 24 months, the RDN group experienced significantly greater mean reductions in ambulatory systolic BP (-12.1±15.3 mm Hg [n=176] versus -7.0±13.1 mm Hg [n=33]; difference: -5.7 mm Hg; P=0.039) and office systolic BP (-17.4±16.1 mm Hg [n=187] versus -9.0±19.4 mm Hg [n=35]; difference: -8.7 mm Hg; P=0.0034) compared with sham controls. At 24 months, antihypertensive medications increased significantly more in the sham group (1.7 versus 2.7) compared with the RDN group (1.8 versus 2.4; P=0.046). Sensitivity analyses accounting for missing sham patient BP values due to crossover yielded consistent results in favor of RDN for 24-hour ambulatory (P=0.023) and office systolic BP (P<0.0001). Clinically adverse events were rare, with no instances of renal artery stenosis through 24 months. CONCLUSIONS: RDN produced significantly greater ambulatory and office systolic BP reductions at 24 months compared with sham control, despite higher antihypertensive medication use in the control group. REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT02439775.",
-          "keyFindings": "RDN produced significantly greater ambulatory and office systolic BP reductions at 24 months compared with sham control, despite higher antihypertensive medication use in the control group.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 76,
-            "label": "Alta",
-            "rationale": "RCT publicado en Circulation: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "yr-hipertension-40632527",
-          "title": "Medication Adherence in Hypertension: A Cluster Randomized Clinical Trial",
-          "journal": "JAMA Cardiology",
-          "authors": "Blecker S, Mann DM, Martinez TR, Belli HM, et al.",
-          "year": 2025,
-          "doi": "10.1001/jamacardio.2025.2155",
-          "url": "https://doi.org/10.1001/jamacardio.2025.2155",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Medication nonadherence is present in nearly half of patients with hypertension but is underrecognized in clinical care. Data linkages between electronic health records and pharmacies have created opportunities for scalable assessment of medication adherence at the point of care. OBJECTIVE: To test the effectiveness of a multicomponent intervention that identified patients with uncontrolled hypertension and medication nonadherence using linked electronic health record-pharmacy data combined with team-based care to address adherence barriers. DESIGN, SETTING, AND PARTICIPANTS: TEAMLET (Leveraging Electronic Health Record Technology and Team Care to Address Medication Adherence) was a pragmatic, 2-arm, cluster randomized clinical trial conducted between October 2022 and November 2024 in 10 primary care sites in New York. The study included adults with uncontrolled hypertension and low medication adherence, defined as proportion of days covered (PDC) less than 80%. Data analysis was performed from November 2024 to January 2025. INTERVENTION: The intervention consisted of the following: (1) automated identification of patients with medication nonadherence at the time of the visit; (2) prompting of medical assistants to screen for barriers to adherence; (3) clinical decision support alerting the primary care physicians and nurse practitioners to barriers to adherence; and (4) adherence discussion between the primary care physician or nurse practitioner and the patient. The comparator was usual care. MAIN OUTCOMES AND MEASURES: The primary outcome was change in PDC from baseline to 12 months. RESULTS: Among 1726 patients (mean [SD] age, 67.2 [13.9] years; 887 [51.4%] female), the mean (SD) baseline PDC was 33.2% (30.5%) overall (32.4% [30.4%] in the intervention group and 34.0% [30.6%] in the control group). The mean (SD) PDC at 12 months was 51.1% (39.5%) for the intervention group and 53.1% (39.6%) for the control group. No difference was found in the change in PDC from baseline to 12 months between the intervention and control groups (mean [SD] absolute change in PDC, 18.5 [41.1] vs 18.2 [40.9] percentage points, respectively; adjusted difference, -0.15 percentage point; 95% CI, -4.06 to 3.76 percentage points). Change in systolic blood pressure and patients who became adherent (PDC ≥80%) at 12 months were also similar between groups. CONCLUSIONS AND RELEVANCE: In this pragmatic trial, an intervention that combined team-based primary care with automated identification of patients with antihypertensive medication nonadherence did not lead to improvements in adherence or blood pressure. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05349422.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this pragmatic trial, an intervention that combined team-based primary care with automated identification of patients with antihypertensive medication nonadherence did not lead to improvements in adherence or blood pressure.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "yr-hipertension-40401436",
-          "title": "Beta-blocker interruption effects on blood pressure and heart rate after myocardial infarction: the AβYSS trial",
-          "journal": "European Heart Journal",
-          "authors": "Procopi N, Zeitouni M, Kerneis M, Cayla G, et al.",
-          "year": 2025,
-          "doi": "10.1093/eurheartj/ehaf170",
-          "url": "https://doi.org/10.1093/eurheartj/ehaf170",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND AND AIMS: This study aims to report the effects of β-blocker interruption on blood pressure (BP) and heart rate (HR) in the AβYSS trial where patients were randomized to interruption or continuation of β-blocker treatment after a myocardial infarction (MI). METHODS: Changes in HR and BP from baseline to post-randomization are reported using linear mixed repeated model, in the 3698 patients of the AβYSS trial with a median follow-up of 3.0 years. Additionally, changes in HR and BP and the impact on the primary endpoint (death, MI, stroke, hospitalization for cardiovascular reason) in the pre-specified subgroups of patients with or without history of hypertension were assessed using linear mixed repeated and adjusted Cox proportional hazards model, respectively. RESULTS: β-blocker interruption was associated with significant increase {least square mean difference [95% confidence interval (CI)]} in systolic BP [+3.7 (2.6, 4.8) mmHg, P < .001], diastolic BP [+3.3 (2.6, 4.0) mmHg, P < .001], and resting HR [+10 [9, 11) b.p.m., P < .001] at 6 months that persisted over the duration of follow-up despite an increase in antihypertensive drugs in the β-blocker interruption group. The effects were observed in both hypertensive (43% of the population) and non-hypertensive patients. Hypertensive patients were at higher risk of events (25.8% vs. 19.2%) as compared with patients without hypertension (adjusted hazard ratio 1.18, 95% CI 1.01-1.36, P = .03). Patients with hypertension had a particularly marked increase in the primary endpoint (risk difference 5.02%, 0.72%-9.32%, P = .014) when randomized to β-blocker interruption. CONCLUSIONS: Interruption of β-blocker treatment after an uncomplicated MI led to a sustained increase in BP and HR, with potentially deleterious effects on outcomes, especially in patients with history of hypertension.",
-          "keyFindings": "Interruption of β-blocker treatment after an uncomplicated MI led to a sustained increase in BP and HR, with potentially deleterious effects on outcomes, especially in patients with history of hypertension.",
+          "abstract": "BACKGROUND: A relationship between hypertension and risk of incident cardiovascular disease, coronary artery disease, and stroke is widely reported in type 2 diabetes. However, trials testing intensive blood pressure control therapy versus standard therapy to reduce cardiovascular events have reported conflicting results, which could potentially be due to an unmeasured biological factor such as the common Hp (haptoglobin) phenotype. METHODS: Multivariable-adjusted Cox proportional hazards regression models assessed the relationship between intensive (versus standard) blood pressure control therapy and risk of composite cardiovascular disease, coronary artery disease, and stroke events in the ACCORD (Action to Control Cardiovascular Risk in Diabetes) blood pressure trial in participants with the Hp2-2 phenotype (n=1527) separately from Hp1 allele carriers (n=2748). RESULTS: Intensive blood pressure therapy (versus standard therapy) was associated with a lower risk of composite cardiovascular disease among Hp1 allele carriers (hazard ratio, 0.76 [95% CI, 0.59-0.99]) but not among participants with the Hp2-2 phenotype (hazard ratio, 1.12 [95% CI, 0.80-1.55]; P-interaction=0.07). No significant hazard ratio was observed for intensive therapy versus standard therapy on risk of coronary artery disease (Hp1 allele carriers: hazard ratio, 0.85 [95% CI, 0.67-1.08]; Hp2-2 phenotype: hazard ratio, 1.12 [95% CI, 0.84-1.51]; P-interaction=0.11). Intensive therapy was associated with a lower risk of stroke among Hp1 allele carriers (hazard ratio, 0.53 [95% CI, 0.31-0.91]) but not among Hp2-2 participants (hazard ratio, 0.70 [95% CI, 0.33-1.46]; P-interaction=0.56). CONCLUSIONS: The lack of an effect of intensive blood pressure control on composite cardiovascular disease events in the original ACCORD blood pressure trial may be explained in part by variation in response among the Hp phenotypes. Further study and replication are required. REGISTRATION: URL: https://www.clinicaltrials.gov/study/NCT00000620?id=NCT00000620; Unique identifier: NCT00000620.",
+          "keyFindings": "The lack of an effect of intensive blood pressure control on composite cardiovascular disease events in the original ACCORD blood pressure trial may be explained in part by variation in response among the Hp phenotypes. Further study and replication are required.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 68,
             "label": "Moderada",
-            "rationale": "RCT en European Heart Journal — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+            "rationale": "RCT en Hypertension — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-hipertension-40691360",
+          "title": "European guidelines for hypertension in 2024: a comparison of key recommendations for clinical practice",
+          "journal": "Nature Reviews Cardiology",
+          "authors": "Lauder L, Weber T, Böhm M, Brouwers S, et al.",
+          "year": 2025,
+          "doi": "10.1038/s41569-025-01187-2",
+          "url": "https://doi.org/10.1038/s41569-025-01187-2",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "Hypertension is the most prevalent modifiable risk factor for cardiovascular disease and for cardiovascular and all-cause mortality globally. Suboptimal control of elevated blood pressure places a substantial burden on health-care systems worldwide. Several factors contribute to this suboptimal control, such as limited awareness of hypertension, lack of appropriate diagnosis and poor control of blood pressure among those with a diagnosis. These factors can be due to patient non-adherence to treatment, inertia among health-care professionals and low uptake and implementation of clinical guideline recommendations. From 2003 to 2018, the European Society of Hypertension and the European Society of Cardiology jointly published four sets of guidelines on hypertension. However, the two societies released separate guidelines on hypertension in 2023 and 2024, respectively. These two sets of European guidelines agree on most recommendations, but some differences have been identified. In this Expert Recommendation, we highlight the key consensus recommendations from the two guidelines; compare differing approaches to the definition, classification, diagnosis and treatment of hypertension; and aim to help health-care professionals in their decision-making to improve the management of hypertension and to reduce the burden of hypertension-associated outcomes and premature deaths.",
+          "keyFindings": "In this Expert Recommendation, we highlight the key consensus recommendations from the two guidelines; compare differing approaches to the definition, classification, diagnosis and treatment of hypertension; and aim to help health-care professionals in their decision-making to improve the management of hypertension and to reduce the burden of hypertension-associated outcomes and premature deaths.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Nature Reviews Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-hipertension-40162953",
+          "title": "Leveraging Preexisting Cardiovascular Data to Improve the Detection and Treatment of Hypertension: The NOTIFY-LVH Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Berman AN, Hidrue MK, Ginder C, Shirkey L, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.0871",
+          "url": "https://doi.org/10.1001/jamacardio.2025.0871",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Hypertension is often underrecognized, leading to preventable morbidity and mortality. Tailored data systems combined with care augmented by trained nonphysicians have the potential to improve cardiovascular care. OBJECTIVE: To determine whether previously collected cardiovascular imaging data could be harnessed to improve the detection and treatment of hypertension through a system-level intervention. DESIGN, SETTING, AND PARTICIPANTS: The NOTIFY-LVH trial was a 2-arm, pragmatic randomized clinical trial conducted from March 2023 through June 2024 within the Mass General Brigham health care system, a multi-institutional network serving the greater Boston, Massachusetts, area. The study included individuals with a Mass General Brigham primary care affiliation who had left ventricular hypertrophy (LVH) on a prior echocardiogram, had no established cardiomyopathy diagnosis, and were not being treated with antihypertensive medications. Patients were followed for 12 months postintervention. INTERVENTION: Population health coordinators contacted clinicians of patients randomized to the intervention, notifying them of LVH and offering assistance with follow-up care. A clinical support pathway-including 24-hour ambulatory blood pressure monitoring or cardiology referrals-was provided to aid LVH evaluation. MAIN OUTCOMES AND MEASURES: The primary outcome was the initiation of an antihypertensive medication. Secondary outcomes included new hypertension and cardiomyopathy diagnoses. RESULTS: A total of 648 patients were randomized-326 to the intervention and 322 to the control. Mean (SD) patient age was 59.4 (10.8) years and 248 patients (38.3%) were female. A total of 102 patients (15.7%) had a baseline diagnosis of hypertension and 109 patients (20.1%) had a mean outpatient blood pressure of 130/80 mm Hg or higher. Over 12 months, 53 patients (16.3%) in the intervention arm were prescribed an antihypertensive medication vs 16 patients (5.0%) in the control arm (adjusted odds ratio [OR], 3.76; 95% CI, 2.09-6.75; P < .001). Individuals in the intervention group were also more likely to be diagnosed with hypertension (adjusted OR, 4.43; 95% CI, 2.36-8.33; P < .001). Cardiomyopathy diagnoses did not significantly differ between groups. CONCLUSIONS AND RELEVANCE: In the NOTIFY-LVH randomized clinical trial, a centralized population health coordinator-led notification and clinical support pathway for individuals with LVH on prior echocardiograms increased the initial treatment of hypertension. This work highlights the potential benefit of leveraging preexisting but potentially underutilized cardiovascular data to improve health care delivery through mechanisms augmenting the traditional ambulatory care system. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05713916.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In the NOTIFY-LVH randomized clinical trial, a centralized population health coordinator-led notification and clinical support pathway for individuals with LVH on prior echocardiograms increased the initial treatment of hypertension.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en JAMA Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-hipertension-41823241",
+          "title": "Effect of Hypertension Duration on the Associations Between Intensive Blood Pressure Control and Cardiac, Vascular, and Kidney Organ Damage",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Ling Q, Deng Y, Dong X, Song Q, et al.",
+          "year": 2026,
+          "doi": "10.1161/JAHA.125.041556",
+          "url": "https://doi.org/10.1161/JAHA.125.041556",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Intensive systolic blood pressure (SBP) treatment could mitigate the increased cardiovascular disease risk associated with long-standing hypertension. Target organ damage serves as a critical intermediate phenotype in hypertension-related sequelae. However, the associations of hypertension duration on the cardiac, vascular, and kidney organ damage improvement of intensive SBP treatment remains to be elucidated. METHODS: A total of 8442 STEP (Strategy of Blood Pressure Intervention in the Elderly Hypertensive Patients) participants with complete hypertension duration data were categorized by hypertension duration ≤5 years, 5~10 years, 10~15 years, and >15 years. Patients were randomly assigned to intensive or standard SBP treatment groups after enrollment. Odds ratios (ORs) for left ventricular hypertrophy, arterial stiffness, and chronic kidney disease were calculated using a logistic regression model, testing for effect modification by hypertension duration. RESULTS: For left ventricular hypertrophy, no evidence showed heterogeneity among groups with different hypertension duration in the treatment effect between intensive versus standard treatment for either new-onset or improvement (both P for interaction >0.05). For arterial stiffness, intensive versus standard SBP treatment showed significantly greater benefits in preventing new-onset arterial stiffness in early-stage (≤5 years: 29.46% versus 36.81%; OR, 0.67 [95% CI, 0.47-0.95]) and long-standing hypertension (>15 years: 30.88% versus 41.23%; OR, 0.62 [95% CI, 0.45-0.84]) compared with the intermediate stage (P for interaction=0.03). For kidney events, no treatment interaction effects or significant associations with hypertension duration were observed (P for interaction >0.05). CONCLUSIONS: Intensive SBP treatment showed greater benefits in preventing new-onset arterial stiffness in both early-stage (≤5 years) and long-standing (>15 years) hypertension, whereas no heterogeneity was identified among groups with hypertension for left ventricular hypertrophy and kidney events. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03015311.",
+          "keyFindings": "Intensive SBP treatment showed greater benefits in preventing new-onset arterial stiffness in both early-stage (≤5 years) and long-standing (>15 years) hypertension, whereas no heterogeneity was identified among groups with hypertension for left ventricular hypertrophy and kidney events.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American Heart Association — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
@@ -615,60 +615,60 @@
           }
         },
         {
-          "id": "yr-miocardiopatias-40910168",
-          "title": "Characterization and Application of Novel Exercise Recovery Patterns That Reflect Cardiac Performance: A Substudy of the SEQUOIA-HCM Trial",
-          "journal": "Circulation",
-          "authors": "Campain J, Griskowitz C, Newlands C, Claggett BL, et al.",
+          "id": "yr-miocardiopatias-40728182",
+          "title": "Size Matters. Prevalence and Clinical Implications of Left Ventricular Apical Aneurysms in Hypertrophic Cardiomyopathy: A Systematic Review and Meta-Analysis",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Linden K, Green N, Muir A, Malcolmson JW, et al.",
           "year": 2025,
-          "doi": "10.1161/CIRCULATIONAHA.124.073585",
-          "url": "https://doi.org/10.1161/CIRCULATIONAHA.124.073585",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Post-exercise oxygen uptake recovery (VO2Rec) is slow in advanced heart failure. We sought to establish easily derived VO2Rec measures and evaluate their cardiospecificity and prognostic relevance in patients with dyspnea on exertion. We further sought to determine VO2Rec modifiability proportional to changes in cardiac function with disease-specific treatment of obstructive hypertrophic cardiomyopathy. METHODS: VO2Rec patterns were evaluated in relation to cardiac performance and the primary outcome of heart failure hospitalization or death in a referral cohort with dyspnea on exertion undergoing cardiopulmonary exercise testing with hemodynamic monitoring (MGH-ExS [Massachusetts General Hospital Exercise Study]). We then investigated longitudinal measures of VO2Rec in the pivotal phase 3 randomized controlled trial SEQUOIA-HCM (Safety, Efficacy, and Quantitative Understanding of Obstruction Impact of Aficamten in Hypertrophic Cardiomyopathy) of aficamten versus placebo for 24 weeks in participants with symptomatic obstructive hypertrophic cardiomyopathy. For both cohorts, VO2Rec was uniformly measured as time for VO2 to decline by >0%, 12.5% (VO2T12.5%), 25%, and 50% of peak VO2. RESULTS: Among 814 MGH-ExS patients (58±16 years of age, 58% women), those with a longer VO2T12.5% (≥35 versus <35 seconds) demonstrated elevated exercise pulmonary capillary wedge pressure to cardiac output slope (P<0.0001) with no difference in peripheral oxygen extraction (P=0.11). For each 15-second increase in VO2T12.5%, the hazard ratio for heart failure hospitalization and all-cause death was 1.54 (95% CI, 1.35-1.76; P<0.001). In SEQUOIA-HCM participants with cardiopulmonary exercise testing at baseline and week 24 (n=263, 59.1±2.9 years of age, 41% women), baseline VO2T12.5% was 45±20 seconds and improved 8 seconds (95% CI, -12 to -5 seconds; P<0.001) with aficamten treatment compared with placebo at 24 weeks. Participants treated with aficamten versus placebo were more likely to improve VO2T12.5% by ≥15 seconds (odds ratio [OR], 3.7 [95% CI, 1.9-6.9]; number needed to treat=4.8). Shortening of VO2T12.5% correlated with reduced NT-proBNP (N-terminal pro-B-type natriuretic peptide), high-sensitivity cardiac troponin I, and left ventricular outflow tract gradient (all P<0.005). CONCLUSIONS: This study established VO2T12.5% as a new measure that reflects cardiac performance during exercise and predicted heart failure event-free survival. Furthermore, VO2T12.5% improved proportional to improvements in left ventricular outflow tract gradient and cardiac biomarkers in response to aficamten treatment, a cardiospecific therapy for obstructive hypertrophic cardiomyopathy. The simplicity and physiological relevance of VO2T12.5% support its regular inclusion in cardiopulmonary exercise testing protocols evaluating cardiac function during exercise. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT05186818.",
-          "keyFindings": "This study established VO2T12.5% as a new measure that reflects cardiac performance during exercise and predicted heart failure event-free survival. Furthermore, VO2T12.5% improved proportional to improvements in left ventricular outflow tract gradient and cardiac biomarkers in response to aficamten treatment, a cardiospecific therapy for obstructive hypertrophic cardiomyopathy. The simplicity and physiological relevance of VO2T12.5% support its regular inclusion in cardiopulmonary exercise test",
+          "doi": "10.1161/JAHA.124.037234",
+          "url": "https://doi.org/10.1161/JAHA.124.037234",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: The aim of this study was to systematically review the recently published literature and determine the prevalence of left ventricular apical aneurysm (LVAA) formation in hypertrophic cardiomyopathy and its association with sudden cardiac death, systemic embolization, and heart failure. METHODS: The protocol was registered with the International Prospective Register of Systematic Reviews (registration number: CRD42023453640). MEDLINE and manual searches for articles published up to August 2023 were performed. Longitudinal, observational cohorts of unselected adult patients with hypertrophic cardiomyopathy were considered. Data were pooled using a random-effects model. RESULTS: A total of 321 articles fulfilled the search criteria, and 10 retrospective observational studies were selected for the meta-analysis. The pooled prevalence of LVAA was 3% (95% CI, 2%-5%), and 57% of LVAAs were small (<2 cm). Small LVAAs had a lower prevalence of sudden cardiac death end points (4.71% [95% CI, 1.5%-9%) than bigger (≥2 cm) LVAAs (22% [95% CI, 15%-31%), with an odds ratio of 4.65 (95% CI, 2.14-10.10). The prevalence of systemic emboli was also higher in bigger LVAAs (17% [95% CI, 9%-28%) when compared with small LVAA (9% [95% CI, 4%-16%), with an odds ratio of 1.78 (95% CI, 0.53-5.99). Left ventricular thrombi were also more frequently detected in bigger LVAAs (30% [95% CI, 20%-42%) than small LVAAs (2% [95% CI, 0%-6%), with an odds ratio of 10.92 (95% CI, 3.75-31.84). There are scant data on heart failure deaths. CONCLUSIONS: The available data suggest that patients with bigger LVAAs (>2 cm) have the highest risk of poor outcomes and could be preferentially targeted for primary prevention of sudden cardiac death and systemic embolization.",
+          "keyFindings": "The available data suggest that patients with bigger LVAAs (>2 cm) have the highest risk of poor outcomes and could be preferentially targeted for primary prevention of sudden cardiac death and systemic embolization.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 76,
+            "score": 75,
             "label": "Alta",
-            "rationale": "RCT publicado en Circulation con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
-          "id": "yr-miocardiopatias-40769675",
-          "title": "Impact of Vutrisiran on Cardiac Biomarkers in Patients With Transthyretin Amyloidosis With Cardiomyopathy From HELIOS-B",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Maurer MS, Berk JL, Damy T, Sheikh FH, et al.",
+          "id": "yr-miocardiopatias-40770082",
+          "title": "Effects of vutrisiran on cardiac structure and function in patients with transthyretin amyloidosis with cardiomyopathy: secondary outcomes of the HELIOS-B trial",
+          "journal": "Nature Medicine",
+          "authors": "Jering KS, Fontana M, Lairez O, Longhi S, et al.",
           "year": 2025,
-          "doi": "10.1016/j.jacc.2025.04.055",
-          "url": "https://doi.org/10.1016/j.jacc.2025.04.055",
+          "doi": "10.1038/s41591-025-03851-z",
+          "url": "https://doi.org/10.1038/s41591-025-03851-z",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "BACKGROUND: Before the development of disease-modifying therapies for transthyretin amyloidosis cardiomyopathy (ATTR-CM), N-terminal prohormone of B-type natriuretic peptide (NT-proBNP) and troponin I/T were recognized as independent prognostic biomarkers of mortality. This study evaluated the prognostic value of these biomarkers in a contemporary patient population and the impact of vutrisiran, an RNA interference therapeutic that rapidly knocks down circulating transthyretin, on biomarker levels. OBJECTIVES: This study sought to evaluate the association between risk of cardiovascular events and all-cause mortality with baseline NT-proBNP and troponin I levels and changes from baseline at month 6 in patients from HELIOS-B and explore how vutrisiran impacts biomarkers over time. METHODS: In HELIOS-B, a double-blind, placebo-controlled study, 655 patients with ATTR-CM were randomized 1:1 to receive vutrisiran or placebo for up to 36 months. The primary endpoint was a composite outcome of all-cause mortality and recurrent cardiovascular events. All-cause mortality through 42 months was a secondary endpoint. NT-proBNP and troponin I were assessed as prespecified exploratory endpoints. RESULTS: Baseline NT-proBNP and troponin I levels were independently associated with risks of the composite outcome and all-cause mortality (P < 0.0001 for both biomarkers and endpoints). At month 6, increases in NT-proBNP from baseline were associated with higher risk of the composite outcome and all-cause mortality, and decreases in troponin I were associated with a lower risk of the composite outcome. At month 30, the median changes from baseline of NT-proBNP and troponin I were 753 pg/mL (Q1-Q3: -8 to 2,573 pg/mL) and 9.7 pg/mL (Q1-Q3: -6.3 to 41.2 pg/mL) in the placebo arm and 118 pg/mL (Q1-Q3: -419 to 911 pg/mL) and -5.8 pg/mL (Q1-Q3: -25.0 to 10.0 pg/mL) in the vutrisiran arm. The geometric mean fold-change ratios (vutrisiran/placebo) were 0.68 (95% CI: 0.61-0.76) for NT-proBNP and 0.68 (95% CI: 0.62-0.75) for troponin I (P < 0.0001 for both). CONCLUSIONS: Patterns of associations between biomarkers and adverse outcomes support the importance of early treatment initiation and the potential for risk reduction in patients with ATTR-CM. Vutrisiran maintained stable or reduced levels of both biomarkers consistent with the benefit of treatment in reducing the risk of cardiovascular events and all-cause mortality. (HELIOS-B: A Study to Evaluate Vutrisiran in Patients With Transthyretin Amyloidosis With Cardiomyopathy; NCT04153149).",
-          "keyFindings": "Patterns of associations between biomarkers and adverse outcomes support the importance of early treatment initiation and the potential for risk reduction in patients with ATTR-CM. Vutrisiran maintained stable or reduced levels of both biomarkers consistent with the benefit of treatment in reducing the risk of cardiovascular events and all-cause mortality. (HELIOS-B: A Study to Evaluate Vutrisiran in Patients With Transthyretin Amyloidosis With Cardiomyopathy; NCT04153149).",
+          "abstract": "In the HELIOS-B randomized clinical trial, the RNA interference therapeutic agent vutrisiran reduced the risk of all-cause mortality and recurrent cardiovascular events among patients with transthyretin amyloidosis with cardiomyopathy (ATTR-CM). In this secondary analysis of HELIOS-B, we evaluated vutrisiran's effects on echocardiographic measures of cardiac structure and function in patients with ATTR-CM receiving vutrisiran or placebo (n = 654, 93% men). At 30 months after treatment, as compared to the placebo group, vutrisiran treatment attenuated increases in mean left ventricular (LV) wall thickness (least squares mean difference: -0.4 mm; 95% confidence interval (CI): -0.8, 0.0; P = 0.03) and LV mass index (-10.6 g m-2; 95% CI: -18.0, -3.3; P < 0.01). Vutrisiran treatment also attenuated declines in LV ejection fraction (2.0%; 95% CI: 0.3, 3.7; P = 0.02), absolute global longitudinal strain (1.2%; 95% CI: 0.7, 1.7; P < 0.01) and LV stroke volume (4.1 ml; 95% CI: 1.7, 6.4; P < 0.01), and decreased both the average ratio of early diastolic transmitral flow velocity to early diastolic mitral annular tissue velocity (-2.0; 95% CI: -2.9, -1.2; P < 0.01) and the early to late diastolic transmitral flow velocities ratio (-0.3; 95% CI: -0.6, -0.0; P = 0.04), as compared to placebo. Consistent with its clinical benefits, these echocardiographic findings indicate favorable effects of vutrisiran on cardiac structure and function in patients with ATTR-CM. ClinicalTrials.gov registration: NCT04153149 .",
+          "keyFindings": "In the HELIOS-B randomized clinical trial, the RNA interference therapeutic agent vutrisiran reduced the risk of all-cause mortality and recurrent cardiovascular events among patients with transthyretin amyloidosis with cardiomyopathy (ATTR-CM).",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 76,
+            "score": 75,
             "label": "Alta",
-            "rationale": "RCT publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+            "rationale": "RCT publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
-          "id": "yr-miocardiopatias-40864019",
-          "title": "Echocardiographic Changes With Mavacamten in Nonobstructive Hypertrophic Cardiomyopathy: Exploratory Insights From the ODYSSEY-HCM Trial",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Desai MY, Okushi Y, Jadam S, Olivotto I, et al.",
-          "year": 2025,
-          "doi": "10.1016/j.jacc.2025.08.019",
-          "url": "https://doi.org/10.1016/j.jacc.2025.08.019",
+          "id": "yr-miocardiopatias-41205147",
+          "title": "Efficacy of Acoramidis in Wild-Type and Variant Transthyretin Amyloid Cardiomyopathy: Results From ATTRibute-CM and Its Open-Label Extension",
+          "journal": "JAMA Cardiology",
+          "authors": "Alexander KM, Davis MK, Akinboboye O, Berk J, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2025.4477",
+          "url": "https://doi.org/10.1001/jamacardio.2025.4477",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "BACKGROUND: Symptomatic nonobstructive hypertrophic cardiomyopathy (nHCM) lacks approved therapies. The ODYSSEY-HCM trial (A Study of Mavacamten in Non-Obstructive Hypertrophic Cardiomyopathy; NCT05582395), the largest to date in HCM patients, evaluating the efficacy of mavacamten in symptomatic adults with nHCM, did not demonstrate improvements in its primary endpoints (functional capacity and patient-reported health status). OBJECTIVES: This exploratory analysis of the phase 3, randomized, placebo-controlled trial evaluated echocardiographic changes in nHCM patients from baseline to week 48. METHODS: Symptomatic nHCM patients were randomized to placebo or mavacamten (5 mg/d, titrated between 1 and 15 mg based on left ventricular ejection fraction [LVEF]). Echocardiographic assessments of LV systolic/diastolic function and left atrial (LA) function were performed at baseline and week 48. RESULTS: Among 580 randomized patients (mean age 56 ± 15 years, 45.9% women), baseline measures included LVEF (65.8 ± 4%), maximal LV wall thickness (20.8 ± 4 mm), LV mass index (122.3 ± 31 g/m2), average E/e' (13.3 ± 6), and LV-global longitudinal strain (-13.2 ± 4%). LA parameters included volume index (43.5 ± 16 mL/m2), reservoir strain (19.1 ± 9%), and conduit strain (-11.6 ± 6%). At week 48, there was significant placebo-corrected treatment difference with patients on mavacamten demonstrating significant reduction in maximal LV wall thickness (-2.1 mm [95% CI: -2.5 to -1.7 mm]), LV mass index (-3.8 g/m2 [95% CI: -7.1 to -0.5 g/m2]), and E/e' (-1.3 [95% CI: -2.0 to -0.7]), with a -5.3% [95% CI: -5.9% to -4.1%]; P < 0.01) reduction in LVEF. A reduction in LVEF <50% occurred in 62 patients (21.5%) in the mavacamten arm vs 5 (1.7%) in the placebo arm and recovered following drug interruption. Patients in the mavacamten group maintaining LVEF ≥50% throughout the study (n = 212) demonstrated an improvement in LV-global longitudinal strain at week 48 (-0.4% [95% CI: -0.8% to -0.05%]; P < 0.05). LA functional parameters including contractile (-1.1% [95% CI: -1.8% to -0.4%]) and conduit (-1.4% [95% CI: -0.6% to -2.3%]) strain also improved significantly at week 48 (P < 0.05), whereas LA volume was significantly reduced in patients without atrial fibrillation (-2.6 mL/m2 [95% CI: -4.7 to -1.11 mL/m2]; P = 0.009). CONCLUSIONS: Symptomatic nHCM patients treated with mavacamten demonstrated directional improvements in markers of LV diastolic and LA function, modest regression in LV hypertrophy-related parameters, but 1 in 5 demonstrated an LVEF <50%, which reversed following therapy interruption.",
-          "keyFindings": "Symptomatic nHCM patients treated with mavacamten demonstrated directional improvements in markers of LV diastolic and LA function, modest regression in LV hypertrophy-related parameters, but 1 in 5 demonstrated an LVEF <50%, which reversed following therapy interruption.",
+          "abstract": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM), a progressive disease caused by misfolded transthyretin (TTR), occurs as wild-type (ATTRwt-CM) or variant (ATTRv-CM) forms. p.Val142Ile is the most common variant in the US, linked to rapid progression and increased mortality. Acoramidis achieves near-complete (≥90%) TTR stabilization and showed clinical benefit in the 30-month ATTRibute-CM trial and through month 42 in the ongoing open-label extension (OLE). OBJECTIVE: To evaluate the efficacy of acoramidis in ATTRwt-CM, ATTRv-CM, and variant subgroups (p.Val142Ile and non-p.Val142Ile). DESIGN, SETTING, AND PARTICIPANTS: This international, multicenter, phase 3, randomized placebo-controlled study took place from April 2019 to May 2023 with ongoing OLE (month 42). ATTRibute-CM enrolled 632 participants with ATTR-CM; 611 of 632 were included in the modified intention-to-treat (mITT) population. There were 380 participants who continued into the OLE. These data were analyzed from January 2025 to July 2025. INTERVENTIONS: Oral acoramidis, 712 mg, or placebo twice daily for 30 months, followed by 12 months of open-label treatment. MAIN OUTCOMES AND MEASURES: All-cause mortality (ACM), cardiovascular-related hospitalizations (CVH), serum TTR, 6-minute walk distance, Kansas City Cardiomyopathy Questionnaire Overall Summary score, and N-terminal pro B-type natriuretic peptide in participants with ATTRwt-CM and ATTRv-CM. Post-hoc analyses were conducted in variant subgroups, including p.Val142Ile. RESULTS: Overall, 552 participants with wild-type ATTR-CM (mean [SD] age, 78 [6.3] years; 92.0% male and 8.0% female) and 59 participants with variant ATTR-CM (mean [SD] age, 73 [7.7] years; 77.3% male and 22.7% female) were randomized (mITT population), including 35 with p.Val142Ile. Consistent efficacy was observed in wild-type and variant subgroups for ACM/CVH through month 30 and ACM through month 42. At month 30, acoramidis reduced the risk of ACM/first CVH vs placebo by 31% in ATTRwt-CM (hazard ratio [HR], 0.69; 95% CI, 0.52-0.90; P = .007) and by 59% in ATTRv-CM (HR, 0.41; 95% CI, 0.21-0.81; P = .01). ACM was reduced through month 42 with HRs of 0.70 (95% CI, 0.50-0.98; P = .04) and 0.41 (95% CI, 0.19-0.93; P = .03) in the ATTRwt-CM and ATTRv-CM groups, respectively. Consistent treatment benefit was observed in participants with ATTRwt-CM and ATTRv-CM for secondary end points. Within variant subgroups (p.Val142Ile vs non-p.Val142Ile), consistent treatment benefits were observed for ACM/CVH through month 30 and ACM through month 42. CONCLUSIONS AND RELEVANCE: The beneficial effect of acoramidis was observed consistently in ATTRwt-CM and ATTRv-CM groups. These hypothesis-generating results indicate that further studies are warranted to better characterize the therapeutic benefit of acoramidis in variant subgroups. TRIAL REGISTRATION: ClinicalTrials.gov Identifiers: NCT03860935; NCT04988386.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: The beneficial effect of acoramidis was observed consistently in ATTRwt-CM and ATTRv-CM groups.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 76,
+            "score": 75,
             "label": "Alta",
-            "rationale": "RCT publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -695,6 +695,25 @@
             "score": 91,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Circulation: Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-imagen-40795094",
+          "title": "Prognostic value of right ventricular longitudinal strain assessed by multimodal imaging in amyloidosis: systematic review and meta-analysis",
+          "journal": "European Heart Journal - Cardiovascular Imaging",
+          "authors": "Herrera-Flores J, Vernooij RWM, Ghosh AK, Wechalekar A, et al.",
+          "year": 2025,
+          "doi": "10.1093/ehjci/jeaf216",
+          "url": "https://doi.org/10.1093/ehjci/jeaf216",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Amyloidosis is a progressive and often fatal disease, with right ventricular (RV) involvement emerging as critical determinant of outcomes. This meta-analysis sought to evaluate the prognostic significance of RV longitudinal strain parameters in patients with amyloidosis. METHODS AND RESULTS: Eligible studies reporting on the association between RV free-wall longitudinal strain (RV-FWLS) and RV global longitudinal strain (RV-GLS) assessed by echocardiography or cardiac magnetic resonance (CMR) with adverse outcomes were included. Using an inversely weighted random-effects meta-analysis, pooled hazard ratios (HRs) with 95% confidence intervals (CIs) were calculated for all-cause mortality and a composite endpoint of all-cause death or heart failure hospitalization per 1% lower RV strain values. Eighteen studies with low-to-moderate risk of bias (Newcastle-Ottawa scale) and encompassing 1772 patients [mean age 68.8 ± 8.8 years; 57.3% with light-chain amyloidosis (AL)], were analysed. 210 patients experienced the composite outcome (median [inter-quartile range] follow-up: 1.5 [0.6] years) and 628 died [median follow-up: 2.6 (1.6) years]. 2D speckle-tracking RV-FWLS was associated with all-cause mortality (HR: 1.10; 95% CI: 1.07-1.13; I² = 8.6%) and the composite outcome (HR: 1.06; 95% CI: 1.02-1.10; I² = 0%). Similarly, 2D speckle-tracking RV-GLS was associated with all-cause mortality (HR: 1.10; 95% CI: 1.07-1.13; I² = 8.6%). Subgroup and meta-regression analysis confirmed consistency across amyloid subtypes, study design, presence of cardiac involvement, follow-up duration, and strain analysis software. In AL amyloidosis, CMR-based RV-GLS also predicted all-cause mortality (HR: 1.06; 95% CI: 1.03-1.09; I² = 0%). CONCLUSION: RV longitudinal strain parameters are powerful and robust predictors of adverse outcomes in amyloidosis.",
+          "keyFindings": "of RV longitudinal strain parameters in patients with amyloidosis. METHODS AND",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en European Heart Journal - Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -734,25 +753,6 @@
             "label": "Alta",
             "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
-        },
-        {
-          "id": "yr-imagen-40652576",
-          "title": "Cardiac Magnetic Resonance Imaging vs Coronary Angiography as Primary Strategy in Newly Diagnosed Heart Failure",
-          "journal": "JACC: Heart Failure",
-          "authors": "Güder G, Reiter T, Bauer WR, Papavassiliu T, et al.",
-          "year": 2025,
-          "doi": "10.1016/j.jchf.2025.102528",
-          "url": "https://doi.org/10.1016/j.jchf.2025.102528",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: New-onset heart failure with reduced ejection fraction (HFrEF) requires further diagnostic evaluation to determine its underlying cause. Despite the potential of cardiac magnetic resonance (CMR) imaging to identify ischemic and nonischemic causes, percutaneous invasive coronary angiography (CATH) remains the preferred tool for diagnosing ischemic cardiomyopathy (ICM). OBJECTIVES: This study aimed to determine whether a CMR-first strategy could diagnose ICM as effectively as CATH (primary endpoint) and potentially reduce the number of invasive procedures (secondary endpoint). METHODS: In this multicenter 2-armed diagnostic trial (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure), 229 adults with new-onset HFrEF were randomized to undergo CMR or CATH first and the other modality second. Separate expert panels evaluated both modalities, blinded to each other's results. The cardiologist-in-charge was blinded to the panel results and served as the reference standard. RESULTS: A total of 203 patients (mean age: 62 ± 14 years, 28% women) had evaluable pairs of diagnostic modalities (108 CATH-first). For diagnosing ICM, the panels considered CATH to be sufficient in 100% (105/105) and CMR in 80% (76/95; P < 0.001). Compared with the reference, sensitivity for diagnosing ICM was high for both (CATH 91%, CMR 90%; P = 1.00), but CMR had lower specificity (98% vs 74%; P < 0.001). According to the CMR panel, 48% (46/95) of CATH procedures could have been avoided with a CMR-first strategy, dropping to 45% when excluding patients who underwent coronary interventions. CONCLUSIONS: Although CATH was superior for diagnosing ICM, CMR showed similar sensitivity and could significantly reduce CATH procedures without increasing the risk of missing critical coronary interventions. Longitudinal studies are needed to assess whether a CMR-first strategy confers prognostic benefit. (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure; ISRCTN16515058).",
-          "keyFindings": "Although CATH was superior for diagnosing ICM, CMR showed similar sensitivity and could significantly reduce CATH procedures without increasing the risk of missing critical coronary interventions. Longitudinal studies are needed to assess whether a CMR-first strategy confers prognostic benefit. (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure; ISRCTN16515058).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 72,
-            "label": "Alta",
-            "rationale": "RCT publicado en JACC: Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
         }
       ]
     },
@@ -781,6 +781,25 @@
           }
         },
         {
+          "id": "yr-estructural-40795219",
+          "title": "Incidence and predictors of persistent left atrial appendage patency and its subtypes after percutaneous closure: a pre-specified analysis of the SWISS-APERO trial",
+          "journal": "European Heart Journal - Cardiovascular Imaging",
+          "authors": "Galea R, Perich Krsnik J, Peters AA, De Marco F, et al.",
+          "year": 2025,
+          "doi": "10.1093/ehjci/jeaf232",
+          "url": "https://doi.org/10.1093/ehjci/jeaf232",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "AIMS: Left atrial appendage (LAA) patency after percutaneous closure is associated with higher thromboembolic risk, especially when detected at later time points after procedure. We aim to investigate the incidence and predictors of persistent LAA patency and its different subtypes at cardiac computed tomography angiography (CCTA) during the first year after LAA closure (LAAC). METHODS AND RESULTS: In the SWISS APERO trial, patients undergoing LAAC were randomly assigned (1:1) to Amulet or Watchman/FLX across eight European centers and received CCTA follow-up at 45 days and 13 months. The presence, the type and predictors of persistent or new-onset LAA patency at 13 months were investigated by matching 45-day and 13-month CCTAs in an imaging core-lab. Of the 221 randomized patients, 158 (71.5%) were included in the matched 45-day and 13-month CCTA analysis. Residual LAA patency decreased from 66.4 to 50.6% with approximately one-third (30.5%) of 45-day patent appendages (PA) resolved at 13 months. Side-gap leaks at 45 days were the PA subtypes associated with the highest likelihood (86%) of persistence. At 45-day CCTA, the presence of at least two factors among side-gap leak proximal area >37.7 mm2, radial diameter >3 mm or LAA-device angle >39.4° ('ARA LAAO' score ≥ 2) predicted leak persistence at 13-month CCTA with 94.1% sensitivity and 70% specificity. CONCLUSION: In a prospective multi-centre cohort of clinically indicated LAAC, approximately two-thirds of 45-day PAs, especially those related to large side-gap leaks with bigger LAA-device off-axis angle, persisted at 13 months, whereas new-onset PA occurred in roughly 1 in every 10 patients. Clinical Trial Registration: URL https://clinicaltrials.gov Unique Identifier NCT03399851.",
+          "keyFindings": "In a prospective multi-centre cohort of clinically indicated LAAC, approximately two-thirds of 45-day PAs, especially those related to large side-gap leaks with bigger LAA-device off-axis angle, persisted at 13 months, whereas new-onset PA occurred in roughly 1 in every 10 patients. Clinical Trial",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en European Heart Journal - Cardiovascular Imaging — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
           "id": "yr-estructural-40208159",
           "title": "Characterization and Clinical Outcomes of High-Risk Device-Related Thrombus in the Amulet IDE Trial",
           "journal": "JACC: Clinical Electrophysiology",
@@ -797,32 +816,6 @@
             "score": 64,
             "label": "Moderada",
             "rationale": "RCT en JACC: Clinical Electrophysiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        }
-      ]
-    },
-    {
-      "id": "oncologia-cardiaca",
-      "name": "Oncología Cardíaca",
-      "color": "#BA4A00",
-      "articles": [
-        {
-          "id": "yr-oncologia-cardiaca-40455883",
-          "title": "Adverse cardiac events associated with antibody-drug conjugates in cancer patients: retrospective analysis of FAERS database and RCTs",
-          "journal": "Cardiovascular Research",
-          "authors": "Zhuang S, Wang B, Wu E, Lin J, et al.",
-          "year": 2025,
-          "doi": "10.1093/cvr/cvaf095",
-          "url": "https://doi.org/10.1093/cvr/cvaf095",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "Antibody-drug conjugates (ADCs) are approved for use in cancers. Cardiovascular adverse reaction is a fatal adverse reaction associated with ADCs. The incidence of adverse cardiac events about ADCs has not been fully studied. We aimed to assess differences in cardiotoxicity among cancer patients treated with different ADCs. An observational retrospective pharmacovigilance study of ADC-related adverse cardiac events was conducted based on the FDA Adverse Event Reporting System (FAERS) and Open tools for data mining and analysis of pharmacoVigilance data (OpenVigil 2.1) website. We conducted a comprehensive search of articles published before 24 January 2024, using PubMed, Web of Science, Cochrane Library, Scopus, CINAHL, Embase databases, and the Clinical Trials website (https://clinicaltrials.gov). Primary outcomes include any cardiotoxicity. Secondary outcomes focused on heart failure. Network meta-analysis and subgroup analyses were conducted to synthesize results based on relative risk (RR) values. Surface under the cumulative ranking curve (SUCRA) values were calculated for risk ranking among ADCs according to the types and target of ADCs. A total of 1522 cases of cardiac adverse events from FAERS associated with ADC treatments. All ADCs showed disproportionate association in cardiac adverse events. Gender and age factors are considered to have an influential role in the cardiotoxicity induced by ADCs. The network meta-analysis showed that the overall incidence rate was 17.12% [95% confidence interval (CI): 13.36%, 20.88%]. Brentuximab vedotin has the RR value of 1.78 (95% CI: 1.13, 2.82). HER-2-targeted ADCs have the RR value of 0.61 (95% CI: 0.42, 0.89). Polatuzumab vedotin and enfortumab vedotin have SUCRA values of 82.6 and 22.0, respectively. The SUCRA values of ADC targeting FRα and TROP-2 were 75.6 and 18.8, respectively. Cardiac adverse events are associated with ADCs. ADCs targeting HER-2 show lower cardiac toxicity. Brentuximab vedotin is associated with higher cardiac toxicity. Polatuzumab vedotin has the highest risk for cardiac toxicity, and enfortumab vedotin has the lowest risk. ADC targeting FRα has the highest risk of cardiotoxicity, and ADC targeting TROP-2 has the lowest risk.",
-          "keyFindings": "Primary outcomes include any cardiotoxicity.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 79,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Cardiovascular Research con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -890,22 +883,22 @@
           }
         },
         {
-          "id": "yr-agudos-41297734",
-          "title": "Results of the MACiTEPH study of macitentan for the treatment of inoperable or persistent/recurrent chronic thromboembolic pulmonary hypertension",
-          "journal": "Journal of Heart and Lung Transplantation",
-          "authors": "Jenkins DP, Cerovic S, Csonka D, Ghofrani HA, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.healun.2025.11.014",
-          "url": "https://doi.org/10.1016/j.healun.2025.11.014",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: In a phase 2 study of inoperable chronic thromboembolic pulmonary hypertension (CTEPH), macitentan 10 mg improved hemodynamics and exercise capacity. METHODS: MACiTEPH (NCT04271475) was a prospective, double-blind, placebo-controlled, phase 3 study. Adult patients with inoperable CTEPH (with/without balloon pulmonary angioplasty [BPA]) or persistent/recurrent CTEPH after pulmonary endarterectomy (PEA) (with/without BPA) were randomized 1:1 to macitentan 75 mg or placebo once daily. Primary endpoint was change from baseline to Week 28 in 6-minute walk distance (6MWD). RESULTS: Following a pre-planned interim analysis, the study was stopped for futility. 127 patients were randomized, predominantly with inoperable CTEPH with BPA (36.2%) or persistent/recurrent CTEPH after PEA without BPA (30.7%). The majority (81.9%) were receiving pulmonary hypertension (PH)-specific therapy at baseline. 47 patients in the macitentan 75 mg and 48 in the placebo group had Week 28 assessments. Primary endpoint was not met; mean change in 6MWD from baseline to Week 28 versus placebo was -16.1 m (95% confidence limit: -32.3, 0.16). Clinical worsening events occurred in 6.3% and 14.3% of patients in the macitentan 75 mg and placebo groups, respectively. A slightly higher proportion of the macitentan 75 mg group had ≥1 adverse event (AE) or serious AE versus placebo; no pattern was identified. More patients in macitentan 75 mg versus placebo group discontinued treatment due to an AE (21.9% versus 7.9%, respectively). CONCLUSIONS: MACiTEPH was discontinued for futility, as no treatment effect on 6MWD (primary endpoint) was observed. Despite the higher discontinuation rate in the macitentan 75 mg group, no unexpected safety signals were observed in CTEPH patients.",
-          "keyFindings": "MACiTEPH was discontinued for futility, as no treatment effect on 6MWD (primary endpoint) was observed. Despite the higher discontinuation rate in the macitentan 75 mg group, no unexpected safety signals were observed in CTEPH patients.",
+          "id": "yr-agudos-41122884",
+          "title": "Part 9: Adult Advanced Life Support: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+          "journal": "Circulation",
+          "authors": "Wigginton JG, Agarwal S, Bartos JA, Coute RA, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIR.0000000000001376",
+          "url": "https://doi.org/10.1161/CIR.0000000000001376",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "In these 2025 Advanced Life Support Guidelines, the American Heart Association provides comprehensive recommendations for the resuscitation and management of adults experiencing cardiac arrest, respiratory arrest, and life-threatening cardiovascular emergencies. Based on structured evidence reviews and the latest clinical research, these guidelines offer evidence-based strategies to optimize survival and patient outcomes. The 2025 guidelines provide guidance for the treatment of cardiac arrest, including ventricular fibrillation, pulseless ventricular tachycardia, asystole, and pulseless electrical activity, as well as peri-arrest conditions such as atrial fibrillation and flutter with rapid ventricular response. Recommendations are made for defibrillation, electrical cardioversion, advanced airway management, drug therapies, and intravenous access. Additionally, guidelines are provided for the use of double sequential defibrillation, head-up cardiopulmonary resuscitation, and point-of-care ultrasound in the advanced life support setting. Termination of resuscitation rules have been refined to guide decision-making based on the emergency medical services professional's scope of practice. Finally, these guidelines also underscore the importance of identifying causative versus secondary arrhythmias to inform the appropriate timing of therapeutic strategies.",
+          "keyFindings": "Finally, these guidelines also underscore the importance of identifying causative versus secondary arrhythmias to inform the appropriate timing of therapeutic strategies.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 64,
+            "score": 63,
             "label": "Moderada",
-            "rationale": "RCT en Journal of Heart and Lung Transplantation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+            "rationale": "Revisión sistemática en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
