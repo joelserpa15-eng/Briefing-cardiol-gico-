@@ -326,6 +326,63 @@ SUBSPECIALTIES = [
             "Cardiotoxicity", "Antineoplastic Agents",
         ],
     },
+    {
+        "id": "agudos",
+        "name": "Agudos Cardiológicos y Unidad Coronaria",
+        "color": "#BE123C",
+        "keywords": [
+            # Unidad coronaria / críticos
+            "coronary care unit", "cardiac intensive care", "cardiac critical care",
+            "intensive cardiac care unit", "critical care cardiology",
+            # Shock cardiogénico y soporte hemodinámico
+            "cardiogenic shock", "mechanical circulatory support",
+            "impella", "intra-aortic balloon pump", "iabp",
+            "extracorporeal membrane oxygenation", "ecmo", "va-ecmo",
+            "venoarterial ecmo", "percutaneous ventricular assist",
+            "hemodynamic support", "vasopressor cardiogenic",
+            "norepinephrine shock", "right ventricular failure acute",
+            # Parada cardíaca y resucitación
+            "cardiac arrest", "cardiopulmonary resuscitation", "cpr",
+            "return of spontaneous circulation", "rosc",
+            "out-of-hospital cardiac arrest", "ohca",
+            "in-hospital cardiac arrest",
+            "targeted temperature management", "therapeutic hypothermia",
+            "post-cardiac arrest", "post-resuscitation",
+            "extracorporeal cpr", "ecpr",
+            # Arritmias amenazantes en UCO
+            "electrical storm", "refractory ventricular fibrillation",
+            "refractory ventricular tachycardia",
+            # PCI primaria / urgente
+            "primary percutaneous coronary intervention", "primary pci",
+            "door-to-balloon", "door-to-wire",
+            "emergent coronary angiography", "urgent revascularization",
+            # Complicaciones mecánicas e intracardíacas
+            "mechanical complication myocardial infarction",
+            "ventricular free wall rupture", "papillary muscle rupture",
+            "ventricular septal rupture acute",
+            # Otras urgencias cardíacas
+            "aortic dissection", "type a aortic dissection",
+            "type b aortic dissection", "acute aortic syndrome",
+            "cardiac tamponade", "pericardial tamponade",
+            "massive pulmonary embolism", "high-risk pulmonary embolism",
+            "submassive pulmonary embolism", "pulmonary embolism thrombolysis",
+            "acute pulmonary edema", "acute decompensated heart failure emergency",
+            "hypertensive emergency cardiac",
+        ],
+        "mesh": [
+            "Heart Arrest",
+            "Cardiopulmonary Resuscitation",
+            "Shock, Cardiogenic",
+            "Heart-Assist Devices",
+            "Extracorporeal Membrane Oxygenation",
+            "Coronary Care Units",
+            "Intra-Aortic Balloon Pumping",
+            "Aortic Dissection",
+            "Cardiac Tamponade",
+            "Hypothermia, Induced",
+            "Pulmonary Embolism",
+        ],
+    },
 ]
 
 SUB_INDEX = {s["id"]: s for s in SUBSPECIALTIES}
