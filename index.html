@@ -979,20 +979,21 @@
 
   function applyFilter(rank) {
     currentFilter = rank;
+    const root = document.getElementById('mainContent');
 
-    // Update button states
-    document.querySelectorAll('.ev-btn').forEach(btn => {
+    // Update only weekly filter button states (exclude annual .aev-btn)
+    document.querySelectorAll('#evidenceFilters .ev-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.rank === String(rank));
     });
 
-    // Show/hide articles
-    document.querySelectorAll('.article-card').forEach(card => {
+    // Show/hide articles scoped to weekly view only
+    root.querySelectorAll('.article-card').forEach(card => {
       const match = rank === 'all' || String(card.dataset.rank) === String(rank);
       card.classList.toggle('hidden', !match);
     });
 
-    // Open sections that have visible articles; collapse empty ones
-    document.querySelectorAll('.subspecialty').forEach(sub => {
+    // Open/close weekly subspecialties based on visible articles
+    root.querySelectorAll('.subspecialty').forEach(sub => {
       const visibleCount = sub.querySelectorAll('.article-card:not(.hidden)').length;
       if (rank !== 'all') {
         if (visibleCount > 0) sub.classList.add('open');
@@ -1005,7 +1006,7 @@
     const btn = document.getElementById('btnExpandAll');
     btn.addEventListener('click', () => {
       allExpanded = !allExpanded;
-      document.querySelectorAll('.subspecialty').forEach(sub => {
+      document.getElementById('mainContent').querySelectorAll('.subspecialty').forEach(sub => {
         sub.classList.toggle('open', allExpanded);
       });
       btn.textContent = allExpanded ? 'Contraer todo' : 'Expandir todo';
@@ -1014,9 +1015,8 @@
 
   function initFilters() {
     document.getElementById('evidenceFilters').addEventListener('click', e => {
-      if (e.target.classList.contains('ev-btn')) {
-        applyFilter(e.target.dataset.rank);
-      }
+      const btn = e.target.closest('.ev-btn:not(.aev-btn)');
+      if (btn) applyFilter(btn.dataset.rank);
     });
   }
 
