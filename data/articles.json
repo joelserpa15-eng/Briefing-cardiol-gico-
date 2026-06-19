@@ -1,12 +1,12 @@
 {
   "week": "2026-W24",
   "weekLabel": "15 – 21 de junio, 2026",
-  "lastUpdated": "2026-06-18T11:23:14Z",
+  "lastUpdated": "2026-06-19T21:33:41Z",
   "stats": {
-    "total": 59,
-    "metaAnalysis": 14,
-    "systematicReview": 8,
-    "rct": 24
+    "total": 58,
+    "metaAnalysis": 11,
+    "systematicReview": 7,
+    "rct": 26
   },
   "subspecialties": [
     {
@@ -14,25 +14,6 @@
       "name": "Cardiología Intervencionista",
       "color": "#C0392B",
       "articles": [
-        {
-          "id": "intervencionista-41911016",
-          "title": "Intravascular Ultrasound-Guided or Angiography-Guided Complex High-Risk PCI",
-          "journal": "New England Journal of Medicine",
-          "authors": "Diletti R, Daemen J, Faurie B, Barbierato M, et al.",
-          "year": 2026,
-          "doi": "10.1056/NEJMoa2601521",
-          "url": "https://doi.org/10.1056/NEJMoa2601521",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Intravascular ultrasound (IVUS) guidance during percutaneous coronary intervention (PCI) has been associated with increased stent optimization and reduced adverse events among patients with complex coronary-artery lesions, but adoption of this strategy in Western countries remains low. Although practice guidelines recommend intracoronary imaging for anatomically complex lesions, evidence from current European practice is limited. METHODS: In this investigator-initiated, international, open-label, randomized, controlled trial, we assigned patients undergoing complex PCI to either IVUS-guided PCI, performed with the use of prespecified stent-optimization criteria, or angiography-guided PCI. The primary end point was target-vessel failure, defined as a composite of death from cardiac causes, target-vessel myocardial infarction, or clinically indicated target-vessel revascularization. RESULTS: Of the 2020 patients who underwent randomization, 1010 in the IVUS-guided PCI group and 1009 in the angiography-guided PCI group were included in the primary analysis. The mean age of the patients was 69 years, 79.4% were men, and 27.4% presented with an acute coronary syndrome. The mean procedure duration was 88.8 minutes with IVUS-guided PCI and 66.2 minutes with angiography-guided PCI. Dilation with balloon angioplasty after stent implantation was performed in 91.3% of the IVUS-guided PCI procedures and in 84.5% of the angiography-guided PCI procedures. At a median follow-up of 19.0 months (interquartile range, 15.2 to 23.4), target-vessel failure had occurred in 140 patients (13.9%) in the IVUS-guided PCI group and in 112 patients (11.1%) in the angiography-guided PCI group (hazard ratio, 1.25; 95% confidence interval, 0.97 to 1.60; P = 0.08). Procedural complications occurred in 11.3% of the IVUS-guided PCI procedures and in 10.2% of the angiography-guided PCI procedures. The frequency of adverse events appeared to be similar in the two groups. CONCLUSIONS: Among patients undergoing complex high-risk PCI, a strategy of routine IVUS-guided PCI performed with the use of prespecified stent-optimization criteria was not associated with a lower risk of target-vessel failure than angiography-guided PCI alone. (Funded by Boston Scientific; IVUS-CHIP ClinicalTrials.gov number, NCT04854070.).",
-          "keyFindings": "Among patients undergoing complex high-risk PCI, a strategy of routine IVUS-guided PCI performed with the use of prespecified stent-optimization criteria was not associated with a lower risk of target-vessel failure than angiography-guided PCI alone. (Funded by Boston Scientific; IVUS-CHIP ClinicalTrials.gov number, NCT04854070.).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
         {
           "id": "intervencionista-41972998",
           "title": "Endovascular Therapy for Post-Thrombotic Syndrome - A Randomized Trial",
@@ -48,6 +29,25 @@
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "intervencionista-41911016",
+          "title": "Intravascular Ultrasound-Guided or Angiography-Guided Complex High-Risk PCI",
+          "journal": "New England Journal of Medicine",
+          "authors": "Diletti R, Daemen J, Faurie B, Barbierato M, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2601521",
+          "url": "https://doi.org/10.1056/NEJMoa2601521",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Intravascular ultrasound (IVUS) guidance during percutaneous coronary intervention (PCI) has been associated with increased stent optimization and reduced adverse events among patients with complex coronary-artery lesions, but adoption of this strategy in Western countries remains low. Although practice guidelines recommend intracoronary imaging for anatomically complex lesions, evidence from current European practice is limited. METHODS: In this investigator-initiated, international, open-label, randomized, controlled trial, we assigned patients undergoing complex PCI to either IVUS-guided PCI, performed with the use of prespecified stent-optimization criteria, or angiography-guided PCI. The primary end point was target-vessel failure, defined as a composite of death from cardiac causes, target-vessel myocardial infarction, or clinically indicated target-vessel revascularization. RESULTS: Of the 2020 patients who underwent randomization, 1010 in the IVUS-guided PCI group and 1009 in the angiography-guided PCI group were included in the primary analysis. The mean age of the patients was 69 years, 79.4% were men, and 27.4% presented with an acute coronary syndrome. The mean procedure duration was 88.8 minutes with IVUS-guided PCI and 66.2 minutes with angiography-guided PCI. Dilation with balloon angioplasty after stent implantation was performed in 91.3% of the IVUS-guided PCI procedures and in 84.5% of the angiography-guided PCI procedures. At a median follow-up of 19.0 months (interquartile range, 15.2 to 23.4), target-vessel failure had occurred in 140 patients (13.9%) in the IVUS-guided PCI group and in 112 patients (11.1%) in the angiography-guided PCI group (hazard ratio, 1.25; 95% confidence interval, 0.97 to 1.60; P = 0.08). Procedural complications occurred in 11.3% of the IVUS-guided PCI procedures and in 10.2% of the angiography-guided PCI procedures. The frequency of adverse events appeared to be similar in the two groups. CONCLUSIONS: Among patients undergoing complex high-risk PCI, a strategy of routine IVUS-guided PCI performed with the use of prespecified stent-optimization criteria was not associated with a lower risk of target-vessel failure than angiography-guided PCI alone. (Funded by Boston Scientific; IVUS-CHIP ClinicalTrials.gov number, NCT04854070.).",
+          "keyFindings": "Among patients undergoing complex high-risk PCI, a strategy of routine IVUS-guided PCI performed with the use of prespecified stent-optimization criteria was not associated with a lower risk of target-vessel failure than angiography-guided PCI alone. (Funded by Boston Scientific; IVUS-CHIP ClinicalTrials.gov number, NCT04854070.).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
             "label": "Alta",
             "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
@@ -333,6 +333,25 @@
           }
         },
         {
+          "id": "insuficiencia-cardiaca-42260102",
+          "title": "Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants",
+          "journal": "Nature Medicine",
+          "authors": "Marston NA, Kany S, Melloni GEM, Jurgens SJ, et al.",
+          "year": 2026,
+          "doi": "10.1038/s41591-026-04439-x",
+          "url": "https://doi.org/10.1038/s41591-026-04439-x",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and noncarriers. Among 12,685 patients for whom sequence data were obtained, 121 carried a cardiomyopathy variant (76 dilated cardiomyopathy, 25 hypertrophic cardiomyopathy and 25 arrhythmogenic cardiomyopathy). Over a median follow-up of 4.2 years, dapagliflozin lowered the risk of HHF more strongly in carriers (hazard ratio 0.18, 95% confidence interval 0.04-0.86) than in noncarriers (hazard ratio 0.70, 95% confidence interval 0.57-0.86; P interaction 0.03). Absolute risk reduction was 13.0% in carriers and 1.0% in noncarriers (P interaction 0.03). Most carriers (82%) had no prior HF, and in carriers without prior HF, treatment with dapagliflozin reduced the absolute risk of HHF by 12.8%, compared with a reduction of 0.6% in noncarriers (P interaction 0.01). The findings from this cohort of older and high-risk patients raise the possibility that SGLT2 inhibitor treatment should be started early to prevent HF in individuals who carry P/LP cardiomyopathy variants. These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
+          "keyFindings": "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "insuficiencia-cardiaca-41949846",
           "title": "Food Supplementation in Patients Hospitalized for Heart Failure: A Randomized Clinical Trial",
           "journal": "JAMA Cardiology",
@@ -344,25 +363,6 @@
           "evidenceRank": 3,
           "abstract": "IMPORTANCE: Low-quality dietary intake is associated with adverse heart failure (HF) outcomes, yet evidence evaluating food-as-medicine interventions that supply high-quality dietary content is limited. OBJECTIVE: To determine the feasibility of providing food supplementation with medically tailored meals or fresh produce and explore the association of food supplementation vs usual care with clinical outcomes in patients recently hospitalized with HF and whether it differs by conditioning food supplementation to health care engagement. DESIGN, SETTING, AND PARTICIPANTS: This open-label factorial randomized clinical trial was conducted between April 2024 and October 2025 at 2 hospitals in Dallas, Texas. The study included patients who were hospitalized for HF and enrolled within 14 days of discharge, excluding those with prior heart transplant, a left ventricular assist device, or inotropic support at discharge; current enrollment in meal delivery programs; and inability to receive home deliveries. Participants were followed up with for 12 weeks. Of 150 participants enrolled, 2 were withdrawn due to clinical deterioration, 1 died, and 6 were lost to follow-up; all were included in the intention-to-treat analysis. INTERVENTIONS: Participants were randomized 1:1:1 to medically tailored meals, fresh produce, or usual care. Those receiving food supplementation underwent secondary 1:1 randomization to conditional (linked to clinic attendance and medication fills) vs unconditional delivery. MAIN OUTCOMES AND MEASURES: Implementation outcomes included delivery completion, adherence, and acceptability and exploratory clinical outcomes. The primary clinical outcome was defined as readmission for HF or emergency department (ED) visits for HF over 90-day follow-up. Secondary clinical outcomes included a win-ratio-based hierarchical composite (all-cause death, total HF hospitalizations or ED visits, and ≥10-point Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score [KCCQ-CSS] improvement). RESULTS: Among 150 participants (median [IQR] age, 59.5 [52.0-66.0] years; 91 [60.7%] male), the baseline median (IQR) left ventricular ejection fraction was 35% (25.0-54.0), the baseline median (IQR) KCCQ-CSS was 56.6 (36.8-72.9), and 79 (52.7%) had food insecurity. Food delivery completion was 93.6% with a mean (SD) reported consumption adherence of 4.7 (2.4) days per week (medically tailored meals) and 5.5 (2.3) days per week (fresh produce), with high retention (96.0%). Fresh produce demonstrated superior acceptability compared with medically tailored meals (Net Promoter Score: 8.6 vs 7.3; P = .02). There was no significant difference in the primary clinical outcome (HF readmission or ED visit) between food supplementation (23 events among 100 participants) vs usual care (9 events among 50 participants) (adjusted rate ratio, 1.09; 95% CI, 0.49-2.43; P = .83). The hierarchical composite favored food supplementation vs usual care (win ratio, 1.21; 95% CI, 1.14-1.29; P < .001). Among participants receiving food supplementation, conditional delivery (vs unconditional) was not associated with risk of HF events. CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, 90-day food supplementation was feasible and well accepted in individuals with recent HF. Food supplementation was not associated with an improvement in the primary clinical outcome and there was no difference when conditioning food supplementation on health care engagement. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT06115369.",
           "keyFindings": "CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, 90-day food supplementation was feasible and well accepted in individuals with recent HF.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "insuficiencia-cardiaca-41903171",
-          "title": "Biomarker, Functional Status, and Quality-of-Life Trajectories Before Modes of Death in Heart Failure: Post Hoc Analysis of the FINEARTS-HF Randomized Clinical Trial",
-          "journal": "JAMA Cardiology",
-          "authors": "Lu H, Kosztin A, Claggett BL, Foà A, et al.",
-          "year": 2026,
-          "doi": "10.1001/jamacardio.2026.0682",
-          "url": "https://doi.org/10.1001/jamacardio.2026.0682",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Sudden death remains a leading cause of mortality in patients with heart failure with mildly reduced ejection fraction (HFmrEF) or HF with preserved ejection fraction (HFpEF), but whether these events are preceded by clinical deterioration remains unclear. OBJECTIVE: To characterize clinical trajectories preceding sudden death in patients with HFmrEF or HFpEF and compare them with trajectories before other modes of death and survival. DESIGN, SETTING, AND PARTICIPANTS: This was a post hoc analysis of the Finerenone Trial to Investigate the Efficacy and Safety Superior to Placebo in Patients With Heart Failure (FINEARTS-HF) randomized clinical trial evaluating trajectories of functional status, patient-reported health status, and natriuretic peptide levels preceding adjudicated modes of death. This was a global, event-driven clinical trial. Patients with symptomatic HF, left ventricular EF of 40% or greater, New York Heart Association class (NYHA) II to IV, and elevated N-terminal pro-B-type natriuretic peptide (NT-proBNP) were enrolled between September 14, 2020, and January 10, 2023. Data analysis was conducted in December 2025. INTERVENTIONS: Finerenone vs placebo. MAIN OUTCOMES AND MEASURES: Longitudinal trajectories of NYHA class, Kansas City Cardiomyopathy Questionnaire Total Symptom Score (KCCQ-TSS), and NT-proBNP levels preceding sudden death were compared with trajectories in survivors and those who died of HF-related, nonsudden cardiovascular, or noncardiovascular causes, using linear mixed-effects models with restricted cubic splines. RESULTS: Included in this analysis were 6001 patients (mean [SD] age, 72.0 [9.6] years; 3269 male [54%]). Over a median (IQR) follow-up of 2.7 (1.9-3.0) years, 215 sudden deaths occurred. In the 6 months before death, sudden death was preceded by a slight worsening in physician-assigned NYHA class (from approximately 2.3 to 2.4), worsening self-reported health status (an approximately 8-point decline in KCCQ-TSS), and a gradual rise in NT-proBNP levels (from approximately 1800 to 2000 pg/mL). In contrast, among patients who survived, NYHA class improved (from approximately 2.3 to 2.1), KCCQ-TSS increased (from approximately 68 to 77), and NT-proBNP levels declined (from approximately 800 to 650 pg/mL) over the 18 months before the end of follow-up. Comparable patterns of deterioration to those preceding sudden death, often more pronounced, were observed before other modes of death. CONCLUSIONS AND RELEVANCE: Results of this post hoc analysis of the FINEARTS-HF randomized clinical trial reveal that in this contemporary HFmrEF or HFpEF cohort, sudden death was preceded by modest worsening of symptoms, declining quality of life, and rising natriuretic peptide levels, suggesting many of these events may not have been entirely sudden. However, similar deterioration preceding other modes of death suggests limited specificity for sudden death. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04435626.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this post hoc analysis of the FINEARTS-HF randomized clinical trial reveal that in this contemporary HFmrEF or HFpEF cohort, sudden death was preceded by modest worsening of symptoms, declining quality of life, and rising natriuretic peptide levels, suggesting many of these events may not have been entirely sudden.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
@@ -416,44 +416,6 @@
           }
         },
         {
-          "id": "isquemica-42089208",
-          "title": "Sex Differences Among Young Patients With ST-Segment-Elevation Myocardial Infarction: A Systematic Review and Meta-Analysis",
-          "journal": "Journal of the American Heart Association",
-          "authors": "Pugliesi GM, Onyeji P, Verolino G, MomplaisirOnyeji S, et al.",
-          "year": 2026,
-          "doi": "10.1161/JAHA.125.046648",
-          "url": "https://doi.org/10.1161/JAHA.125.046648",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Female sex is associated with lower incidence of myocardial infarction, especially at younger ages. However, sex differences in mortality and coronary artery disease patterns among young patients with ST-segment-elevation myocardial infarction are not well established. This study evaluated sex differences in in-hospital and 1-year all-cause death and in the extent of coronary artery disease in patients aged ≤45 years with ST-segment-elevation myocardial infarction. METHODS: A systematic review (December 9, 2025) was conducted using PubMed, Cochrane, Embase, major cardiology conference proceedings, and ClinicalTrials.gov. Studies comparing sexes for outcomes were included. Non-English publications, abstracts without full text, and studies published before 2010 were excluded. A random-effects meta-analysis was performed, with results presented as relative risks (RR) and 95% CIs. Heterogeneity was assessed using τ and I2, risk of bias using the Risk of Bias in Nonrandomized Studies of Interventions tool. The study was registered on the International Prospective Register of Systematic Reviews. RESULTS: Eleven studies including 738 029 patients with ST-segment-elevation myocardial infarction (22% women) were analyzed. Female sex was associated with higher unadjusted in-hospital (RR, 1.56 [95% CI, 1.40-1.74]; τ=0.04; I2=0%) and 1-year mortality rate (RR, 1.78 [95% CI, 1.50-2.12]; τ=0.00; I2=0%). Women more frequently had single-vessel disease (73% versus 60%; RR, 1.13 [95% CI, 1.03-1.23]; τ=0.07; I2=67%), while men had 2-vessel (23% versus 18%; RR, 0.76 [95% CI, 0.68-0.85]; τ=0.00; I2=0%;) and 3-vessel disease (16% versus 9%; RR, 0.49 [95% CI, 0.27-0.86]; τ=0.41; I2=33%). CONCLUSIONS: In young patients with ST-segment-elevation myocardial infarction, female sex is associated with higher unadjusted in-hospital and 1-year death despite less extensive CAD. Further studies adjusting for comorbidities and standardizing CAD definitions are needed.",
-          "keyFindings": "In young patients with ST-segment-elevation myocardial infarction, female sex is associated with higher unadjusted in-hospital and 1-year death despite less extensive CAD. Further studies adjusting for comorbidities and standardizing CAD definitions are needed.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "isquemica-42132162",
-          "title": "Closing the Gap: Examining Representation of Women in Ischemic Heart Disease Guideline Studies",
-          "journal": "Journal of the American Heart Association",
-          "authors": "Abdelnour J, Alameh A, Anaya F, Driscoll K, et al.",
-          "year": 2026,
-          "doi": "10.1161/JAHA.124.038120",
-          "url": "https://doi.org/10.1161/JAHA.124.038120",
-          "evidenceLevel": "Revisión Sistemática",
-          "evidenceRank": 2,
-          "abstract": "BACKGROUND: This study aimed to evaluate the representation of women in cardiovascular clinical trials referenced in the American College of Cardiology and American Heart Association guidelines, given the historical underrepresentation of women in such trials, which limits generalizability and perpetuates health care disparities. METHODS: We conducted a systematic review of studies referenced in American College of Cardiology and American Heart Association guidelines for chronic coronary artery disease, chest pain, and coronary artery revascularization. Data extraction focused on study type, publication year, total study population, and proportion of women enrolled. Participation-to-prevalence ratios were calculated to assess gender representation relative to disease prevalence among women in the United States. RESULTS: Our systematic review encompassed 1690 studies revealing persistent underrepresentation of women across all guideline areas: revascularization (29.5%), chronic coronary artery disease (33.3%), and chest pain (40%). Participation-to-prevalence ratios ranged from 68.2% to 83.2%, indicating substantial gaps in representation compared with disease burden. Trends over 4 decades showed variability in women's inclusion, with some improvement but minimal overall progress. CONCLUSION: Despite increased awareness and advocacy, our findings highlight ongoing gender disparities in cardiovascular research. Proactive strategies are needed to enhance women's participation in clinical trials, ensuring equitable and effective health care interventions. Addressing these disparities is critical for developing tailored treatments and improving cardiovascular outcomes globally. Future research should prioritize identifying and overcoming barriers to women's enrollment in cardiovascular trials to promote inclusive clinical practice and mitigate health care disparities.",
-          "keyFindings": "Despite increased awareness and advocacy, our findings highlight ongoing gender disparities in cardiovascular research. Proactive strategies are needed to enhance women's participation in clinical trials, ensuring equitable and effective health care interventions. Addressing these disparities is critical for developing tailored treatments and improving cardiovascular outcomes globally. Future research should prioritize identifying and overcoming barriers to women's enrollment in cardiovascular t",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 55,
-            "label": "Moderada",
-            "rationale": "Revisión sistemática en Journal of the American Heart Association — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
           "id": "isquemica-41847750",
           "title": "Clopidogrel Versus Aspirin Monotherapy Beyond 1 Year After PCI: The Final 5-Year Results of the STOPDAPT-2 ACS and STOPDAPT-2 Total Cohort",
           "journal": "Circulation: Cardiovascular Interventions",
@@ -490,6 +452,44 @@
             "label": "Alta",
             "rationale": "RCT publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
+        },
+        {
+          "id": "isquemica-42294783",
+          "title": "Randomized Controlled Trial of Internet-Delivered Cognitive Behavioral Therapy After Myocardial Infarction With Nonobstructive Coronary Arteries or Takotsubo Syndrome",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Leissner P, Sundelin R, Rondung E, Humphries S, et al.",
+          "year": 2026,
+          "doi": "10.1161/JAHA.125.047311",
+          "url": "https://doi.org/10.1161/JAHA.125.047311",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Patients with myocardial infarction with nonobstructive coronary arteries (MINOCA) or Takotsubo syndrome (TS) often suffer from poor mental health and low quality-of-life post event, with no current evidence-based treatments available. This study aimed to evaluate the effects of an internet-delivered cognitive behavioral therapy program on stress and anxiety symptoms in patients diagnosed with myocardial infarction with nonobstructive coronary arteries or TS. METHODS: A parallel, multicenter, randomized controlled trial with a wait-list control group was conducted. Patients with elevated symptoms of stress or anxiety were included (the 14-item perceived stress scale ≥25 or hospital anxiety and depression scale, anxiety subscale ≥8). The primary outcome was normalized stress and anxiety levels 10 to 12 weeks after randomization. Secondary outcomes included normalized stress and anxiety separately and symptoms as continuous measures. RESULTS: A total of 88 patients were randomized (treatment: 45, control: 43). The treatment group showed a greater, though not statistically significant proportion of normalized patients (odds ratio, 2.37 [95% CI, 0.88-6.38], P=0.09). Secondary analyses indicated treatment effects on anxiety normalization and on symptoms as continuous measures (effect sizes: d=0.44-0.67). There was also an interaction between treatment and diagnosis (TS versus non-TS), favoring a treatment effect in TS patients (P=0.016). CONCLUSIONS: The patient-tailored internet-delivered cognitive behavioral therapy program reduced stress and anxiety symptoms in patients with myocardial infarction with nonobstructive coronary arteries or TS and normalized anxiety symptoms in a greater proportion of treated patients than controls. Exploratory analyses indicated that patients with TS may experience greater benefit from the internet-delivered cognitive behavioral therapy intervention, but this warrants further research.",
+          "keyFindings": "The patient-tailored internet-delivered cognitive behavioral therapy program reduced stress and anxiety symptoms in patients with myocardial infarction with nonobstructive coronary arteries or TS and normalized anxiety symptoms in a greater proportion of treated patients than controls. Exploratory analyses indicated that patients with TS may experience greater benefit from the internet-delivered cognitive behavioral therapy intervention, but this warrants further research.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American Heart Association — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "isquemica-41288370",
+          "title": "Frailty and long-term outcomes in younger patients with acute myocardial infarction",
+          "journal": "European Heart Journal",
+          "authors": "Mohiaddin H, Sze S, Damluji AA, Ladwiniec A, et al.",
+          "year": 2026,
+          "doi": "10.1093/eurheartj/ehaf876",
+          "url": "https://doi.org/10.1093/eurheartj/ehaf876",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND AND AIMS: Frailty is increasingly recognized as an important determinant of adverse outcomes in older adults with acute myocardial infarction (AMI), but its impact in younger patients remains underexplored. The aims of this study were to evaluate the association of frailty with adverse outcomes in AMI patients, stratified by age. METHODS: This population-based epidemiological study utilized linked national administrative data from England and Wales. Patients were stratified into three age groups: <55 years, 55-74 years, and ≥75 years. Frailty was assessed using the Secondary Care Administrative Records Frailty index with patients categorized into fit, mild, moderate, and severe groups. All-cause mortality at 1 year was the primary outcome. Secondary outcomes were cardiovascular and bleeding-related events. RESULTS: A total of 931 133 patients were included of which 13% of patients were severely frail. In patients with severe frailty, adjusted hazard ratios for all-cause mortality were 6.69 [95% confidence interval (CI) 5.76-7.76] for young patients, 4.33 (95% CI 4.11-4.57) for middle-aged patients, and 2.31 (95% CI 2.23-2.39) for older patients. The interaction between age and frailty revealed that younger patients with severe frailty had a 3.51-fold (95% CI 3.11-3.96) higher risk of all-cause mortality compared with older patients with severe frailty (P < .001). CONCLUSIONS: Frailty is independently associated with poor outcomes after AMI, with the strongest impact observed in younger patients, highlighting the need for frailty assessment across all age groups.",
+          "keyFindings": "Frailty is independently associated with poor outcomes after AMI, with the strongest impact observed in younger patients, highlighting the need for frailty assessment across all age groups.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 38,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
+          }
         }
       ]
     },
@@ -498,25 +498,6 @@
       "name": "Prevención y Dislipidemia",
       "color": "#1E8449",
       "articles": [
-        {
-          "id": "prevencion-42132198",
-          "title": "Effect of Different Types of Whole Dietary Pulses on Established Therapeutic Lipid Targets for Cardiovascular Risk Reduction: An Updated Systematic Review and Dose-Response Meta-Analysis of Randomized Controlled Trials",
-          "journal": "Journal of the American Heart Association",
-          "authors": "Back S, Yang S, Rossi A, Ayoub-Charette S, et al.",
-          "year": 2026,
-          "doi": "10.1161/JAHA.125.046659",
-          "url": "https://doi.org/10.1161/JAHA.125.046659",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Although dietary pulses are recognized by major clinical practice guidelines to reduce cholesterol and coronary heart disease risk, intake is low. There are no health claims for any pulse for cholesterol reduction, which could support uptake. We therefore conducted a systematic review and dose-response meta-analysis of randomized trials of the effect of different types of whole dietary pulses on lipid targets. METHODS: MEDLINE, Embase, and the Cochrane Library were searched through March 2025 for trials ≥3 weeks. The primary outcome was low-density lipoprotein-cholesterol. Secondary outcomes were other lipid targets. Independent reviewers extracted data and assessed risk of bias. Certainty of evidence was assessed using Grading of Recommendations Assessment, Development, and Evaluation. RESULTS: Thirty-eight trials (52 trial comparisons, n=2095) with a median of 6 weeks and dose of 130 g/d (0.5-0.67 cup/d) showed that whole dietary pulses decreased low-density lipoprotein-cholesterol (mean difference, -0.14 mmol/L [95% CI, -0.19 to -0.08]), non-high-density lipoprotein-cholesterol (-0.22 mmol/L [95% CI, -0.30 to -0.14]), apoB (apolipoprotein B) (-0.08 g/L [95% CI, -0.13 to -0.03]) and high-density lipoprotein-cholesterol (-0.03 mmol/L [95% CI, -0.05 to -0.01]) with no effects on other lipids. Analyses by pulse type showed similar results. A linear inverse relationship was shown for beans up to 1 cup/d for low-density lipoprotein-cholesterol (coefficient, -0.25 mmol/L/0.5 cup [95% CI, -0.48 to -0.02]) and non-high-density lipoprotein-cholesterol (-0.45 mmol/L/0.5 cup [95% CI, -0.71 to -0.18]). Grading of Recommendations Assessment, Development, and Evaluation was moderate-to-high for all outcomes, except apoB (very low). CONCLUSIONS: Whole dietary pulses likely result in small important-to-moderate reductions in lipid targets and trivial reductions in high-density lipoprotein-cholesterol. Similar effects were observed across pulse types with an inverse dose-response gradient for beans up to 1 cup/d. Future studies on chickpeas, dried peas, and lentils are warranted. REGISTRATION: URL: https://www.crd.york.ac.uk/PROSPERO/view/CRD42023432826; Unique identifier: CRD42023432826.",
-          "keyFindings": "Whole dietary pulses likely result in small important-to-moderate reductions in lipid targets and trivial reductions in high-density lipoprotein-cholesterol. Similar effects were observed across pulse types with an inverse dose-response gradient for beans up to 1 cup/d. Future studies on chickpeas, dried peas, and lentils are warranted.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 79,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
         {
           "id": "prevencion-42265997",
           "title": "2026 AHA/ACC/ADA/ASN Guideline for the Prevention, Detection, Evaluation, and Management of Cardiovascular-Kidney-Metabolic Syndrome: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
@@ -534,25 +515,6 @@
             "score": 63,
             "label": "Moderada",
             "rationale": "Revisión sistemática en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "prevencion-41910513",
-          "title": "Effect of APOC3 Inhibition With Olezarsen on Coronary Atherosclerosis: Essence-TIMI 73b Imaging Study",
-          "journal": "Circulation",
-          "authors": "Marston NA, Bergmark BA, Prohaska TA, Moura FA, et al.",
-          "year": 2026,
-          "doi": "10.1161/CIRCULATIONAHA.126.080012",
-          "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.080012",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Whether lowering triglyceride-rich lipoproteins and remnant cholesterol favorably modifies coronary atherosclerosis is unclear. Olezarsen, an antisense oligonucleotide that targets apolipoprotein C-III, reduces triglycerides by ~60% and remnant cholesterol by ~70%, has a neutral effect on LDL (low-density lipoprotein) cholesterol (LDL-C), and reduces apoB (apolipoprotein B) by ~15% in moderate hypertriglyceridemia. We investigated the effect of olezarsen on coronary plaque in adults with largely moderate hypertriglyceridemia. METHODS: We conducted a coronary computed tomography angiography study within Essence-TIMI 73b, a randomized, placebo-controlled trial of olezarsen versus placebo that enrolled patients between November 2022 and February 2024. Inclusion criteria were triglycerides ≥150 mg/dL (2.26 mmol/L), presence of or high risk for cardiovascular disease, and, for this imaging study, noncalcified plaque on baseline coronary computed tomography angiography. The primary end point was percent change from baseline to 12 months in noncalcified plaque volume. RESULTS: Of 468 participants (349 olezarsen, 119 placebo), the median age was 63 years (interquartile range, 56-70); 31% were women, and 97% received lipid-lowering therapy. Median baseline triglycerides were 249 mg/dL (interquartile range, 197-331), and remnant cholesterol was 53 mg/dL (interquartile range, 38-76). Median baseline noncalcified plaque volume was 125.3 mm³ (interquartile range, 63.2-213.3). At 6 months, olezarsen reduced triglycerides by 63.9%, remnant cholesterol by 71.9%, and apoB by 16.0% over placebo, with no difference in LDL-C. The percent change in noncalcified plaque volume from baseline to month 12 did not differ between olezarsen and placebo (placebo-adjusted least-squares mean difference, 2.98% [95% CI, -3.4 to 9.3]; p=0.36). No significant differences between olezarsen and placebo were observed for changes in low-attenuation, calcified, or total plaque volumes at 12 months. CONCLUSIONS: Despite substantial triglyceride and remnant cholesterol lowering, treatment with olezarsen for 12 months on top of standard-of-care lipid-lowering therapy in patients with largely moderate hypertriglyceridemia did not affect noncalcified coronary plaque volume. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT05610280.",
-          "keyFindings": "Despite substantial triglyceride and remnant cholesterol lowering, treatment with olezarsen for 12 months on top of standard-of-care lipid-lowering therapy in patients with largely moderate hypertriglyceridemia did not affect noncalcified coronary plaque volume.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 68,
-            "label": "Moderada",
-            "rationale": "RCT en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         },
         {
@@ -610,6 +572,44 @@
             "score": 68,
             "label": "Moderada",
             "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "prevencion-42233552",
+          "title": "Kidney and Survival Benefits of Semaglutide in Diabetes With Chronic Kidney Disease: FLOW Trial Cardiovascular Subgroup Analyses",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Tuttle KR, Bakris GL, Baeres FMM, Bang CN, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.02.5125",
+          "url": "https://doi.org/10.1016/j.jacc.2026.02.5125",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Cardiovascular disease increases risks of chronic kidney disease (CKD) progression and mortality in type 2 diabetes. OBJECTIVES: The study sought to assess semaglutide effects on kidney and survival outcomes by baseline cardiovascular status in the FLOW trial. METHODS: Participants with type 2 diabetes and CKD were randomized to once-weekly subcutaneous semaglutide 1.0 mg vs placebo. Baseline subgroups included atherosclerotic cardiovascular disease (ASCVD), heart failure, and high total cardiovascular disease risk without established cardiovascular disease (10-year PREVENT [Predicting Risk of cardiovascular disease EVENTs] score ≥20%). The primary outcome was ≥50% estimated glomerular filtration rate (eGFR) decline, eGFR <15 mL/min/1.73 m2, dialysis, transplantation, and kidney or cardiovascular death. All-cause death was a confirmatory secondary outcome. RESULTS: At baseline, 1,198 (33.9%) of 3,533, 678 (19.2%) of 3,532, and 1,329 (66.5%) of 2,000 participants had ASCVD, heart failure, or high total cardiovascular disease risk in those without established cardiovascular disease, respectively. Semaglutide reduced the primary outcome risk in subgroups with (119 of 593 vs 146 of 605) or without (212 of 1,174 vs 264 of 1,161) ASCVD (HR: 0.80; 95% CI: 0.63-1.02; and HR: 0.74; 95% CI: 0.62-0.89, respectively; P for interaction = 0.62), with (67 of 342 vs 88 of 336) or without (264 of 1,424 vs 322 of 1,430) heart failure (HR: 0.67; 95% CI: 0.49-0.93; and HR: 0.79; 95% CI: 0.67-0.93, respectively; P for interaction = 0.40), and with (134 of 675 vs 168 of 654) or without (44 of 331 vs 58 of 340) high total cardiovascular disease risk (HR: 0.73; 95% CI: 0.58-0.91; and HR: 0.73; 95% CI: 0.49-1.08, respectively; P for interaction = 0.99). Numbers needed to treat to prevent 1 primary kidney outcome at 3 years were 22, 13, and 17 in the ASCVD, heart failure, and PREVENT score ≥20% subgroups, respectively. Semaglutide also reduced risks of all-cause death with (99 of 593 vs 121 of 605) or without (128 of 1,174 vs 158 of 1,161) ASCVD (HR: 0.82; 95% CI: 0.63-1.07; and HR: 0.78; 95% CI: 0.62-0.99, respectively; P for interaction = 0.79), with (64 of 342 vs 79 of 336) or without (163 of 1,424 vs 200 of 1,430) heart failure (HR: 0.75; 95% CI: 0.54-1.05; and HR: 0.81; 95% CI: 0.66-0.99, respectively; P for interaction = 0.74), and with (73 of 675 vs 98 of 654) or without (23 of 331 vs 28 of 340) high total cardiovascular disease risk (HR: 0.71; 95% CI: 0.52-0.95; and HR: 0.82; 95% CI: 0.47-1.43, respectively; P for interaction = 0.63). CONCLUSIONS: Semaglutide improved kidney and survival outcomes in type 2 diabetes with CKD, irrespective of established ASCVD, heart failure, or high total cardiovascular disease risk. (Evaluate Renal Function with Semaglutide Once Weekly [FLOW]; NCT03819153).",
+          "keyFindings": "Semaglutide improved kidney and survival outcomes in type 2 diabetes with CKD, irrespective of established ASCVD, heart failure, or high total cardiovascular disease risk. (Evaluate Renal Function with Semaglutide Once Weekly [FLOW]; NCT03819153).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "prevencion-41778959",
+          "title": "Coronary Atherosclerosis in Liver Transplant Recipients and Population Controls: A Nationwide Study Using Protocolized CT Angiography",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Knudsen AD, Kühl JT, Schultz NA, Villadsen GE, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.01.041",
+          "url": "https://doi.org/10.1016/j.jacc.2026.01.041",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Prevalence and severity of coronary atherosclerosis in liver transplant (LTx) recipients remain poorly characterized because prior work has relied on clinically indicated imaging or retrospective studies. OBJECTIVES: The purpose of this study was to determine the prevalence and severity of coronary atherosclerosis in LTx recipients compared with control subjects using protocolized research-coronary CT angiography in both LTx recipients and control subjects. METHODS: In this cross-sectional study, LTx recipients aged ≥40 years from the DACOLT (Danish Comorbidity in Liver Transplant Recipients) study were matched 1:5 by age and sex with population controls from the Copenhagen General Population Study. Questionnaires, physical examinations, and coronary computed tomography angiography were performed uniformly in all participants. Coronary atherosclerosis was categorized as any, obstructive (≥50% stenosis), and extensive (>5 coronary segments) coronary atherosclerosis. Logistic regressions were adjusted for age, sex, hypertension, diabetes, dyslipidemia, smoking, and obesity. RESULTS: We included 205 LTx recipients and 1,025 population control subjects. Median age was 56 years, and 40% were women. SCORE2 (Systematic COronary Risk Evaluation 2) risk did not differ significantly between LTx recipients and control subjects (P = 0.20). LTx recipients had significantly higher prevalence of any coronary atherosclerosis (63% vs 46%; P < 0.0001), obstructive coronary atherosclerosis (18% vs 10%; P < 0.0001), and obstructive-extensive coronary atherosclerosis (13% vs 6%; P < 0.0001), than control subjects. After adjusting for confounders, living with a transplanted liver remained associated with higher odds of any coronary atherosclerosis (OR: 2.19; 95% CI: 1.48-3.27), obstructive coronary atherosclerosis (OR: 2.73; 95% CI: 1.43-5.16), and obstructive-extensive coronary atherosclerosis (OR: 3.90; 95% CI: 1.76-8.55). Among individuals with any coronary atherosclerosis, LTx recipients had higher odds of having high-risk plaque than population control subjects (OR: 2.10; 95% CI: 1.29-3.45). CONCLUSIONS: LTx recipients had a significantly higher prevalence and severity of coronary atherosclerosis compared with matched general population control subjects, after adjusting for traditional cardiovascular risk factors. Conscious cardiovascular risk assessment and preventive strategies should be considered in this patient group. (The Danish Comorbidity in Liver Transplant Recipients Study [DACOLT]; NCT04777032).",
+          "keyFindings": "LTx recipients had a significantly higher prevalence and severity of coronary atherosclerosis compared with matched general population control subjects, after adjusting for traditional cardiovascular risk factors. Conscious cardiovascular risk assessment and preventive strategies should be considered in this patient group. (The Danish Comorbidity in Liver Transplant Recipients Study [DACOLT]; NCT04777032).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 38,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
         }
       ]
@@ -760,25 +760,6 @@
           }
         },
         {
-          "id": "hipertension-42132182",
-          "title": "Optimal Exercise Modalities and Dosages for Blood Pressure Reduction in Adults With Prehypertension and Established Hypertension: A Network Meta-Analysis and Dose-Response Relationship Study",
-          "journal": "Journal of the American Heart Association",
-          "authors": "Xin X, Guo Y, Wang M, Hu Z, et al.",
-          "year": 2026,
-          "doi": "10.1161/JAHA.125.044003",
-          "url": "https://doi.org/10.1161/JAHA.125.044003",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "Exercise interventions can effectively reduce blood pressure (BP), but the optimal exercise modality and dose remain unclear. This study aimed to compare the effects of different exercise modalities and doses on systolic and diastolic BP using Bayesian network meta-analysis and dose-response modeling. Randomized controlled trials published up to April 2025 were searched, and a total of 105 randomized controlled trials were included. A random-effects model was applied to conduct both the network meta-analysis and dose-response analysis. Combined training and high-intensity interval training produced the most significant reductions in BP. Combined training reduced systolic BP by -12.05 mm Hg (95% CrI, -15.08 to -9.05) and diastolic BP by -6.20 mm Hg (95% CrI, -7.79 to -4.62), while high-intensity interval training reduced systolic BP by -10.97 mm Hg (95% CrI, -14.97 to -6.95) and diasatolic BP by -6.42 mm Hg (95% CrI, -8.68 to -4.16). Yoga and tai chi had moderate effects, whereas aerobic exercise, isometric exercise training, and resistance training showed relatively weaker effects. Dose-response analysis revealed a nonlinear U-shaped relationship, with the greatest benefit observed at ≈830 metabolic equivalents/min per wk, and the optimal doses varied by exercise modality. All exercise modalities can significantly reduce BP levels in individuals with prehypertension and established hypertension, and there is a nonlinear dose-response relationship between exercise volume and BP levels.",
-          "keyFindings": "All exercise modalities can significantly reduce BP levels in individuals with prehypertension and established hypertension, and there is a nonlinear dose-response relationship between exercise volume and BP levels.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
           "id": "hipertension-41884885",
           "title": "Artificial Intelligence in Cardiovascular Medicine: Focus on Hypertension",
           "journal": "Hypertension",
@@ -795,6 +776,25 @@
             "score": 59,
             "label": "Moderada",
             "rationale": "Revisión sistemática en Hypertension — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "hipertension-41904226",
+          "title": "DASH-patterned groceries and effects on blood pressure in adults treated for hypertension: the GoFreshRx randomized trial",
+          "journal": "Nature Medicine",
+          "authors": "Juraschek SP, Col H, Ferro K, Turkson-Ocran RN, et al.",
+          "year": 2026,
+          "doi": "10.1038/s41591-026-04319-4",
+          "url": "https://doi.org/10.1038/s41591-026-04319-4",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Although a Dietary Approaches to Stop Hypertension (DASH) eating plan has been shown to lower blood pressure (BP) in Black adults, this intervention has not been tested in individuals who were being actively treated for hypertension. In this study, we conducted a randomized clinical trial (GoFreshRx) to test whether local groceries ordered with the assistance of a dietitian to align with the DASH diet might lower BP among Black adult residents of Boston communities with few grocery stores who were being actively treated for hypertension. Individuals whose systolic blood pressure (SBP) was 120 mmHg to <150 mmHg despite active hypertension treatment were randomized either to 12 weeks of weekly home-delivered DASH groceries with dietitian counseling or to receiving three US$500 stipends every 4 weeks. The primary outcome was research clinic-measured SBP measured at 3 months. Secondary outcomes were diastolic blood pressure (DBP) and low-density lipoprotein cholesterol (LDL-c) levels. Maintenance of health effects was assessed at 3 months after the intervention. Of 176 participants (mean age 60.1 (s.d., 11.5) years; 80.7% female), 173 were available for SBP measurement at 3 months. Mean (s.d.) baseline SBP/DBP was 130.5 (7.0)/77.8 (8.9) mmHg. At 3 months, SBP changed by -7.0 mmHg in the DASH groceries group and by -2.0 mmHg in the self-directed group (intergroup difference: -5.0 mmHg; 95% confidence interval: -8.0 to -1.9; P = 0.002). Moreover, compared to the self-directed group, 3 months of DASH groceries changed DBP by -1.8 mmHg (-3.6 to -0.1) and LDL-c by -7.0 mg dl-1 (-13.6 to -0.5). In prespecified analyses, the beneficial effects of DASH grocery delivery on SBP and DBP were partially maintained 3 months after the intervention had concluded. Nutrient-targeted grocery ordering appears to be a useful strategy to improve longer-term cardiometabolic health. ClinicalTrials.gov registration: NCT05393232 .",
+          "keyFindings": "The primary outcome was research clinic-measured SBP measured at 3 months.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -935,25 +935,6 @@
             "score": 46,
             "label": "Moderada",
             "rationale": "Estudio de cohorte en Circulation: Cardiovascular Imaging — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "miocardiopatias-42089151",
-          "title": "Insights Into the Natural History of Recurrent Myocarditis, A Multicenter International Study (Re-Myo Study)",
-          "journal": "Journal of the American Heart Association",
-          "authors": "Baggio C, Cannata A, Gasperetti A, Ammirati E, et al.",
-          "year": 2026,
-          "doi": "10.1161/JAHA.125.046767",
-          "url": "https://doi.org/10.1161/JAHA.125.046767",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Recurrence of acute myocarditis (AM) is challenging. The management and natural history of patients who experience a recurrence of AM (Re-AM) remain poorly characterized. The aim of this study is to investigate clinical characteristics and outcomes of patients with Re-AM. METHODS: In this international multicenter study, 141 consecutive patients with biopsy-proven or cardiac magnetic resonance-proven Re-AM (35 [26-45] years, 77% male, median left ventricular ejection fraction 55%) were investigated and compared with 372 consecutive patients with single acute myocarditis (S-AM). The primary outcome was a composite of all-cause mortality, heart transplant and major ventricular arrhythmias. RESULTS: Patients with Re-AM had more frequently a family history of cardiomyopathy (19% in Re-AM versus 2.8% in S-AM, P<0.001) and a diffuse late gadolinium enhancement compared with patients with S-AM (46% in Re-AM versus 34% in S-AM, P=0.019). The extent of late gadolinium enhancement also increased between the first and the second AM episode in patients with Re-AM (P=0.001). During a median follow-up of 33 months (interquartile range, 23-52) patients with Re-AM had a higher risk of primary outcome (P=0.001) compared with patients with S-AM, as well as a significantly elevated competing risk of major ventricular arrhythmias (P<0.001), which remained independently associated even after adjustment (hazard ratio, 2.15 [95% CI, 1.15-4.04], P=0.017). A family history of cardiomyopathy, autoimmune diseases, and ring-like late gadolinium enhancement was independently associated with a higher risk of recurrent AM. CONCLUSIONS: Re-AM is a distinct clinical subgroup of AM associated with generally worse prognosis and a specific increased arrhythmic risk compared with S-AM.",
-          "keyFindings": "Re-AM is a distinct clinical subgroup of AM associated with generally worse prognosis and a specific increased arrhythmic risk compared with S-AM.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 38,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
         }
       ]
@@ -1168,25 +1149,6 @@
           }
         },
         {
-          "id": "agudos-42294776",
-          "title": "Optimizing Extracorporeal Cardiopulmonary Resuscitation Candidate Selection in out-of-Hospital Cardiac Arrest: A Machine-Learning Individualized Treatment Effect Approach Versus Rule-Based Criteria",
-          "journal": "Journal of the American Heart Association",
-          "authors": "Chen CH, Huang EP, Sung CW, Fan CY, et al.",
-          "year": 2026,
-          "doi": "10.1161/JAHA.125.047815",
-          "url": "https://doi.org/10.1161/JAHA.125.047815",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Extracorporeal cardiopulmonary resuscitation (ECPR) has demonstrated survival benefit in selected patients with out-of-hospital cardiac arrest, yet optimal selection criteria remain uncertain. Machine-learning-based individualized treatment effect (ITE) modeling may identify patients most likely to benefit by capturing heterogeneity of treatment response, potentially providing a more accurate strategy for ECPR candidate selection than current rule-based criteria. METHODS: We retrospectively analyzed adult, nontraumatic, emergency medical services-attended patients with out-of-hospital cardiac arrest from 4 tertiary centers in Taiwan between 2016 and 2024. After propensity score matching for shockable rhythm and witnessed arrest, a gradient-boosted trees-based causal forest model was developed to estimate ITE and predict the survival benefit of ECPR to hospital discharge. Absolute observed treatment effect across different ITE thresholds was compared with trial-based (ARREST [Advanced reperfusion strategies for patients with out-of-hospital cardiac arrest and refractory ventricular fibrillation] trial, PRAGUE OHCA [Effect of Intra-arrest Transport, Extracorporeal Cardiopulmonary Resuscitation, and Immediate Invasive Assessment and Treatment on Functional Neurologic Outcome in Refractory Out-of-Hospital Cardiac Arrest] trial, and INCEPTION [Early Extracorporeal CPR for Refractory Out-of-Hospital Cardiac Arrest] trial) and hospital-specific criteria. RESULTS: Among 1953 matched patients, 977 received ECPR. Overall survival was similar between ECPR and non-ECPR groups (11.1% versus 12.8%; standardized mean difference=0.054). In the top 10% of patients with the highest predicted benefit, survival to discharge was 50.0% with ECPR versus 20.0% without, yielding an absolute observed treatment effect of 30.0% (95% CI, 1.56-57.58; P=0.042). The ITE model identified subgroups with higher observed survival benefit compared with those selected by rule-based criteria. Factors associated with higher ECPR treatment effect included lower serum pH and partial pressure of carbon dioxide level, higher lactate level, younger age, and bystander cardiopulmonary resuscitation. CONCLUSIONS: The ITE-based model was associated with greater observed survival benefit compared with current rule-based criteria and may demonstrate potential as a data-driven framework for candidate selection for ECPR. Further validation in prospective settings is warranted.",
-          "keyFindings": "The ITE-based model was associated with greater observed survival benefit compared with current rule-based criteria and may demonstrate potential as a data-driven framework for candidate selection for ECPR. Further validation in prospective settings is warranted.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 38,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
-          }
-        },
-        {
           "id": "agudos-42179258",
           "title": "Association Between Preadmission β-Blocker Use and Venoarterial Extracorporeal Membrane Oxygenation Weaning Failure in Patients With Cardiogenic Shock",
           "journal": "Journal of the American Heart Association",
@@ -1198,6 +1160,25 @@
           "evidenceRank": 4,
           "abstract": "BACKGROUND: Preadmission β-blocker (BB) use may convey cardioprotective effects after onset of cardiogenic shock (CS). It is unknown whether this also holds for patients with the most severe forms of CS receiving venoarterial extracorporeal membrane oxygenation (V-A ECMO) support. METHODS: We conducted a multicenter observational cohort study including adult patients supported by V-A ECMO for severe CS between February 2018 and January 2025. Patients who had taken BBs within 48 hours before ECMO initiation as part of their home medication were compared with those who had not. The primary end point was ECMO weaning failure at 30 days; a composite of death, ongoing or renewed ECMO support, or the need for heart replacement therapy. RESULTS: A total of 307 patients were included in the study, of whom 87 (28.3%) were in the BB group. ECMO weaning failure occurred in 40 patients (46.0%) in the BB group compared with 126 (57.3%) patients in the non-BB group (log-rank test, P=0.08). No significant difference was seen in the trend of hemodynamic and metabolic parameters during ECMO support. Multivariable Cox proportional hazards regression analyses showed that preadmission BB use was significantly associated with a decreased risk for ECMO weaning failure (hazard ratio, 0.61 [95% CI, 0.40-0.91]). CONCLUSIONS: In this study, BB use before the onset of severe CS in patients supported by V-A ECMO was significantly associated with lower inotrope requirements and lower rates of ECMO weaning failure. Future studies are needed to confirm these results and investigate the potential and feasibility of continuing low dosages of BBs during CS. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique Identifier: NCT05444764.",
           "keyFindings": "In this study, BB use before the onset of severe CS in patients supported by V-A ECMO was significantly associated with lower inotrope requirements and lower rates of ECMO weaning failure. Future studies are needed to confirm these results and investigate the potential and feasibility of continuing low dosages of BBs during CS.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 38,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
+          }
+        },
+        {
+          "id": "agudos-42294776",
+          "title": "Optimizing Extracorporeal Cardiopulmonary Resuscitation Candidate Selection in out-of-Hospital Cardiac Arrest: A Machine-Learning Individualized Treatment Effect Approach Versus Rule-Based Criteria",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Chen CH, Huang EP, Sung CW, Fan CY, et al.",
+          "year": 2026,
+          "doi": "10.1161/JAHA.125.047815",
+          "url": "https://doi.org/10.1161/JAHA.125.047815",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Extracorporeal cardiopulmonary resuscitation (ECPR) has demonstrated survival benefit in selected patients with out-of-hospital cardiac arrest, yet optimal selection criteria remain uncertain. Machine-learning-based individualized treatment effect (ITE) modeling may identify patients most likely to benefit by capturing heterogeneity of treatment response, potentially providing a more accurate strategy for ECPR candidate selection than current rule-based criteria. METHODS: We retrospectively analyzed adult, nontraumatic, emergency medical services-attended patients with out-of-hospital cardiac arrest from 4 tertiary centers in Taiwan between 2016 and 2024. After propensity score matching for shockable rhythm and witnessed arrest, a gradient-boosted trees-based causal forest model was developed to estimate ITE and predict the survival benefit of ECPR to hospital discharge. Absolute observed treatment effect across different ITE thresholds was compared with trial-based (ARREST [Advanced reperfusion strategies for patients with out-of-hospital cardiac arrest and refractory ventricular fibrillation] trial, PRAGUE OHCA [Effect of Intra-arrest Transport, Extracorporeal Cardiopulmonary Resuscitation, and Immediate Invasive Assessment and Treatment on Functional Neurologic Outcome in Refractory Out-of-Hospital Cardiac Arrest] trial, and INCEPTION [Early Extracorporeal CPR for Refractory Out-of-Hospital Cardiac Arrest] trial) and hospital-specific criteria. RESULTS: Among 1953 matched patients, 977 received ECPR. Overall survival was similar between ECPR and non-ECPR groups (11.1% versus 12.8%; standardized mean difference=0.054). In the top 10% of patients with the highest predicted benefit, survival to discharge was 50.0% with ECPR versus 20.0% without, yielding an absolute observed treatment effect of 30.0% (95% CI, 1.56-57.58; P=0.042). The ITE model identified subgroups with higher observed survival benefit compared with those selected by rule-based criteria. Factors associated with higher ECPR treatment effect included lower serum pH and partial pressure of carbon dioxide level, higher lactate level, younger age, and bystander cardiopulmonary resuscitation. CONCLUSIONS: The ITE-based model was associated with greater observed survival benefit compared with current rule-based criteria and may demonstrate potential as a data-driven framework for candidate selection for ECPR. Further validation in prospective settings is warranted.",
+          "keyFindings": "The ITE-based model was associated with greater observed survival benefit compared with current rule-based criteria and may demonstrate potential as a data-driven framework for candidate selection for ECPR. Further validation in prospective settings is warranted.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 38,
