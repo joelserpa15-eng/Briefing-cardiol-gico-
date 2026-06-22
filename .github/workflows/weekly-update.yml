@@ -1,14 +1,14 @@
-name: Weekly Cardiology Briefing Update
+name: Monthly Cardiology Briefing Update
 
 on:
   schedule:
-    - cron: '0 7 * * 1'   # Every Monday at 07:00 UTC
+    - cron: '0 7 1 * *'   # 1st of every month at 07:00 UTC
   workflow_dispatch:
     inputs:
-      days:
-        description: 'Days to look back (default: 14)'
+      month:
+        description: 'Month to fetch (YYYY-MM format, default: previous month)'
         required: false
-        default: '14'
+        default: ''
 
 permissions:
   contents: write
@@ -36,7 +36,12 @@ jobs:
           NCBI_EMAIL:   ${{ secrets.NCBI_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: |
-          python scripts/fetch_articles.py --days "${{ github.event.inputs.days || '14' }}"
+          MONTH="${{ github.event.inputs.month }}"
+          if [ -n "$MONTH" ]; then
+            python scripts/fetch_articles.py --month "$MONTH"
+          else
+            python scripts/fetch_articles.py
+          fi
 
       - name: Commit & push updated articles
         run: |
@@ -45,18 +50,17 @@ jobs:
           if git diff --quiet data/articles.json; then
             echo "No changes — skipping commit."
           else
-            WEEK=$(python -c "
+            MONTH_LABEL=$(python -c "
           from datetime import datetime, timedelta
-          t = datetime.utcnow()
-          s = t - timedelta(days=t.weekday())
-          e = s + timedelta(days=6)
-          m = ['','enero','febrero','marzo','abril','mayo','junio',
-               'julio','agosto','septiembre','octubre','noviembre','diciembre']
-          print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
-                else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
+          import calendar
+          today = datetime.utcnow()
+          first_of_current = today.replace(day=1)
+          month_dt = (first_of_current - timedelta(days=1)).replace(day=1)
+          months_es = ['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
+          print(f'{months_es[month_dt.month].capitalize()} {month_dt.year}')
             ")
             git add data/articles.json data/index.json data/articles-*.json
-            git commit -m "data: briefing semanal ${WEEK}"
+            git commit -m "data: briefing mensual ${MONTH_LABEL}"
             git push origin HEAD
           fi
 

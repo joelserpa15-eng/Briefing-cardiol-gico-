@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Briefing Cardiológico Semanal</title>
+  <title>Briefing Cardiológico Mensual</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -704,23 +704,23 @@
       </div>
       <div class="logo-text">
         <h1>Briefing Cardiológico</h1>
-        <span>Evidencia científica semanal en cardiología</span>
+        <span>Evidencia científica mensual en cardiología</span>
       </div>
     </a>
     <div class="header-meta">
       <span id="lastUpdatedText" style="font-size:.72rem;color:var(--text-muted);white-space:nowrap;display:none"></span>
       <div class="week-nav">
-        <button class="week-nav-btn" id="btnPrevWeek" onclick="navigateWeek(1)" title="Semana anterior" disabled>&#8249;</button>
-        <div class="week-dropdown-wrap" id="weekDropdownWrap">
-          <button class="week-badge" id="weekBadge" onclick="toggleWeekDropdown()">
-            <span id="weekBadgeText">Cargando…</span>
+        <button class="week-nav-btn" id="btnPrevMonth" onclick="navigateMonth(1)" title="Mes anterior" disabled>&#8249;</button>
+        <div class="week-dropdown-wrap" id="monthDropdownWrap">
+          <button class="week-badge" id="monthBadge" onclick="toggleMonthDropdown()">
+            <span id="monthBadgeText">Cargando…</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="week-dropdown" id="weekDropdown">
-            <div class="week-dropdown-header">Archivo — últimas semanas</div>
+          <div class="week-dropdown" id="monthDropdown">
+            <div class="week-dropdown-header">Archivo — últimos meses</div>
           </div>
         </div>
-        <button class="week-nav-btn" id="btnNextWeek" onclick="navigateWeek(-1)" title="Semana siguiente" disabled>&#8250;</button>
+        <button class="week-nav-btn" id="btnNextMonth" onclick="navigateMonth(-1)" title="Mes siguiente" disabled>&#8250;</button>
       </div>
     </div>
   </div>
@@ -728,7 +728,7 @@
 
 <!-- HERO -->
 <section class="hero">
-  <h2>Resumen Semanal de Literatura Cardiológica</h2>
+  <h2>Resumen Mensual de Literatura Cardiológica</h2>
   <p>Los artículos de mayor impacto de las principales revistas de cardiología, clasificados por nivel de evidencia y subespecialidad.</p>
   <div class="stats-row" id="statsRow">
     <div class="stat">
@@ -755,7 +755,7 @@
   <div class="view-tabs-inner">
     <button class="view-tab active" id="tabWeekly" onclick="switchView('weekly')">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-      Esta Semana
+      Este Mes
     </button>
     <button class="view-tab" id="tabAnnual" onclick="switchView('annual')">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -841,8 +841,8 @@
 
 <!-- FOOTER -->
 <footer class="footer">
-  <strong>Briefing Cardiológico Semanal</strong><br>
-  Artículos recuperados automáticamente de <strong style="color:#a0aec0">PubMed (NCBI)</strong> y <strong style="color:#a0aec0">Europe PMC</strong> cada lunes.<br>
+  <strong>Briefing Cardiológico Mensual</strong><br>
+  Artículos recuperados automáticamente de <strong style="color:#a0aec0">PubMed (NCBI)</strong> y <strong style="color:#a0aec0">Europe PMC</strong> el 1 de cada mes.<br>
   Ordenados por nivel de evidencia y factor de impacto de la revista.<br>
   Los resúmenes son orientativos — consulta siempre el artículo original para decisiones clínicas.
   <div style="margin-top:12px;color:#4a5568;font-size:.7rem;line-height:2">
@@ -1020,9 +1020,9 @@
     });
   }
 
-  // ── Week navigation state
+  // ── Month navigation state
   let indexData  = null;
-  let currentIdx = 0;  // 0 = most recent week
+  let currentIdx = 0;  // 0 = most recent month
 
   function updateStats(data) {
     const allArticles = data.subspecialties.flatMap(s => s.articles);
@@ -1031,7 +1031,7 @@
     document.getElementById('statSubs').textContent     = data.subspecialties.length;
     document.getElementById('statMeta').textContent     = stats.metaAnalysis ?? allArticles.filter(a => a.evidenceRank === 1).length;
     document.getElementById('statRCT').textContent      = stats.rct          ?? allArticles.filter(a => a.evidenceRank === 3).length;
-    document.getElementById('weekBadgeText').textContent = data.weekLabel;
+    document.getElementById('monthBadgeText').textContent = data.monthLabel;
 
     if (data.lastUpdated) {
       const d   = new Date(data.lastUpdated);
@@ -1042,8 +1042,8 @@
     }
   }
 
-  // ── Load a specific week's JSON file
-  async function loadWeekData(idx, file) {
+  // ── Load a specific month's JSON file
+  async function loadMonthData(idx, file) {
     currentIdx      = idx;
     const main      = document.getElementById('mainContent');
     main.innerHTML  = '<div class="week-loading-indicator">Cargando artículos…</div>';
@@ -1066,58 +1066,58 @@
     }
 
     updateNavButtons();
-    buildWeekDropdown();
-    closeWeekDropdown();
+    buildMonthDropdown();
+    closeMonthDropdown();
   }
 
-  // ── Navigate ±1 week (delta: +1 = older, -1 = newer)
-  function navigateWeek(delta) {
+  // ── Navigate ±1 month (delta: +1 = older, -1 = newer)
+  function navigateMonth(delta) {
     if (!indexData) return;
     const next = currentIdx + delta;
-    if (next < 0 || next >= indexData.weeks.length) return;
-    const w = indexData.weeks[next];
-    loadWeekData(next, 'data/' + w.file);
+    if (next < 0 || next >= indexData.months.length) return;
+    const w = indexData.months[next];
+    loadMonthData(next, 'data/' + w.file);
   }
 
   // ── Build / refresh the dropdown list
-  function buildWeekDropdown() {
-    const menu   = document.getElementById('weekDropdown');
-    const header = '<div class="week-dropdown-header">Archivo — últimas semanas</div>';
-    if (!indexData || !indexData.weeks.length) {
-      menu.innerHTML = header + '<div class="week-option" style="color:var(--text-muted);cursor:default">Solo semana actual disponible</div>';
+  function buildMonthDropdown() {
+    const menu   = document.getElementById('monthDropdown');
+    const header = '<div class="week-dropdown-header">Archivo — últimos meses</div>';
+    if (!indexData || !indexData.months.length) {
+      menu.innerHTML = header + '<div class="week-option" style="color:var(--text-muted);cursor:default">Solo mes actual disponible</div>';
       return;
     }
-    const items = indexData.weeks.map((w, i) => `
-      <div class="week-option${i === currentIdx ? ' active' : ''}" onclick="selectWeek(${i})">
+    const items = indexData.months.map((w, i) => `
+      <div class="week-option${i === currentIdx ? ' active' : ''}" onclick="selectMonth(${i})">
         <span>${w.label}</span>
         ${i === 0 ? '<span class="week-current-badge">Actual</span>' : ''}
       </div>`).join('');
     menu.innerHTML = header + items;
   }
 
-  function selectWeek(idx) {
+  function selectMonth(idx) {
     if (!indexData) return;
-    const w = indexData.weeks[idx];
-    loadWeekData(idx, 'data/' + w.file);
+    const w = indexData.months[idx];
+    loadMonthData(idx, 'data/' + w.file);
   }
 
   // ── Enable/disable nav arrows
   function updateNavButtons() {
-    const total = indexData ? indexData.weeks.length : 1;
-    document.getElementById('btnPrevWeek').disabled = currentIdx >= total - 1;
-    document.getElementById('btnNextWeek').disabled = currentIdx <= 0;
+    const total = indexData ? indexData.months.length : 1;
+    document.getElementById('btnPrevMonth').disabled = currentIdx >= total - 1;
+    document.getElementById('btnNextMonth').disabled = currentIdx <= 0;
   }
 
   // ── Dropdown open/close
-  function toggleWeekDropdown() {
-    document.getElementById('weekDropdownWrap').classList.toggle('open');
+  function toggleMonthDropdown() {
+    document.getElementById('monthDropdownWrap').classList.toggle('open');
   }
-  function closeWeekDropdown() {
-    document.getElementById('weekDropdownWrap').classList.remove('open');
+  function closeMonthDropdown() {
+    document.getElementById('monthDropdownWrap').classList.remove('open');
   }
   document.addEventListener('click', e => {
-    const wrap = document.getElementById('weekDropdownWrap');
-    if (wrap && !wrap.contains(e.target)) closeWeekDropdown();
+    const wrap = document.getElementById('monthDropdownWrap');
+    if (wrap && !wrap.contains(e.target)) closeMonthDropdown();
   });
 
   // ── View switching (weekly ↔ annual)
@@ -1177,7 +1177,7 @@
         <div style="text-align:center;padding:48px 20px;color:var(--text-muted)">
           <div style="font-size:2rem;margin-bottom:12px">📅</div>
           <strong style="color:var(--text)">El resumen anual aún no está disponible</strong><br>
-          <span style="font-size:.86rem">Se generará en la próxima actualización programada (lunes 07:00 UTC).</span>
+          <span style="font-size:.86rem">Se generará en la próxima actualización programada (el 1 de cada mes a las 07:00 UTC).</span>
         </div>`;
     }
   }
@@ -1200,19 +1200,19 @@
 
   // ── Bootstrap
   async function init() {
-    // Try to load the week index
+    // Try to load the month index
     try {
       const r = await fetch('data/index.json?v=' + Date.now());
       if (r.ok) indexData = await r.json();
     } catch (_) {}
 
-    // Load current (most recent) week
+    // Load current (most recent) month
     let firstFile = 'data/articles.json';
-    if (indexData && indexData.weeks.length > 0) {
-      firstFile = 'data/' + indexData.weeks[0].file;
+    if (indexData && indexData.months && indexData.months.length > 0) {
+      firstFile = 'data/' + indexData.months[0].file;
     }
-    await loadWeekData(0, firstFile);
-    buildWeekDropdown();
+    await loadMonthData(0, firstFile);
+    buildMonthDropdown();
     updateNavButtons();
   }
 

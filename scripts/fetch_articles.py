@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Briefing Cardiológico Semanal — Article Fetcher
+Briefing Cardiológico Mensual — Article Fetcher
 ================================================
 Queries PubMed (primary) and Europe PMC (secondary) for recent high-evidence
 cardiology articles from the world's top cardiology journals, ranked by
 evidence level and journal impact factor.
 
 Usage:
-    python scripts/fetch_articles.py [--days N]
+    python scripts/fetch_articles.py [--month YYYY-MM]
 
 Environment variables:
     NCBI_EMAIL      Required by NCBI ToS (defaults to placeholder)
@@ -20,6 +20,7 @@ import re
 import os
 import sys
 import argparse
+import calendar
 from datetime import datetime, timedelta
 from urllib.request import urlopen, Request
 from urllib.parse import urlencode
@@ -1000,17 +1001,15 @@ MONTHS_ES = [
 ]
 
 
-def week_info(today=None):
+def month_info(today=None):
     today = today or datetime.utcnow()
-    start = today - timedelta(days=today.weekday())
-    end   = start + timedelta(days=6)
-    if start.month == end.month:
-        label = f"{start.day} – {end.day} de {MONTHS_ES[start.month]}, {end.year}"
-    else:
-        label = (f"{start.day} de {MONTHS_ES[start.month]} – "
-                 f"{end.day} de {MONTHS_ES[end.month]}, {end.year}")
-    week_id = f"{today.year}-W{today.strftime('%W').zfill(2)}"
-    return week_id, label
+    # When run on the 1st, report on the previous month (complete month)
+    first_of_current = today.replace(day=1)
+    last_month_end = first_of_current - timedelta(days=1)
+    month_dt = last_month_end.replace(day=1)
+    month_id = month_dt.strftime("%Y-%m")
+    month_label = f"{MONTHS_ES[month_dt.month].capitalize()} {month_dt.year}"
+    return month_id, month_label
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -1149,20 +1148,40 @@ def generate_annual_top(today, max_per_sub=4, min_impact=55):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch weekly cardiology articles")
-    parser.add_argument("--days", type=int, default=14,
-                        help="Days to look back (default 14 — ensures enough content)")
+    parser = argparse.ArgumentParser(description="Fetch monthly cardiology articles")
+    parser.add_argument(
+        "--month",
+        type=str,
+        default=None,
+        help="Month to fetch in YYYY-MM format (default: previous calendar month)",
+    )
     args = parser.parse_args()
 
-    today      = datetime.utcnow()
-    date_end   = today.strftime("%Y/%m/%d")
-    date_start = (today - timedelta(days=args.days)).strftime("%Y/%m/%d")
-    week_id, week_label = week_info(today)
+    today = datetime.utcnow()
+
+    # Determine target month
+    if args.month:
+        try:
+            month_dt = datetime.strptime(args.month, "%Y-%m")
+        except ValueError:
+            print(f"ERROR: --month must be YYYY-MM format, got: {args.month}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        # Default: previous calendar month (so when run on July 1, fetch June)
+        first_of_current = today.replace(day=1)
+        month_dt = (first_of_current - timedelta(days=1)).replace(day=1)
+
+    month_id    = month_dt.strftime("%Y-%m")
+    month_label = f"{MONTHS_ES[month_dt.month].capitalize()} {month_dt.year}"
+
+    _, last_day = calendar.monthrange(month_dt.year, month_dt.month)
+    date_start  = month_dt.strftime("%Y/%m/01")
+    date_end    = month_dt.strftime(f"%Y/%m/{last_day:02d}")
 
     print("=" * 60)
-    print("  Briefing Cardiológico — Weekly Article Fetcher")
+    print("  Briefing Cardiológico — Monthly Article Fetcher")
     print("=" * 60)
-    print(f"  Week  : {week_label}")
+    print(f"  Month : {month_label}")
     print(f"  Range : {date_start} → {date_end}")
     print(f"  Email : {NCBI_EMAIL}")
     print(f"  API   : {'YES' if NCBI_API_KEY else 'no (3 req/s limit)'}")
@@ -1225,10 +1244,8 @@ def main():
     total = 0
     for sub in SUBSPECIALTIES:
         arts = buckets[sub["id"]]
-        # Sort: evidence rank ASC, then journal rank ASC, then year DESC
         arts.sort(key=lambda a: (a["evidenceRank"], a["journalRank"], -a["year"]))
-        arts = arts[:MAX_ARTICLES_PER_SUB]  # cap per subspecialty
-        # Remove internal sort key
+        arts = arts[:MAX_ARTICLES_PER_SUB]
         for a in arts:
             a.pop("journalRank", None)
         if arts:
@@ -1246,14 +1263,14 @@ def main():
     n_rct       = sum(1 for a in all_arts if a["evidenceRank"] == 3)
 
     output = {
-        "week":        week_id,
-        "weekLabel":   week_label,
+        "month":       month_id,
+        "monthLabel":  month_label,
         "lastUpdated": today.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "stats": {
-            "total":       total,
-            "metaAnalysis": n_meta,
+            "total":            total,
+            "metaAnalysis":     n_meta,
             "systematicReview": n_sr,
-            "rct":         n_rct,
+            "rct":              n_rct,
         },
         "subspecialties": output_subs,
     }
@@ -1261,36 +1278,39 @@ def main():
     data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
     os.makedirs(data_dir, exist_ok=True)
 
-    # ── Save current week (main file, always up to date)
+    # ── Save current month (main file, always up to date)
     out_path = os.path.join(data_dir, "articles.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # ── Save archive copy for this week
-    archive_name = f"articles-{week_id.replace('/', '-')}.json"
+    # ── Save archive copy for this month
+    archive_name = f"articles-{month_id}.json"
     archive_path = os.path.join(data_dir, archive_name)
     with open(archive_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # ── Update index.json (keep last 4 weeks)
+    # ── Update index.json (keep last 12 months)
     index_path = os.path.join(data_dir, "index.json")
     try:
         with open(index_path, "r", encoding="utf-8") as f:
             idx_data = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        idx_data = {"current": "", "weeks": []}
+        idx_data = {"current": "", "months": []}
 
-    new_entry = {"id": week_id, "label": week_label, "file": archive_name}
-    existing_ids = [w["id"] for w in idx_data.get("weeks", [])]
-    if week_id not in existing_ids:
-        idx_data["weeks"].insert(0, new_entry)
-        idx_data["weeks"] = idx_data["weeks"][:4]  # keep max 4 weeks
+    # Migrate legacy "weeks" key if present
+    if "weeks" in idx_data and "months" not in idx_data:
+        idx_data["months"] = []
+
+    new_entry = {"id": month_id, "label": month_label, "file": archive_name}
+    existing_ids = [m["id"] for m in idx_data.get("months", [])]
+    if month_id not in existing_ids:
+        idx_data["months"].insert(0, new_entry)
+        idx_data["months"] = idx_data["months"][:12]
     else:
-        # Update entry in case label changed
-        for w in idx_data["weeks"]:
-            if w["id"] == week_id:
-                w.update(new_entry)
-    idx_data["current"] = week_id
+        for m in idx_data["months"]:
+            if m["id"] == month_id:
+                m.update(new_entry)
+    idx_data["current"] = month_id
 
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(idx_data, f, ensure_ascii=False, indent=2)
