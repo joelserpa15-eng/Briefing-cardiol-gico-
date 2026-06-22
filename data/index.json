@@ -1,6 +1,11 @@
 {
-  "current": "2026-W24",
+  "current": "2026-W25",
   "weeks": [
+    {
+      "id": "2026-W25",
+      "label": "22 – 28 de junio, 2026",
+      "file": "articles-2026-W25.json"
+    },
     {
       "id": "2026-W24",
       "label": "15 – 21 de junio, 2026",
