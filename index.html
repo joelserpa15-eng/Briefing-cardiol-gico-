@@ -689,9 +689,142 @@
       .logo-text span { display: none; }
       .article-footer { flex-direction: column; align-items: flex-start; }
     }
+
+/* ── USER MODAL ── */
+.user-modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.6);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 2000;
+}
+.user-modal-overlay.hidden { display: none; }
+.user-modal-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 44px 40px 36px;
+  max-width: 380px; width: 92%;
+  text-align: center;
+  box-shadow: 0 24px 80px rgba(0,0,0,.35);
+}
+.user-modal-box .modal-icon {
+  width: 56px; height: 56px;
+  background: linear-gradient(135deg,#C0392B,#E74C3C);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 20px;
+}
+.user-modal-box .modal-icon svg { width: 26px; height: 26px; fill: #fff; }
+.user-modal-box h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: 8px; }
+.user-modal-box p { color: #718096; font-size: .85rem; margin-bottom: 24px; line-height: 1.5; }
+.user-modal-box input {
+  width: 100%; padding: 13px 16px;
+  border: 2px solid #e2e6ea; border-radius: 10px;
+  font-size: 1rem; outline: none; margin-bottom: 12px;
+  transition: border-color .2s; font-family: inherit;
+}
+.user-modal-box input:focus { border-color: #C0392B; }
+.user-modal-box .modal-btn {
+  width: 100%; padding: 13px;
+  background: linear-gradient(135deg,#C0392B,#E74C3C);
+  color: #fff; border: none; border-radius: 10px;
+  font-size: 1rem; font-weight: 600; cursor: pointer;
+  transition: opacity .15s;
+}
+.user-modal-box .modal-btn:hover { opacity: .9; }
+.user-modal-box .modal-skip {
+  display: block; margin-top: 14px;
+  color: #a0aec0; font-size: .78rem; cursor: pointer;
+  background: none; border: none;
+}
+.user-modal-box .modal-skip:hover { color: #718096; }
+
+/* ── USER PILL (header) ── */
+.user-pill {
+  display: flex; align-items: center; gap: 6px;
+  background: #f8f9ff; border: 1.5px solid #c7d2fe;
+  border-radius: 20px; padding: 5px 10px 5px 8px;
+  font-size: .78rem; color: #3730a3; cursor: default;
+}
+.user-pill svg { width: 14px; height: 14px; flex-shrink: 0; }
+.user-pill-name { font-weight: 600; max-width: 90px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-pill-change {
+  background: none; border: none; color: #818cf8;
+  font-size: .72rem; cursor: pointer; padding: 2px 4px;
+  border-radius: 4px; line-height: 1;
+}
+.user-pill-change:hover { background: #e0e7ff; color: #4f46e5; }
+.user-pill.hidden { display: none; }
+
+/* ── SAVE BUTTON (article cards) ── */
+.save-article-btn {
+  background: none; border: 1.5px solid #e2e6ea;
+  border-radius: 8px; padding: 6px 10px;
+  display: flex; align-items: center; gap: 5px;
+  font-size: .74rem; color: #718096; cursor: pointer;
+  transition: all .15s; white-space: nowrap;
+}
+.save-article-btn:hover { border-color: #C0392B; color: #C0392B; background: #fff5f5; }
+.save-article-btn.saved { border-color: #C0392B; color: #C0392B; background: #fff5f5; }
+.save-article-btn svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+/* ── SAVED COUNT BADGE (tab) ── */
+.saved-count-badge {
+  display: none;
+  background: #C0392B; color: #fff;
+  font-size: .65rem; font-weight: 700;
+  padding: 1px 6px; border-radius: 10px; margin-left: 5px;
+  line-height: 1.5;
+}
+.saved-count-badge.has-items { display: inline; }
+
+/* ── SAVED VIEW HERO ── */
+.saved-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+  color: #fff; padding: 36px 20px; text-align: center;
+}
+.saved-hero h2 { font-size: 1.7rem; font-weight: 700; letter-spacing: -.5px; margin-bottom: 6px; }
+.saved-hero .saved-user-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2);
+  padding: 4px 14px; border-radius: 20px; font-size: .82rem; margin-bottom: 0; margin-top: 6px;
+}
+.saved-hero .saved-user-badge svg { width: 14px; height: 14px; }
+
+/* ── SAVED EMPTY STATE ── */
+.saved-empty {
+  text-align: center; padding: 72px 20px; color: #a0aec0;
+}
+.saved-empty-icon { font-size: 3.5rem; line-height: 1; margin-bottom: 20px; }
+.saved-empty h3 { font-size: 1.1rem; color: #4a5568; margin-bottom: 8px; }
+.saved-empty p { font-size: .88rem; max-width: 360px; margin: 0 auto; line-height: 1.6; }
+
+/* ── UNSAVE BUTTON (in saved view cards) ── */
+.unsave-article-btn {
+  background: none; border: 1.5px solid #e2e6ea;
+  border-radius: 8px; padding: 6px 10px;
+  display: flex; align-items: center; gap: 5px;
+  font-size: .74rem; color: #718096; cursor: pointer;
+  transition: all .15s; white-space: nowrap;
+}
+.unsave-article-btn:hover { border-color: #C0392B; color: #C0392B; background: #fff5f5; }
+.unsave-article-btn svg { width: 14px; height: 14px; }
   </style>
 </head>
 <body>
+
+<!-- USER MODAL -->
+<div class="user-modal-overlay hidden" id="userModal">
+  <div class="user-modal-box">
+    <div class="modal-icon">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+    </div>
+    <h2>¿Cómo te llamas?</h2>
+    <p>Tu nombre se guardará en este dispositivo para que puedas acceder a tus artículos guardados.</p>
+    <input type="text" id="userModalInput" placeholder="Tu nombre..." maxlength="30" autocomplete="off" />
+    <button class="modal-btn" id="userModalBtn">Entrar</button>
+    <button class="modal-skip" id="userModalSkip">Continuar sin nombre</button>
+  </div>
+</div>
 
 <!-- HEADER -->
 <header class="header">
@@ -708,6 +841,11 @@
       </div>
     </a>
     <div class="header-meta">
+      <div class="user-pill hidden" id="userPill">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+        <span class="user-pill-name" id="userPillName"></span>
+        <button class="user-pill-change" onclick="showUserModal()">cambiar</button>
+      </div>
       <span id="lastUpdatedText" style="font-size:.72rem;color:var(--text-muted);white-space:nowrap;display:none"></span>
       <div class="week-nav">
         <button class="week-nav-btn" id="btnPrevMonth" onclick="navigateMonth(1)" title="Mes anterior" disabled>&#8249;</button>
@@ -760,6 +898,11 @@
     <button class="view-tab" id="tabAnnual" onclick="switchView('annual')">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
       Top Artículos del Año
+    </button>
+    <button class="view-tab" id="tabSaved" onclick="switchView('saved')">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+      Artículos Guardados
+      <span class="saved-count-badge" id="savedCountBadge">0</span>
     </button>
   </div>
 </nav>
@@ -839,6 +982,20 @@
 
 </div><!-- /annualView -->
 
+<!-- SAVED VIEW -->
+<div id="savedView" style="display:none">
+  <div class="saved-hero">
+    <div style="max-width:1100px;margin:0 auto">
+      <h2>Mis Artículos Guardados</h2>
+      <div class="saved-user-badge" id="savedUserBadge">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+        <span id="savedHeroUsername"></span>
+      </div>
+    </div>
+  </div>
+  <main class="main" id="savedContent" style="padding-top:24px"></main>
+</div>
+
 <!-- FOOTER -->
 <footer class="footer">
   <strong>Briefing Cardiológico Mensual</strong><br>
@@ -890,6 +1047,7 @@
   }
 
   function buildArticleCard(article, color) {
+    articleRegistry[article.id] = { ...article, subspecialtyColor: color };
     const ev      = evMeta[article.evidenceRank] || evMeta[7];
     const evLabel = article.evidenceLevel || ev.label;   // stored label is more specific
     const impact  = article.clinicalImpact;
@@ -936,9 +1094,17 @@
             <span class="doi-text">DOI: ${article.doi}</span>
             ${article.source ? `<span class="source-tag">Fuente: ${article.source}</span>` : ''}
           </div>
-          <a class="read-btn" href="${article.url}" target="_blank" rel="noopener noreferrer" style="background:${color}">
-            Leer artículo ${externalLinkSVG()}
-          </a>
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+            <button class="save-article-btn${isArticleSaved(article.id) ? ' saved' : ''}"
+                    data-article-id="${article.id}"
+                    title="${isArticleSaved(article.id) ? 'Artículo guardado' : 'Guardar artículo'}">
+              ${isArticleSaved(article.id) ? bookmarkFilledSVG() : bookmarkOutlineSVG()}
+              ${isArticleSaved(article.id) ? 'Guardado' : 'Guardar'}
+            </button>
+            <a class="read-btn" href="${article.url}" target="_blank" rel="noopener noreferrer" style="background:${color}">
+              Leer artículo ${externalLinkSVG()}
+            </a>
+          </div>
         </div>
       </div>`;
   }
@@ -1126,11 +1292,16 @@
 
   function switchView(view) {
     const isAnnual = view === 'annual';
-    document.getElementById('weeklyView').style.display  = isAnnual ? 'none' : '';
-    document.getElementById('annualView').style.display  = isAnnual ? '' : 'none';
-    document.getElementById('tabWeekly').classList.toggle('active', !isAnnual);
+    const isSaved  = view === 'saved';
+    const isWeekly = view === 'weekly';
+    document.getElementById('weeklyView').style.display = isWeekly ? '' : 'none';
+    document.getElementById('annualView').style.display = isAnnual ? '' : 'none';
+    document.getElementById('savedView').style.display  = isSaved  ? '' : 'none';
+    document.getElementById('tabWeekly').classList.toggle('active', isWeekly);
     document.getElementById('tabAnnual').classList.toggle('active', isAnnual);
+    document.getElementById('tabSaved').classList.toggle('active', isSaved);
     if (isAnnual && !annualLoaded) loadAnnualData();
+    if (isSaved) loadSavedView();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -1198,8 +1369,227 @@
     }
   }
 
+  // ── Article registry (populated by buildArticleCard)
+  const articleRegistry = {};
+
+  // ── Saved bookmark SVG helpers
+  function bookmarkOutlineSVG() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>`;
+  }
+  function bookmarkFilledSVG() {
+    return `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>`;
+  }
+
+  // ── User management
+  let currentUser = localStorage.getItem('bc_username') || null;
+
+  function showUserModal() {
+    document.getElementById('userModal').classList.remove('hidden');
+    setTimeout(() => document.getElementById('userModalInput').focus(), 50);
+  }
+
+  function hideUserModal() {
+    document.getElementById('userModal').classList.add('hidden');
+  }
+
+  function applyUsername(name) {
+    name = (name || '').trim();
+    if (!name) name = 'Usuario';
+    currentUser = name;
+    localStorage.setItem('bc_username', name);
+    hideUserModal();
+    updateUserUI();
+    updateAllSaveButtons();
+    updateSavedBadge();
+    if (document.getElementById('savedView').style.display !== 'none') loadSavedView();
+  }
+
+  function updateUserUI() {
+    const pill = document.getElementById('userPill');
+    const pillName = document.getElementById('userPillName');
+    if (currentUser) {
+      pillName.textContent = currentUser;
+      pill.classList.remove('hidden');
+    } else {
+      pill.classList.add('hidden');
+    }
+    const heroUser = document.getElementById('savedHeroUsername');
+    if (heroUser) heroUser.textContent = currentUser || 'Anónimo';
+  }
+
+  function initUserModal() {
+    document.getElementById('userModalBtn').addEventListener('click', () => {
+      const val = document.getElementById('userModalInput').value;
+      if (val.trim()) applyUsername(val);
+    });
+    document.getElementById('userModalInput').addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        const val = document.getElementById('userModalInput').value;
+        if (val.trim()) applyUsername(val);
+      }
+    });
+    document.getElementById('userModalSkip').addEventListener('click', () => {
+      applyUsername('Usuario');
+    });
+  }
+
+  // ── Saved articles
+  function savedKey() {
+    return `bc_saved_${currentUser || 'anonimo'}`;
+  }
+
+  function getSavedArticles() {
+    try {
+      return JSON.parse(localStorage.getItem(savedKey()) || '[]');
+    } catch (_) { return []; }
+  }
+
+  function isArticleSaved(articleId) {
+    if (!currentUser) return false;
+    return getSavedArticles().some(a => a.id === articleId);
+  }
+
+  function saveArticle(articleId) {
+    const art = articleRegistry[articleId];
+    if (!art) return;
+    const saved = getSavedArticles();
+    if (!saved.find(a => a.id === articleId)) {
+      saved.unshift({ ...art, savedAt: new Date().toISOString() });
+      localStorage.setItem(savedKey(), JSON.stringify(saved));
+    }
+    updateSavedBadge();
+  }
+
+  function unsaveArticle(articleId) {
+    const saved = getSavedArticles().filter(a => a.id !== articleId);
+    localStorage.setItem(savedKey(), JSON.stringify(saved));
+    updateSavedBadge();
+  }
+
+  function toggleSave(articleId) {
+    if (!currentUser) { showUserModal(); return; }
+    if (isArticleSaved(articleId)) {
+      unsaveArticle(articleId);
+    } else {
+      saveArticle(articleId);
+    }
+    updateSaveButton(articleId);
+    if (document.getElementById('savedView').style.display !== 'none') loadSavedView();
+  }
+
+  function updateSaveButton(articleId) {
+    document.querySelectorAll(`.save-article-btn[data-article-id="${articleId}"]`).forEach(btn => {
+      const saved = isArticleSaved(articleId);
+      btn.classList.toggle('saved', saved);
+      btn.title = saved ? 'Artículo guardado' : 'Guardar artículo';
+      btn.innerHTML = (saved ? bookmarkFilledSVG() : bookmarkOutlineSVG()) + (saved ? ' Guardado' : ' Guardar');
+    });
+  }
+
+  function updateAllSaveButtons() {
+    document.querySelectorAll('.save-article-btn[data-article-id]').forEach(btn => {
+      const id = btn.dataset.articleId;
+      const saved = isArticleSaved(id);
+      btn.classList.toggle('saved', saved);
+      btn.title = saved ? 'Artículo guardado' : 'Guardar artículo';
+      btn.innerHTML = (saved ? bookmarkFilledSVG() : bookmarkOutlineSVG()) + (saved ? ' Guardado' : ' Guardar');
+    });
+  }
+
+  function updateSavedBadge() {
+    const count = currentUser ? getSavedArticles().length : 0;
+    const badge = document.getElementById('savedCountBadge');
+    badge.textContent = count;
+    badge.classList.toggle('has-items', count > 0);
+  }
+
+  // ── Event delegation for save buttons
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.save-article-btn');
+    if (btn) { e.preventDefault(); e.stopPropagation(); toggleSave(btn.dataset.articleId); }
+  });
+
+  // ── Saved view
+  function loadSavedView() {
+    const container = document.getElementById('savedContent');
+    const saved = currentUser ? getSavedArticles() : [];
+
+    document.getElementById('savedHeroUsername').textContent = currentUser || 'Anónimo';
+
+    if (!saved.length) {
+      container.innerHTML = `
+        <div class="saved-empty">
+          <div class="saved-empty-icon">🔖</div>
+          <h3>Aún no has guardado ningún artículo</h3>
+          <p>Haz clic en <strong>Guardar</strong> en cualquier artículo para encontrarlo aquí fácilmente.</p>
+        </div>`;
+      return;
+    }
+
+    container.innerHTML = saved.map(art => {
+      const color = art.subspecialtyColor || '#C0392B';
+      const ev = evMeta[art.evidenceRank] || evMeta[7];
+      const evLabel = art.evidenceLevel || ev.label;
+      const impact = art.clinicalImpact;
+      const impCls = impact ? `impact-${impact.label.toLowerCase()}` : '';
+      const impactBadge = impact ? `
+        <span class="impact-indicator ${impCls}" title="${impact.score}%">
+          ${impactDots(impact.label)} Impacto: ${impact.label}
+        </span>` : '';
+      return `
+        <div class="article-card" data-rank="${art.evidenceRank}" style="margin-bottom:16px">
+          <div class="article-top-stripe" style="background:${color}"></div>
+          <div class="article-body">
+            <div class="article-meta-row">
+              <span class="ev-badge ${ev.cls}">${evLabel}</span>
+              ${impactBadge}
+              <span class="journal-tag">${art.journal} · ${art.year}</span>
+            </div>
+            <div class="article-title">${art.title}</div>
+            <div class="article-authors">${art.authors}</div>
+            <button class="abstract-toggle" onclick="this.closest('.article-card').classList.toggle('abstract-open')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              Ver resumen / abstract
+            </button>
+            <div class="abstract-body">
+              <p class="abstract-text">${art.abstract}</p>
+              <div class="key-finding"><strong>Conclusión clave</strong>${art.keyFindings}</div>
+            </div>
+          </div>
+          <div class="article-footer">
+            <div class="doi-area">
+              <span class="doi-text">DOI: ${art.doi}</span>
+              ${art.source ? `<span class="source-tag">Fuente: ${art.source}</span>` : ''}
+            </div>
+            <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+              <button class="unsave-article-btn" onclick="unsaveAndRefresh('${art.id}')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>
+                Eliminar
+              </button>
+              <a class="read-btn" href="${art.url}" target="_blank" rel="noopener noreferrer" style="background:${color}">
+                Leer artículo ${externalLinkSVG()}
+              </a>
+            </div>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  function unsaveAndRefresh(articleId) {
+    unsaveArticle(articleId);
+    updateSaveButton(articleId);
+    loadSavedView();
+  }
+
   // ── Bootstrap
   async function init() {
+    initUserModal();
+    updateUserUI();
+    updateSavedBadge();
+    if (!currentUser) {
+      showUserModal();
+    }
+
     // Try to load the month index
     try {
       const r = await fetch('data/index.json?v=' + Date.now());
