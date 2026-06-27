@@ -737,6 +737,17 @@
   background: none; border: none;
 }
 .user-modal-box .modal-skip:hover { color: #718096; }
+.modal-profiles {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  justify-content: center; margin-bottom: 16px; min-height: 0;
+}
+.modal-profile-pill {
+  padding: 6px 14px; border-radius: 20px;
+  background: #f0f2ff; border: 1.5px solid #c7d2fe;
+  color: #3730a3; font-size: .82rem; font-weight: 600;
+  cursor: pointer; transition: background .15s, border-color .15s;
+}
+.modal-profile-pill:hover { background: #e0e7ff; border-color: #818cf8; }
 
 /* ── USER PILL (header) ── */
 .user-pill {
@@ -808,8 +819,9 @@
     <div class="modal-icon">
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
     </div>
-    <h2>¿Cómo te llamas?</h2>
-    <p>Tu nombre se guardará en este dispositivo para que puedas acceder a tus artículos guardados.</p>
+    <h2>¿Quién eres?</h2>
+    <p>Selecciona tu perfil o escribe tu nombre para acceder a tus artículos guardados.</p>
+    <div class="modal-profiles" id="modalProfiles"></div>
     <input type="text" id="userModalInput" placeholder="Tu nombre..." maxlength="30" autocomplete="off" />
     <button class="modal-btn" id="userModalBtn">Entrar</button>
     <button class="modal-skip" id="userModalSkip">Continuar sin nombre</button>
@@ -1371,9 +1383,20 @@
   }
 
   // ── User management
-  let currentUser = localStorage.getItem('bc_username') || null;
+  let currentUser = null;
 
   function showUserModal() {
+    document.getElementById('userModalInput').value = '';
+    const knownUsers = JSON.parse(localStorage.getItem('bc_all_users') || '[]');
+    const container = document.getElementById('modalProfiles');
+    container.innerHTML = '';
+    knownUsers.forEach(name => {
+      const btn = document.createElement('button');
+      btn.className = 'modal-profile-pill';
+      btn.textContent = name;
+      btn.addEventListener('click', () => applyUsername(name));
+      container.appendChild(btn);
+    });
     document.getElementById('userModal').classList.remove('hidden');
     setTimeout(() => document.getElementById('userModalInput').focus(), 50);
   }
@@ -1386,7 +1409,12 @@
     name = (name || '').trim();
     if (!name) name = 'Usuario';
     currentUser = name;
-    localStorage.setItem('bc_username', name);
+    const allUsers = JSON.parse(localStorage.getItem('bc_all_users') || '[]');
+    if (!allUsers.includes(name)) {
+      allUsers.unshift(name);
+      if (allUsers.length > 8) allUsers.splice(8);
+      localStorage.setItem('bc_all_users', JSON.stringify(allUsers));
+    }
     hideUserModal();
     updateUserUI();
     updateAllSaveButtons();
@@ -1574,11 +1602,10 @@
   // ── Bootstrap
   async function init() {
     initUserModal();
+    currentUser = null;
     updateUserUI();
     updateSavedBadge();
-    if (!currentUser) {
-      showUserModal();
-    }
+    showUserModal();
 
     // Try to load the month index
     try {
