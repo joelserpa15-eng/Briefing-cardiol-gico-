@@ -1042,7 +1042,7 @@ def build_pubmed_query_annual(date_start, date_end):
     )
 
 
-def generate_annual_top(today, max_per_sub=4, min_impact=55):
+def generate_annual_top(today, max_per_sub=10, min_impact=55):
     """
     Fetch the highest-evidence cardiology articles from the past 12 months,
     select the most clinically impactful per subspecialty, save to
