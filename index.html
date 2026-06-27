@@ -1467,10 +1467,16 @@
     return getSavedArticles().some(a => a.id === articleId);
   }
 
+  const MAX_SAVED = 20;
+
   function saveArticle(articleId) {
     const art = articleRegistry[articleId];
     if (!art) return;
     const saved = getSavedArticles();
+    if (saved.length >= MAX_SAVED) {
+      alert(`Has alcanzado el límite de ${MAX_SAVED} artículos guardados. Elimina alguno antes de guardar uno nuevo.`);
+      return;
+    }
     if (!saved.find(a => a.id === articleId)) {
       saved.unshift({ ...art, savedAt: new Date().toISOString() });
       localStorage.setItem(savedKey(), JSON.stringify(saved));
