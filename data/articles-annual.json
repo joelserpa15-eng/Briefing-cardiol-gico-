@@ -1,12 +1,12 @@
 {
   "period": "Últimos 12 meses",
-  "periodLabel": "2025-06-22 / 2026-06-22",
-  "lastUpdated": "2026-06-22T21:17:19Z",
+  "periodLabel": "2025-07-01 / 2026-07-01",
+  "lastUpdated": "2026-07-01T16:11:19Z",
   "stats": {
-    "total": 42,
-    "metaAnalysis": 27,
-    "systematicReview": 2,
-    "rct": 13
+    "total": 94,
+    "metaAnalysis": 49,
+    "systematicReview": 7,
+    "rct": 38
   },
   "subspecialties": [
     {
@@ -53,6 +53,25 @@
           }
         },
         {
+          "id": "yr-intervencionista-41145110",
+          "title": "Comparison of Limus and Paclitaxel Drug-Coated Balloons, Second-Generation or Newer Drug-Eluting Stents, and Balloon Angioplasty: A Network Meta-Analysis of Randomized Controlled Trials",
+          "journal": "Circulation: Cardiovascular Interventions",
+          "authors": "Kiyohara Y, Aikawa T, Saito T, Casso Dominguez A, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCINTERVENTIONS.125.016005",
+          "url": "https://doi.org/10.1161/CIRCINTERVENTIONS.125.016005",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: It remains unclear whether drug-coated balloons (DCBs) and drug-eluting stents are comparable in the treatment of coronary artery disease (CAD) and whether limus versus paclitaxel DCBs yield similar clinical outcomes. We aimed to assess the clinical efficacy of limus and paclitaxel DCBs in patients with CAD through a network meta-analysis. METHODS: We comprehensively searched multiple databases for randomized controlled trials comparing the following 4 strategies: limus DCB, paclitaxel DCB, second-generation or newer drug-eluting stent, and plain old balloon angioplasty. The primary outcome was trial-defined major adverse cardiovascular events (MACEs), typically a composite of death, myocardial infarction, or target lesion revascularization. Secondary outcomes included individual components of MACE. We performed subgroup analyses for in-stent restenosis, small-vessel (<3 mm) CAD, and other de novo CAD, such as large vessel and ST-segment-elevation myocardial infarction. RESULTS: We identified 39 randomized controlled trials including 10 219 patients. There was no significant difference in MACE between limus and paclitaxel DCBs (relative risk, 1.22 [95% CI, 0.86-1.73]). There were no significant differences in MACE between limus or paclitaxel DCB and second-generation or newer drug-eluting stents. Plain old balloon angioplasty had an increased risk of MACE compared with others. These results were consistent across subgroup analyses for in-stent restenosis, small-vessel CAD, and other de novo CAD. CONCLUSIONS: No significant differences were observed in MACE or its components between limus and paclitaxel DCBs, albeit with limited statistical power. Furthermore, DCB and second-generation or newer drug-eluting stents yielded similar outcomes though power was limited, especially for other de novo CAD. REGISTRATION: URL: https://www.crd.york.ac.uk/PROSPERO/; Unique identifier: CRD420250654276.",
+          "keyFindings": "No significant differences were observed in MACE or its components between limus and paclitaxel DCBs, albeit with limited statistical power. Furthermore, DCB and second-generation or newer drug-eluting stents yielded similar outcomes though power was limited, especially for other de novo CAD.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Circulation: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "yr-intervencionista-41904803",
           "title": "Comparison of Intravascular Imaging-, Physiology-, or Angiography-Guided Approaches for Percutaneous Coronary Intervention: A Systematic Review and Network Meta-Analysis",
           "journal": "Journal of the American Heart Association",
@@ -89,6 +108,101 @@
             "label": "Alta",
             "rationale": "RCT publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
+        },
+        {
+          "id": "yr-intervencionista-40305015",
+          "title": "OCT vs Angiography for Guidance of Percutaneous Coronary Intervention of Calcified Lesions: The CALIPSO Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Amabile N, Rangé G, Landolff Q, Bressollette E, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.0741",
+          "url": "https://doi.org/10.1001/jamacardio.2025.0741",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: The use of intravascular imaging for calcified plaque characterization and preparation has been advocated over conventional methods to improve percutaneous coronary intervention (PCI) outcomes, but this approach has never been evaluated. OBJECTIVE: To determine if optical coherence tomography (OCT) is superior to angiography for calcified lesions PCI guidance. DESIGN, SETTING, AND PARTICIPANTS: The CALIPSO (Calcified Lesion Intervention Planning Steered by OCT) trial was a prospective, multicenter, open-label, randomized clinical trial that included patients with stable moderate to severe calcified coronary lesions on coronary angiography scheduled for PCI. The trial was conducted at 12 sites in France between December 2021 and June 2023, and data were analyzed from December 2023 to April 2024. INTERVENTION: After diagnostic coronary angiography, eligible patients were randomly assigned in a 1:1 ratio to receive OCT-guided PCI or angiography-guided PCI. In the OCT group, the procedures were guided by OCT analysis and predefined standardized management algorithms. Patients from both arms had control post-PCI OCT analysis after procedure completion for primary end point measurement. MAIN OUTCOMES AND MEASURES: The primary end point was the minimal stent area (MSA) measured by OCT in both groups. Secondary key safety end points included periprocedural myocardial infarction, radiation dose, contrast medium volume, and procedure duration. RESULTS: A total of 143 patients were randomized, and 134 were included in the final analysis (65 in the OCT group and 69 in the angiography group). Median (IQR) patient age was 73.0 (66.0-78.0) years, and 25 patients (18.7%) were female. The baseline characteristics of the groups were comparable, but the use of intravascular lithotripsy was more frequent in the OCT arm (30 patients [46%] vs 8 patients [12%]; P < .001). The final median (IQR) MSA was larger in the OCT group than in the angiography group (6.5 [5.5-8.1] mm2 vs 5.0 [4.1-6.1] mm2; P < .001). There was no difference in periprocedural complications incidence, contrast medium volume, or procedure duration between groups. CONCLUSIONS AND RELEVANCE: The CALIPSO randomized clinical trial showed that OCT guidance associated with predefined algorithmic management achieved better stent implantation results than angiography guidance in patients with calcified lesions PCI, without any additional safety concern. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05301218.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: The CALIPSO randomized clinical trial showed that OCT guidance associated with predefined algorithmic management achieved better stent implantation results than angiography guidance in patients with calcified lesions PCI, without any additional safety concern.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-intervencionista-40669964",
+          "title": "Outcomes of Lesions With Discordance Between FFR and Nonhyperemic Pressure Ratios",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Ha ET, Nishi T, Takahashi T, Yamazaki T, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jcin.2025.05.032",
+          "url": "https://doi.org/10.1016/j.jcin.2025.05.032",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Discordance between fractional flow reserve (FFR) and nonhyperemic pressure ratios (NHPRs) can occur in about 20% of clinical cases, creating treatment dilemmas in the cardiac catheterization laboratory. OBJECTIVES: The authors sought to perform a systematic review and meta-analyses investigating the long-term outcome of deferral strategy in patients found to have discordant physiology. METHODS: The primary comparison tested the long-term prognosis of patients who were deferred for discordant physiology vs those deferred for concordant negative results. Various NHPRs were compared with FFR. The primary endpoint was a composite of death (all-cause or cardiac) and myocardial infarction/revascularization with several definitions. Secondary endpoint consisted of death or myocardial infarction. The study is registered with PROSPERO (CRD42024628393). RESULTS: Six eligible trials with 9,854 intermediate lesions deferred for PCI were considered in the analysis. Compared with concordant-negative physiology (FFR-/NHPRs-), deferral of PCI for discordant physiology was associated with an increase in the primary endpoints (FFR-/NHPRs+: HR: 2.73 [1.95-3.80]; P < 0.00001 and FFR+/NHPRs-: HR: 3.29[2.33-4.64]; P < 0.00001). Secondary dichotomous analysis showed that deferral of PCI in both discordant groups was associated with an increase in the hard endpoints (death or myocardial infarction) compared with concordant-negative physiology. Exploratory analysis comparing revascularization vs deferral groups within discordant physiology demonstrated reduction in the primary endpoint in the FFR+/NHPRs- group, but not in the FFR-/NHPRs+ group. CONCLUSIONS: Deferral of PCI in discordant-physiology was associated with worse long-term outcomes compared with the concordant-negative physiology. There may be a benefit of revascularization in FFR+/NHPRs- lesions, which requires further investigation.",
+          "keyFindings": "Deferral of PCI in discordant-physiology was associated with worse long-term outcomes compared with the concordant-negative physiology. There may be a benefit of revascularization in FFR+/NHPRs- lesions, which requires further investigation.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-intervencionista-40803761",
+          "title": "Safety, Efficacy, and Effectiveness of Coronary Sinus Reducer Implantation in Refractory Angina: A Meta-Analysis",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Ojha U, Mohsin M, Macierzanka K, Ahmed-Jushuf F, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jcin.2025.06.012",
+          "url": "https://doi.org/10.1016/j.jcin.2025.06.012",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Previous coronary sinus reducer (CSR) meta-analyses in refractory angina (RA) focused on single-arm studies, capturing observed effectiveness-comprising the physical effect of CSR, contextual effects (eg, placebo), and non-treatment-related phenomena (eg, confounding). Efficacy evaluation requires comparative estimates from randomized controlled trials (RCTs), ideally double blind and placebo controlled, to isolate the physical effect. OBJECTIVES: The aims of this study were to evaluate the safety and efficacy of CSR in RA and to compare its efficacy with observed effectiveness. METHODS: The study was preregistered with the International Prospective Register of Systematic Reviews (CRD42023399099). Electronic databases were searched until April 2024. Random-effects models separately pooled single-arm, isolated RCT intervention-arm, and RCT placebo-controlled estimates. Therapeutic outcomes included improvements in Canadian Cardiovascular Society classification, Seattle Angina Questionnaire scores, and treadmill exercise time. Safety outcomes, summarized descriptively, comprised procedural success and adverse events. RESULTS: Three double-blind, placebo-controlled RCTs (n = 180) and 13 single-arm studies (n = 668) were analyzed. The overall unweighted procedural success rate was 98.3% (95% CI: 97.0%-99.1%). Single-arm studies and RCT intervention arms demonstrated statistically significant improvements across therapeutic outcomes. For Canadian Cardiovascular Society classification, placebo-controlled rates were 26% (95% CI: 11%-38%; P < 0.001) for ≥1-class improvement and 17% (95% CI: 2%-37%; P = 0.02) for ≥2-class improvement, representing approximately one-third of single-arm improvement rates. Seattle Angina Questionnaire domain analyses demonstrated insufficient placebo-controlled evidence of benefit. Placebo-controlled exercise time change was 49.62 seconds (95% CI: 1.84-97.40 seconds; P = 0.04). CONCLUSIONS: CSR implantation is safe and feasible and demonstrates promising antianginal efficacy in patients with RA. However, uncertainty in current efficacy findings and susceptibility of effectiveness data to nonphysical influences preclude definitive conclusions about clinical utility, warranting larger placebo-controlled trials.",
+          "keyFindings": "CSR implantation is safe and feasible and demonstrates promising antianginal efficacy in patients with RA. However, uncertainty in current efficacy findings and susceptibility of effectiveness data to nonphysical influences preclude definitive conclusions about clinical utility, warranting larger placebo-controlled trials.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-intervencionista-40758074",
+          "title": "Advanced Analyses of Coronary Computed Tomography Angiography to Predict Future Cardiac Events: A Meta-Analysis",
+          "journal": "JACC: Cardiovascular Imaging",
+          "authors": "Bianchini E, Alqahtani F, Alsubai S, Del Sole PA, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jcmg.2025.05.017",
+          "url": "https://doi.org/10.1016/j.jcmg.2025.05.017",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Although coronary computed tomographic angiography (CTA) is widely used for anatomical evaluation, its advanced analyses, including plaque characterization, computed tomography-derived fractional flow reserve (CT-FFR), and radiomics signature extraction, hold promise for improved prediction of major adverse cardiovascular events (MACE). OBJECTIVES: The aim of this meta-analysis was to assess the added prognostic value of advanced coronary CTA-based analyses in predicting MACE. METHODS: A systematic search of PubMed, Embase, and CENTRAL identified studies reporting coronary CTA-based advanced analyses predicting MACE. The pooled HR of advanced coronary CTA-based analyses for the prediction of MACE was the primary outcome measure. The secondary endpoint included the mean difference in C index (ΔC index) between advanced coronary CTA-based predictive models and conventional models. MACE were defined according to study-level definitions. The protocol was registered in the International Prospective Register of Systematic Reviews (CRD42024606545). RESULTS: Of 75 studies, 52 were included in the primary analysis of HRs (n = 58,123) and 32 in the secondary analysis of ΔC index. The median follow-up time was 36 months (Q1-Q3: 24-57 months). Most advanced coronary CTA-based analyses, including CT-FFR, high-risk plaque, fat attenuation index, total plaque volume or low-attenuation plaque volume, and radiomics-derived scores, demonstrated a significant and consistent association with MACE, observed across both pooled unadjusted and adjusted HRs. In particular, CT-FFR (HR: 6.14 [95% CI: 3.75-10.05]; P < 0.01) and high-risk plaque (HR: 4.05 [95% CI: 3.16-5.18]; P < 0.01) showed the strongest associations with MACE despite a moderate to severe between-studies heterogeneity for most of the pooled analyses. CONCLUSIONS: Advanced coronary CTA-based analyses show consistent association to the occurrence of MACE, suggesting their potential for refining cardiovascular risk stratification on top of conventional clinical risk assessment. Given the heterogeneity of advanced imaging analyses by coronary CTA and their varying pathophysiological targets, future comparative studies are needed to evaluate their implementation in different clinical scenarios.",
+          "keyFindings": "Advanced coronary CTA-based analyses show consistent association to the occurrence of MACE, suggesting their potential for refining cardiovascular risk stratification on top of conventional clinical risk assessment. Given the heterogeneity of advanced imaging analyses by coronary CTA and their varying pathophysiological targets, future comparative studies are needed to evaluate their implementation in different clinical scenarios.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-intervencionista-40947142",
+          "title": "Revascularisation strategies for non-acute myocardial ischaemic syndromes",
+          "journal": "Heart",
+          "authors": "Kawczynski MJ, Barili F, Brophy JM, De Caterina R, et al.",
+          "year": 2026,
+          "doi": "10.1136/heartjnl-2025-326101",
+          "url": "https://doi.org/10.1136/heartjnl-2025-326101",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Contemporary guidelines by the European Society for Cardiology and American College of Cardiology/American Heart Association for the treatment of non-acute myocardial ischaemic syndromes dispute the value of revascularisation and differ in their recommendation to perform revascularisation. A Bayesian network meta-analysis was performed, evaluating the strength of evidence for the comparative incremental effectiveness of coronary artery bypass grafting (CABG) versus percutaneous coronary intervention (PCI) over medical therapy on long-term outcomes. METHODS: A hierarchical Bayesian network meta-analysis was designed (PROSPERO CRD42024541215, date 20 May 2024), including randomised controlled trials (RCTs) published between 2005 and 10 June 2025, which consisted of three initial treatment modalities: optimal medical therapy (OMT), PCI+OMT and CABG+OMT. The primary outcome was all-cause mortality at maximum follow-up; secondary outcomes were trates of the rates of myocardial infarction, stroke and re-revascularisation at maximum follow-up, expressed in HRs and 95% credible intervals (CrIs), accompanied by surface under the cumulative ranking curve (SUCRA) scores. RESULTS: 10 RCTs, comprising 10 742 patients, were included. For all-cause mortality, the estimated median HR of CABG+OMT versus OMT was 0.84 (95% CrI 0.68-1.07); the HR of PCI+OMT versus OMT was 0.93 (0.79-1.16); and the HR of CABG+OMT versus PCI+OMT was 0.91 (0.71-1.13). The SUCRAs of a CABG+OMT strategy ranking as the optimal revascularisation treatment regarding mortality, myocardial infarction, stroke and re-revascularisation were 88.1%, 99.7%, 17.5% and 99.5%, respectively. Results were consistent across sensitivity analyses, including in the node-splitting models. CONCLUSIONS: This Bayesian network meta-analysis found that an initial CABG (+OMT) revascularisation strategy was associated with higher probabilities of optimal outcomes, with the exception of stroke, compared with an initial PCI (+OMT) revascularisation strategy, although CrIs overlapped, suggesting that some uncertainty remains. PROSPERO REGISTRATION NUMBER: CRD42024541215.",
+          "keyFindings": "This Bayesian network meta-analysis found that an initial CABG (+OMT) revascularisation strategy was associated with higher probabilities of optimal outcomes, with the exception of stroke, compared with an initial PCI (+OMT) revascularisation strategy, although CrIs overlapped, suggesting that some uncertainty remains. PROSPERO REGISTRATION",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
         }
       ]
     },
@@ -117,25 +231,6 @@
           }
         },
         {
-          "id": "yr-arritmias-40610198",
-          "title": "Diagnostic accuracy of electrocardiogram algorithms for differentiating left from right outflow tract ventricular arrhythmia: a systematic review and network meta-analysis",
-          "journal": "Heart",
-          "authors": "He Z, Liu M, Ying P, Song M, et al.",
-          "year": 2026,
-          "doi": "10.1136/heartjnl-2025-325916",
-          "url": "https://doi.org/10.1136/heartjnl-2025-325916",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Accurate pre-ablation differentiation between left (LVOT) and right (RVOT) ventricular outflow tract arrhythmias (OTVAs) using ECG algorithms is essential for decision on vascular access and treatment strategy. However, the most reliable ECG algorithm remains unclear. We conducted a systematic review and network meta-analysis (NMA) to compare the diagnostic accuracy of available algorithms. METHODS: We searched MEDLINE, EMBASE and Cochrane databases through 7 May 2025 for studies evaluating ECG algorithms against ablation-confirmed OTVA origin. A Bayesian diagnostic test accuracy NMA was performed to estimate pooled sensitivity, specificity, diagnostic odds ratios (DORs) and a superiority index (S) for each algorithm. Study quality was assessed using the QUADAS-2 (Quality Assessment of Diagnostic Accuracy Studies) tool. RESULTS: From 620 records, 22 studies (3483 patients; 2706 RVOT, 777 LVOT) evaluating 21 ECG algorithms were included. The 'Weighted hybrid score' algorithm showed the highest diagnostic accuracy (S=21.2 (0.3, 39.0); DOR=275.8 (7.1, 1642.5)), with pooled sensitivity of 0.83 (0.53, 0.98) and specificity of 0.92 (0.68, 0.99). Conversely, the 'Earliest onset or peak/nadir in lead V2' algorithm had the lowest accuracy. CONCLUSIONS: Among existing ECG algorithms, the 'Weighted hybrid score' demonstrates superior diagnostic performance for differentiating LVOT from RVOT arrhythmias and is recommended for clinical application. PROSPERO REGISTRATION NUMBER: CRD42024567531.",
-          "keyFindings": "Among existing ECG algorithms, the 'Weighted hybrid score' demonstrates superior diagnostic performance for differentiating LVOT from RVOT arrhythmias and is recommended for clinical application. PROSPERO REGISTRATION",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 87,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
           "id": "yr-arritmias-40553919",
           "title": "Early versus delayed catheter ablation in atrial fibrillation and heart failure: A systematic review and meta-analysis",
           "journal": "Heart Rhythm",
@@ -147,6 +242,25 @@
           "evidenceRank": 1,
           "abstract": "BACKGROUND: Atrial fibrillation (AF) and heart failure (HF) frequently coexist, worsening outcomes. Catheter ablation (CA) is an established therapy, but the optimal timing remains unclear. OBJECTIVE: This study aimed to evaluate the impact of early vs delayed CA on clinical outcomes in patients with AF and HF. METHODS: This International Prospective Register of Systematic Reviews-registered systematic review (CRD42025643686) adhered to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. Comparative studies enrolling adults with AF and HF were included. Early CA was defined as ablation performed within varying timeframes (often ≤12 months) after AF diagnosis or HF decompensation vs delayed CA beyond that period. Primary outcomes were AF recurrence, all-cause mortality, and HF hospitalizations. Random-effects meta-analyses were performed. RESULTS: Ten studies (n = 15,822) contributed to the meta-analyses. Early CA was associated with significantly reduced AF recurrence (k = 8, hazard ratio [HR] 0.63, 95% confidence interval [CI] 0.52-0.78, P < .0001) and HF hospitalization (k = 5, HR 0.63, 95% CI 0.51-0.77, P < .0001). A nonsignificant trend toward reduced all-cause mortality was observed (k = 4, HR 0.71, 95% CI 0.41-1.24, P = .23). Statistical heterogeneity was absent for HF hospitalization (I2 = 0%), moderate for AF recurrence (I2 = 67.6%), and high for mortality (I2 = 75.3%). Narrative synthesis included 2 additional randomized controlled trials comparing treatment strategies. CONCLUSION: Evidence from pooled observational studies suggests early CA is associated with reduced AF recurrence and HF hospitalization in patients with AF and HF; a mortality benefit was not statistically confirmed. Interpretation warrants caution owing to reliance on observational data and methodological heterogeneity across studies.",
           "keyFindings": "Evidence from pooled observational studies suggests early CA is associated with reduced AF recurrence and HF hospitalization in patients with AF and HF; a mortality benefit was not statistically confirmed. Interpretation warrants caution owing to reliance on observational data and methodological heterogeneity across studies.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart Rhythm con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-41864299",
+          "title": "Safety of catheter ablation compared with antiarrhythmic drugs for atrial fibrillation: A systematic review and meta-analysis of randomized trials",
+          "journal": "Heart Rhythm",
+          "authors": "Shawki M, Rodrigues TS, Tan E, Gautam A, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.hrthm.2026.03.1885",
+          "url": "https://doi.org/10.1016/j.hrthm.2026.03.1885",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Catheter ablation (CA) is superior to antiarrhythmic drugs (AADs) for maintaining sinus rhythm in atrial fibrillation (AF). However, most randomized controlled trials lack the power to assess CA safety. OBJECTIVE: This study aimed to evaluate complication rates and relative risks of CA compared with AADs for AF rhythm management. METHODS: MEDLINE, Embase, and Cochrane CENTRAL (from inception to October 24, 2024) were searched for randomized controlled trials comparing CA with AADs in AF management. The primary endpoint was a composite of serious adverse events (SAEs), including death, additional intervention, prolonged or unplanned hospitalization or disability. Secondary endpoints included SAE components. A random-effects meta-analysis estimated pooled risk ratios (RRs) with 95% confidence intervals (CIs). RESULTS: 24 randomized trials comprising 6665 participants were included in the meta-analysis, with 3554 patients (53.2%) assigned to the CA group and 3111 patients (46.7%) to the AAD group. During a 12-month median follow-up (6-60 months), CA was associated with a 20% lower risk of SAE than AAD (RR 0.80, 95% CI 0.69-0.93, I2 0%, P < .01) and 47% reduction in risk unplanned hospitalization (RR 0.53, 95% CI 0.38-0.72, I2 73%, P < .01). CA was also associated with a 37% lower risk of adverse cardiovascular events (RR 0.63, 95% CI 0.44-0.90, I2 42%, P = .01). CONCLUSION: CA for AF rhythm management reduced SAEs, unplanned hospitalization and adverse cardiovascular events compared with AADs. When patient safety is being considered, AAD appears to have a less favorable safety profile than CA in AF.",
+          "keyFindings": "CA for AF rhythm management reduced SAEs, unplanned hospitalization and adverse cardiovascular events compared with AADs. When patient safety is being considered, AAD appears to have a less favorable safety profile than CA in AF.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 87,
@@ -171,6 +285,120 @@
             "score": 87,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Heart Rhythm con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-41389862",
+          "title": "Adjunctive superior vena cava isolation to pulmonary vein isolation in atrial fibrillation ablation: A systematic review and meta-analysis of randomized trials",
+          "journal": "Heart Rhythm",
+          "authors": "Alilou S, Babaei M, Fallahtafti P, Castro-Urda V, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.hrthm.2025.12.012",
+          "url": "https://doi.org/10.1016/j.hrthm.2025.12.012",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Pulmonary vein isolation (PVI) is the cornerstone of atrial fibrillation (AF) ablation. Nonpulmonary vein triggers, particularly from the superior vena cava, contribute to arrhythmogenesis in a subset of patients. The benefit of adjunctive superior vena cava isolation (SVCI) in addition to PVI remains uncertain. OBJECTIVE: This study aimed to assess the efficacy and safety of adjunctive SVCI in AF ablation. METHODS: We systematically searched PubMed, Embase, and ClinicalTrials.gov for randomized controlled trials comparing adjunctive SVCI plus PVI with PVI alone in adults undergoing first-time AF ablation. The main outcome was atrial tachyarrhythmia recurrence. Additional outcomes included procedure time, fluoroscopy time, and major and minor complications. Pooled odds ratios (ORs), hazard ratios, and 95% confidence intervals (CIs) were calculated using fixed- and random-effects models, with subgroup analyses by AF type and ablation modality. RESULTS: 7 randomized controlled trials involving 1149 patients were included. Adjunctive SVCI to PVI compared with PVI alone was associated with reduced atrial tachyarrhythmia recurrence (OR 0.71; 95% CI 0.53-0.96; I2 = 0%), confirmed by time-to-event analysis (hazard ratio 0.71; 95% CI 0.50-0.99). The effect was more pronounced in paroxysmal AF (OR 0.63; 95% CI 0.44-0.88) and with radiofrequency ablation (OR 0.66; 95% CI 0.47-0.93). SVCI plus PVI increased minor complications (13.7% vs 2.7%; OR 4.44; 95% CI 1.95-11.16), mainly transient phrenic nerve injury (6.8% vs 1.4%) and sinus node injury (1.6% vs 0%). Major complications were comparable (1.8% vs 1.0%). CONCLUSION: Adjunctive SVCI to PVI vs PVI alone was associated with reduced atrial tachyarrhythmia recurrence but increased minor complications in AF ablation.",
+          "keyFindings": "Adjunctive SVCI to PVI vs PVI alone was associated with reduced atrial tachyarrhythmia recurrence but increased minor complications in AF ablation.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart Rhythm con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-41603358",
+          "title": "Non-antiarrhythmic pharmacotherapy in cardio-renal-metabolic disease and incident atrial fibrillation: a trial meta-analysis",
+          "journal": "European Heart Journal",
+          "authors": "Raveendra K, Nadarajah R, Larvin H, Farooq M, et al.",
+          "year": 2026,
+          "doi": "10.1093/eurheartj/ehag021",
+          "url": "https://doi.org/10.1093/eurheartj/ehag021",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND AND AIMS: Atrial fibrillation (AF) disease burden is increasing. Pharmacotherapy of cardio-renal-metabolic diseases may prevent incident AF. This meta-analysis estimates the effect of different pharmacotherapies on risk of incident AF across cardio-renal-metabolic diseases. METHODS: The Medline, Embase, and Cochrane Central databases were searched to 7 October 2025 for randomized clinical trials (RCTs) comparing the effect of a non-antiarrhythmic cardio-renal-metabolic medication with control or another agent for incident AF. Random-effects meta-analysis using the Mantel-Haenszel method, with between-study variance estimated using the DerSimonian-Laird method, was performed to synthesize risk ratios (RR) with 95% confidence intervals (CI). RESULTS: Two hundred and forty-nine RCTs involving 745 041 patients were included, of which 207 identified AF through adverse event reports, 161 were placebo-controlled, and 15 had AF as a pre-specified endpoint. In placebo-controlled trials, significant differences in incident AF were observed with treatment of heart failure with reduced ejection fraction with angiotensin-converting enzyme inhibitors and angiotensin receptor blockers (RR 0.69, 95% CI 0.60-0.80), mineralocorticoid receptor antagonists (RR 0.62, 95% CI 0.43-0.90), and sodium-glucose co-transporter 2 (SGLT2) inhibitors (RR 0.62, 95% CI 0.44-0.87); treatment of chronic kidney disease with SGLT2 inhibitors (RR 0.53, 95% CI 0.33-0.85); and treatment of obesity with glucagon-like peptide-1 receptor agonists (RR 0.79, 95% CI 0.63-0.99). However, the number of AF events per trial was low and none were adequately powered for incident AF. CONCLUSIONS: Prospective RCTs with AF as a pre-specified outcome should be integrated into the design of future trials of cardio-renal-metabolic medications to determine whether they reduce incident AF.",
+          "keyFindings": "Prospective RCTs with AF as a pre-specified outcome should be integrated into the design of future trials of cardio-renal-metabolic medications to determine whether they reduce incident AF.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en European Heart Journal con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-41563860",
+          "title": "Safety and efficacy of intracardiac echocardiography in atrial fibrillation ablation: a meta-analysis",
+          "journal": "Europace",
+          "authors": "Karakasis P, Tzeis S, Pamporis K, Vlachos K, et al.",
+          "year": 2026,
+          "doi": "10.1093/europace/euag002",
+          "url": "https://doi.org/10.1093/europace/euag002",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Intracardiac echocardiography (ICE) is increasingly incorporated into atrial fibrillation (AF) ablation workflows, enabling real-time anatomic guidance and procedural precision. Nevertheless, ICE utilization shows substantial geographic variability, and its clinical benefit remains incompletely understood. This meta-analysis evaluated the efficacy, safety, and procedural performance of ICE-guided vs. non-ICE-guided AF ablation. METHODS AND RESULTS: MEDLINE, the Cochrane Library, and Scopus were systematically searched through 3 August 2025. Three reviewers independently performed study selection, data extraction, and risk-of-bias assessment. Random-effects models were used to pool data from 44 AF ablation studies comprising 482 043 patients. ICE guidance was associated with lower odds of any complication (OR 0.69; 95% CI 0.53-0.89), including significant reductions in cardiac tamponade (OR 0.58; 95% CI 0.53-0.62) and mortality (OR 0.21; 95% CI 0.16-0.27). ICE-guided ablation was also associated with shorter total procedure and fluoroscopy times, reduced radiation exposure, and lower contrast agent utilization. Atrial tachyarrhythmia (AT) recurrence did not differ between groups (OR 0.92; 95% CI 0.79-1.06). However, ICE use was associated with higher odds of first-pass pulmonary vein isolation (OR 1.62; 95% CI 1.09-2.41) and successful isolation of all pulmonary veins at the end of the procedure (OR 2.12; 95% CI 1.37-3.27), and lower odds of repeat ablation (OR 0.65; 95% CI 0.59-0.72). CONCLUSION: ICE-guided AF ablation is associated with superior procedural safety and efficiency and a similar risk of AT recurrence compared to non-ICE-guided approaches.",
+          "keyFindings": "ICE-guided AF ablation is associated with superior procedural safety and efficiency and a similar risk of AT recurrence compared to non-ICE-guided approaches.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-41316690",
+          "title": "Catheter ablation vs. anti-arrhythmic drug therapy for ventricular tachycardia in ischaemic heart disease: a meta-analysis of randomized controlled trials",
+          "journal": "Europace",
+          "authors": "Santoro F, Mugnai G, Perrotta L, Kovacs B, et al.",
+          "year": 2025,
+          "doi": "10.1093/europace/euaf302",
+          "url": "https://doi.org/10.1093/europace/euaf302",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Ventricular tachycardia (VT) in ischaemic heart disease (IHD) requires complex management strategies including catheter ablation (CA) and anti-arrhythmic drugs (AADs). The aim of this study is to compare efficacy and safety of CA vs. AADs in patients with IHD and VT. METHODS AND RESULTS: We performed a meta-analysis of randomized controlled trials (RCTs) enrolling patients with IHD and ICD randomized to CA or AADs. Primary outcome was appropriate ICD therapy. Secondary outcomes included inappropriate ICD therapy, cardiovascular (CV) re-hospitalization, all-cause/CV mortality, and adverse events. Subgroup analyses were conducted for amiodarone and sotalol, with an exploratory evaluation of a composite endpoint (ICD shock, VT storm, all-cause death). Four RCTs including 947 patients (mean age 68 ± 2 years; 93% male) were analysed. CA significantly reduced the risk of appropriate ICD therapy compared with AADs (149/470 [31.7%] vs. 229/477 [48.0%]; RR 0.81; 95% CI [0.67, 0.97]; P = 0.02). Among secondary outcomes, CA decreased the incidence of CV re-hospitalization [RR 0.84; 95% CI (0.72, 0.99); P = 0.04] and adverse events [RR 0.42; 95% CI (0.28, 0.62); P < 0.01], while no differences were observed in all-cause/CV mortality and inappropriate ICD therapy. In subgroup analyses, CA was superior to sotalol in reducing the composite endpoint of ICD shock, VT storm and all-cause death [RR: 0.82, 95% CI (0.69, 0.98), P = 0.03]; whereas, no significant benefit was seen compared to amiodarone [RR: 0.92; 95% CI (0.78, 1.09), P = 0.32]. CONCLUSION: In ischaemic heart disease and VT, CA compared with anti-arrhythmic drugs is associated with a reduction of appropriate ICD therapy, cardiovascular re-hospitalization, and adverse events with benefits most evident versus sotalol.",
+          "keyFindings": "In ischaemic heart disease and VT, CA compared with anti-arrhythmic drugs is associated with a reduction of appropriate ICD therapy, cardiovascular re-hospitalization, and adverse events with benefits most evident versus sotalol.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-40272320",
+          "title": "Dronedarone vs Sotalol Among Patients With Atrial Fibrillation: A Meta-Analysis of Retrospective Observational Databases",
+          "journal": "JACC: Clinical Electrophysiology",
+          "authors": "Singh JP, Wieloch M, Reynolds SL, Blomström-Lundqvist C, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jacep.2025.02.029",
+          "url": "https://doi.org/10.1016/j.jacep.2025.02.029",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Dronedarone and sotalol are antiarrhythmic drugs (AADs) recommended in similar populations per atrial fibrillation (AF) guidelines; however, comparative safety data are limited. OBJECTIVES: The goal of this study was to assess the safety of dronedarone vs sotalol for treatment of AF in AAD-naive patients. METHODS: This was a prespecified noninterventional meta-analysis of 4 retrospective observational cohort studies from 4 databases (Optum Clinformatics Data Mart, Merative MarketScan, Veterans Health Administration Electronic Health Record, and the Swedish National Patient Register) conducted by using one master protocol. Each analysis emulated the target trial using an active comparator (dronedarone vs sotalol), new user design with an as-treated approach. Primary outcomes were tested hierarchically for dronedarone vs sotalol: first for statistical significance of cardiovascular (CV) hospitalization, and then for statistical significance of ventricular arrhythmias. Propensity score matching (PSM) was used for confounding control, and negative control outcomes were used to assess residual confounding. Outcomes were evaluated by using Cox proportional hazards regression; meta-analysis was performed by using fixed effects models. RESULTS: The dronedarone and sotalol cohorts were well balanced within databases before and after PSM (after PSM mean age range: 62.5-70.9 years; mean CHA2DS2-VASc score range: 1.81-3.15). Negative control outcomes exhibited little-to-no evidence of residual confounding. Meta-analysis found significantly lower rates of CV hospitalization (pooled HR: 0.91; 95% CI: 0.85-0.97) and ventricular arrhythmias (pooled HR: 0.77; 95% CI: 0.69-0.85) with dronedarone vs sotalol. CONCLUSIONS: In this retrospective meta-analysis, dronedarone exhibited significantly lower rates of CV hospitalization and ventricular arrhythmias compared with sotalol. These findings provide real-world evidence to support selection of the most appropriate first-line AAD for rhythm control in patients with AF.",
+          "keyFindings": "of cardiovascular (CV) hospitalization, and then for statistical significance of ventricular arrhythmias. Propensity score matching (PSM) was used for confounding control, and negative control outcomes were used to assess residual confounding. Outcomes were evaluated by using Cox proportional hazards regression; meta-analysis was performed by using fixed effects models.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Clinical Electrophysiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-arritmias-40780827",
+          "title": "Surgical ablation in non-mitral valve cardiac surgeries: a meta-analysis of early outcomes",
+          "journal": "Heart",
+          "authors": "Barbosa GS, Katsuyama ES, Fukunaga CK, Fernandes JM, et al.",
+          "year": 2026,
+          "doi": "10.1136/heartjnl-2025-326299",
+          "url": "https://doi.org/10.1136/heartjnl-2025-326299",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Surgical ablation (SA) is a key treatment for atrial fibrillation (AF) patients undergoing heart surgery. However, direct comparisons between SA and non-mitral valve (non-MV) surgery alone are lacking. We performed a systematic review and meta-analysis comparing concomitant SA to isolated non-MV surgery in AF patients. METHODS: MEDLINE, Embase and Cochrane were searched. Outcomes of interest were: (1) postoperative AF (POAF); (2) early all-cause mortality; (3) postoperative pacemaker implantation and (4) stroke. Additionally, a subgroup analysis comparing randomised controlled trials (RCTs) and propensity score-matched studies (PSM) was conducted. Risk ratios (RRs) and their respective 95% CI were calculated using a random effects model. RESULTS: After screening 6423 citations, we included 2 RCTs and 5 PSM studies encompassing 39 348 AF patients undergoing non-MV surgery, of whom 18 394 (46.7%) underwent SA. Compared with isolated non-MV surgery, SA was associated with significant POAF reduction (RR: 0.73; 95% CI: 0.67 to 0.79; I2=0%) and higher risk of postoperative pacemaker implantation (RR: 1.34; 95% CI: 1.14 to 1.57, I2=0%) compared with surgery alone. No differences were found in early all-cause mortality (RR: 0.96; 95% CI: 0.76 to 1.22; I2=65%) and postoperative stroke (RR: 1.06; 95% CI: 0.89 to 1.26; I2=0%). The subgroup analysis comparing RCTs and PSM showed significant consistency among the different designs. CONCLUSIONS: In this meta-analysis, SA was associated with POAF reduction in non-MV surgery. In terms of safety, it was suggested that although no difference in early mortality and postoperative stroke was observed, SA had a higher risk of pacemaker implantation than isolated non-MV surgery.",
+          "keyFindings": "In this meta-analysis, SA was associated with POAF reduction in non-MV surgery. In terms of safety, it was suggested that although no difference in early mortality and postoperative stroke was observed, SA had a higher risk of pacemaker implantation than isolated non-MV surgery.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -255,6 +483,120 @@
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Heart con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-40910162",
+          "title": "Network Meta-Analysis of Quality of Life in Heart Failure With Reduced Ejection Fraction",
+          "journal": "Circulation: Heart Failure",
+          "authors": "Margaryan R, Sepehrvand N, Ouwerkerk W, Tromp J, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIRCHEARTFAILURE.125.013074",
+          "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.125.013074",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Although the effects of various combinations of treatments on mortality and morbidity outcomes in heart failure with reduced ejection fraction (HFrEF) have been evaluated, the impact on quality of life is unknown. This study evaluated and compared the composite impact of pharmacological therapies on quality of life in HFrEF using a frequentist network meta-analysis and systematic review methodology. METHODS: We searched MEDLINE, EMBASE, and Cochrane Central Register of Controlled Trials for randomized controlled trials published between January 1, 2021 and August 10, 2024. We included all contemporary and efficacious HFrEF therapies used in adults. The primary outcome was change in quality of life measured through the Kansas City Cardiomyopathy Questionnaire and the Minnesota Living with Heart Failure Questionnaire, expressed as mean difference (MD). RESULTS: We identified 41 randomized controlled trials representing 41 145 patients (76.5% male). The trials had a median of 276 participants (105-464), a mean left ventricular ejection fraction of 28%, and a median follow-up time of 5 months (3-8). A combination of angiotensin receptor blocker/neprilysin inhibitors (ARNi)+β-blockers (BB)+sodium-glucose cotransporter 2 inhibitors (SGLT2i; MD, +5.3 [+0.4, +10.3]) was the most effective at improving quality of life followed by ARNi+BB+mineralocorticoid receptor antagonists (MRA)+SGLT2i (MD, +7.1 [-1.0 to +15.2]), ACE inhibitor+BB+MRA+SGLT2i (MD, +5.3 [-2.6, to +13.3]), and ACE inhibitor+BB+MRA+ivabradine (MD, +5.2 [-3.1 to +13.6]), which were not statistically significant. Individually, the most effective treatments for improving quality of life were SGLT2i (MD, +3.4 [+1.4 to +5.30]), ivabradine (MD, +3.3 [+0.1 to +6.4]), ARNi (MD, +2.6 [-3.2 to +8.5]), and MRA (MD, +1.8 [-4.8 to +8.4]). CONCLUSIONS: A composite of ARNi+BB+SGLT2i or ARNi+BB+MRA+SGLT2i was the most effective at improving quality of life in patients with HFrEF.",
+          "keyFindings": "A composite of ARNi+BB+SGLT2i or ARNi+BB+MRA+SGLT2i was the most effective at improving quality of life in patients with HFrEF.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Circulation: Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-41168946",
+          "title": "Predictive Value of Serum N-Terminal pro-B-Type Natriuretic Peptide and Troponin T for Incident Heart Failure: A Meta-Analysis of 9 International Cohorts",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Bansal N, Grams ME, Coresh J, Matsushita K, et al.",
+          "year": 2025,
+          "doi": "10.1161/JAHA.125.041683",
+          "url": "https://doi.org/10.1161/JAHA.125.041683",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Prior prediction equations for heart failure (HF) omitted cardiac biomarkers and used select populations. We assessed the added value of NT-proBNP (NT-terminal pro-brain natriuretic peptide) and hsTnT (high-sensitivity troponin T) as predictors of HF, across a broad population, including participants with chronic kidney disease or atherosclerotic cardiovascular disease. METHODS: Among 41 427 individuals free of HF from 9 prospective cohort studies, we performed an individual-participant data meta-analysis, quantifying the associations of NT-proBNP and hsTnT with incident HF when added to a clinical model. Changes in Harrel's C-statistic with and without NT-proBNP or hsTnT were estimated within each cohort and then pooled using random effects meta-analysis. RESULTS: Over a mean of 11 years, 4599 incident HFs occurred. A 2-fold higher NT-proBNP was associated with incident HF (meta-analyzed hazard ratio [HR], 1.47 [95% CI, 1.38-1.56]), P<0.001, with no interaction between NT-proBNP and estimated glomerular filtration rate (HR, 0.97 [95% CI, 0.94-1.02], P=0.33) or atherosclerotic cardiovascular disease (HR, 0.97 [95% CI, 0.93-1.02], P=0.48). Adding NT-proBNP significantly increased the C-statistic by 0.030 (95% CI, 0.021-0.040, P<0.001) over the clinical model. Similar results were seen for hsTnT [meta-analyzed HR per 2-fold higher hsTnT 1.41 (95% CI, 1.30-1.54), P<0.001], but C-statistic increased by only 0.008 (95% CI, 0.005-0.011, P<0.001). In models that included NT-proBNP, addition of hsTnT had a smaller effect (change in C-statistic, 0.002 [95% CI, 0.001-0.003], P<0.001). CONCLUSIONS: NT-proBNP improved risk discrimination of incident HF when added to traditional HF risk factors, even in individuals with chronic kidney disease and atherosclerotic cardiovascular disease. The contribution of hsTnT was modest. Measurement of NT-proBNP may help identify individuals at risk of HF.",
+          "keyFindings": "NT-proBNP improved risk discrimination of incident HF when added to traditional HF risk factors, even in individuals with chronic kidney disease and atherosclerotic cardiovascular disease. The contribution of hsTnT was modest. Measurement of NT-proBNP may help identify individuals at risk of HF.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-40156827",
+          "title": "Finerenone and Atrial Fibrillation in Heart Failure: A Secondary Analysis of the FINEARTS-HF Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Matsumoto S, Henderson AD, Jhund PS, Bauersachs J, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.0848",
+          "url": "https://doi.org/10.1001/jamacardio.2025.0848",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Heart failure (HF) with mildly reduced or preserved ejection fraction and atrial fibrillation (AF) are closely intertwined. OBJECTIVE: To examine the efficacy and safety of the nonsteroidal mineralocorticoid receptor antagonist finerenone in patients with HF with mildly reduced or preserved ejection fraction according to the absence or presence of AF and the type of AF (paroxysmal vs persistent or permanent). DESIGN, SETTING, AND PARTICIPANTS: Prespecified analyses were conducted in the Finerenone Trial to Investigate Efficacy and Safety Superior to Placebo in Patients With Heart Failure (FINEARTS-HF) randomized clinical trial. The trial was conducted across 653 sites in 37 countries. Participants were adults aged 40 years and older with symptomatic HF and left ventricular ejection fraction of 40% or greater, randomized between September 2020 and January 2023. Data analysis was conducted from September 1 to October 1, 2024. INTERVENTION: Finerenone (titrated to 20 mg or 40 mg) or placebo. MAIN OUTCOMES AND MEASURES: The primary outcome was the composite of total HF events and cardiovascular death. New-onset AF or atrial flutter (AFL) was a prespecified exploratory outcome. RESULTS: Among 5984 patients (mean [SD] age, 72.0 [9.6] years; 2724 [45.5%] female) with known AF status at baseline, 1384 (23.1%) had paroxysmal AF and 1886 (31.5%) had persistent or permanent AF. Patients with both types of AF were older and had worse HF status compared with those without AF (2714 patients [45.4%]). Both types of AF were associated with a higher unadjusted risk of the primary outcome compared with no AF (event rate per 100 person-years of follow-up, 20.3 [95% CI, 17.9-23.1] with paroxysmal AF, 19.8 [95% CI, 17.8-22.0] with persistent or permanent AF, and 11.9 [95% CI, 10.7-13.3] with no AF; rate ratio [RR], 1.62 [95% CI, 1.37-1.92] with paroxysmal AF and 1.66 [95% CI, 1.43-1.93] with persistent or permanent AF vs no AF); however, the associations were attenuated after adjustment for known prognostic variables. The benefit of finerenone on the primary outcome (overall RR, 0.84 [95% CI, 0.74-0.95]) was not modified by baseline AF status (RR, 0.80 [95% CI, 0.65-0.98] with no AF, 0.83 [95% CI, 0.65-1.06] with paroxysmal AF, and 0.85 [95% CI, 0.69-1.05] with persistent or permanent AF; P for interaction = .94). New-onset AF or AFL occurred in 6.5% of patients and was associated with a higher subsequent adjusted risk of the primary outcome (rate ratio, 3.65 [95% CI, 2.57-5.18]; P < .001). The subdistribution hazard ratio for new-onset AF or AFL among those receiving finerenone vs placebo was 0.77 (95% CI, 0.57-1.04; P = .09). CONCLUSIONS AND RELEVANCE: The efficacy of finerenone was consistent regardless of AF status. New-onset AF was associated with a substantially higher risk of subsequent outcomes. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04435626.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: The efficacy of finerenone was consistent regardless of AF status.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-41811342",
+          "title": "Long-Term Outcomes of Left Bundle-Branch Pacing vs Biventricular Pacing in Heart Failure: The HeartSync-LBBP Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Chen X, Liu X, Li R, Wang Z, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.0083",
+          "url": "https://doi.org/10.1001/jamacardio.2026.0083",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Left bundle-branch pacing (LBBP) has been proposed as an alternative to biventricular pacing (BiVP) for patients with heart failure with left bundle-branch block (LBBB). However, robust clinical evidence from randomized clinical trials is lacking. OBJECTIVE: To evaluate the long-term clinical outcomes of LBBP and BiVP. DESIGN, SETTING, AND PARTICIPANTS: This multicenter, prospective, randomized clinical trial enrolled 200 patients at 6 centers in China with a left ventricular ejection fraction (LVEF) of 35% or less and LBBB from October 2020 to March 2022. This study was took place from October 2020 to September 2024. These data were analyzed September 2024 to December 2024. INTERVENTIONS: Patients were randomly assigned in a 1:1 ratio to receive either LBBP or BiVP. MAIN OUTCOMES AND MEASURES: The primary end point was the time to death from any cause or heart failure hospitalization (HFH). The secondary end points included all-cause death, HFH, echocardiographic response (absolute increase in LVEF ≥5%), and super response (absolute increase in LVEF ≥15% or improvement of LVEF to ≥50%) rates. RESULTS: Of the 200 included patients, 136 were male and 64 were female. The success rate was 98% in the LBBP group and 94% in the BiVP group (P = .28). The median follow-up duration was 36 (range, 33-39) months. The primary end point of time to death or HFH was significantly lower in the LBBP group compared with BiVP (8% vs 28%; hazard ratio [HR], 0.26; 95% CI, 0.12-0.57; P < .001). There was no significant difference in all-cause mortality between the groups (2.0% vs 5.0%; HR, 0.40; 95% CI, 0.08-2.04; P = .25). However, LBBP significantly reduced the risk of HFH (7.0% vs 28.0%; HR, 0.23; 95% CI, 0.10-0.52; P < .001). The echocardiographic response rates were similar in both groups (86.0% vs 81.0%; P = .34) but the super-response rate was higher in the LBBP group (55.0% vs 36.0%; P < .007). CONCLUSIONS AND RELEVANCE: In this study, LBBP was superior to BiVP in reducing the risk of death or HFH in patients with LBBB and severely reduced LVEF. Further trials are warranted in this patient population. TRIAL REGISTRATION: Chinese Clinical Trial Registry identifier: ChiCTR2000036554.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this study, LBBP was superior to BiVP in reducing the risk of death or HFH in patients with LBBB and severely reduced LVEF.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-40531488",
+          "title": "Finerenone According to Frailty in Heart Failure: A Prespecified Analysis of the FINEARTS-HF Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Butt JH, Jhund PS, Henderson AD, Claggett BL, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.1775",
+          "url": "https://doi.org/10.1001/jamacardio.2025.1775",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Patients with frailty are often perceived to have a less favorable benefit-risk profile for novel therapies and therefore may be less likely to receive these. OBJECTIVE: To examine the efficacy and safety of finerenone, compared with placebo, according to frailty status in patients with heart failure (HF) and mildly reduced ejection fraction (HFmrEF) or with HF and preserved ejection fraction (HFpEF). DESIGN, SETTING, AND PARTICIPANTS: This was a prespecified secondary analysis of a phase 3 randomized clinical trial, the Finerenone Trial to Investigate Efficacy and Safety Superior to Placebo in Patients With Heart Failure (FINEARTS-HF), conducted across 653 sites in 37 countries. Patients with HF with New York Heart Association functional class II through IV, a left ventricular ejection fraction of 40% or higher, evidence of structural heart disease, and elevated natriuretic peptide levels were randomized between September 2020 and January 2023. Data analysis was conducted from October 1 to November 30, 2024. INTERVENTION: Addition of once-daily finerenone or placebo to usual therapy. MAIN OUTCOMES AND MEASURES: The primary outcome was a composite of cardiovascular death and total worsening HF events. Frailty was measured using the Rockwood cumulative deficit approach. RESULTS: Of the 6001 patients randomized in FINEARTS-HF, a frailty index (FI) was calculable in 5952 patients (mean [SD] age, 72.0 [9.6] years; 3241 [54.4%] male). In total, 1588 patients (26.7%) had class I frailty (FI ≤0.210 [not frail]), 2141 (36.0%) had class II frailty (FI 0.211-0.310 [more frail]), and 2223 (37.3%) had class III frailty (FI ≥0.311 [most frail]). Compared with patients with class I frailty, those with class II and III frailty had a higher risk of the primary outcome (unadjusted rate ratio [RR], 1.88 [95% CI, 1.54-2.28] for class II and 3.86 [95% CI, 3.22-4.64] for class III). The effect of finerenone on the primary outcome did not vary significantly by frailty class (class I: RR, 1.07 [95% CI, 0.77-1.49]; class II: RR, 0.66 [95% CI, 0.52-0.83]; class III: RR, 0.91 [95% CI, 0.76-1.07]; P for interaction = .77). Frailty class did not modify the effects of finerenone on the components of the primary outcome, all-cause death, or improvement in the Kansas City Cardiomyopathy Questionnaire total symptom score. The effects of finerenone, compared with placebo, on experiencing hypotension, elevated creatinine level, hyperkalemia, or hypokalemia did not differ by frailty class. CONCLUSIONS AND RELEVANCE: In FINEARTS-HF, finerenone reduced the risk of total worsening HF events and cardiovascular death, and it improved symptoms; these effects were not modified by frailty status. In addition, the effects of finerenone on experiencing hypotension, elevated creatinine level, hyperkalemia, or hypokalemia did not differ by frailty status. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04435626.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In FINEARTS-HF, finerenone reduced the risk of total worsening HF events and cardiovascular death, and it improved symptoms; these effects were not modified by frailty status.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-insuficiencia-cardiaca-41903165",
+          "title": "EMPEROR-Preserved Risk Model and Outcomes in the FINEARTS-HF Trial: A Prespecified Secondary Analysis of FINEARTS-HF",
+          "journal": "JAMA Cardiology",
+          "authors": "Chimura M, McDowell K, Jhund PS, Henderson AD, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.1049",
+          "url": "https://doi.org/10.1001/jamacardio.2026.1049",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Patients with heart failure (HF) and mildly reduced ejection fraction (HFmrEF) or preserved EF (HFpEF) show substantial heterogeneity in prognosis. OBJECTIVES: To evaluate the performance of biomarker-driven prognostic models derived from the Empagliflozin Outcome Trial in Patients With Chronic Heart Failure With Preserved Ejection Fraction (EMPEROR-Preserved) Trial in the Finerenone Trial to Investigate Efficacy and Safety Superior to Placebo in Patients With Heart Failure (FINEARTS-HF) and to examine whether baseline risk modified the therapeutic effect of finerenone. DESIGN, SETTING, AND PARTICIPANTS: This is a prespecified secondary analysis of the FINEARTS-HF trial, which was conducted across 653 sites in 37 countries among adults aged 40 years and older with symptomatic HF and left ventricular EF (LVEF) of 40% or greater. Patients were randomized between September 2020 and January 2023, and data analysis for this study was conducted from September to October 2025. The median (IQR) follow-up period was 32 (23-37) months. INTERVENTION: Finerenone (titrated to 20 mg or 40 mg) or placebo. MAIN OUTCOMES AND MEASURES: EMPEROR-Preserved risk scores for the outcomes of first HF hospitalization or cardiovascular death, cardiovascular death, and all-cause death were calculated in FINEARTS-HF using models incorporating N-terminal pro-B-type natriuretic peptide, high-sensitivity cardiac troponin T, New York Heart Association functional class, history of chronic obstructive pulmonary disease and diabetes, insulin use, and-depending on outcome-age, hemoglobin and albumin levels, HF duration, time from prior HF hospitalization, and sodium-glucose transporter 2 inhibitor use. Estimated risks were compared with observed event rates, and model performance was assessed using Harrell C statistic. Treatment effects were evaluated across risk quintiles (Q1 to Q5) and across the continuous risk distribution. RESULTS: Among 6001 patients (mean [SD] age, 72.0 [9.6] years; 2732 [45.5%] women; 3003 randomized to finerenone and 2998 randomized to placebo), the EMPEROR-Preserved risk model estimated risk of outcomes, with Q5 vs Q1 hazard ratios (HRs) of 10.49 (95% CI, 8.14-13.52) for the composite of HF hospitalization or cardiovascular death and 13.47 (95% CI, 8.79-20.64) for cardiovascular death. The model demonstrated good discrimination. The treatment effect of finerenone was consistent across risk quintiles for first HF hospitalization or cardiovascular death (Q1: HR, 0.93 [95% CI, 0.58-1.49]; Q2: HR, 1.04 [95% CI, 0.76-1.43]; Q3: HR, 0.82 [95% CI, 0.62-1.07]; Q4: HR, 0.81 [95% CI, 0.65-1.01]; and Q5: HR, 0.88 [95% CI, 0.74-1.05]; P for interaction = .68) and remained uniform across the continuous risk spectrum. CONCLUSIONS AND RELEVANCE: The EMPEROR-Preserved risk models demonstrated good performance in FINEARTS-HF. Baseline risk did not modify the relative treatment effect of finerenone. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04435626.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: The EMPEROR-Preserved risk models demonstrated good performance in FINEARTS-HF.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
         }
       ]
     },
@@ -338,6 +680,120 @@
             "label": "Alta",
             "rationale": "Meta-análisis publicado en European Heart Journal - Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
+        },
+        {
+          "id": "yr-isquemica-40654250",
+          "title": "Invasive Versus Conservative Management Among Older Adult Patients With Non-ST-Segment-Elevation Myocardial Infarction: A Meta-Analysis of Randomized Controlled Trials",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Hamed M, Gabr EM, Harmouch W, Scwartz S, et al.",
+          "year": 2025,
+          "doi": "10.1161/JAHA.124.039601",
+          "url": "https://doi.org/10.1161/JAHA.124.039601",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Older adult patients have been underrepresented in the pivotal trials comparing an invasive versus conservative management for non-ST-segment-elevation myocardial infarction (NSTEMI). METHODS: We performed an electronic search of MEDLINE, Embase, and Cochrane databases through September 2024 for randomized controlled trials comparing invasive versus conservative management of NSTEMI in patients aged ≥70 years. RESULTS: The final analysis included 7 randomized controlled trials with 2997 patients. The weighted mean follow-up time was 47.1 months, and the mean age was 82.6 years. There was no significant difference in all-cause mortality between an invasive versus a conservative management approach (27.9% versus 26.6%; risk ratio [RR], 1.05 [95% CI, 0.94-1.18]; I2=0%). There was a statistically nonsignificant trend for fewer major adverse cardiac events in the invasive group (28.3% versus 33.4%; RR, 0.82 [95% CI, 0.68-1.00]; P=0.05, I2=58%). An invasive approach was associated with a lower risk of recurrent myocardial infarction (RR, 0.76 [95% CI, 0.60-0.97]) and ischemia-driven revascularization (RR, 0.29 [95% CI, 0.21-0.40]) without an increase in major bleeding (RR, 1.31 [95% CI, 0.86-1.97]) compared with a conservative approach. There were no significant differences between both approaches in cardiovascular mortality, acute cerebrovascular events, or length of hospital stay. CONCLUSIONS: Among older adult patients with NSTEMI, there was no significant difference in survival between an invasive or a conservative approach. An invasive approach was associated with a lower risk of recurrent myocardial infarction and ischemia-driven revascularization without an increase in the risk of major bleeding. The findings should help with informed decision-making among older adult patients with NSTEMI.",
+          "keyFindings": "Among older adult patients with NSTEMI, there was no significant difference in survival between an invasive or a conservative approach. An invasive approach was associated with a lower risk of recurrent myocardial infarction and ischemia-driven revascularization without an increase in the risk of major bleeding. The findings should help with informed decision-making among older adult patients with NSTEMI.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-isquemica-41214345",
+          "title": "Endotyping-informed therapy for patients with chest pain and no obstructive coronary artery disease: a randomized trial",
+          "journal": "Nature Medicine",
+          "authors": "Bradley CP, McKinley G, Orchard V, Tiller C, et al.",
+          "year": 2026,
+          "doi": "10.1038/s41591-025-04044-4",
+          "url": "https://doi.org/10.1038/s41591-025-04044-4",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "Patients undergoing invasive coronary angiography for the investigation of chest pain commonly do not have obstructive coronary artery disease. In contemporary practice, most of these individuals do not undergo functional diagnostic tests, leaving the cause of the chest pain uncertain. Stress cardiovascular magnetic resonance imaging (MRI) can be used to measure myocardial blood flow, detect coronary microvascular dysfunction and endotype individual patients, but evidence of clinical utility from randomized trials is lacking. This study was a prospective, multicenter, parallel group, 1:1 randomized, controlled superiority trial of adenosine stress cardiovascular MRI-guided management in 250 patients (mean age, 63.3 years; 50.4% female) with chest pain and unobstructed coronary arteries. The primary outcome of the diagnostic study, defined as the reclassification of the initial diagnosis based on the angiogram, occurred in 131 patients (53.0% (95% confidence interval: 46.6-59.3%); P < 0.001), indicating that the primary outcome for the diagnostic study was met. The primary outcome of the randomized trial was the Seattle Angina Questionnaire (SAQ) summary score at 12 months after randomization. The mean ± s.d. SAQ summary scores at 12 months in the intervention and control groups were 70.9 ± 23.6 (21.7 ± 22.6 change from baseline) and 52.1 ± 24.1 (-0.8 ± 20.4 change from baseline) (adjusted mean difference: 20.9 (95% confidence interval: 15.8-26.0)), respectively, indicating that the primary outcome of the randomized trial was met. Improvements were also observed in the prespecified secondary outcome of the EQ-5D-5L questionnaire at 12 months (adjusted mean difference 0.09 (95% confidence interval: 0.04-0.13)). In this study of patients with chest pain and unobstructed coronary arteries, endotyping-informed therapy revised the diagnosis in more than half of the participants and improved angina and health-related quality of life. ClinicalTrials.gov identifier: NCT04805814 .",
+          "keyFindings": "In this study of patients with chest pain and unobstructed coronary arteries, endotyping-informed therapy revised the diagnosis in more than half of the participants and improved angina and health-related quality of life.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-isquemica-40884241",
+          "title": "Systolic Blood Pressure and Microaxial Flow Pump-Associated Survival in Infarct-Related Cardiogenic Shock: A Post Hoc Analysis of the DanGer Shock Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Mikkelsen AD, Beske RP, Jensen LO, Eiskjær H, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.3337",
+          "url": "https://doi.org/10.1001/jamacardio.2025.3337",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Microaxial flow pump treatment improves survival in selected patients with infarct-related cardiogenic shock; however, treatment carries substantial risks, and benefit may vary by patient subgroup. Systolic blood pressure (SBP) has been proposed as a modifier of the survival benefit. OBJECTIVE: To investigate whether SBP at randomization modifies the survival benefit of microaxial flow pump treatment in ST-segment elevation myocardial infarction-related cardiogenic shock. DESIGN, SETTING, AND PARTICIPANTS: This was a post hoc analysis of the Danish-German (DanGer) Shock open-label randomized clinical trial among adult patients with ST-segment elevation myocardial infarction complicated by cardiogenic shock, conducted between 2013 and 2023 at 14 tertiary invasive cardiac centers in Denmark, Germany, and the United Kingdom. Data analysis was performed from January 7 to April 7, 2024. INTERVENTION: Microaxial flow pump therapy plus standard care vs standard care alone. MAIN OUTCOMES AND MEASURES: All-cause mortality at 180 days according to randomization SBP. RESULTS: Of 355 patients included in the DanGer Shock trial, 351 patients had available SBP at randomization (median [IQR] age, 69 [59-76] years; 277 [79%] male). In a dichotomized regression analysis, microaxial flow pump treatment significantly reduced mortality for SBPs lower than 82 mm Hg compared with standard care alone (odds ratio [OR], 0.34; 95% CI, 0.18-0.63; P < .001). This was not evident for higher pressures (OR, 0.96; 95% CI, 0.53-1.70; P = .90; P for interaction = .02). Kaplan-Meier survival analysis and spline regression analysis supported these findings (P for interaction = .02; P for nonlinearity = .01). CONCLUSIONS AND RELEVANCE: Randomization SBP was associated with the survival benefit of microaxial flow pump treatment, with the most hypotensive patients deriving the largest survival benefit. Early SBP may help identify patients most likely to gain a net benefit from microaxial flow pump treatment. Findings are hypothesis generating. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT01633502.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Randomization SBP was associated with the survival benefit of microaxial flow pump treatment, with the most hypotensive patients deriving the largest survival benefit.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-isquemica-39809594",
+          "title": "Diagnostic models to differentiate Takotsubo syndrome from acute coronary syndrome: A systematic review and meta-analysis",
+          "journal": "European Journal of Heart Failure",
+          "authors": "Diaz-Arocutipa C, Hernandez AV, Benites-Moya CJ, Gamarra-Valverde NN, et al.",
+          "year": 2025,
+          "doi": "10.1002/ejhf.3584",
+          "url": "https://doi.org/10.1002/ejhf.3584",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Differentiation between patients with Takotsubo syndrome and acute coronary syndrome (ACS) remains a challenge. We performed a systematic review to identify and evaluate diagnostic predictive models to distinguish both conditions. METHODS AND RESULTS: We performed an electronic search in PubMed, EMBASE, and Scopus until January 2024. Observational studies that developed and/or validated multivariable diagnostic models to differentiate Takotsubo syndrome from ACS were included. The risk of bias was assessed using the Prediction model Risk Of Bias ASsessment Tool (PROBAST). We conducted a narrative synthesis of the performance measures of the diagnostic models evaluated in each study. In addition, a random-effects meta-analysis of the c-statistic with its 95% confidence interval (CI) of the InterTAK model was performed. Of 1015 articles, a total of 11 studies (n = 4552) were included. We identified eight new diagnostic models and eight were external validation of existing models. The most frequent model was InterTAK (n = 4). The reported c-statistic ranged from 0.77 to 0.97 across all models. Calibration plots were reported only for two models. The summary c-statistic was 0.89 (95% confidence interval 0.73-0.96) for the InterTAK model. The risk of bias was high for all models and the applicability was of low (50%) or unclear (50%) concern. CONCLUSIONS: Our review identified multiple diagnostic models to diagnose Takotsubo syndrome. Although most models showed acceptable-to-good discriminative performance, calibration measures were almost unreported and the risk of bias was a concern in most studies.",
+          "keyFindings": "Our review identified multiple diagnostic models to diagnose Takotsubo syndrome. Although most models showed acceptable-to-good discriminative performance, calibration measures were almost unreported and the risk of bias was a concern in most studies.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en European Journal of Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-isquemica-41881651",
+          "title": "Prognostic Value of Microvascular Resistance Reserve in Coronary Artery Disease: A Systematic Review and Meta-Analysis",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Gallinoro E, De Bruyne B, Pijls N, Belmonte M, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2025.12.022",
+          "url": "https://doi.org/10.1016/j.jcin.2025.12.022",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Microvascular resistance reserve (MRR) is a novel index for evaluating coronary microvascular function independently of epicardial disease. Its prognostic significance in coronary artery disease (CAD) remains uncertain. OBJECTIVES: The aim of this study was to assess the association between MRR and adverse cardiovascular outcomes across various CAD presentations. METHODS: A systematic review and meta-analysis was conducted according to Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. MEDLINE and Embase were searched from January 2019 to January 2025 for prospective studies reporting HRs for major adverse cardiovascular events in relation to MRR. Risk for bias was assessed using the Quality in Prognosis Studies tool. Pooled HRs were calculated using a random-effects model; heterogeneity was evaluated using the I2 statistic. RESULTS: Five studies (n = 3,186) were included. Higher MRR was significantly associated with lower risk for adverse events (HR per unit increase: 0.75; 95% CI: 0.64-0.88; I2 = 80.9%). When dichotomized, low MRR conferred a more than 2-fold increased risk for major adverse cardiovascular events (HR: 2.39; 95% CI: 1.66-3.43). Subgroup analysis showed a stronger prognostic effect for ST-segment elevation myocardial infarction (HR: 0.46) vs stable CAD (HR: 0.86; P for interaction < 0.0001). Threshold analysis identified MRR ≥ 3 as optimal for sensitivity (58.9%) and rule-out performance, while lower thresholds improved specificity. CONCLUSIONS: MRR is a robust, independent predictor of cardiovascular outcomes of both acute and chronic CAD. Its prognostic impact is particularly pronounced for acute coronary syndrome. A threshold of 3 provides the best prognostic balance, supporting its integration into invasive physiological assessment for risk stratification.",
+          "keyFindings": "in coronary artery disease (CAD) remains uncertain.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-isquemica-42191321",
+          "title": "Oral Anticoagulation With or Without Antiplatelet Therapy in Chronic Coronary Syndrome: A Meta-Analysis of Randomized Trials",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Galli M, Vinciguerra M, Laudani C, Occhipinti G, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2026.03.020",
+          "url": "https://doi.org/10.1016/j.jcin.2026.03.020",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: The optimal antithrombotic therapy for patients with chronic coronary syndrome (CCS) who also require long-term oral anticoagulation (OAC) remains uncertain. OBJECTIVES: The aim of this study was to evaluate the safety and efficacy of OAC monotherapy compared with OAC plus single antiplatelet therapy (SAPT) in CCS patients with an indication for long-term anticoagulation. METHODS: Randomized trials comparing OAC monotherapy with OAC plus SAPT in patients with CCS and indication for long-term OAC from the PubMed, Cochrane Central, Web of Science, and Scopus databases up to November 10, 2025 were included in this systematic review and meta-analysis. HRs and 95% CIs were estimated through a random-effects meta-analytical framework. The primary efficacy endpoint was trial-defined major adverse cardiovascular events, and the primary safety endpoint was any bleeding. RESULTS: Six trials comprising 5,924 patients were included. The median follow-up duration was 2.3 years (Q1-Q3: 1.3-2.9 years), the median CHA2DS2-VASc score was 4.2 (Q1-Q3: 4.0-4.6), and the median time from revascularization to randomization 3.8 years (Q1-Q3: 3.2-4.4 years). Compared with OAC plus SAPT, OAC monotherapy showed similar rates of major adverse cardiovascular events (6.8% vs 8.2%; HR: 0.85; 95% CI: 0.64-1.09; I2 =23%) and reduced risk of bleeding (8.9% vs 16.1%; HR: 0.49; 95% CI: 0.44-0.55; I2 =8%). OAC monotherapy also reduced cardiovascular death (HR: 0.69; 95% CI: 0.48-0.97; I2 =0%), net adverse clinical events (HR: 0.60; 95% CI: 0.47-0.78; I2 =66%), and major bleeding (HR: 0.46; 95% CI: 0.32-0.66; I2 =47%) compared with OAC plus SAPT. There were no significant differences in myocardial infarction, stroke, or all-cause mortality. CONCLUSIONS: In patients with CCS requiring long-term OAC, OAC monotherapy was associated with reduced bleeding, cardiovascular death, and net adverse clinical events compared with OAC plus SAPT. (Anticoagulation Alone vs Anticoagulation Plus Antiplatelet Therapy in Atrial Fibrillation With Stable Coronary Disease: A Meta-Analysis of Randomized Trials; CRD420251174643).",
+          "keyFindings": "In patients with CCS requiring long-term OAC, OAC monotherapy was associated with reduced bleeding, cardiovascular death, and net adverse clinical events compared with OAC plus SAPT. (Anticoagulation Alone vs Anticoagulation Plus Antiplatelet Therapy in Atrial Fibrillation With Stable Coronary",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
         }
       ]
     },
@@ -404,6 +860,25 @@
           }
         },
         {
+          "id": "yr-prevencion-41903177",
+          "title": "Cardiorenal Outcomes With Tirzepatide Compared With Dulaglutide in Patients With Diabetes and Cardiovascular Disease: A Post Hoc Analysis of the SURPASS-CVOT Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Nissen SE, Wolski K, D'Alessio D, Weerakkody G, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.0767",
+          "url": "https://doi.org/10.1001/jamacardio.2026.0767",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: The dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) agonist tirzepatide was noninferior to a GLP-1 agonist, dulaglutide, for effects on the composite outcome of cardiovascular death, myocardial infarction (MI), or stroke. However, comparison for a comprehensive range of major adverse cardiovascular and kidney outcomes has not been reported. OBJECTIVE: To perform a post hoc analysis for an expanded range of adverse outcomes in a completed randomized clinical trial comparing the effects of tirzepatide and dulaglutide in patients with type 2 diabetes and cardiovascular disease. DESIGN, SETTING, AND PARTICIPANTS: This parallel-design double-blind trial enrolled patients with diabetes and preexisting cardiovascular disease (from May 29, 2020, to June 27, 2022) at 640 centers in North and South America, Europe, Asia, and Oceania. Data were analyzed from July 2025 to February 2026. INTERVENTIONS: Participants were randomized to receive subcutaneous tirzepatide up to 15 mg (n = 6586) or a fixed dose of dulaglutide, 1.5 mg (n = 6579), administered weekly. MAIN OUTCOMES AND MEASURES: The primary efficacy measure was time from randomization to first occurrence of a 6-component composite of cardiorenal adverse outcomes, including all-cause mortality, MI, stroke, coronary revascularization, hospitalization for heart failure, and a composite of adverse kidney outcomes. RESULTS: Among the 13 165 patients enrolled, the mean (SD) age was 64 (8.8) years; 9348 patients (71.0%) were male and 3817 were female (29.0%). The mean (SD) hemoglobin A1c was 8.4% (0.93). After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio [HR], 0.84; 95% CI, 0.79-0.90; P < .001). Sensitivity analyses showed similar hazard ratios for a narrower 5-component end point (without the kidney composite outcomes: HR, 0.86; 95% CI, 0.80-0.93) and the 4-component composite (without either kidney or heart failure end points: HR, 0.86; 95% CI, 0.80-0.93). Gastrointestinal adverse events were more common with tirzepatide (2827 patients [42.5%]) than dulaglutide (2387 patients [35.9%]) treatment. Other adverse events were similar. CONCLUSIONS: In this post hoc analysis, the dual GLP-1 and GIP agonist tirzepatide, compared with the GLP-1 agonist dulaglutide, was associated with a lower incidence of a broad 6-component composite cardiovascular and kidney end point in patients with diabetes and established cardiovascular disease. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04255433.",
+          "keyFindings": "In this post hoc analysis, the dual GLP-1 and GIP agonist tirzepatide, compared with the GLP-1 agonist dulaglutide, was associated with a lower incidence of a broad 6-component composite cardiovascular and kidney end point in patients with diabetes and established cardiovascular disease. TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "yr-prevencion-41205202",
           "title": "Atorvastatin and Aortic Stiffness During Anthracycline-Based Chemotherapy: A Secondary Analysis of a Randomized Clinical Trial",
           "journal": "JAMA Cardiology",
@@ -420,6 +895,101 @@
             "score": 75,
             "label": "Alta",
             "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-prevencion-40531507",
+          "title": "CT Angiography, Healthy Lifestyle Behaviors, and Preventive Therapy: A Nested Substudy of the SCOT-HEART 2 Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "McDermott M, Khaing PH, Meah MN, Wang KL, et al.",
+          "year": 2025,
+          "doi": "10.1001/jamacardio.2025.1763",
+          "url": "https://doi.org/10.1001/jamacardio.2025.1763",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Healthy lifestyles and uptake of primary preventive therapies for cardiovascular disease remain poor. OBJECTIVE: To determine the impact of coronary computed tomography (CT) angiography on healthy lifestyle behaviors, acceptance of recommended treatments, and modification of risk factors as compared with guideline-directed cardiovascular risk scoring. DESIGN, SETTING, AND PARTICIPANTS: This was a nested substudy conducted from September 2020 to August 2024 of a randomized clinical trial where participants underwent cardiovascular risk scoring or coronary CT angiography. Primary care-based screening took place in Scotland. Included in the analysis were asymptomatic individuals aged 40 to 70 years without known cardiovascular disease and with at least 1 cardiovascular risk factor. Study data were analyzed from August to September 2024. INTERVENTIONS: All participants received lifestyle advice with additional recommendations for moderate-intensity statin therapy if the 10-year cardiovascular risk was greater than or equal to 10% or combined antiplatelet and at least moderate-intensity statin therapies if coronary atherosclerosis was identified on CT angiography. MAIN OUTCOMES AND MEASURES: The composite primary outcome was compliance with the National Institute for Health and Care Excellence recommendations for diet, body mass index, smoking, and physical exercise at 6 months. RESULTS: Between September 2020 and January 2024, 400 participants were enrolled (median [IQR] age, 62 [56-65] years; 198 female [49.5%]; median [IQR] 10-year cardiovascular risk, 14% [9%-19%]) with 195 randomized to cardiovascular risk scoring and 205 to coronary CT angiography. At 6 months, those who underwent CT angiography were more likely to meet the primary composite end point (17% [33 of 194 participants] vs 6% [10 of 177 participants]; odds ratio, 3.42; 95% CI, 1.63-6.94; P < .001). Compared with cardiovascular risk scoring, fewer participants were recommended preventive therapy after CT angiography (51% [105 of 205 participants] vs 75% [147 of 195 participants]; P < .001), but acceptance of recommendations was higher (77% [81 of 105 participants] vs 46% [68 of 147 participants]; P < .001). This resulted in similar use of lipid-lowering therapy (44% [90 of 205 participants] vs 35% [69 of 195 participants]; OR, 1.43; 95% CI, 0.96-2.15; P = .08) and greater use of antiplatelet therapy in those randomized to CT angiography (40% [83 of 205 participants] vs 0.5% [1 of 195 participants]; P < .001). Participants randomized to coronary CT angiography had small incremental improvements in risk factors and 10-year cardiovascular risk, largely driven by those with CT-defined coronary atheroma. CONCLUSIONS AND RELEVANCE: Results of this cohort study reveal that compared with cardiovascular risk scoring, coronary CT angiography was associated with modest improvements in healthier lifestyle behaviors, acceptance of recommended preventive therapy, and risk factor modification. Whether this strategy reduces coronary events remains to be established.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this cohort study reveal that compared with cardiovascular risk scoring, coronary CT angiography was associated with modest improvements in healthier lifestyle behaviors, acceptance of recommended preventive therapy, and risk factor modification.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-prevencion-41405905",
+          "title": "Low-Density Lipoprotein Cholesterol Levels and Neoatherosclerosis After STEMI: A Secondary Analysis of the CONNECT Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Häner JD, Kakizaki R, Taniwaki M, Ohno Y, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2025.4723",
+          "url": "https://doi.org/10.1001/jamacardio.2025.4723",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Neoatherosclerosis represents a major cause of late stent failure and results in cardiac events after drug-eluting stent (DES) implantation. Achieving secondary preventive low-density lipoprotein cholesterol (LDL-C) target levels can reduce plaque progression in native coronary arteries; however, its association with neoatherosclerosis formation remains unclear. OBJECTIVE: To determine whether achieving guideline-endorsed LDL-C levels after DES implantation is associated with reduced risk of long-term neoatherosclerosis formation. DESIGN, SETTING, AND PARTICIPANTS: This is a post hoc analysis of the CONNECT randomized clinical trial conducted at 7 sites in Switzerland and Japan that had randomized 239 patients with ST-segment elevation myocardial infarction (STEMI) to percutaneous coronary intervention (PCI) with biodegradable- or durable-polymer everolimus-eluting stents between June 2017 and June 2020. The prevalence of neoatherosclerosis was assessed with optical coherence tomography (OCT) 3 years after primary PCI. Data analysis for this post hoc analysis was conducted from September 2024 to October 2025. INTERVENTION: Patients with STEMI received primary PCI with DES, and statin therapy was recommended according to country-specific guidelines. MAIN OUTCOMES AND MEASURES: The prevalence of neoatherosclerosis 3 years after primary PCI was compared between patients with vs without achievement of guideline-endorsed target LDL-C levels. A multivariable predictor analysis was performed to determine whether on-treatment LDL-C levels were associated with occurrence of neoatherosclerosis. RESULTS: Among 178 patients (mean [SD] age, 63.4 [10.9] years; 27 [15%] female) who underwent OCT at 3 years, 98 patients (55%) achieved the target LDL-C level and 80 patients (45%) did not. The mean (SD) on-treatment LDL-C levels for these groups were 48 (13) and 87 (37) mg/dL, respectively (to convert to millimoles per liter, multiply by 0.0259). The prevalence of neoatherosclerosis was lower in patients who achieved the target LDL-C level as compared with patients who did not (7 patients [7%] vs 15 patients [19%], respectively; odds ratio for those who did not achieve the LDL-C target level, 3.00; 95% CI, 1.19-8.24; P = .02). On-treatment LDL-C level (per 25-mg/dL increase) emerged as an independent determinant of neoatherosclerosis at 3 years in multivariable logistic regression analysis (odds ratio, 1.46; 95% CI, 1.09-2.01; P = .01). CONCLUSIONS AND RELEVANCE: On-treatment LDL-C level emerged as an independent predictor of neoatherosclerosis 3 years after DES implantation for STEMI. Neoatherosclerosis was less frequent among patients who achieved the guideline-recommended on-treatment LDL-C level, underscoring the importance of LDL-C lowering in preventing neoatherosclerosis formation. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT03440801.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: On-treatment LDL-C level emerged as an independent predictor of neoatherosclerosis 3 years after DES implantation for STEMI.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-prevencion-42132192",
+          "title": "Low-Density Lipoprotein Cholesterol Lowering With Inclisiran Plus Usual Care in Recent Acute Coronary Syndrome: VICTORION-INCEPTION, a Randomized, Controlled, Open-Label Trial",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Knowlton KU, Navar AM, Anderson JL, Brown AS, et al.",
+          "year": 2026,
+          "doi": "10.1161/JAHA.125.043655",
+          "url": "https://doi.org/10.1161/JAHA.125.043655",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: The low-density lipoprotein cholesterol (LDL-C)-lowering effect of inclisiran, a proprotein convertase subtilisin/kexin type 9-targeting small interfering RNA, has not been established in patients with recent acute coronary syndrome. METHODS: VICTORION-INCEPTION, a 330-day, phase 3b, open-label, multicenter trial, designed to mimic clinical practice, randomized 400 eligible participants (discharged following acute coronary syndrome ≤5 weeks of screening, with LDL-C ≥70 mg/dL [or non-high-density lipoprotein cholesterol ≥100 mg/dL], receiving statin therapy or statin intolerant) 1:1 to inclisiran sodium 300 mg (284 mg inclisiran equivalent; Days 0, 90, 270) + usual care, or usual care (clinician-directed LDL-C management). Coprimary end points at Day 330 were LDL-C <70 mg/dL attainment and LDL-C percentage change from baseline. RESULTS: At Day 90, inclisiran + usual care led to greater LDL-C goal attainment and lowering versus usual care (<70 mg/dL: 74.6% versus 26.6%, odds ratio [OR], 10.84 [97.5% CI, 6.13-19.16]; <55 mg/dL: 63.2% versus 8.5%, OR, 26.58 [95% CI, 14.14-49.98]; percentage change from baseline: -48.9% versus 2.2%); this was sustained to Day 330 (<70 mg/dL: 66.7% versus 28.1%, OR, 5.42 [97.5% CI, 3.29-8.91], P<0.001; <55 mg/dL: 54.2% versus 13.6%, OR, 8.24 [95% CI, 4.97-13.65]; percentage change: -46.9% difference [97.5% CI, -55.4 to -38.5]; P<0.001). Participants with ≥1 adverse events were comparable (inclisiran + usual care, 58.6%; usual care, 53.3%). CONCLUSIONS: VICTORION-INCEPTION was the first inclisiran trial in participants with recent acute coronary syndrome. Early inclisiran initiation with usual care resulted in rapid, sustained attainment of guideline-directed LDL-C goals and was well tolerated. REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT04873934.",
+          "keyFindings": "VICTORION-INCEPTION was the first inclisiran trial in participants with recent acute coronary syndrome. Early inclisiran initiation with usual care resulted in rapid, sustained attainment of guideline-directed LDL-C goals and was well tolerated.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American Heart Association — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-prevencion-40828313",
+          "title": "Changes in non-culprit coronary lesions with PCSK9 inhibitors: the randomised, placebo-controlled FITTER trial",
+          "journal": "EuroIntervention",
+          "authors": "Mensink FB, Los J, Reda Morsy MM, Oemrawsingh RM, et al.",
+          "year": 2025,
+          "doi": "10.4244/EIJ-D-24-01065",
+          "url": "https://doi.org/10.4244/EIJ-D-24-01065",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Prolonged lipid-lowering therapy has demonstrated its ability to induce plaque regression and improve the plaque morphology of mild atherosclerotic lesions. AIMS: This trial aimed to assess the short-term effect of evolocumab in addition to high-intensity statin therapy (HIST) on relevant non-culprit coronary artery lesions using fractional flow reserve (FFR) measurements and multimodality intracoronary imaging. METHODS: Patients with an acute coronary syndrome (ACS) and relevant multivessel disease were randomised to receive either evolocumab or placebo for 12 weeks in addition to HIST. Patients underwent serial FFR and intravascular ultrasound (IVUS)-near-infrared spectroscopy imaging of a non-culprit vessel. The primary endpoints were the differences in the change in FFR and in the maximum lipid core burden index within any 4 mm segment (maxLCBI4mm). The secondary endpoints were the differences in the change in IVUS-derived atheroma volume parameters. RESULTS: Among 150 patients (mean age 64.2±8.5 years; 27 [18.0%] female) randomised to evolocumab (n=74) or placebo (n=76), 143 underwent follow-up coronary angiography. After 12 weeks of treatment, the adjusted mean change in FFR was 0.00 (95% confidence interval [CI]: -0.02 to 0.02) with evolocumab versus 0.01 (95% CI: -0.01 to 0.03) with placebo (adjusted mean difference: -0.01, 95% CI: -0.03 to 0.01; p=0.6). The adjusted mean change in the maxLCBI4mm was -27.8 (95% CI: -72.2 to 16.6) for evolocumab-treated patients versus -35.6 (95% CI: -82.5 to 11.4) for placebo-treated patients (adjusted mean difference: 7.8, 95% CI: -40.9 to 56.4; p=0.8). No between-group differences in any IVUS-derived parameter were found. CONCLUSIONS: In patients with ACS and relevant non-culprit coronary artery lesions, the addition of evolocumab to HIST for 12 weeks, compared to placebo, did not result in improvement of FFR or maxLCBI4mm. (ClinicalTrials.gov: NCT04141579).",
+          "keyFindings": "In patients with ACS and relevant non-culprit coronary artery lesions, the addition of evolocumab to HIST for 12 weeks, compared to placebo, did not result in improvement of FFR or maxLCBI4mm. (ClinicalTrials.gov: NCT04141579).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en EuroIntervention — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-prevencion-40393691",
+          "title": "Effect of low-dose colchicine on pericoronary inflammation and coronary plaque composition in chronic coronary disease: a subanalysis of the LoDoCo2 trial",
+          "journal": "Heart",
+          "authors": "Fiolet ATL, Lin A, Kwiecinski J, Tutein Nolthenius J, et al.",
+          "year": 2025,
+          "doi": "10.1136/heartjnl-2024-325527",
+          "url": "https://doi.org/10.1136/heartjnl-2024-325527",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Low-dose colchicine (0.5 mg once daily) reduces the risk of major cardiovascular events in coronary disease, but its mechanism of action is not yet fully understood. We investigated whether low-dose colchicine is associated with changes in pericoronary inflammation and plaque composition in patients with chronic coronary disease. METHODS: We performed a cross-sectional, nationwide, subanalysis of the Low-Dose Colchicine 2 Trial (LoDoCo2, n=5522). CT angiography studies were performed in 151 participants randomised to colchicine or placebo after a median treatment duration of 28.2 months. Pericoronary adipose tissue (PCAT) attenuation measurements around proximal coronary artery segments and quantitative plaque analysis for the entire coronary tree were performed using artificial intelligence-enabled plaque analysis software. RESULTS: Median PCAT attenuation was not significantly different between the two groups (-79.5 Hounsfield units (HU) for colchicine versus -78.7 HU for placebo, p=0.236). Participants assigned to colchicine had a higher volume (169.6 mm3 vs 113.1 mm3, p=0.041) and burden (9.6% vs 7.0%, p=0.035) of calcified plaque, and higher volume of dense calcified plaque (192.8 mm3 vs 144.3 mm3, p=0.048) compared with placebo, independent of statin therapy. Colchicine treatment was associated with a lower burden of low-attenuation plaque in participants on a low-intensity statin, but not in those on a high-intensity statin (pinteraction=0.037). CONCLUSIONS: Pericoronary inflammation did not differ among participants who received low-dose colchicine compared with placebo. Low-dose colchicine was associated with a higher volume of calcified plaque, particularly dense calcified plaque, which is considered a feature of plaque stability.",
+          "keyFindings": "Pericoronary inflammation did not differ among participants who received low-dose colchicine compared with placebo. Low-dose colchicine was associated with a higher volume of calcified plaque, particularly dense calcified plaque, which is considered a feature of plaque stability.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en Heart — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
@@ -503,6 +1073,120 @@
             "score": 83,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en Circulation: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-40931814",
+          "title": "Comparative Effectiveness of TAVI Platforms and Surgical Aortic Valve Replacement: A Network Meta-Analysis of Randomized Controlled Trials",
+          "journal": "Circulation: Cardiovascular Interventions",
+          "authors": "Moroni F, Lamelas P, Izcovich A, Foroutan F, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIRCINTERVENTIONS.125.015387",
+          "url": "https://doi.org/10.1161/CIRCINTERVENTIONS.125.015387",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Evidence informing clinical guidelines assumes that all transcatheter aortic valve implantation (TAVI) devices have similar effectiveness, in other words, displaying a class effect across TAVI valves. We aimed to assess the comparative effectiveness of different TAVI platforms relative to other TAVI counterparts or surgical aortic valve replacement (SAVR). METHODS: MEDLINE/Embase/CENTRAL were searched from inception until April 2025, for randomized controlled trials comparing outcomes with different commercially available TAVI devices relative to other TAVI counterparts or SAVR. The certainty of the evidence was assessed following the Grading of Recommendations, Assessment, Development, and Evaluations approach. We performed a frequentist network meta-analysis to generate treatment effect estimates. All-cause, cardiovascular mortality, and stroke were considered critically important patient-centered outcomes. RESULTS: We identified 11 randomized controlled trials with 9946 participants and reporting outcomes between 1 to 10 years. TAVI with CoreValve-Evolut was associated with a similar risk of all-cause (absolute risk difference [ARD], 31/1000 from -12 to 79), and cardiovascular mortality (ARD, -8/1000 from -39 to 28) compared with SAVR (moderate certainty). Compared with SAVR, TAVI with SAPIEN and ACURATE neo were associated with an increased risk of all-cause (ARD, 109/1000 from 56 to 169, high certainty and ARD, 123/1000 from 9 to 277, moderate certainty, respectively) and cardiovascular mortality (ARD, 58/1000 from 18 to 105, high certainty and ARD, 105 from 7 to 247, moderate certainty, respectively). Moderate and high-certainty evidence showed that all TAVI platforms were associated with an increased risk of reinterventions and pacemaker implant versus SAVR. Compared with TAVI with CoreValve-Evolut, SAPIEN was associated with higher all-cause (ARD, 75/1000 from 13 to 147, high certainty) and cardiovascular mortality (ARD, 66/1000 from 15 to 130, high certainty), same scenario for ACURATE neo (ARD 113/1000 from 13 to 259, high certainty). CONCLUSIONS: TAVI with CoreValve-Evolut is probably associated with similar mortality to SAVR. TAVI with SAPIEN and ACURATE neo were associated with increased risk of mortality compared with SAVR and CoreValve-Evolut. The current body of evidence from randomized controlled trials goes against the hypothesis of a class effect across TAVI valves. REGISTRATION: URL: https://www.crd.york.ac.uk; Unique identifier: CRD42024512026.",
+          "keyFindings": "TAVI with CoreValve-Evolut is probably associated with similar mortality to SAVR. TAVI with SAPIEN and ACURATE neo were associated with increased risk of mortality compared with SAVR and CoreValve-Evolut. The current body of evidence from randomized controlled trials goes against the hypothesis of a class effect across TAVI valves.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Circulation: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-40831305",
+          "title": "Early Aortic Valve Replacement of Asymptomatic Severe Aortic Stenosis: A Meta-Analysis of Randomized Controlled Trials",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Song Q, Liu R, Yang K, Tu X, et al.",
+          "year": 2025,
+          "doi": "10.1161/JAHA.125.041283",
+          "url": "https://doi.org/10.1161/JAHA.125.041283",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Asymptomatic severe aortic stenosis may lead to the progression to both symptoms and adverse outcomes if left untreated. The appropriate timing of intervention for these patients remains controversial, and any decision requires careful assessment. METHODS: We searched PubMed, Web of Science, EMBASE, and Cochrane Library for randomized controlled trials comparing early aortic valve replacement with conservative management in asymptomatic patients with severe aortic stenosis until December 2024. The primary efficacy outcome was a composite of all-cause mortality, hospitalization for cardiovascular causes, stroke, and myocardial infarction. We expressed outcome data as risk ratios (RRs) with 95% CIs. RESULTS: We included 4 randomized controlled trials involving 1427 patients. Early aortic valve replacement significantly reduced the incidence of the composite outcome when compared with conservative management (29.2% versus 53.7%; RR, 0.56 [95% CI, 0.49-0.64]; I2=60%). Significant reductions were also detected in all-cause mortality (10.0% versus 13.7%; RR, 0.74 [95% CI, 0.55-0.99]; I2=58%), hospitalization for cardiovascular causes (14.6% versus 32.5%; RR, 0.48 [95% CI, 0.39-0.58]; I2=26%), and stroke (4.5% versus 7.2% RR, 0.62 [95% CI, 0.40-0.95]; I2=0%). No significant difference was observed in cardiac-specific mortality (8.3% versus 16% RR, 0.68 [95% CI, 0.40-1.16]; I2=65%) and myocardial infarction (0.6% versus 4.6%; RR, 0.21 [95% CI, 0.04-1.19]; I2=0%). CONCLUSIONS: Our meta-analysis of randomized controlled trials showed that among patients with asymptomatic severe aortic stenosis, a strategy of early aortic valve interventions was superior to conservative treatments in reducing the primary composite outcome of all-cause mortality, hospitalization for cardiovascular causes, stroke, and myocardial infarction. However, significant differences in the rates of cardiac-specific mortality were not apparent.",
+          "keyFindings": "Our meta-analysis of randomized controlled trials showed that among patients with asymptomatic severe aortic stenosis, a strategy of early aortic valve interventions was superior to conservative treatments in reducing the primary composite outcome of all-cause mortality, hospitalization for cardiovascular causes, stroke, and myocardial infarction. However, significant differences in the rates of cardiac-specific mortality were not apparent.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-41400606",
+          "title": "The Prognostic Value of Right Ventricle-Pulmonary Artery Coupling in Valve Interventions: Systematic Review and Meta-Analysis",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Androshchuk V, Long E, Chehab O, Montarello N, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2025.10.024",
+          "url": "https://doi.org/10.1016/j.jcin.2025.10.024",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Right ventricle-pulmonary artery (RV-PA) coupling is prognostically important in valvular heart disease. OBJECTIVES: The authors performed a systematic review and meta-analysis to quantify the association of RV-PA coupling with clinical endpoints after intervention for aortic stenosis (AS), mitral regurgitation (MR), and tricuspid regurgitation (TR). METHODS: The primary outcome was all-cause mortality, and the secondary outcome was a composite of major adverse cardiovascular events (MACE). A random-effects model was used to compute pooled effect estimates, and summary receiver-operating characteristic curves identified optimal RV-PA thresholds. RESULTS: In total, 30 interventional studies (N = 12,992) met eligibility criteria, including 14 AS (n = 6,100), 12 MR (n = 5,032), and 4 TR (n = 1,860) studies. Tricuspid annular plane systolic excursion (TAPSE) to pulmonary artery systolic pressure (PASP) was the most studied RV-PA coupling index. Reduced TAPSE/PASP was independently associated with all-cause mortality (AS adjusted HR: 1.69 [95% CI: 1.30-2.20]; MR adjusted HR: 1.94 [95% CI: 1.40-2.69]; P < 0.001) and the composite MACE (AS adjusted HR: 1.60 [95% CI: 1.29-2.00]; MR adjusted HR: 2.01 [95% CI: 1.54-2.62]; P < 0.001). There were significant nonlinear associations between TAPSE/PASP and adverse outcomes in AS and MR (P < 0.001). There were insufficient data to estimate a pooled effect-size in TR. Optimal TAPSE/PASP thresholds to predict all-cause mortality were ≤0.51 mm/mm Hg for AS interventions, ≤0.33 mm/mm Hg for MR interventions and ≤0.44 mm/mm Hg for TR interventions. CONCLUSIONS: TAPSE/PASP is an independent predictor of outcomes after interventions for AS and MR. The disease-specific TAPSE/PASP cutoffs could be integrated into risk-stratification models to better predict mortality before valve interventions and improve patient selection.",
+          "keyFindings": "TAPSE/PASP is an independent predictor of outcomes after interventions for AS and MR. The disease-specific TAPSE/PASP cutoffs could be integrated into risk-stratification models to better predict mortality before valve interventions and improve patient selection.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 79,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JACC: Cardiovascular Interventions con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-40875489",
+          "title": "Comparative 30-day echocardiographic outcomes of Myval vs. Sapien and Evolut THVs: insights from LANDMARK trial",
+          "journal": "European Heart Journal - Cardiovascular Imaging",
+          "authors": "Soliman O, Hasabo EA, van Royen N, Amat-Santos IJ, et al.",
+          "year": 2026,
+          "doi": "10.1093/ehjci/jeaf245",
+          "url": "https://doi.org/10.1093/ehjci/jeaf245",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "AIMS: Several factors, including device design, annulus size, and sizing strategies, influence transcatheter heart valve (THV) haemodynamic outcomes in patients with aortic stenosis (AS). This sub-study evaluates early (30-day) echocardiographic outcomes of the Myval, Sapien, and Evolut THV series, focusing on haemodynamic performance and valve durability. METHODS AND RESULTS: The LANDMARK trial is a prospective, randomised, multicentre, open-label, non-inferiority trial comparing 384 patients implanted with Myval THV series to 384 receiving Sapien and Evolut THV series. Haemodynamic assessments followed Valve Academic Research Consortium-3 recommendations. At 30-day, haemodynamic device success rates were 85.9%, 77.8, and 85.4% for Myval, Sapien, and Evolut THV series, respectively (PMyval-Sapien = 0.03 and PMyval-Evolut = 0.98). Significant improvements in peak aortic flow velocity, pressure gradients, effective orifice area (EOA), Doppler velocity index (DVI), and cardiac indices were observed across all groups, except for unchanged left ventricular ejection fraction. Moderate prosthesis-patient mismatch (PPM) was less frequent with Myval THV series(11.3%) vs. Sapien THV series(21.8%), but higher than Evolut THV series (5.3%) (PMyval-Sapien = 0.0024, PMyval-Evolut = 0.0396), while severe PPM showed no significant differences (4.2% vs. 6.3% vs. 1.8%; PMyval-Sapien = 0.394, PMyval-Evolut = 0.2438). Rates of ≥ moderate paravalvular leak (PVL) were lower in Myval (3.5%), and Sapien (1.7%) compared with Evolut THV series (8.3%) (PMyval-Sapien = 0.3769, PMyval-Evolut = 0.0336). Myval THV series required minimal oversizing compared with Evolut THV series (P < 0.0001). CONCLUSION: The Myval THV series demonstrates short-term haemodynamic performance comparable to Evolut THV series and superior to Sapien THV series. Including intermediate sizes minimizes oversizing, underscoring its potential as an alternative for TAVI patients. Long-term follow-up is necessary to confirm these findings. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov: NCT04275726, EudraCT number 2020-000,137-40.",
+          "keyFindings": "The Myval THV series demonstrates short-term haemodynamic performance comparable to Evolut THV series and superior to Sapien THV series. Including intermediate sizes minimizes oversizing, underscoring its potential as an alternative for TAVI patients. Long-term follow-up is necessary to confirm these findings. CLINICAL TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 76,
+            "label": "Alta",
+            "rationale": "RCT publicado en European Heart Journal - Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-41669955",
+          "title": "Echocardiographic Indices of Cardiac Remodeling Following Transcatheter Edge-to-Edge Repair for Secondary Mitral Regurgitation: A Systematic Review and Meta-Analysis",
+          "journal": "Journal of the American Heart Association",
+          "authors": "Lombardi M, Basile M, Jurado-Román A, Occhipinti G, et al.",
+          "year": 2026,
+          "doi": "10.1161/JAHA.125.045616",
+          "url": "https://doi.org/10.1161/JAHA.125.045616",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Secondary mitral regurgitation is associated with adverse clinical outcomes and cardiac remodeling. While transcatheter edge-to-edge repair (TEER) improves symptoms and prognosis in selected patients, its effects on cardiac remodeling remain debated. This systematic review and meta-analysis aimed to evaluate the impact of TEER on echocardiographic indices of cardiac remodeling. METHODS: PubMed, Scopus, and Cochrane Library were used to identify relevant studies assessing echocardiographic changes before and after TEER. Outcomes of interest were left ventricular (LV) ejection fraction, global longitudinal strain, LV end-diastolic and end-systolic volumes and LV end-diastolic and end-systolic diameter, tricuspid annular plane systolic excursion, pulmonary artery systolic pressure, and left atrial end-systolic volume. RESULTS: Forty-two studies (3987 patients) were included. TEER was associated with a significant increase in LV ejection fraction (mean difference [MD], 1.51% [95% CI, 0.47-2.55]), without significant improvement in global longitudinal strain. Significant LV remodeling was observed, with reductions in LV end-diastolic volume (standardized MD, -0.26 [95% CI, -0.37 to -0.14]), LV end-systolic volume (standardized MD, -0.21 [95% CI, -0.30 to -0.12]), LV end-diastolic diameter (MD, -2.35 mm [95% CI, -3.66 to -1.04]) and left ventricular end-systolic diameter (MD, -2.30 mm [95% CI, -3.86 to -0.74). TEER also improved right ventricular function (tricuspid annular plane systolic excursion [MD, 1.29 mm [95% CI, 0.60-1.97]) and reduced pulmonary artery systolic pressure (MD, -6.75 mm Hg [95% CI, -8.53 to -4.97). No significant improvement in left atrial end-systolic volume was detected. CONCLUSIONS: Available evidence suggests that TEER promotes significant cardiac remodeling in patients with secondary mitral regurgitation.",
+          "keyFindings": "Available evidence suggests that TEER promotes significant cardiac remodeling in patients with secondary mitral regurgitation.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of the American Heart Association con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-valvulopatias-41984459",
+          "title": "Myocardial Fibrosis and Early Intervention in Asymptomatic Patients With Severe Aortic Stenosis: Insights From the EVOLVED Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Craig NJ, Loganath K, Everett RJ, Bing R, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.0654",
+          "url": "https://doi.org/10.1001/jamacardio.2026.0654",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Myocardial fibrosis burden has been associated with adverse clinical outcomes in symptomatic patients with aortic stenosis. OBJECTIVE: To determine whether midwall myocardial fibrosis burden is associated with adverse clinical outcomes in asymptomatic patients and whether those with more fibrosis derive greater benefit from early intervention. DESIGN, SETTING, AND PARTICIPANTS: This post hoc analysis of a randomized clinical trial was conducted between August 2017 and October 2022. The trial took place at 24 cardiac centers across the United Kingdom and Australia. Participants included asymptomatic patients with severe aortic stenosis and midwall fibrosis on cardiac magnetic resonance. These data were analyzed from October 2024 through June 2025. INTERVENTION: Early intervention with transcatheter or surgical aortic valve replacement. MAIN OUTCOMES AND MEASURES: Primary outcome was all-cause death or unplanned aortic stenosis-related hospitalization. Secondary outcomes included the individual components of the primary outcome. RESULTS: In 224 trial participants (mean [SD] age, 73 [9] years; 63 women and 161 men, and mean [SD] aortic valve peak velocity 4.3 [0.5] m per second) with a median follow-up of 42 months, fibrosis burden (per 1% increase) was associated with an increase in the primary end point (hazard ratio [HR], 1.23; 95% CI, 1.08-1.37) and its component of unplanned aortic stenosis-related hospitalizations (HR, 1.22; 95% CI, 1.03-1.40) but not all-cause death (HR, 1.17; 95% CI, 0.98-1.35). There were no interactions between randomization arm and the midwall fibrosis burden for the primary (P for interaction = .39) or secondary end points. In patients with high fibrosis burden above the median, the primary end point occurred in 12 of 59 (20%) of those randomized to early intervention and 17 of 53 (32%) of those randomized to guideline-directed conservative management (HR, 0.62; 95% CI, 0.29-1.28). For the individual components, all-cause death occurred in 9 (15%) and 10 (19%) patients, respectively (HR, 0.84; 95% CI, 0.33-2.07), and unplanned aortic stenosis-related hospitalization in 4 (7%) and 13 (25%) patients respectively (HR, 0.27; 95% CI, 0.08-0.77). In patients with low fibrosis burden below the median, there were no differences in the primary outcome (HR, 1.05; 95% CI, 0.39-2.86) or its components between intervention groups. CONCLUSIONS AND RELEVANCE: In this study, in asymptomatic patients with severe aortic stenosis, higher midwall fibrosis burden was associated with adverse outcomes. There was no demonstrable heterogeneity by the degree of midwall fibrosis for the treatment effects of early surgical or transcatheter aortic valve replacement compared to clinical surveillance. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT03094143.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this study, in asymptomatic patients with severe aortic stenosis, higher midwall fibrosis burden was associated with adverse outcomes.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         }
       ]
@@ -651,6 +1335,120 @@
             "label": "Alta",
             "rationale": "RCT publicado en Nature Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
+        },
+        {
+          "id": "yr-miocardiopatias-41205147",
+          "title": "Efficacy of Acoramidis in Wild-Type and Variant Transthyretin Amyloid Cardiomyopathy: Results From ATTRibute-CM and Its Open-Label Extension",
+          "journal": "JAMA Cardiology",
+          "authors": "Alexander KM, Davis MK, Akinboboye O, Berk J, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2025.4477",
+          "url": "https://doi.org/10.1001/jamacardio.2025.4477",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM), a progressive disease caused by misfolded transthyretin (TTR), occurs as wild-type (ATTRwt-CM) or variant (ATTRv-CM) forms. p.Val142Ile is the most common variant in the US, linked to rapid progression and increased mortality. Acoramidis achieves near-complete (≥90%) TTR stabilization and showed clinical benefit in the 30-month ATTRibute-CM trial and through month 42 in the ongoing open-label extension (OLE). OBJECTIVE: To evaluate the efficacy of acoramidis in ATTRwt-CM, ATTRv-CM, and variant subgroups (p.Val142Ile and non-p.Val142Ile). DESIGN, SETTING, AND PARTICIPANTS: This international, multicenter, phase 3, randomized placebo-controlled study took place from April 2019 to May 2023 with ongoing OLE (month 42). ATTRibute-CM enrolled 632 participants with ATTR-CM; 611 of 632 were included in the modified intention-to-treat (mITT) population. There were 380 participants who continued into the OLE. These data were analyzed from January 2025 to July 2025. INTERVENTIONS: Oral acoramidis, 712 mg, or placebo twice daily for 30 months, followed by 12 months of open-label treatment. MAIN OUTCOMES AND MEASURES: All-cause mortality (ACM), cardiovascular-related hospitalizations (CVH), serum TTR, 6-minute walk distance, Kansas City Cardiomyopathy Questionnaire Overall Summary score, and N-terminal pro B-type natriuretic peptide in participants with ATTRwt-CM and ATTRv-CM. Post-hoc analyses were conducted in variant subgroups, including p.Val142Ile. RESULTS: Overall, 552 participants with wild-type ATTR-CM (mean [SD] age, 78 [6.3] years; 92.0% male and 8.0% female) and 59 participants with variant ATTR-CM (mean [SD] age, 73 [7.7] years; 77.3% male and 22.7% female) were randomized (mITT population), including 35 with p.Val142Ile. Consistent efficacy was observed in wild-type and variant subgroups for ACM/CVH through month 30 and ACM through month 42. At month 30, acoramidis reduced the risk of ACM/first CVH vs placebo by 31% in ATTRwt-CM (hazard ratio [HR], 0.69; 95% CI, 0.52-0.90; P = .007) and by 59% in ATTRv-CM (HR, 0.41; 95% CI, 0.21-0.81; P = .01). ACM was reduced through month 42 with HRs of 0.70 (95% CI, 0.50-0.98; P = .04) and 0.41 (95% CI, 0.19-0.93; P = .03) in the ATTRwt-CM and ATTRv-CM groups, respectively. Consistent treatment benefit was observed in participants with ATTRwt-CM and ATTRv-CM for secondary end points. Within variant subgroups (p.Val142Ile vs non-p.Val142Ile), consistent treatment benefits were observed for ACM/CVH through month 30 and ACM through month 42. CONCLUSIONS AND RELEVANCE: The beneficial effect of acoramidis was observed consistently in ATTRwt-CM and ATTRv-CM groups. These hypothesis-generating results indicate that further studies are warranted to better characterize the therapeutic benefit of acoramidis in variant subgroups. TRIAL REGISTRATION: ClinicalTrials.gov Identifiers: NCT03860935; NCT04988386.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: The beneficial effect of acoramidis was observed consistently in ATTRwt-CM and ATTRv-CM groups.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-miocardiopatias-41911489",
+          "title": "Long-Term Durability of Acoramidis Efficacy in Transthyretin Amyloid Cardiomyopathy: Open-Label Extension of the ATTRibute-CM Randomized Clinical Trial",
+          "journal": "JAMA Cardiology",
+          "authors": "Soman P, Cuddy SAM, Gillmore JD, Sarswat N, et al.",
+          "year": 2026,
+          "doi": "10.1001/jamacardio.2026.0819",
+          "url": "https://doi.org/10.1001/jamacardio.2026.0819",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a progressive disorder caused by destabilization of serum transthyretin (sTTR). Acoramidis, an approved therapy that achieves near-complete (≥90%) sTTR stabilization, demonstrated clinical benefit through month 30 in ATTRibute-CM, which was incremental through month 42 in the open-label extension (OLE); however, the longer-term durability of outcomes has not been reported. OBJECTIVE: To evaluate the long-term efficacy and safety of acoramidis through month 54. DESIGN, SETTING, AND PARTICIPANTS: This OLE of the ATTRibute-CM randomized clinical trial is an international, multicenter, ongoing OLE study. Data accumulated between October 2021 and April 2025 through month 24 of the OLE (month 54) are reported. Participants (aged 18-90 years) who completed ATTRibute-CM and met the OLE eligibility criteria were invited to enroll in the OLE. Data were analyzed from May 2025 through November 2025. INTERVENTIONS: All OLE participants received open-label oral acoramidis, 800 mg, twice daily. Acoramidis recipients from ATTRibute-CM continued therapy (continuous acoramidis) and placebo recipients switched to acoramidis (placebo to acoramidis). MAIN OUTCOMES AND MEASURES: The primary outcome was time to event for all-cause mortality (ACM), cardiovascular-related mortality (CVM), and first cardiovascular hospitalization (CVH), which was assessed for both groups. Biomarkers of disease progression (N-terminal pro-B-type natriuretic peptide [NT-proBNP]), sTTR, functional capacity (6-minute walk distance [6MWD]), and heart failure-related health status (Kansas City Cardiomyopathy Questionnaire-Overall Summary [KCCQ-OS] score) were analyzed. RESULTS: In ATTRibute-CM, 632 participants were randomized to receive acoramidis (n = 421) or placebo (n = 211); mean (SD) age was 77.3 (6.6) years, and 62 participants (9.8%) were female. Overall, 389 participants enrolled in the OLE (263 in the continuous acoramidis group; 126 in the placebo-to-acoramidis group). Continuous acoramidis treatment reduced risks of ACM (hazard ratio [HR], 0.55; 95% CI, 0.42-0.74; P < .001) and CVM (HR, 0.51; 95% CI, 0.36-0.71; P < .001) through month 54, with consistent efficacy across all prespecified subgroups. Continuous acoramidis reduced time to first CVH (HR, 0.53; 95% CI, 0.42-0.69; P < .001) through month 54. Through month 54, continuous acoramidis stabilized increases in NT-proBNP, sustained higher sTTR levels, and stabilized KCCQ-OS score and 6MWD. Switching from placebo to acoramidis at month 30 was associated with stabilization of NT-proBNP and KCCQ-OS score and improvements in sTTR and 6MWD through month 54. No new long-term safety concerns were identified. CONCLUSIONS AND RELEVANCE: In this OLE of the ATTRibute-CM randomized clinical trial, early and continuous acoramidis treatment resulted in sustained incremental reductions in ACM, CVM, and first CVH through month 54. These findings support the importance of early and continuous long-term treatment with acoramidis in ATTR-CM. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04988386.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this OLE of the ATTRibute-CM randomized clinical trial, early and continuous acoramidis treatment resulted in sustained incremental reductions in ACM, CVM, and first CVH through month 54.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-miocardiopatias-40285763",
+          "title": "Concomitant Aficamten and Disopyramide in Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+          "journal": "JACC: Heart Failure",
+          "authors": "Masri A, Maron MS, Abraham TP, Nassif ME, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jchf.2025.03.008",
+          "url": "https://doi.org/10.1016/j.jchf.2025.03.008",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Disopyramide, used in obstructive hypertrophic cardiomyopathy (oHCM) for its negative inotropic properties mediated by its reduction in cytosolic calcium, has been recommended for decades as an option to relieve resistant obstruction. Aficamten is a selective cardiac myosin inhibitor that reduces hypercontractility directly by reducing myosin-actin interaction. OBJECTIVES: This study aims to investigate the safety and efficacy of concomitant use and withdrawal of disopyramide in patients with symptomatic oHCM receiving aficamten. METHODS: Patients with oHCM enrolled in REDWOOD-HCM Cohort 3 (open-label), SEQUOIA-HCM (placebo-controlled), and FOREST-HCM (open-label) were analyzed. The authors identified 4 groups, each with patients symptomatic despite background therapy with disopyramide who received: 1) disopyramide plus aficamten and subsequent aficamten withdrawal per protocol (Diso-Afi Withdrawal); 2) disopyramide plus placebo (Diso-Pbo); 3) aficamten plus disopyramide with subsequent disopyramide withdrawal (Afi-Diso Withdrawal); and 4) continued both disopyramide and aficamten (Diso+Afi Continuous). Assessments were performed at baseline, after aficamten or placebo add-on therapy, and after washout (except at week 24 for Diso+Afi Continuous group). RESULTS: Overall, 50 unique patients from 3 trials enrolled, resulting in 93 subjects (segments) across 4 groups: Diso-Afi Withdrawal (n = 29), Diso-Pbo (n = 20), Afi-Diso Withdrawal (n = 17), and Diso+Afi Continuous (n = 27); mean disopyramide dose was 331 ± 146 mg/d. The addition of aficamten to disopyramide alleviated left ventricular outflow tract (LVOT) obstruction (resting: change [Δ] in least squares mean -27.0 ± 3.6, Valsalva: Δ least squares mean -39.2 ± 5.0, both P < 0.0001), symptoms (≥1 NYHA functional class improvement: 77.8% [95% CI: 61.0-94.5]; P < 0.0001; Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score: 12.3 ± 3.3 [P < 0.001]), and reduced N-terminal pro-B-type natriuretic peptide ratio: 0.35 [95% CI: 0.26-0.48]; P < 0.0001, and there was no significant change with placebo. Withdrawal of aficamten while on disopyramide resulted in return of LVOT obstruction, worsening of symptoms, and increase in NT-proBNP to baseline values. Conversely, withdrawal of disopyramide while on aficamten did not impact efficacy. There were no safety events associated with aficamten or disopyramide withdrawal, and no episodes of atrial fibrillation after disopyramide withdrawal. CONCLUSIONS: In this cohort of patients with symptomatic oHCM with persistent LVOT obstruction, combination therapy with aficamten and disopyramide was safe and well tolerated but did not enhance clinical efficacy vs aficamten alone. For such oHCM patients, aficamten treatment may be considered with an option to discontinue disopyramide. (Dose-finding Study to Evaluate the Safety, Tolerability, PK, and PD of CK-3773274 in Adults With HCM [REDWOOD-HCM]; NCT04219826) (Aficamten vs Placebo in Adults With Symptomatic Obstructive Hypertrophic Cardiomyopathy [SEQUOIA-HCM]; NCT05186818) (Open-label Extension Study to Evaluate the Long-term Safety and Tolerability of Aficamten in Adults With HCM [FOREST-HCM]; NCT04848506).",
+          "keyFindings": "In this cohort of patients with symptomatic oHCM with persistent LVOT obstruction, combination therapy with aficamten and disopyramide was safe and well tolerated but did not enhance clinical efficacy vs aficamten alone. For such oHCM patients, aficamten treatment may be considered with an option to discontinue disopyramide. (Dose-finding Study to Evaluate the Safety, Tolerability, PK, and PD of CK-3773274 in Adults With HCM [REDWOOD-HCM]; NCT04219826) (Aficamten vs Placebo in Adults With Sympto",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 72,
+            "label": "Alta",
+            "rationale": "RCT publicado en JACC: Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-miocardiopatias-42104840",
+          "title": "Rationale and Design of CARDIO-TTRansform, a Phase 3 Trial of Eplontersen in Transthyretin Amyloid Cardiomyopathy",
+          "journal": "Circulation: Heart Failure",
+          "authors": "Masri A, Cappelli F, Davis MK, Fontana M, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCHEARTFAILURE.126.014205",
+          "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.126.014205",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Transthyretin amyloidosis with cardiomyopathy is a progressive, fatal disease characterized by deposition of extracellular misfolded transthyretin (TTR) in the myocardium. Eplontersen is an N-acetylgalactosamine ligand-conjugated antisense oligonucleotide targeting hepatocyte TTR messenger RNA to reduce the production of circulating TTR. METHODS: CARDIO-TTRansform is a Phase 3, randomized, double-blind, placebo-controlled trial to assess the efficacy and safety of eplontersen in transthyretin amyloidosis with cardiomyopathy. Key inclusion criteria include histological evidence of amyloid deposits or grade 2 to 3 cardiac uptake on cardiac scintigraphy in the absence of plasma cell dyscrasia, New York Heart Association class I-III, and end-diastolic interventricular septum thickness >12 millimeters. Participants were randomized 1:1 to receive eplontersen 45 mg or placebo, administered subcutaneously every 4 weeks for up to 140 weeks, followed by a 20-week post-treatment evaluation period or open-label extension. Participants received locally available standard of care, including unrestricted use of TTR stabilizers. The primary end point is a composite of cardiovascular mortality and recurrent clinical cardiovascular events through 140 weeks. Secondary end points, in order of testing hierarchy, include changes from baseline in 6-minute walk distance and Kansas City Cardiomyopathy Questionnaire overall summary score, recurrent cardiovascular events, all-cause mortality, the primary end point in the patient subgroup receiving stabilizers at baseline, and cardiovascular mortality. Echocardiography was performed in all participants, with cardiovascular magnetic resonance imaging and technetium scintigraphy in a subset. CONCLUSIONS: CARDIO-TTRansform is fully enrolled, with 1432 randomized participants who were dosed with study drug or placebo. As the largest transthyretin amyloidosis with cardiomyopathy study to date, it will evaluate whether eplontersen improves cardiovascular outcomes in patients receiving locally available standard of care, including TTR stabilizers. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT04136171. URL: http://ClinicalTrialsRegister.eu; Unique identifier: EudraCT number 2019-002835-27.",
+          "keyFindings": "CARDIO-TTRansform is fully enrolled, with 1432 randomized participants who were dosed with study drug or placebo. As the largest transthyretin amyloidosis with cardiomyopathy study to date, it will evaluate whether eplontersen improves cardiovascular outcomes in patients receiving locally available standard of care, including TTR stabilizers.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Circulation: Heart Failure — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-miocardiopatias-41205225",
+          "title": "Effect of Aficamten in Women Compared With Men With Obstructive Hypertrophic Cardiomyopathy in SEQUOIA-HCM",
+          "journal": "Circulation: Heart Failure",
+          "authors": "Wang X, Pabon MA, Makuvire TT, Maimaiti R, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCHEARTFAILURE.125.013918",
+          "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.125.013918",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Women with obstructive hypertrophic cardiomyopathy often present with a greater burden of disease and worse prognosis. Whether there are sex-related differences in response to aficamten is unknown. METHODS: We performed a prespecified subgroup analysis of sex differences in the double-blind, randomized-controlled SEQUOIA-HCM trial (Safety, Efficacy and Quantitative Understanding of Obstruction Impact of Aficamten in HCM) of aficamten versus placebo in patients with obstructive hypertrophic cardiomyopathy. Baseline characteristics were compared using the t test for continuous variables and the χ2 test for categorical variables. Prespecified primary (change in peak oxygen uptake) and secondary end points from baseline to end of treatment (week 24) were analyzed using linear regression models, adjusted for baseline values, β-blocker use, and exercise mode. RESULTS: Of the 282 participants, women (n=115) were older (64 years in women versus 56 years in men) and had lower Kansas City Cardiomyopathy Questionnaire Clinical Summary Score, higher NT-proBNP (N-terminal pro-B-type natriuretic peptide) levels, and lower peak oxygen uptake at baseline. Women had smaller left ventricular chamber sizes, higher E/e' ratios, and higher left ventricular outflow tract gradients. At 24 weeks, there was a significant treatment-related increase in peak oxygen uptake in women (+1.5 [+0.7 to +2.4]) and men (+2.0 [+0.9 to +3.0]). Both women and men had significant treatment-related decreases in left ventricular outflow tract gradients at rest and with Valsalva, with no sex-by-treatment interaction at week 24 (Pinteraction≥0.13). There was a significant improvement in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score in women (11 [6-15]) and men (6 [2-9]; Pinteraction=0.08). Women had a greater reduction in lateral E/e' ratio (Pinteraction=0.01). The geometric mean proportional reduction in NT-proBNP was similar in women and men (Pinteraction=0.10). CONCLUSIONS: Women enrolled in SEQUOIA-HCM were older with worse baseline health status, higher NT-proBNP, and higher left ventricular outflow tract gradients compared with men. Despite these differences, both men and women derived significant benefits in the primary and secondary end points following treatment with aficamten.",
+          "keyFindings": "Women enrolled in SEQUOIA-HCM were older with worse baseline health status, higher NT-proBNP, and higher left ventricular outflow tract gradients compared with men. Despite these differences, both men and women derived significant benefits in the primary and secondary end points following treatment with aficamten.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Circulation: Heart Failure — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-miocardiopatias-40488446",
+          "title": "Long-term efficacy of tafamidis in patients with transthyretin amyloid cardiomyopathy by National Amyloidosis Centre stage",
+          "journal": "European Journal of Heart Failure",
+          "authors": "Damy T, Wang R, Maurer MS, Gillmore JD, et al.",
+          "year": 2025,
+          "doi": "10.1002/ejhf.3696",
+          "url": "https://doi.org/10.1002/ejhf.3696",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "AIMS: Tafamidis is an approved treatment for patients with transthyretin amyloid cardiomyopathy (ATTR-CM) based on the 30-month Tafamidis in Transthyretin Cardiomyopathy Clinical Trial (ATTR-ACT). This post-hoc analysis evaluated outcomes in ATTR-ACT and its long-term extension study (LTE) by baseline National Amyloidosis Centre (NAC) stage. METHODS AND RESULTS: Patients received either the approved dose of tafamidis 80 mg or placebo in ATTR-ACT and tafamidis in the LTE. All-cause and cardiovascular (CV)-related mortality, CV-related hospitalizations, and Kansas City Cardiomyopathy Questionnaire overall summary and clinical summary (KCCQ-OS/CS) scores were assessed up to 90 months of follow-up. Of 353 patients, 350 were evaluable for NAC staging. At baseline, 42%, 38%, and 20% were NAC stage I, II, and III, respectively. At the end of study, all-cause mortality was lower in the continuous tafamidis versus placebo to tafamidis groups at NAC stages I (36% vs. 61%; hazard ratio [HR] 0.43, p < 0.001) and II (55% vs. 74%; HR 0.51, p = 0.003); with a numerical trend at stage III (69% vs. 88%; HR 0.75, p = 0.298). Survival curves diverged early in patients at NAC stage I, but later at higher stages. Similar patterns were observed for CV-related mortality. Continuous tafamidis versus placebo to tafamidis groups at NAC stages I/II had lower CV-related hospitalization rates and frequently smaller declines in KCCQ-OS/CS scores over follow-up; with favourable trends at stage III. CONCLUSIONS: Tafamidis treatment reduced the risk of mortality and hospitalization in patients with NAC stages I/II ATTR-CM, with favourable trends at stage III. This illustrates the importance of early diagnosis and initiation of disease-modifying therapy. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov, NCT01994889, NCT02791230.",
+          "keyFindings": "Tafamidis treatment reduced the risk of mortality and hospitalization in patients with NAC stages I/II ATTR-CM, with favourable trends at stage III. This illustrates the importance of early diagnosis and initiation of disease-modifying therapy. CLINICAL TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en European Journal of Heart Failure — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
         }
       ]
     },
@@ -733,6 +1531,101 @@
             "score": 75,
             "label": "Alta",
             "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-imagen-40652576",
+          "title": "Cardiac Magnetic Resonance Imaging vs Coronary Angiography as Primary Strategy in Newly Diagnosed Heart Failure",
+          "journal": "JACC: Heart Failure",
+          "authors": "Güder G, Reiter T, Bauer WR, Papavassiliu T, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jchf.2025.102528",
+          "url": "https://doi.org/10.1016/j.jchf.2025.102528",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: New-onset heart failure with reduced ejection fraction (HFrEF) requires further diagnostic evaluation to determine its underlying cause. Despite the potential of cardiac magnetic resonance (CMR) imaging to identify ischemic and nonischemic causes, percutaneous invasive coronary angiography (CATH) remains the preferred tool for diagnosing ischemic cardiomyopathy (ICM). OBJECTIVES: This study aimed to determine whether a CMR-first strategy could diagnose ICM as effectively as CATH (primary endpoint) and potentially reduce the number of invasive procedures (secondary endpoint). METHODS: In this multicenter 2-armed diagnostic trial (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure), 229 adults with new-onset HFrEF were randomized to undergo CMR or CATH first and the other modality second. Separate expert panels evaluated both modalities, blinded to each other's results. The cardiologist-in-charge was blinded to the panel results and served as the reference standard. RESULTS: A total of 203 patients (mean age: 62 ± 14 years, 28% women) had evaluable pairs of diagnostic modalities (108 CATH-first). For diagnosing ICM, the panels considered CATH to be sufficient in 100% (105/105) and CMR in 80% (76/95; P < 0.001). Compared with the reference, sensitivity for diagnosing ICM was high for both (CATH 91%, CMR 90%; P = 1.00), but CMR had lower specificity (98% vs 74%; P < 0.001). According to the CMR panel, 48% (46/95) of CATH procedures could have been avoided with a CMR-first strategy, dropping to 45% when excluding patients who underwent coronary interventions. CONCLUSIONS: Although CATH was superior for diagnosing ICM, CMR showed similar sensitivity and could significantly reduce CATH procedures without increasing the risk of missing critical coronary interventions. Longitudinal studies are needed to assess whether a CMR-first strategy confers prognostic benefit. (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure; ISRCTN16515058).",
+          "keyFindings": "Although CATH was superior for diagnosing ICM, CMR showed similar sensitivity and could significantly reduce CATH procedures without increasing the risk of missing critical coronary interventions. Longitudinal studies are needed to assess whether a CMR-first strategy confers prognostic benefit. (Magnetic Resonance Imaging vs Invasive Coronary Angiography as First-Line Diagnostic Modality in New-Onset Heart Failure; ISRCTN16515058).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 72,
+            "label": "Alta",
+            "rationale": "RCT publicado en JACC: Heart Failure con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "yr-imagen-40923950",
+          "title": "Outcomes of Left Atrial Appendage Patency After Device Closure Detected by Cardiac CT: A Meta-Analysis",
+          "journal": "JACC: Cardiovascular Imaging",
+          "authors": "Jacquemyn X, Sá MP, Korsholm K, Nielsen-Kudsk JE, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jcmg.2025.07.018",
+          "url": "https://doi.org/10.1016/j.jcmg.2025.07.018",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Residual leaks are common after left atrial appendage occlusion (LAAO). OBJECTIVES: The authors aimed to systematically evaluate the prognostic implications of residual left atrial appendage (LAA) patency and peridevice leaks (PDLs) detected by cardiac computed tomography (CT) following LAAO. METHODS: The authors used traditional meta-analytical methods and a Bayesian framework to assess the probability of increased risks associated with these residual leaks. RESULTS: Seventeen studies encompassing 2,036 patients met the inclusion criteria. During follow-up, the presence of any LAA patency was significantly associated with an almost 2-fold increased OR of thromboembolism (pooled OR: 1.87, 95% CI: 1.08-3.24), corresponding to 28 (95% CI: 3-68) additional events per 1,000 patients. Although PDL showed a similar trend, it was not significantly associated with increased thromboembolism risk (pooled OR: 1.50, 95% CI: 0.85-2.65). For thromboembolism with LAA patency, under a noninformative prior, the mean logOR was 0.59 (95% credible interval [Crl]: 0.06-1.15), and translated median OR of 1.87 (95% CrI: 1.06-3.14) and a mean absolute risk difference (ARD) of 2.8% (95% CrI: 0.2%-6.8%). The posterior probability of ARD >0% was 98.5%. For any PDL, the mean logOR was 0.38 (95% CrI: -0.22 to 0.95), with a median OR of 1.53 (95% CrI: 0.80-2.59) and mean ARD of 1.9% (95% CrI: -0.7% to 5.4%). The posterior probability of ARD >0% was 89.8%. CONCLUSIONS: LAA patency and PDL identified by CT may be associated with an increased risk of thromboembolism. These findings indicate that residual leaks detected by CT may be clinically significant and should not be regarded as benign.",
+          "keyFindings": "LAA patency and PDL identified by CT may be associated with an increased risk of thromboembolism. These findings indicate that residual leaks detected by CT may be clinically significant and should not be regarded as benign.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "Meta-análisis en JACC: Cardiovascular Imaging — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-imagen-41258851",
+          "title": "Phase I Randomized Study of Cardiac Stem Cells in Patients With Hypoplastic Left Heart Syndrome: The CHILD Trial",
+          "journal": "JACC: Heart Failure",
+          "authors": "Kaushal S, Hare JM, Mahle WT, Khan A, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jchf.2025.102723",
+          "url": "https://doi.org/10.1016/j.jchf.2025.102723",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Hypoplastic left heart syndrome (HLHS) requires a series of 3-staged palliative operations, in which the right ventricle (RV) assumes systemic circulation under increased pressure-overload conditions. These patients have a shortened lifespan, often due to RV dysfunction. Neonatal cardiac progenitor cells (nCPCs) improve RV performance in animal models of pressure overload-induced RV dysfunction, as is experienced by HLHS patients. OBJECTIVES: The authors conducted a phase 1 trial to assess the impact of autologous nCPCs injected into the RV myocardium during stage 2 operation. The primary endpoints were safety and feasibility, with efficacy assessed by evaluating RV size and function over a 1-year period. METHODS: The study enrolled HLHS patients in 2 groups. Group A consisted of 9 consecutive patients who received nCPC injections during their stage 2 operation. Group B involved a multicenter, randomized, double-blind trial comparing nCPC injections (n = 8) to standard-of-care (SOC) treatment (n = 8). The treatment arm received nCPC injections into the RV myocardium. All caregivers and cores except the surgeon were blinded to treatment. RESULTS: The trial met its primary safety and feasibility endpoints. However, the primary efficacy endpoint-changes in RV size or function measured by cardiac magnetic resonance and echocardiography-was not achieved. Despite this, secondary outcomes indicated potential clinical benefits. In group B, the mean major adverse cardiac events rates per 100 person-days were higher in the SOC arm (0.23) compared to the nCPC arm (0.00; P = 0.013) after stage 2 operation. The total 1-year in-hospital length of stay due to cardiac and vascular diseases was 15 days and 2 days per 100 person-days for the SOC and nCPC arms, respectively (P = 0.035). Mechanistic studies revealed that, on average, patients in the nCPC arm exhibited noticeable increases from baseline in plasma levels of VEGFC, VEGFD, TNF-α, and monocyte chemotactic protein-1 compared to the SOC arm by postoperative day 5, though the differences were not statistically significant after false discovery rate adjustment. Whereas subject numbers were insufficient to show significance for the composite endpoint of death or listed for transplantation for group B, when combining both groups A and B, no events were seen in the combined nCPC arms and 3 events were in the SOC arm (log-rank P = 0.005). CONCLUSIONS: Injecting nCPCs into the RV during the stage 2 operation for HLHS patients appears to be safe but does not improve RV function. These findings warrant the initiation of a phase 2 trial. (The CHILD Trial: Hypoplastic Left Heart Syndrome Study [CHILD]; NCT03406884).",
+          "keyFindings": "for the composite endpoint of death or listed for transplantation for group B, when combining both groups A and B, no events were seen in the combined nCPC arms and 3 events were in the SOC arm (log-rank P = 0.005).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en JACC: Heart Failure — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-imagen-40778900",
+          "title": "General Purpose Deep Learning Attenuation Correction Improves Diagnostic Accuracy of SPECT MPI: A Multicenter Study",
+          "journal": "JACC: Cardiovascular Imaging",
+          "authors": "Shanbhag AD, Miller RJH, Lemley M, Kavanagh P, et al.",
+          "year": 2025,
+          "doi": "10.1016/j.jcmg.2025.06.010",
+          "url": "https://doi.org/10.1016/j.jcmg.2025.06.010",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Single-photon emission computed tomography (SPECT) myocardial perfusion imaging (MPI) uses computed tomography (CT)-based attenuation correction (AC) to improve diagnostic accuracy. Deep learning (DL) has the potential to generate synthetic AC images, as an alternative to CT-based AC. OBJECTIVES: This study evaluated whether DL-generated synthetic SPECT images could enhance accuracy of conventional SPECT MPI. METHODS: Study investigators developed a DL model in a multicenter cohort of 4,894 patients from 4 sites to generate simulated SPECT AC images (DeepAC). The model was externally validated in 746 patients from 72 sites in a clinical trial (A Phase 3 Multicenter Study to Assess PET Imaging of Flurpiridaz F 18 Injection in Patients With CAD; NCT01347710) and in 320 patients from another external site. In the first external cohort, the study assessed the diagnostic accuracy for obstructive coronary artery disease (CAD)-defined as left main coronary artery stenosis ≥50% or ≥70% in other vessels-for total perfusion deficit (TPD). In the latter, the study completed change analysis and compared quantitative scores for AC, DeepAC, and nonattenuation correction (NC) with clinical scores. RESULTS: In the first external cohort (mean age, 63 ± 9.5 years; 69.0% male), 206 patients (27.6%) had obstructive CAD. The area under the receiver-operating characteristic curve (AUC) of DeepAC TPD (0.77; 95% CI: 0.73-0.81) was higher than the NC TPD (AUC: 0.73; 95% CI: 0.69-0.77; P < 0.001). In the second external cohort, DeepAC quantitative scores had closer agreement with actual AC scores compared with NC. CONCLUSIONS: In a multicenter external cohort, DeepAC improved prediction performance for obstructive CAD. This approach could enhance diagnostic accuracy in facilities using conventional SPECT systems without requiring additional equipment, imaging time, or radiation exposure.",
+          "keyFindings": "In a multicenter external cohort, DeepAC improved prediction performance for obstructive CAD. This approach could enhance diagnostic accuracy in facilities using conventional SPECT systems without requiring additional equipment, imaging time, or radiation exposure.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en JACC: Cardiovascular Imaging — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-imagen-40394720",
+          "title": "Cardiac imaging in patients with tropical diseases-a scientific statement of the European Association of Cardiovascular Imaging (EACVI) of the European Society of Cardiology and the Cardiovascular Imaging Department of the Brazilian Society of Cardiology (DICSBC)",
+          "journal": "European Heart Journal - Cardiovascular Imaging",
+          "authors": "Barberato SH, Cardim N, Rassi DDC, Baritussio A, et al.",
+          "year": 2025,
+          "doi": "10.1093/ehjci/jeaf154",
+          "url": "https://doi.org/10.1093/ehjci/jeaf154",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "Tropical diseases (TDs), or neglected TDs, affect over 1 billion subjects globally, primarily in impoverished regions. Despite their impact, these diseases are often overlooked on the global health agenda, with limited resources allocated to their control. TDs are caused by various pathogens, including viruses, protozoa, helminths, and bacteria. Climate change and migration have led to the spread of TDs beyond tropical regions, highlighting the need for healthcare providers worldwide to address their management. The World Health Organization has released a road map for the prevention, control, and elimination of TDs by 2030. Cardiovascular involvement in TDs, including myocarditis, pericardial disease, pulmonary hypertension, obstructions caused by cysts, myocardial ischaemia, and cardiomyopathies, complicates disease prognosis. However, cardiovascular complications of TDs are often under-recognized and understudied. This scientific statement, prepared by the European Association of Cardiovascular Imaging and the Cardiovascular Imaging Department of the Brazilian Society of Cardiology, reviews the current understanding of the use of cardiovascular imaging in TDs, underscores gaps of knowledge, and proposes potential solutions. Although limited evidence is available, cardiovascular imaging techniques are valuable in diagnosing and managing cardiac manifestations of TDs. The scientific statement addresses some of the main tropical infections today, such as dengue, malaria, schistosomiasis, and tuberculosis, but excludes Chagas disease and rheumatic fever, which have been extensively covered in other documents. When used effectively, cardiovascular imaging can potentially aid in early diagnosis, prevention of complications, and management of cardiovascular impairment due to TDs, improving healthcare systems and patient care.",
+          "keyFindings": "When used effectively, cardiovascular imaging can potentially aid in early diagnosis, prevention of complications, and management of cardiovascular impairment due to TDs, improving healthcare systems and patient care.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en European Heart Journal - Cardiovascular Imaging — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
@@ -880,6 +1773,101 @@
             "score": 63,
             "label": "Moderada",
             "rationale": "Revisión sistemática en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-agudos-41122894",
+          "title": "Part 11: Post-Cardiac Arrest Care: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+          "journal": "Circulation",
+          "authors": "Hirsch KG, Amorim E, Coppler PJ, Drennan IR, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIR.0000000000001375",
+          "url": "https://doi.org/10.1161/CIR.0000000000001375",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "Cardiac arrest is common and deadly, affecting up to 700 000 people in the United States annually. Advanced cardiac life support measures are commonly employed to improve outcomes. This 2025 guideline on adult post-cardiac arrest care from the American Heart Association summarizes the most recent published evidence for and recommendations on several important areas of post-cardiac arrest management. Based on structured evidence reviews, guidelines are provided for initial blood pressure, oxygen, ventilation, and glucose goals. Evidence evaluating the routine use of antibiotics after return of spontaneous circulation is reviewed. The update also reviews diagnostic testing modalities, temperature control goals and duration, and the use of percutaneous coronary intervention and mechanical circulatory support in the patient resuscitated from cardiac arrest. New data regarding the detection and management of seizures have been incorporated, along with updates regarding the timing and modalities used in neuroprognostication. These guidelines now differentiate prognostication for favorable versus unfavorable outcome. New sections on the utility of advanced neuromonitoring, along with definitions and treatment options for myoclonus, are included to guide the clinician. Expanded recommendations regarding how to optimize survivorship for patients, caregivers, and rescuers are reviewed. Finally, the potential role of organ donation in the patient resuscitated from cardiac arrest is reviewed.",
+          "keyFindings": "Finally, the potential role of organ donation in the patient resuscitated from cardiac arrest is reviewed.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-agudos-41122885",
+          "title": "Part 8: Pediatric Advanced Life Support: 2025 American Heart Association and American Academy of Pediatrics Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+          "journal": "Circulation",
+          "authors": "Lasa JJ, Dhillon GS, Duff JP, Hayes J, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIR.0000000000001368",
+          "url": "https://doi.org/10.1161/CIR.0000000000001368",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "The American Heart Association and the American Academy of Pediatrics provide these pediatric advanced life support guidelines focusing on resuscitation during cardiopulmonary resuscitation and emergency cardiovascular care. These guidelines are intended to be a resource for health care professionals to identify and treat infants and children up to 18 years of age (excluding newborn infants) in the prearrest, intra-arrest, and post-cardiac arrest states as well as select other emergency care situations. These guidelines apply to infants and children in various settings, including the community, prehospital environments, and hospital environments. Topics presented include ventilation and advanced airway strategies during cardiopulmonary resuscitation; drug administration and weight-based dosing of medications during cardiopulmonary resuscitation; energy doses for defibrillation; measuring cardiopulmonary resuscitation physiology and quality; extracorporeal cardiopulmonary resuscitation; post-cardiac arrest care related to management of core temperature, blood pressure, oxygenation/ventilation, neurologic monitoring, and seizures; neurological prognostication post-cardiac arrest; post-cardiac arrest survivorship; family presence during cardiopulmonary resuscitation; evaluation of sudden unexplained cardiac arrest; management of shock types; airway/intubation management; arrhythmia management including bradycardia and tachycardia (narrow and wide complex); treatment of myocarditis/cardiomyopathies; resuscitation of patients with single ventricle congenital heart disease; management of pulmonary hypertension; and management of traumatic cardiac arrest. Lastly, important gaps in resuscitation science knowledge are identified, aiming to encourage further scientific inquiry and provide additional evidence for future pediatric advanced life support guidelines.",
+          "keyFindings": "Lastly, important gaps in resuscitation science knowledge are identified, aiming to encourage further scientific inquiry and provide additional evidence for future pediatric advanced life support guidelines.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-agudos-41122889",
+          "title": "Part 10: Adult and Pediatric Special Circumstances of Resuscitation: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+          "journal": "Circulation",
+          "authors": "Cao D, Arens AM, Chow SL, Easter SR, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIR.0000000000001380",
+          "url": "https://doi.org/10.1161/CIR.0000000000001380",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "https://www.ahajournals.org/journal/circ In these guidelines, the American Heart Association provides updated guidance for resuscitation of adults and children in cardiac arrest or with a life-threatening condition due to special circumstances, including anaphylaxis, asthma, cardiac arrest in the cardiac intervention suite, cardiac arrest following cardiac surgery, drowning, electrocution, gas embolism, high-consequence respiratory pathogens, hyperkalemia, hyperthermia, hypothermia, left ventricular assist device failure, pregnancy, pulmonary embolism, and poisoning due to benzodiazepines, β-blockers, calcium channel blockers, cocaine, cyanide, digoxin and related cardiac glycosides, local anesthetic systemic toxicity, methemoglobinemia, opioids, organophosphates and carbamates, sodium channel blockers, sympathomimetics, and volatile hydrocarbons. Recommendations are also provided for alternatives to cardiopulmonary resuscitation and the use of extracorporeal membrane oxygenation for poisoned patients. Adults and children with these conditions require modification of basic life support and advanced life support. These guidelines are based on systematic evidence reviews and provide separate graded recommendations for adults and children.",
+          "keyFindings": "These guidelines are based on systematic evidence reviews and provide separate graded recommendations for adults and children.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-agudos-41122842",
+          "title": "Advanced Life Support: 2025 International Liaison Committee on Resuscitation Consensus on Science With Treatment Recommendations",
+          "journal": "Circulation",
+          "authors": "Drennan IR, Berg KM, Böttiger BW, Woon Chia Y, et al.",
+          "year": 2025,
+          "doi": "10.1161/CIR.0000000000001360",
+          "url": "https://doi.org/10.1161/CIR.0000000000001360",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "The International Liaison Committee on Resuscitation conducts continuous reviews of new, peer-reviewed published cardiopulmonary resuscitation science and publishes more comprehensive reviews every 5 years. The Advanced Life Support Task Force chapter of the 2025 International Liaison Committee on Resuscitation Consensus on Science With Treatment Recommendations addresses all resuscitation evidence reviewed by the task force in the past year, as well as brief summaries of topics reviewed since 2020, to provide a comprehensive update. Newly updated topics this year include defibrillator pad placement, mechanical cardiopulmonary resuscitation devices, mechanical circulatory support after return of spontaneous circulation, intravenous versus intraosseous access, vasopressor choice and hemodynamic targets after return of spontaneous circulation, treatment of cardiac arrest related to hyperkalemia and opioid toxicity, and neuroprotective drugs, among others. Task Force members have assessed, discussed, and debated the certainty of the evidence based on Grading of Recommendations Assessment, Development, and Evaluation criteria, and their statements include consensus treatment recommendations. Insights into the deliberations of the task force are provided in the Justification and Evidence-to-Decision Framework Highlights sections. In addition, the task force lists priority knowledge gaps for further research.",
+          "keyFindings": "In addition, the task force lists priority knowledge gaps for further research.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 63,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Circulation — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "yr-agudos-41324946",
+          "title": "Levosimendan to Facilitate Weaning From ECMO in Patients With Severe Cardiogenic Shock: The LEVOECMO Randomized Clinical Trial",
+          "journal": "JAMA",
+          "authors": "Combes A, Saura O, Nesseler N, Lebbah S, et al.",
+          "year": 2026,
+          "doi": "10.1001/jama.2025.19843",
+          "url": "https://doi.org/10.1001/jama.2025.19843",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Levosimendan may facilitate weaning from venoarterial extracorporeal membrane oxygenation (VA-ECMO) and improve survival, but supporting evidence remains limited. OBJECTIVE: To assess whether early administration of levosimendan reduces the time to successful VA-ECMO weaning in patients with severe but potentially reversible cardiogenic shock. DESIGN, SETTING, AND PARTICIPANTS: Randomized, double-blind, placebo-controlled trial conducted across 11 intensive care units (ICUs) in France. Between August 27, 2021, and September 10, 2024, 205 adult patients with acute cardiogenic shock who had started VA-ECMO in the preceding 48 hours were enrolled. Final follow-up was completed on November 10, 2024. INTERVENTIONS: Patients were randomized in a 1:1 ratio to receive levosimendan, 0.15 μg/kg per minute, to be increased to 0.20 μg/kg per minute after 2 hours (n = 101), or placebo (n = 104). MAIN OUTCOMES AND MEASURES: The primary outcome was time to successful ECMO weaning within 30 days following randomization. Secondary outcomes included ECMO-, mechanical ventilation-, and organ failure-free days, ICU and hospital lengths of stay, serious adverse events, and all-cause 30- and 60-day mortality. RESULTS: Among the 205 randomized patients (median age, 58 [IQR, 50-67] years; 149 [72.7%] male), main cardiogenic shock etiologies were postcardiotomy (79 [38.5%]), acute myocardial infarction (56 [27.3%]), and myocarditis (28 [13.7%]). Treatment dose was increased to 0.20 ± 0.01 μg/kg per minute in 93% of patients receiving levosimendan and in 96% of those receiving placebo. Within 30 days, 69 of 101 patients (68.3%) had a successful ECMO weaning in the levosimendan group compared with 71 of 104 (68.3%) in the placebo group (risk difference, 0.0% [95% CI, -12.8% to 12.7%]; subdistribution hazard ratio, 1.02 [95% CI, 0.74-1.39]; P = .92). In the levosimendan and placebo groups, respectively, median ECMO duration (5 [IQR, 4-7] days vs 6 [IQR, 4-11] days; P = .53), mean ICU length of stay (18 [SD, 15] days vs 19 [SD, 15] days; P = .42), and 60-day mortality (27.7% vs 25.0%; risk difference, 2.7% [95% CI, -9.0% to 15.3%]; P = .78) did not differ significantly. Ventricular arrhythmias occurred more frequently with levosimendan (18 [17.8%] vs 9 [8.7%]; absolute risk difference, 9.2% [95% CI, 0.4%-18.1%]). CONCLUSIONS AND RELEVANCE: Among patients with severe but potentially reversible cardiogenic shock supported by VA-ECMO, early levosimendan administration did not significantly reduce the time to successful weaning of ECMO compared with placebo. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04728932.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Among patients with severe but potentially reversible cardiogenic shock supported by VA-ECMO, early levosimendan administration did not significantly reduce the time to successful weaning of ECMO compared with placebo.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en JAMA — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]

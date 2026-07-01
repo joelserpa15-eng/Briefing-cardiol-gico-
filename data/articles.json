@@ -1,10 +1,10 @@
 {
   "month": "2026-06",
   "monthLabel": "Junio 2026",
-  "lastUpdated": "2026-06-22T21:17:19Z",
+  "lastUpdated": "2026-07-01T16:11:19Z",
   "stats": {
-    "total": 56,
-    "metaAnalysis": 9,
+    "total": 57,
+    "metaAnalysis": 11,
     "systematicReview": 6,
     "rct": 26
   },
@@ -91,6 +91,25 @@
           }
         },
         {
+          "id": "intervencionista-42264632",
+          "title": "CT-Based Risk Stratification of Coronary Obstruction During TAVR: Clinical Utility and a New Volumetric Parameter",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "Abdelhafez A, Lankisch N, Iannopollo G, Dumpies O, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2026.04.015",
+          "url": "https://doi.org/10.1016/j.jcin.2026.04.015",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Coronary obstruction (CO) during transcatheter aortic valve replacement (TAVR) is rare but potentially fatal. Computed tomography (CT)-based risk assessment algorithms aim to identify high-risk patients, but their utility remains underexplored. OBJECTIVES: The aim of this study was to examine the clinical utility of a CT-derived algorithm for predicting CO during TAVR and identify predictors of CO despite coronary protection (CP). METHODS: In this prospective study, 164 patients at risk for CO during TAVR were enrolled. Preprocedural CT was used to classify risk using a published algorithm. A novel volumetric parameter, valve-to-coronary volume (VTCV), was calculated in high-risk cases using sinus width and valve-to-coronary (VTC) distance. The decision to use CP was left to the heart team. Clinical endpoints followed Valve Academic Research Consortium 3 definitions. RESULTS: According to the CT-based algorithm, 58.5% of patients (96 of 164) were at low risk, 24.4% (40 of 164) at intermediate risk, and 17.1% (28 of 164) at high risk. CP was performed in 12.8% of low-risk patients (16 of 125), 52.8% of intermediate-risk patients (28 of 53), and 93.9% of high-risk patients (31 of 33). All CO events (n = 7) occurred in the high-risk group. VTC distance and VTCV were significantly lower in patients with CO (P = 0.006 and P = 0.005, respectively). VTCV independently predicted CO (area under the curve, 0.841; 95% CI: 0.702-0.979; P < 0.001), outperforming VTC distance alone. The predictive value of VTCV was validated in an external cohort including 11 European centers. CONCLUSIONS: A CT-based algorithm stratifies patients into 3 CO risk categories, though the decision for CP in clinical practice seems to incorporate additional clinical and procedural variables. Although CP reduces CO risk, its efficacy is limited in patients with very small VTCV, which can be predicted preprocedurally via CT. (Leipzig TAVR Registry; NCT05015452).",
+          "keyFindings": "A CT-based algorithm stratifies patients into 3 CO risk categories, though the decision for CP in clinical practice seems to incorporate additional clinical and procedural variables. Although CP reduces CO risk, its efficacy is limited in patients with very small VTCV, which can be predicted preprocedurally via CT. (Leipzig TAVR Registry; NCT05015452).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
+          }
+        },
+        {
           "id": "intervencionista-42264634",
           "title": "Leaflet Splitting to Prevent TAVR-Induced Coronary Obstruction in Stented vs Stentless Surgical Bioprosthetic Valves",
           "journal": "JACC: Cardiovascular Interventions",
@@ -102,25 +121,6 @@
           "evidenceRank": 4,
           "abstract": "BACKGROUND: Transcatheter electrosurgical leaflet splitting prevents coronary artery obstruction (CAO) following transcatheter aortic valve replacement (TAVR), particularly in valve-in-valve interventions. Morphologic and fluoroscopic differences between stented and stentless valves may affect outcomes, but comparative data are limited. OBJECTIVES: The aim of this study was to compare procedural characteristics and outcomes of BASILICA (bioprosthetic or native aortic scallop intentional laceration to prevent iatrogenic CAO) and TAVR in stented vs stentless surgical bioprosthetic valves. METHODS: A total of 131 patients undergoing BASILICA and valve-in-valve TAVR from the multicenter EURO-BASILICA registry were included. Patients were stratified by valve type (stented vs stentless), and outcomes were described according to Valve Academic Research Consortium 3 recommendations. RESULTS: Overall, 115 patients (87.8%) had stented valves and 16 (12.2%) had stentless valves. Risk for CAO was comparable, but stentless valves had longer leaflets (17.0 vs 14.0 mm; P < 0.001). Procedures in stentless valves required more contrast medium (174.0 vs 91.0 mL; P < 0.001) and longer fluoroscopy (61.7 vs 41.0 min; P = 0.023) and showed a trend toward longer procedure time. Technical success was similar, but stentless valves were associated with a significantly higher rate of target leaflet-related CAO (44.4% vs 7.1%; P < 0.001), which was mainly partial and non-flow-limiting (33.3% vs 3.9%; P < 0.001). In-hospital complications and 30-day outcomes were similar. No late CAO or myocardial infarction occurred during 1-year follow-up. CONCLUSIONS: BASILICA is technically feasible for both stented and stentless valves. However, stentless valves had a higher rate of partial CAO after BASILICA and TAVR and may therefore require additional or alternative coronary artery protection measures in selected patients.",
           "keyFindings": "BASILICA is technically feasible for both stented and stentless valves. However, stentless valves had a higher rate of partial CAO after BASILICA and TAVR and may therefore require additional or alternative coronary artery protection measures in selected patients.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
-          }
-        },
-        {
-          "id": "intervencionista-42219979",
-          "title": "Early outcomes of redo-TAVI with the SAPIEN 3 platform: the prospective, multicentre ReTAVI registry",
-          "journal": "EuroIntervention",
-          "authors": "Tarantini G, Fovino LN, Alvarez Covarrubias HA, Wolny R, et al.",
-          "year": 2026,
-          "doi": "10.4244/EIJ-D-25-01268",
-          "url": "https://doi.org/10.4244/EIJ-D-25-01268",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Transcatheter aortic valve implantation (TAVI) is increasingly performed in younger and lower-risk patients. Since many of these patients will outlive their transcatheter heart valve (THV), redo-TAVI procedures are expected to rise in number. Yet, real-world evidence on the procedural safety and efficacy of redo-TAVI remains limited. AIMS: We aimed to evaluate the 30-day procedural and clinical outcomes of redo-TAVI using the balloon-expandable SAPIEN 3 platform. METHODS: The ReTAVI registry is a prospective, international study enrolling consecutive patients with a failed aortic THV undergoing redo-TAVI with a balloon-expandable SAPIEN 3 THV. Data were collected across 59 international centres. All imaging was centrally analysed, and major clinical events were adjudicated by an independent committee. RESULTS: â¨A total of 143 patients (median age 84 years; 40.6% female; median Society of Thoracic Surgeons risk score 7.0%) were enrolled. The predominant failing THVs were balloon-expandable SAPIEN 3 (30.1%), self-expanding CoreValve/Evolut (53.1%), and ACURATE (14.0%) platforms. The most common failure mode was isolated regurgitation (48.6%), followed by stenosis (35.2%) and a mixed pathology (16.2%). The replacement valve was successfully implanted in 95.1% of patients, with a 30-day mortality rate of 3.5%. The 30-day stroke and pacemaker implantation rates were 0.7% and 6.3%, respectively. Redo-TAVI significantly improved valve haemodynamics, with mean gradients decreasing overall (Δ=-12.0 mmHg), and a more pronounced reduction in stenotic failures (Δ=-29.0 mmHg). Coronary obstruction was observed in 1.4% of cases. CONCLUSIONS: Redo-TAVI with a balloon-expandable SAPIEN 3 THV platform is a safe and effective reintervention strategy across diverse failed THV types, when guided by the Heart Team, standardised procedural planning, and comprehensive imaging. CLINICALTRIALS: gov: NCT05601453.",
-          "keyFindings": "Redo-TAVI with a balloon-expandable SAPIEN 3 THV platform is a safe and effective reintervention strategy across diverse failed THV types, when guided by the Heart Team, standardised procedural planning, and comprehensive imaging.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 34,
@@ -152,6 +152,44 @@
             "score": 83,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en European Heart Journal con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "arritmias-42357807",
+          "title": "Early catheter ablation vs. antiarrhythmic drugs in treatment-naïve ischaemic ventricular tachyarrhythmias: a meta-analysis of randomized controlled trials",
+          "journal": "Europace",
+          "authors": "Façanha TM, Pereira AIG, Garcia MFC, Mendonça ET, et al.",
+          "year": 2026,
+          "doi": "10.1093/europace/euag073",
+          "url": "https://doi.org/10.1093/europace/euag073",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "INTRODUCTION: Antiarrhythmic drugs (AADs) have traditionally been used as first-line therapy for ventricular tachycardia (VT) but are frequently associated with systemic toxicities and drug interactions. Therefore, we performed a meta-analysis comparing early catheter ablation (CA) with AAD therapy as initial treatment for VT in patients with prior myocardial infarction. METHODS AND RESULTS: PubMed, Embase, and the Cochrane Library were searched for randomized controlled trials comparing CA vs. AAD in patients naïve to both strategies. Meta-analysis was performed using Review Manager. Three randomized trials including 618 patients were analysed. No significant differences were observed in all-cause mortality, appropriate implantable cardioverter-defibrillator (ICD) therapies (including shocks and antitachycardia pacing), ventricular arrhythmia storm, hospitalizations, or adverse events between strategies. Leave-one-out sensitivity analysis identified one trial as the primary contributor to between-study heterogeneity. CONCLUSION: Early catheter ablation provides similar efficacy to first-line antiarrhythmic drug therapy for major arrhythmic and survival outcomes, with reductions in hospitalizations and treatment-related adverse events, although largely driven by one trial. These findings support consideration of CA as a first-line therapeutic strategy in selected patients with ischaemic VT.",
+          "keyFindings": "Early catheter ablation provides similar efficacy to first-line antiarrhythmic drug therapy for major arrhythmic and survival outcomes, with reductions in hospitalizations and treatment-related adverse events, although largely driven by one trial. These findings support consideration of CA as a first-line therapeutic strategy in selected patients with ischaemic VT.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "arritmias-42116662",
+          "title": "Pulsed field ablation vs. thermal ablation for pulmonary vein isolation: a network meta-analysis of randomized controlled trials",
+          "journal": "Europace",
+          "authors": "Latini AC, Penna M, Saglietto A, Landra F, et al.",
+          "year": 2026,
+          "doi": "10.1093/europace/euag112",
+          "url": "https://doi.org/10.1093/europace/euag112",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "AIMS: Pulsed field ablation (PFA) has recently emerged as a promising alternative to conventional energy sources (ES) for atrial fibrillation (AF) ablation. However, comparative data between PFA and other ES-such as radiofrequency (RFA), cryoballoon (CBA), and laser balloon ablation (LBA)-remain limited.This network meta-analysis (CRD420251054760) aimed to compare outcomes of PFA vs. thermal ES for AF ablation. METHODS AND RESULTS: A systematic network meta-analysis using PubMed, Cochrane, and EMBASE from inception to March 2026 was performed. Randomized controlled trials comparing different ES in first-attempt pulmonary vein isolation were included. Data extraction was performed according to PRISMA guidelines. The primary outcome was the recurrence of any sustained atrial tachyarrhythmia (ATA) at 12-month follow-up. Safety and efficiency outcomes were also compared among groups. We included 18 studies, encompassing 4162 patients. Compared to PFA, thermal ablation technologies showed a higher risk of ATA recurrence at 12-month follow-up (RFA: RR of 1.48 (95% CI 1.10-2.00); CBA: 1.43 (95% CI 1.07-1.92); LBA: RR 1.29 (CI 95% 0.84-1.98)). PFA exhibited the lowest procedural time among transcatheter ES, whereas RFA displayed a significantly lower fluoroscopy time. No significant differences were recorded for major periprocedural complications. A subgroup analysis restricted to studies involving only paroxysmal AF patients, as well as those employing contemporary technologies, yielded consistent findings. CONCLUSION: The present data indicate that, in patients undergoing a first transcatheter AF ablation, PFA may be associated with favourable efficacy and procedural efficiency compared with traditional thermal technologies, while showing a broadly comparable safety profile.",
+          "keyFindings": "The present data indicate that, in patients undergoing a first transcatheter AF ablation, PFA may be associated with favourable efficacy and procedural efficiency compared with traditional thermal technologies, while showing a broadly comparable safety profile.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -193,25 +231,6 @@
           }
         },
         {
-          "id": "arritmias-42116662",
-          "title": "Pulsed field ablation vs. thermal ablation for pulmonary vein isolation: a network meta-analysis of randomized controlled trials",
-          "journal": "Europace",
-          "authors": "Latini AC, Penna M, Saglietto A, Landra F, et al.",
-          "year": 2026,
-          "doi": "10.1093/europace/euag112",
-          "url": "https://doi.org/10.1093/europace/euag112",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "AIMS: Pulsed field ablation (PFA) has recently emerged as a promising alternative to conventional energy sources (ES) for atrial fibrillation (AF) ablation. However, comparative data between PFA and other ES-such as radiofrequency (RFA), cryoballoon (CBA), and laser balloon ablation (LBA)-remain limited.This network meta-analysis (CRD420251054760) aimed to compare outcomes of PFA vs. thermal ES for AF ablation. METHODS AND RESULTS: A systematic network meta-analysis using PubMed, Cochrane, and EMBASE from inception to March 2026 was performed. Randomized controlled trials comparing different ES in first-attempt pulmonary vein isolation were included. Data extraction was performed according to PRISMA guidelines. The primary outcome was the recurrence of any sustained atrial tachyarrhythmia (ATA) at 12-month follow-up. Safety and efficiency outcomes were also compared among groups. We included 18 studies, encompassing 4162 patients. Compared to PFA, thermal ablation technologies showed a higher risk of ATA recurrence at 12-month follow-up (RFA: RR of 1.48 (95% CI 1.10-2.00); CBA: 1.43 (95% CI 1.07-1.92); LBA: RR 1.29 (CI 95% 0.84-1.98)). PFA exhibited the lowest procedural time among transcatheter ES, whereas RFA displayed a significantly lower fluoroscopy time. No significant differences were recorded for major periprocedural complications. A subgroup analysis restricted to studies involving only paroxysmal AF patients, as well as those employing contemporary technologies, yielded consistent findings. CONCLUSION: The present data indicate that, in patients undergoing a first transcatheter AF ablation, PFA may be associated with favourable efficacy and procedural efficiency compared with traditional thermal technologies, while showing a broadly comparable safety profile.",
-          "keyFindings": "The present data indicate that, in patients undergoing a first transcatheter AF ablation, PFA may be associated with favourable efficacy and procedural efficiency compared with traditional thermal technologies, while showing a broadly comparable safety profile.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Europace con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
           "id": "arritmias-41967042",
           "title": "Cardiac evaluation of paediatric athletes",
           "journal": "European Heart Journal",
@@ -228,25 +247,6 @@
             "score": 63,
             "label": "Moderada",
             "rationale": "Revisión sistemática en European Heart Journal — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "arritmias-42158983",
-          "title": "Leadless Pacemakers in the Setting of Surgical and Transcatheter Tricuspid Valve Procedures",
-          "journal": "Circulation: Arrhythmia and Electrophysiology",
-          "authors": "Abou Deb G, Abou Deb F, Kozhuharov N, Albouaini K",
-          "year": 2026,
-          "doi": "10.1161/CIRCEP.126.015000",
-          "url": "https://doi.org/10.1161/CIRCEP.126.015000",
-          "evidenceLevel": "Revisión Sistemática",
-          "evidenceRank": 2,
-          "abstract": "Transvenous pacing is increasingly recognized as problematic in patients with prior or concomitant tricuspid valve intervention, owing to risks of leaflet interference, prosthetic dysfunction, and progression of tricuspid regurgitation. Leadless pacemakers offer a valve-sparing alternative; however, their safety and performance in structurally altered right heart anatomy remain incompletely defined. We conducted a systematic review to evaluate procedural feasibility, electrical performance, device-valve interaction, and clinical outcomes of leadless pacemaker implantation in patients undergoing surgical or transcatheter tricuspid valve interventions. Thirty-four studies comprising 272 patients were included, encompassing surgical repair, bioprosthetic replacement, valve-in-valve procedures, transcatheter edge-to-edge repair, and transcatheter tricuspid valve replacement. Leadless pacemakers were implanted via transfemoral, transjugular, or direct surgical approaches, achieving a procedural success rate of 99.3%. Electrical performance was consistently favorable, with stable capture thresholds, sensing amplitudes, and impedance during follow-up. Device-valve interaction was infrequent and generally manageable. Leadless pacemaker-related complications were rare (1.1%), with no device-related mortality. Within the included studies of patients undergoing surgical or transcatheter tricuspid valve interventions, no study demonstrated worsening tricuspid regurgitation attributable to the leadless pacemaker or its delivery system. Across a broad spectrum of complex tricuspid anatomies, leadless pacemakers demonstrated excellent feasibility, durable electrical performance, and a low complication profile, supporting their role as a valve-sparing pacing strategy in this population. These findings support leadless pacing in patients with prior tricuspid intervention, although prospective comparative data are required to define its role relative to alternative pacing modalities.",
-          "keyFindings": "Across a broad spectrum of complex tricuspid anatomies, leadless pacemakers demonstrated excellent feasibility, durable electrical performance, and a low complication profile, supporting their role as a valve-sparing pacing strategy in this population.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 63,
-            "label": "Moderada",
-            "rationale": "Revisión sistemática en Circulation: Arrhythmia and Electrophysiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
         }
       ]
@@ -333,6 +333,25 @@
           }
         },
         {
+          "id": "insuficiencia-cardiaca-42104906",
+          "title": "Angiotensin Receptor Neprilysin Inhibitor in Heart Failure With Preserved Ejection Fraction and Secondary Mitral Regurgitation: The PRAISE-MR Randomized Trial",
+          "journal": "Circulation",
+          "authors": "Dhont S, Moura Ferreira S, Galloo X, Martens P, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCULATIONAHA.126.080833",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.080833",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Atrial functional mitral regurgitation (AFMR) characterizes a high-risk phenotype in heart failure with preserved ejection fraction (HFpEF). Although sacubitril/valsartan reduces functional mitral regurgitation (MR) in HF with reduced EF (HFrEF), its impact on exercise hemodynamics and the dynamic burden of AFMR in HFpEF remains to be elucidated. METHODS: This multicenter, randomized, open-label trial with blinded primary endpoint assessment assigned 84 patients with symptomatic HFpEF and at least moderate AFMR within the previous year to sacubitril/valsartan (n=41) or standard-of-care (SOC; n=43). The primary outcome was the 6-month change in the exercise mean pulmonary arterial pressure to cardiac output (mPAP/CO) slope, assessed using cardiopulmonary exercise testing with simultaneous echocardiography (CPETecho). Secondary outcomes included changes in peak oxygen consumption (peak VO2), Kansas City Cardiomyopathy Questionnaire (KCCQ), N-terminal pro-B-type natriuretic peptide (NT-proBNP) levels, left atrial (LA) volume and function, and AFMR severity in rest and during stress. RESULTS: At 6 months, sacubitril/valsartan significantly improved the mPAP/CO slope compared with SOC (adjusted between-group difference in change, -0.93 mm Hg/L/min; 95% CI, -1.80 to -0.07; P=0.035). This hemodynamic benefit was accompanied by improvements in peak VO2 (mean change, +0.9 versus -0.6mL/kg/min; P=0.002) and KCCQ (median increase, 10 versus 2 points; P=0.002). Significant reductions in NT-proBNP and LA volume were observed (P<0.001 for both), alongside a significant blunting of the dynamic MR increase during exercise (P=0.020). Target dose was achieved in 60% of patients, with symptomatic hypotension as the primary titration-limiting factor. CONCLUSIONS: In HFpEF and AFMR, sacubitril/valsartan was associated with improvements in exercise hemodynamics and peak VO2, along with attenuation of the exercise-induced increase in AFMR. These findings suggest a phenotype-specific benefit, warranting confirmation in larger, placebo-controlled, clinical outcome trials. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT05991284. EudraCT: 2023-506634-70-00.",
+          "keyFindings": "In HFpEF and AFMR, sacubitril/valsartan was associated with improvements in exercise hemodynamics and peak VO2, along with attenuation of the exercise-induced increase in AFMR. These findings suggest a phenotype-specific benefit, warranting confirmation in larger, placebo-controlled, clinical outcome trials.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 76,
+            "label": "Alta",
+            "rationale": "RCT publicado en Circulation con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
           "id": "insuficiencia-cardiaca-41903171",
           "title": "Biomarker, Functional Status, and Quality-of-Life Trajectories Before Modes of Death in Heart Failure: Post Hoc Analysis of the FINEARTS-HF Randomized Clinical Trial",
           "journal": "JAMA Cardiology",
@@ -344,25 +363,6 @@
           "evidenceRank": 3,
           "abstract": "IMPORTANCE: Sudden death remains a leading cause of mortality in patients with heart failure with mildly reduced ejection fraction (HFmrEF) or HF with preserved ejection fraction (HFpEF), but whether these events are preceded by clinical deterioration remains unclear. OBJECTIVE: To characterize clinical trajectories preceding sudden death in patients with HFmrEF or HFpEF and compare them with trajectories before other modes of death and survival. DESIGN, SETTING, AND PARTICIPANTS: This was a post hoc analysis of the Finerenone Trial to Investigate the Efficacy and Safety Superior to Placebo in Patients With Heart Failure (FINEARTS-HF) randomized clinical trial evaluating trajectories of functional status, patient-reported health status, and natriuretic peptide levels preceding adjudicated modes of death. This was a global, event-driven clinical trial. Patients with symptomatic HF, left ventricular EF of 40% or greater, New York Heart Association class (NYHA) II to IV, and elevated N-terminal pro-B-type natriuretic peptide (NT-proBNP) were enrolled between September 14, 2020, and January 10, 2023. Data analysis was conducted in December 2025. INTERVENTIONS: Finerenone vs placebo. MAIN OUTCOMES AND MEASURES: Longitudinal trajectories of NYHA class, Kansas City Cardiomyopathy Questionnaire Total Symptom Score (KCCQ-TSS), and NT-proBNP levels preceding sudden death were compared with trajectories in survivors and those who died of HF-related, nonsudden cardiovascular, or noncardiovascular causes, using linear mixed-effects models with restricted cubic splines. RESULTS: Included in this analysis were 6001 patients (mean [SD] age, 72.0 [9.6] years; 3269 male [54%]). Over a median (IQR) follow-up of 2.7 (1.9-3.0) years, 215 sudden deaths occurred. In the 6 months before death, sudden death was preceded by a slight worsening in physician-assigned NYHA class (from approximately 2.3 to 2.4), worsening self-reported health status (an approximately 8-point decline in KCCQ-TSS), and a gradual rise in NT-proBNP levels (from approximately 1800 to 2000 pg/mL). In contrast, among patients who survived, NYHA class improved (from approximately 2.3 to 2.1), KCCQ-TSS increased (from approximately 68 to 77), and NT-proBNP levels declined (from approximately 800 to 650 pg/mL) over the 18 months before the end of follow-up. Comparable patterns of deterioration to those preceding sudden death, often more pronounced, were observed before other modes of death. CONCLUSIONS AND RELEVANCE: Results of this post hoc analysis of the FINEARTS-HF randomized clinical trial reveal that in this contemporary HFmrEF or HFpEF cohort, sudden death was preceded by modest worsening of symptoms, declining quality of life, and rising natriuretic peptide levels, suggesting many of these events may not have been entirely sudden. However, similar deterioration preceding other modes of death suggests limited specificity for sudden death. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04435626.",
           "keyFindings": "CONCLUSIONS AND RELEVANCE: Results of this post hoc analysis of the FINEARTS-HF randomized clinical trial reveal that in this contemporary HFmrEF or HFpEF cohort, sudden death was preceded by modest worsening of symptoms, declining quality of life, and rising natriuretic peptide levels, suggesting many of these events may not have been entirely sudden.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
-        },
-        {
-          "id": "insuficiencia-cardiaca-41949846",
-          "title": "Food Supplementation in Patients Hospitalized for Heart Failure: A Randomized Clinical Trial",
-          "journal": "JAMA Cardiology",
-          "authors": "Pandey A, Keshvani N, Coellar JD, Jain AK, et al.",
-          "year": 2026,
-          "doi": "10.1001/jamacardio.2026.0435",
-          "url": "https://doi.org/10.1001/jamacardio.2026.0435",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Low-quality dietary intake is associated with adverse heart failure (HF) outcomes, yet evidence evaluating food-as-medicine interventions that supply high-quality dietary content is limited. OBJECTIVE: To determine the feasibility of providing food supplementation with medically tailored meals or fresh produce and explore the association of food supplementation vs usual care with clinical outcomes in patients recently hospitalized with HF and whether it differs by conditioning food supplementation to health care engagement. DESIGN, SETTING, AND PARTICIPANTS: This open-label factorial randomized clinical trial was conducted between April 2024 and October 2025 at 2 hospitals in Dallas, Texas. The study included patients who were hospitalized for HF and enrolled within 14 days of discharge, excluding those with prior heart transplant, a left ventricular assist device, or inotropic support at discharge; current enrollment in meal delivery programs; and inability to receive home deliveries. Participants were followed up with for 12 weeks. Of 150 participants enrolled, 2 were withdrawn due to clinical deterioration, 1 died, and 6 were lost to follow-up; all were included in the intention-to-treat analysis. INTERVENTIONS: Participants were randomized 1:1:1 to medically tailored meals, fresh produce, or usual care. Those receiving food supplementation underwent secondary 1:1 randomization to conditional (linked to clinic attendance and medication fills) vs unconditional delivery. MAIN OUTCOMES AND MEASURES: Implementation outcomes included delivery completion, adherence, and acceptability and exploratory clinical outcomes. The primary clinical outcome was defined as readmission for HF or emergency department (ED) visits for HF over 90-day follow-up. Secondary clinical outcomes included a win-ratio-based hierarchical composite (all-cause death, total HF hospitalizations or ED visits, and ≥10-point Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score [KCCQ-CSS] improvement). RESULTS: Among 150 participants (median [IQR] age, 59.5 [52.0-66.0] years; 91 [60.7%] male), the baseline median (IQR) left ventricular ejection fraction was 35% (25.0-54.0), the baseline median (IQR) KCCQ-CSS was 56.6 (36.8-72.9), and 79 (52.7%) had food insecurity. Food delivery completion was 93.6% with a mean (SD) reported consumption adherence of 4.7 (2.4) days per week (medically tailored meals) and 5.5 (2.3) days per week (fresh produce), with high retention (96.0%). Fresh produce demonstrated superior acceptability compared with medically tailored meals (Net Promoter Score: 8.6 vs 7.3; P = .02). There was no significant difference in the primary clinical outcome (HF readmission or ED visit) between food supplementation (23 events among 100 participants) vs usual care (9 events among 50 participants) (adjusted rate ratio, 1.09; 95% CI, 0.49-2.43; P = .83). The hierarchical composite favored food supplementation vs usual care (win ratio, 1.21; 95% CI, 1.14-1.29; P < .001). Among participants receiving food supplementation, conditional delivery (vs unconditional) was not associated with risk of HF events. CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, 90-day food supplementation was feasible and well accepted in individuals with recent HF. Food supplementation was not associated with an improvement in the primary clinical outcome and there was no difference when conditioning food supplementation on health care engagement. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT06115369.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, 90-day food supplementation was feasible and well accepted in individuals with recent HF.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
@@ -394,6 +394,25 @@
             "score": 83,
             "label": "Alta",
             "rationale": "Meta-análisis publicado en European Heart Journal - Cardiovascular Imaging con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
+        {
+          "id": "isquemica-41778947",
+          "title": "Real-Time Heart Team for Revascularization in Complex Coronary Artery Disease: The EHEART Randomized Trial",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Lin S, Su X, Ma H, Dou K, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2026.01.010",
+          "url": "https://doi.org/10.1016/j.jacc.2026.01.010",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: The routine implementation of heart teams for patients with complex coronary artery disease (CAD) is challenging due to the insufficient multidisciplinary specialist resources for face-to-face discussion. A real-time heart team during the angiography, based on an online meeting, offers the potential to efficiently integrate resources. OBJECTIVES: In this study, we sought to evaluate the implementation value and safety of a \"real-time heart team\" decision making approach. METHODS: This noninferiority randomized controlled trial enrolled patients with de novo left main or 3-vessel CAD at 3 cardiac centers. Patients were randomly assigned to the conventional heart team group (discussed by a face-to-face meeting after the angiography) or the real-time heart team group (discussed by an online meeting during the angiography). Implementation value outcomes included care efficiency (waiting time for treatment, recatheterization, specialist workload, and economic outcomes) and process evaluation metrics (discussion adequacy, surgeon participation, and shared decision making). The safety outcomes were a composite of 1-year major adverse cardiovascular and cerebrovascular events (MACCE) (including all-cause mortality, myocardial infarction, stroke, unplanned revascularization, and readmission due to reangina) and revascularization decision making. RESULTS: Overall, 490 complex CAD patients were included, with 245 patients in each group. Waiting time for final therapy (median: 2 days [Q1-Q3: 0-7 days] vs 5 days [Q1-Q3: 2-10 days]; P < 0.001), recatheterization rate (12.5% vs 98.9%; P < 0.001), specialist high workload rate (5.3% vs 29.0%; P < 0.001), and percutaneous coronary intervention (PCI) hospitalization cost (percentage of decrease: 18.0%; P < 0.001) were significantly reduced in the real-time group. More discussion time spent (4.0 ± 1.8 min vs 3.4 ± 1.6 min), better specialist satisfaction (based on NASA Task Load Index scale), more chief surgeon participation (26.5% vs 18.8%), but less multidisciplinary synchronous shared decision making (2.0% vs 11.5%) were found in the real-time group. The real-time heart team group was noninferior to the conventional group in 1-year MACCE (8.2% vs 10.6%; risk difference: -2.45%; 95% CI: -7.61%-2.71%; P for noninferiority < 0.001). The proportions of PCI, coronary artery bypass grafting, and medical therapy were similar between the 2 groups (P = 0.892). CONCLUSIONS: Compared with the conventional heart team, the real-time heart team significantly improved care efficiency and process evaluation metrics, with similar clinical outcomes and decision making. However, insufficient shared decision making and intercenter generalizability should be optimized before widespread implementation of this approach. (Feasibility and Effectiveness of a Real-Time Heart Team Approach in Complex CAD [EHEART; NCT05514210]).",
+          "keyFindings": "Compared with the conventional heart team, the real-time heart team significantly improved care efficiency and process evaluation metrics, with similar clinical outcomes and decision making. However, insufficient shared decision making and intercenter generalizability should be optimized before widespread implementation of this approach. (Feasibility and Effectiveness of a Real-Time Heart Team Approach in Complex CAD [EHEART; NCT05514210]).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 76,
+            "label": "Alta",
+            "rationale": "RCT publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -471,25 +490,6 @@
             "label": "Baja",
             "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
-        },
-        {
-          "id": "isquemica-41795942",
-          "title": "Silent plaque ruptures in non-obstructive lesions of non-infarct-related arteries: a multimodality, serial intracoronary imaging study",
-          "journal": "European Heart Journal",
-          "authors": "Kakizaki R, Biccirè FG, Losdat S, Ueki Y, et al.",
-          "year": 2026,
-          "doi": "10.1093/eurheartj/ehag037",
-          "url": "https://doi.org/10.1093/eurheartj/ehag037",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND AND AIMS: Plaque rupture can occur at non-obstructive lesions in non-infarct-related coronary arteries (non-IRAs) without inducing ischaemia. This study aimed to: (1) assess the frequency and lesion characteristics of plaque rupture in non-IRAs of acute myocardial infarction (AMI) patients, (2) evaluate morphological changes in rupture sites over 52 weeks, and (3) investigate the baseline morphology of new-onset ruptures. METHODS: This study analysed pooled data from the IBIS-4 and PACMAN-AMI trials. Patients presenting with AMI underwent multimodality intracoronary imaging of non-IRAs at baseline and after 52 weeks. RESULTS: Among 783 lesions from 336 patients evaluated at baseline, plaque rupture was observed in 41 lesions of 40 patients (12%). Biomarkers including lipid and inflammation markers were comparable between patients with and without rupture in non-IRAs. Lesions with rupture showed larger percent atheroma volume (53.3 ± 6.4 vs. 49.5 ± 5.8%, estimated difference 3.6[1.9 to 5.4]), larger external elastic membrane area (20.5 ± 4.8 vs. 15.7 ± 5.6 mm2, 4.1[2.5 to 5.7]), and smaller minimum fibrous cap thickness (69 ± 49 vs. 116 ± 84 μm, -43[-75 to -11]) compared to those without. Among 41 rupture sites assessed serially, 21 (51%) healed by 52 weeks. At follow-up, 10 rupture sites were newly identified, and thin-cap fibroatheroma was the most frequent baseline morphology of those. CONCLUSIONS: Plaque rupture in non-obstructive lesions of non-IRAs was present in 12% of AMI patients. Larger plaque volume, positive remodeling, and thinner fibrous cap were associated with rupture. More than half of untreated ruptures transitioned into stable morphologies. Thin-cap fibroatheroma was the most frequent underlying morphology of new-onset rupture.",
-          "keyFindings": "Plaque rupture in non-obstructive lesions of non-IRAs was present in 12% of AMI patients. Larger plaque volume, positive remodeling, and thinner fibrous cap were associated with rupture. More than half of untreated ruptures transitioned into stable morphologies. Thin-cap fibroatheroma was the most frequent underlying morphology of new-onset rupture.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 38,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
-          }
         }
       ]
     },
@@ -515,6 +515,25 @@
             "score": 63,
             "label": "Moderada",
             "rationale": "Revisión sistemática en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "prevencion-42183757",
+          "title": "Lipoprotein(a) Levels, Risk of Cardiovascular Events, and Benefit of Evolocumab: Findings From the VESALIUS-CV Trial",
+          "journal": "Circulation",
+          "authors": "Monguillon V, Marston NA, Bohula EA, Park JG, et al.",
+          "year": 2026,
+          "doi": "10.1161/CIRCULATIONAHA.126.080999",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.080999",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Lp(a) (lipoprotein[a]) is a risk factor for coronary heart disease. Whether baseline Lp(a) identifies higher-risk patients who derive more benefit from evolocumab is not established in a population without previous myocardial infarction (MI) or stroke. METHODS: From June 2019 to November 2021, the VESALIUS-CV trial (Effect of Evolocumab in Patients at High Cardiovascular Risk Without Prior Myocardial Infarctions or Stroke) enrolled patients with qualifying atherosclerosis or high-risk diabetes without previous MI or stroke and randomized them to evolocumab or placebo (median follow-up 4.6 years). In a prespecified analysis, Lp(a) was assessed at baseline in 7557 patients. Cox models were used to assess the adjusted risk of cardiovascular events by baseline Lp(a) in the placebo arm, and the efficacy of evolocumab by baseline Lp(a). The primary outcome of interest was the composite of major coronary events (coronary heart disease death, MI, or urgent coronary revascularization). RESULTS: Median age was 66 [interquartile range, 60-71] years, and 42.8% were women; median Lp(a) was 28 [interquartile range, 9-132] nmol/L. Higher baseline Lp(a) was associated with an increased risk of major coronary events (adjusted hazard ratio [HRadjusted] per 100 nmol/L increase in Lp(a), 1.15 [95% CI, 1.05-1.26]; P=0.004), particularly for MI (HRadjusted, 1.23 [95% CI, 1.10-1.38]; P<0.001). There was no association between Lp(a) and ischemic stroke (HRadjusted, 1.00 [95% CI, 0.84-1.19]; P=0.99). After 48 weeks, evolocumab reduced LDL-C (low-density lipoprotein cholesterol) by 66.8 mg/dL and Lp(a) by 38.0 nmol/L in patients with baseline Lp(a) >105 nmol/L versus 61.1 mg/dL and 6.0 nmol/L in those with baseline Lp(a) ≤105 nmol/L. The relative reductions in the rate of major coronary events were 41% (HR, 0.59 [95% CI, 0.41-0.83]) in those with Lp(a) >105 nmol/L compared with 35% (HR, 0.65 [95% CI, 0.51-0.82]) in those below (P-interaction=0.45 for Lp[a] modeled as continuous variable). The corresponding absolute reductions were 3.7% versus 2.5% (P-interaction=0.09), corresponding to a number needed to treat of 28 versus 40 to prevent 1 major coronary event at 5 years. CONCLUSIONS: In patients with atherosclerosis or high-risk diabetes but without previous MI or stroke, Lp(a) was independently associated with an increased risk of major coronary events but not ischemic stroke. Evolocumab reduced the relative risk of major coronary events to a similar degree irrespective of baseline Lp(a), with a numerically greater absolute risk reduction in patients with elevated Lp(a). REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03872401.",
+          "keyFindings": "In patients with atherosclerosis or high-risk diabetes but without previous MI or stroke, Lp(a) was independently associated with an increased risk of major coronary events but not ischemic stroke. Evolocumab reduced the relative risk of major coronary events to a similar degree irrespective of baseline Lp(a), with a numerically greater absolute risk reduction in patients with elevated Lp(a).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 76,
+            "label": "Alta",
+            "rationale": "RCT publicado en Circulation con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
           }
         },
         {
@@ -592,25 +611,6 @@
             "label": "Moderada",
             "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
-        },
-        {
-          "id": "prevencion-41778959",
-          "title": "Coronary Atherosclerosis in Liver Transplant Recipients and Population Controls: A Nationwide Study Using Protocolized CT Angiography",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Knudsen AD, Kühl JT, Schultz NA, Villadsen GE, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.jacc.2026.01.041",
-          "url": "https://doi.org/10.1016/j.jacc.2026.01.041",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Prevalence and severity of coronary atherosclerosis in liver transplant (LTx) recipients remain poorly characterized because prior work has relied on clinically indicated imaging or retrospective studies. OBJECTIVES: The purpose of this study was to determine the prevalence and severity of coronary atherosclerosis in LTx recipients compared with control subjects using protocolized research-coronary CT angiography in both LTx recipients and control subjects. METHODS: In this cross-sectional study, LTx recipients aged ≥40 years from the DACOLT (Danish Comorbidity in Liver Transplant Recipients) study were matched 1:5 by age and sex with population controls from the Copenhagen General Population Study. Questionnaires, physical examinations, and coronary computed tomography angiography were performed uniformly in all participants. Coronary atherosclerosis was categorized as any, obstructive (≥50% stenosis), and extensive (>5 coronary segments) coronary atherosclerosis. Logistic regressions were adjusted for age, sex, hypertension, diabetes, dyslipidemia, smoking, and obesity. RESULTS: We included 205 LTx recipients and 1,025 population control subjects. Median age was 56 years, and 40% were women. SCORE2 (Systematic COronary Risk Evaluation 2) risk did not differ significantly between LTx recipients and control subjects (P = 0.20). LTx recipients had significantly higher prevalence of any coronary atherosclerosis (63% vs 46%; P < 0.0001), obstructive coronary atherosclerosis (18% vs 10%; P < 0.0001), and obstructive-extensive coronary atherosclerosis (13% vs 6%; P < 0.0001), than control subjects. After adjusting for confounders, living with a transplanted liver remained associated with higher odds of any coronary atherosclerosis (OR: 2.19; 95% CI: 1.48-3.27), obstructive coronary atherosclerosis (OR: 2.73; 95% CI: 1.43-5.16), and obstructive-extensive coronary atherosclerosis (OR: 3.90; 95% CI: 1.76-8.55). Among individuals with any coronary atherosclerosis, LTx recipients had higher odds of having high-risk plaque than population control subjects (OR: 2.10; 95% CI: 1.29-3.45). CONCLUSIONS: LTx recipients had a significantly higher prevalence and severity of coronary atherosclerosis compared with matched general population control subjects, after adjusting for traditional cardiovascular risk factors. Conscious cardiovascular risk assessment and preventive strategies should be considered in this patient group. (The Danish Comorbidity in Liver Transplant Recipients Study [DACOLT]; NCT04777032).",
-          "keyFindings": "LTx recipients had a significantly higher prevalence and severity of coronary atherosclerosis compared with matched general population control subjects, after adjusting for traditional cardiovascular risk factors. Conscious cardiovascular risk assessment and preventive strategies should be considered in this patient group. (The Danish Comorbidity in Liver Transplant Recipients Study [DACOLT]; NCT04777032).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 38,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
-          }
         }
       ]
     },
@@ -619,6 +619,25 @@
       "name": "Valvulopatías",
       "color": "#148F77",
       "articles": [
+        {
+          "id": "valvulopatias-42331404",
+          "title": "Mitral Valve Leaflet Modification: A Working Group Position Statement on Best Practices and Step-by-Step Guide",
+          "journal": "JACC: Cardiovascular Interventions",
+          "authors": "McCabe JM, Lederman RJ, Elison D, Condos G, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jcin.2026.04.029",
+          "url": "https://doi.org/10.1016/j.jcin.2026.04.029",
+          "evidenceLevel": "Guía de Práctica Clínica",
+          "evidenceRank": 2,
+          "abstract": "Left ventricular outflow tract (LVOT) obstruction is a potentially lethal complication of transcatheter mitral valve replacement (TMVR). The risk for LVOT obstruction can reliably be identified on preprocedural cardiac computed tomography. Intentional LAMPOON (laceration of the anterior mitral leaflet to prevent LVOT obstruction) and related techniques effectively prevent TMVR-induced LVOT obstruction, thereby expanding the treatable patient population. However, perceived technical complexity, the absence of purpose-built devices, and limited training opportunities have hindered the widespread adoption of mitral leaflet modification. This document synthesizes international experience to provide contemporary best-practice guidance for mitral leaflet modification. This state-of-the-art review details transcatheter electrosurgery principles, computed tomography-based risk analysis and procedural planning, a step-by-step guide to the LAMPOON technique, tips for managing uncommon challenges, and guidance on postprocedural care. These contemporary best practices can help operators achieve or maintain proficiency.",
+          "keyFindings": "These contemporary best practices can help operators achieve or maintain proficiency.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 59,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en JACC: Cardiovascular Interventions — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
         {
           "id": "valvulopatias-42095279",
           "title": "Percutaneous Mechanical Aspiration in Patients With Right-Sided Infective Endocarditis: A Science Advisory From the American Heart Association",
@@ -677,6 +696,25 @@
           }
         },
         {
+          "id": "valvulopatias-41706073",
+          "title": "Mitral Valve Repair for Degenerative MR With Moderate or Less Tricuspid Regurgitation: 2-Year Outcomes From a Multicenter Echocardiographic Core Laboratory-Adjudicated Cohort",
+          "journal": "Journal of the American College of Cardiology",
+          "authors": "Chu MWA, Raymond S, Gelijns AC, Moskowitz AJ, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.jacc.2025.12.065",
+          "url": "https://doi.org/10.1016/j.jacc.2025.12.065",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Key indicators of the quality of mitral valve (MV) repair for degenerative mitral regurgitation (DMR) are the presence and degree of recurrent (mitral regurgitation (MR) during follow-up, but few studies have provided longitudinal echocardiographic core laboratory-adjudicated data. OBJECTIVES: The purpose of this study was to evaluate 2-year survival and MR recurrence in patients who underwent MV repair for DMR with concomitant tricuspid valve (TV) disease between 2016 and 2018. METHODS: This is a post hoc analysis of outcomes from a randomized trial (N = 401; 39 sites) evaluating the effects of TV repair during MV surgery for patients with DMR and moderate or less tricuspid regurgitation. Eighty-seven patients (21.7%) were excluded because they underwent MV replacement (32 planned and 9 conversions) or did not have isolated DMR or evaluable echocardiographic data during 2 years. The primary endpoint was a composite of the incidence of all-cause mortality, recurrent severe MR, or MV reoperation (ie, treatment failure) during 2 years. Multivariable modeling identified risk factors for recurrent MR. RESULTS: Among 314 eligible patients (median age: 67.4; female: 24.2%), 1.0% (3 of 307) had moderate MR and 0.7% (2 of 307) had severe MR at discharge. Thirty-day all-cause mortality rate was 1.0%. At 2 years, 3.5% (11 of 314) had died, and 2.2% (7 of 314) had MV reoperation. Among 295 survivors free of MV reoperation with evaluable echocardiograms, 9.2% (27 of 295) had moderate MR, 1.4% (4 of 295) had severe MR, and 2.5% (7 of 275) had a mean MV gradient >5 mm Hg. The incidence of death, MV reoperation, or severe MR during 2 years was 8.0% (25 of 313). Patients with anterior or bileaflet MV pathology were at higher risk for treatment failure compared with patients with posterior leaflet pathology (OR: 2.48; 95% CI: 1.09-5.68; P = 0.03). CONCLUSIONS: In this international trial with echocardiographic core laboratory adjudication, the rate of survival free from MV reoperation or any episode of severe MR during 2 years was 92% in patients with DMR and concomitant TV disease. These outcomes show that surgical repair achieves high success and durability during 2 years in these patients, providing a contemporary benchmark for clinical decision-making and future trials. (Evaluating the Benefit of Concurrent Tricuspid Valve Repair During Mitral Surgery; NCT02675244).",
+          "keyFindings": "In this international trial with echocardiographic core laboratory adjudication, the rate of survival free from MV reoperation or any episode of severe MR during 2 years was 92% in patients with DMR and concomitant TV disease. These outcomes show that surgical repair achieves high success and durability during 2 years in these patients, providing a contemporary benchmark for clinical decision-making and future trials. (Evaluating the Benefit of Concurrent Tricuspid Valve Repair During Mitral Sur",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
           "id": "valvulopatias-42300820",
           "title": "10-Year Outcomes of SAPIEN 3 Transcatheter Aortic Valve Replacement or Surgery in Intermediate-Risk Patients",
           "journal": "Journal of the American College of Cardiology",
@@ -694,44 +732,6 @@
             "label": "Moderada",
             "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
-        },
-        {
-          "id": "valvulopatias-42300821",
-          "title": "10-Year Randomized Outcomes of Transcatheter or Surgical Aortic Valve Replacement in Intermediate-Risk Aortic Stenosis",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Thourani VH, von Stein P, Mack MJ, Nazif TM, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.jacc.2026.03.169",
-          "url": "https://doi.org/10.1016/j.jacc.2026.03.169",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Transcatheter aortic valve replacement (TAVR) is an established alternative to surgical aortic valve replacement for symptomatic severe aortic stenosis, but long-term, comparative clinical outcomes and echocardiography data are lacking. OBJECTIVES: Our goal was to compare 10-year clinical and echocardiographic outcomes after balloon-expandable TAVR or surgery in intermediate-risk surgical patients in the PARTNER 2A randomized trial. METHODS: Between 2011 and 2013, patients with severe, symptomatic aortic stenosis at intermediate surgical risk were randomized at 57 centers to TAVR with the balloon-expandable SAPIEN XT system (Edwards Lifesciences) or to surgery. Randomization was stratified by anatomical suitability for transfemoral (TF) or transthoracic (transapical/transaortic [TA/TAo]) access. Ten-year outcomes were evaluated in the valve implant population and included all-cause mortality, aortic valve reintervention, and core laboratory-adjudicated echocardiographic outcomes. To obtain 10-year data, patient reconsent at 5 years was required, and vital status sweeps were implemented to improve data completeness for all-cause mortality. RESULTS: Among 1,910 randomized patients who received a valve, 974 underwent TAVR (TF: 749/974 [76.9%]) and 936 had surgery. Mean patient age was 81.6 years, 45.4% were women, and the mean Society of Thoracic Surgeons score was 5.8%. At 10 years, vital status was available for 881 of 974 patients (90.5%) and 838 of 936 patients (89.5%). All-cause 10-year mortality with vital status sweeps was 86.1% after TAVR and 82.8% after surgery (HR: 1.13; 95% CI: 1.02-1.25; P = 0.02). When stratified by access route, rates of all-cause mortality for TAVR and surgery in the TF group were similar (83.9% vs 82.1%, respectively; P = 0.27), whereas mortality was higher for TAVR in the TA/TAo group (93.2% vs 85.1%; P < 0.01; P for interaction = 0.03). Cumulative incidence rates of aortic valve reintervention at 10 years were 6.3% for TAVR and 1.6% for surgery (P < 0.001). Of the 24 TAVR and 35 surgical patients with available echocardiographic data at 10 years, mean gradients were 12.6 mm Hg and 12.7 mm Hg, respectively. CONCLUSIONS: At the 10-year follow-up, TAVR in intermediate-risk patients with the SAPIEN XT prosthesis compared with surgery was associated with lower survival rates, with differences predominantly observed in the TA/TAo access cohort. TAVR with the XT valve was also associated with significantly higher rates of aortic valve reintervention. (PARTNER II Trial: Placement of AoRTic TraNscathetER Valves II - XT Intermediate and High Risk [PII A]; NCT01314313).",
-          "keyFindings": "At the 10-year follow-up, TAVR in intermediate-risk patients with the SAPIEN XT prosthesis compared with surgery was associated with lower survival rates, with differences predominantly observed in the TA/TAo access cohort. TAVR with the XT valve was also associated with significantly higher rates of aortic valve reintervention. (PARTNER II",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 68,
-            "label": "Moderada",
-            "rationale": "RCT en Journal of the American College of Cardiology — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "valvulopatias-42059855",
-          "title": "Automated Alerts to Improve Timely Evaluation and Treatment of Valvular Heart Disease: The ALERT Trial",
-          "journal": "Journal of the American College of Cardiology",
-          "authors": "Batchelor WB, Lindman BR, Coylewright M, Keller A, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.jacc.2026.03.037",
-          "url": "https://doi.org/10.1016/j.jacc.2026.03.037",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Severe aortic stenosis (AS) and mitral regurgitation (MR) are frequently undertreated and characterized by persistent sex, racial and ethnic, socioeconomic, and geographic disparities despite effective valve therapies. Whether automated electronic clinician notification (ECN) alerts improve the evaluation and treatment of AS and MR across health systems is unknown. OBJECTIVES: The purpose of this study was to evaluate whether ECN alerts improve guideline-directed evaluation and treatment of significant AS and MR across multiple health systems. METHODS: ALERT is a multisystem, cluster-randomized clinical trial including clinicians ordering echocardiograms across 5 U.S. health systems encompassing 35 hospitals between August 2024 and September 2025. Clinicians were randomized 1:1 to receive an ECN alert identifying significant AS or MR with accompanying care recommendations or to no alert with usual care. The primary endpoint was a hierarchical composite of time to surgical or transcatheter valve intervention, followed by time to multidisciplinary heart team clinic evaluation within 90 days, analyzed using the stratified win-ratio method. Secondary outcomes included individual components of the composite. RESULTS: A total of 765 clinicians ordering 2,016 echocardiograms were included. In the win-ratio analysis of the primary endpoint, ECN alert was superior to usual care (win ratio: 1.27; 95% CI: 1.05-1.54; P = 0.007), including higher rates of valve intervention (13.4% vs 9.6%; P = 0.005) and multidisciplinary heart team evaluation (22.7% vs 17.9%; P = 0.005) and shorter times to both endpoint components. Effect sizes were similar in AS (win ratio: 1.29) and MR patients (win ratio: 1.23). No evidence of heterogeneity was noted by valve pathology (Pint = 0.821) or across prespecified subgroups (age, sex, race, social deprivation index, inpatient vs outpatient setting, provider specialty, and rurality; Pint > 0.100 for all) and sensitivity analyses yielded consistent results across modified intention-to-treat, intention-to-treat, and per-protocol populations. CONCLUSIONS: In this multisystem cluster randomized trial, automated ECN alerts improved timely guideline-directed evaluation and valve intervention for clinically significant AS and MR. These findings suggest that electronic health record-integrated clinical decision support may represent a scalable strategy to reduce undertreatment and improve access to specialized valve care. (Addressing Under-treatment and Health Equity in AS and MR Using an Integrated EHR Platform; NCT06099665).",
-          "keyFindings": "In this multisystem cluster randomized trial, automated ECN alerts improved timely guideline-directed evaluation and valve intervention for clinically significant AS and MR. These findings suggest that electronic health record-integrated clinical decision support may represent a scalable strategy to reduce undertreatment and improve access to specialized valve care. (Addressing Under-treatment and Health Equity in AS and MR Using an Integrated EHR Platform; NCT06099665).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 76,
-            "label": "Alta",
-            "rationale": "RCT publicado en Journal of the American College of Cardiology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
         }
       ]
     },
@@ -740,6 +740,25 @@
       "name": "Hipertensión Arterial",
       "color": "#922B21",
       "articles": [
+        {
+          "id": "hipertension-42207501",
+          "title": "Adverse Effects and Treatment Discontinuation of Blood Pressure-Lowering Drugs and Combinations: A Network Meta-Analysis",
+          "journal": "JAMA",
+          "authors": "Wang N, Van Der Hoorn S, Pant R, Kumar A, et al.",
+          "year": 2026,
+          "doi": "10.1001/jama.2026.6214",
+          "url": "https://doi.org/10.1001/jama.2026.6214",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "IMPORTANCE: Adverse drug effects from blood pressure (BP)-lowering drugs contribute to significant undertreatment and poor overall BP control rates. OBJECTIVE: To review adverse effects and discontinuation of BP-lowering drugs and their combinations from the 5 major classes in short-term clinical trials. DATA SOURCES AND STUDY SELECTION: Cochrane Central Register of Controlled Trials for randomized clinical trials, MEDLINE, and Epistemonikos were searched from the date of inception until December 31, 2024, for double-blind randomized clinical trials of angiotensin-converting enzyme inhibitors, angiotensin II receptor blockers (ARBs), β-blockers, calcium channel blockers (CCBs), thiazide and thiazide-like diuretics, or their combinations, with follow-up durations between 4 and 26 weeks. DATA EXTRACTION AND SYNTHESIS: Data extraction was performed by 2 independent reviewers. Synthesis was performed using fixed-effect network meta-analyses according to drug class, summarized using odds ratios (ORs) and 95% credible intervals (CrIs) and surface under the cumulative ranking curves. Final statistical analysis was conducted in April 2026. MAIN OUTCOMES AND MEASURES: Treatment discontinuation due to adverse events (AEs), defined as discontinuation of randomized treatment due to an AE. Secondary outcomes included headache, dizziness, edema, and cough. RESULTS: A total of 716 trials were included, with mean (SD) follow-up of 8.6 (5) weeks, including 159 362 participants (mean [SD] age, 54.6 [7] years; 44% female; mean baseline BP, 158/100 mm Hg). Compared with placebo, treatment discontinuation due to AEs was significantly increased by CCBs (OR, 1.43 [95% CrI, 1.23-1.67]; risk difference [RD], 1.2% [95% CrI, 0.6%-2.0%]), angiotensin-converting enzyme inhibitors plus CCBs (OR, 1.46 [95% CrI, 1.13-1.87]; RD, 1.1% [95% CrI, 0.2%-2.4%]), and β-blockers plus thiazide diuretics (OR, 1.58 [95% CrI, 1.04-2.47]; RD, 1.7% [95% CrI, 0.1%-4.3%]). All ARB-containing regimens had fewer treatment discontinuations due to AEs than placebo, and these differences were statistically significant for ARB monotherapy (OR, 0.73 [95% CrI, 0.61-0.86]; RD, -0.8% [95% CrI, -1.3% to -0.4%]) and ARBs plus CCBs (OR, 0.61 [95% CrI, 0.47-0.79]; RD, -1.2% [95% CrI, -1.8% to -0.6%]). In network meta-analyses, 5 combination and 2 monotherapy regimens had higher surface under the cumulative ranking curve values than placebo for treatment discontinuation due to AEs, suggesting overall symptomatic improvement compared with placebo. All regimens significantly increased dizziness, and all but CCBs significantly decreased headache compared with placebo. CONCLUSIONS AND RELEVANCE: This meta-analysis of short-term randomized clinical trials found that adverse drug effects that led to discontinuation of BP-lowering therapy varied by drug class and regimen, with several combination therapies being better tolerated than monotherapies. Some regimens were associated with fewer drug withdrawals than placebo, suggesting a net symptomatic improvement. These findings are based on trial-level results and rely on assumptions underlying the network meta-analysis; they may not apply to individual patients.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: This meta-analysis of short-term randomized clinical trials found that adverse drug effects that led to discontinuation of BP-lowering therapy varied by drug class and regimen, with several combination therapies being better tolerated than monotherapies.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 90,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en JAMA con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
+          }
+        },
         {
           "id": "hipertension-41878817",
           "title": "Heritability and Cardiovascular Disease in Adult Offspring of Hypertensive Disorder of Pregnancy: A Systematic Review and Meta-Analysis",
@@ -834,25 +853,6 @@
             "label": "Moderada",
             "rationale": "RCT en Hypertension — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
           }
-        },
-        {
-          "id": "hipertension-41906877",
-          "title": "Dietary Sodium-Regulated Plasma SVEP1 and Inverse Salt Sensitivity",
-          "journal": "Hypertension",
-          "authors": "RamachandraRao S, Hench C, Berrido A, Auchus RJ, et al.",
-          "year": 2026,
-          "doi": "10.1161/HYPERTENSIONAHA.125.26827",
-          "url": "https://doi.org/10.1161/HYPERTENSIONAHA.125.26827",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Although some individuals exhibit salt sensitivity, others demonstrate salt resistance or inverse salt sensitivity-blood pressure reduction during a high-sodium diet. The molecular mechanisms underlying heterogeneous blood pressure responses to dietary sodium remain poorly understood. METHODS: We conducted a randomized crossover trial in 20 adults (blood pressure <140/90 mm Hg), comparing 8-day low-sodium (10 mmol/d) versus high-sodium (300 mmol/d) diets. Plasma proteomics used SomaLogic's 7K v4.1 platform (≈7000 proteins). Protein changes between diets were compared with blood pressure changes. RESULTS: Despite higher weight (+1.4 kg) during high-sodium diet (P=1.08×10-5), diastolic blood pressure (67.0±7.5 versus 69.7±8.0 mm Hg, P=0.009), and mean arterial pressure (82.1±7.6 versus 84.8±8.3 mm Hg; P=0.006) were significantly lower. Thus, our participants exhibited inverse salt sensitivity. In body mass index-adjusted models, 2 independent aptamers targeting SVEP1 (sushi, von Willebrand Factor type A, EGF [Epidermal Growth Factor], and pentraxin domain-containing 1) ranked second (Benjamini-Hochberg-adjusted; P=7.08×10-5) and sixth (Benjamini-Hochberg-adjusted P=4.42×10-3) among all measurements, outranking established sodium-regulatory hormones including renin (14th) and NT-proBNP (N-terminal pro-B-type natriuretic peptide; 25th). SVEP1 upregulation correlated inversely with blood pressure changes (R=-0.51; P=0.026). SVEP1 changes correlated strongly with NT-proBNP (R=0.80, P<0.001). Reactome analysis revealed coordinated extracellular matrix remodeling as the dominant biological response to sodium loading. CONCLUSIONS: SVEP1 emerges as a key molecular correlate of blood pressure responses to dietary sodium, likely through a volume- or stretch-mediated stimulus. Given SVEP1's established functions in vascular smooth muscle relaxation and lymphangiogenesis, these findings suggest novel pathways mediating cardiovascular adaptation to sodium challenges and potential biomarkers for identifying salt-sensitive versus salt-resistant individuals.",
-          "keyFindings": "SVEP1 emerges as a key molecular correlate of blood pressure responses to dietary sodium, likely through a volume- or stretch-mediated stimulus. Given SVEP1's established functions in vascular smooth muscle relaxation and lymphangiogenesis, these findings suggest novel pathways mediating cardiovascular adaptation to sodium challenges and potential biomarkers for identifying salt-sensitive versus salt-resistant individuals.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 72,
-            "label": "Alta",
-            "rationale": "RCT publicado en Hypertension con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica."
-          }
         }
       ]
     },
@@ -897,6 +897,25 @@
             "score": 60,
             "label": "Moderada",
             "rationale": "RCT en Journal of the American Heart Association — puede influir en la práctica de centros especializados o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "miocardiopatias-41780565",
+          "title": "Aficamten in symptomatic obstructive hypertrophic cardiomyopathy: the FOREST-HCM long-term study",
+          "journal": "European Heart Journal",
+          "authors": "Tower-Rader A, Masri A, Nassif ME, Abraham TP, et al.",
+          "year": 2026,
+          "doi": "10.1093/eurheartj/ehaf1085",
+          "url": "https://doi.org/10.1093/eurheartj/ehaf1085",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND AND AIMS: Aficamten is a next-in-class, oral selective cardiac myosin inhibitor that ameliorates hypercontractility in hypertrophic cardiomyopathy (HCM). This study assessed the safety and efficacy of extended aficamten treatment in symptomatic obstructive HCM (oHCM). METHODS: Patients completing a parent aficamten study were eligible to enrol in FOREST-HCM (NCT04848506), an open-label study evaluating long-term aficamten treatment. RESULTS: Patients with oHCM (N = 296; mean age ±SD 61 ± 12.3 years, 44.3% female) enrolled between May 2021 and August 2024. Cumulative exposure was 352 patient-years; median follow-up 51.6 (IQR 41.5, 70.8) weeks. At Weeks 12 and 96, aficamten reduced Valsalva left ventricular outflow tract gradient by 56 ± 43 and 62 ± 33 mmHg from baseline (both P < 0.0001), with minimal reduction in left ventricular ejection fraction (LVEF) (-3% ± 6% and -5% ± 5%); 69% and 93% of participants had at least one NYHA class improvement; Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score improved by 15 ± 16 and 16 ± 16 points. Treatment-emergent serious adverse events (TESAEs) occurred in 36 (12.2%) patients; no deaths, heart failure, or events considered related to aficamten were reported. One (0.3%) patient terminated therapy due to a TESAE (ischemic colitis). LVEF<50% occurred in 10 (3.4%) patients [exposure-adjusted incidence rate (EAIR): 2.9 per 100 patient-years] with 2 having non-serious mild/moderate dyspnoea. No treatment interruptions for LVEF<50%, and no events of LVEF<40% occurred. New-onset atrial fibrillation occurred in seven (2.4%) patients (EAIR 2.0 per 100 patient-years). CONCLUSIONS: Extended aficamten treatment in patients with symptomatic oHCM yielded early and sustained hemodynamic and clinical responses with low incidences of new-onset atrial fibrillation and LVEF<50%.",
+          "keyFindings": "Extended aficamten treatment in patients with symptomatic oHCM yielded early and sustained hemodynamic and clinical responses with low incidences of new-onset atrial fibrillation and LVEF<50%.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 38,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica reducido."
           }
         },
         {
