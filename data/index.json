@@ -1,5 +1,5 @@
 {
-  "current": "2026-06",
+  "current": "2026-07",
   "weeks": [
     {
       "id": "2026-W25",
@@ -13,6 +13,11 @@
     }
   ],
   "months": [
+    {
+      "id": "2026-07",
+      "label": "Julio 2026",
+      "file": "articles-2026-07.json"
+    },
     {
       "id": "2026-06",
       "label": "Junio 2026",
